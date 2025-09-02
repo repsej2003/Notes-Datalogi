@@ -1,7 +1,7 @@
 
 
 
-### Propstions (Udsavn)
+# Propstions (Udsavn)
 
 Noget der kan være falsk eller sandt
 
@@ -9,7 +9,11 @@ Så
 * Han er den høsejste i klassen
 * $2 +3 = 3$
 men ikke
-* $x + 3 = 2$ for de
+* $x + 3 = 2$ fordi der mangler informatoin, det er mere et spørgsmål 
+
+
+# Logical oprater
+* neagtion $$
 
 
 
