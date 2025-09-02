@@ -12,7 +12,7 @@ hej **med** *dig*
 
 - hej med ig
 
-[[Logic]]
+[[Logic Propositions]]
 
 [test](https://www.youtube.com/watch?v=gafuqdKwD_U)
 
