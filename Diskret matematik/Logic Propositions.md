@@ -20,8 +20,6 @@ men ikke
 * Bi implication $\Leftrightarrow$ (Medfører kun )  [[#Bi implication $ Leftrightarrow$ (Medfører kun )]]
 * Exclusive $\oplus$ (endten eller)              [[#Exclusive $ oplus$ (enten eller)]]
 
-
-
 ## Negation $\neg$ (Ikke)
 
 Ikke, not
@@ -96,3 +94,10 @@ skal være forskellige
 | F   | T   | T            |
 | F   | F   | F            |
 
+
+
+## Order of evalution
+$\neg \wedge \vee \Rightarrow \Leftrightarrow$
+
+
+$\oplus$ Har ikke postion, så der skal altid partenser når den bruges
