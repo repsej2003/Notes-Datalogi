@@ -53,4 +53,37 @@ p\ \wedge(q \vee r) \ \equiv \ (p\wedge q) \vee (p \wedge r)
 $$
 ## Morgans law 
 
-$\equiv$
+$$
+\begin{align}
+\neg (p \wedge q) \ \equiv \ \neg p \vee q \\
+\neg (p \vee q)\ \equiv \ \neg p \wedge q
+
+\end{align}
+$$
+
+## Contra position
+$$p\Rightarrow q \ \equiv \ \neg q \ \Rightarrow \neg p$$
+Husk at bytte plads
+$$\begin{align}
+Regner  &\Rightarrow jorden \ våd \\
+Jorden \ ikke \ våd  &\Rightarrow Regner \ ikke
+
+\end{align}$$
+
+
+
+
+## Første bevis
+
+$$\begin{align}
+\neg (p \Rightarrow q) & \equiv p \wedge \neg\  q    \\
+\neg (\neg p \vee q)&\equiv p \wedge \neg\  q  &table \ 7.1  \\
+\neg(\neg p) \wedge \neg q &\equiv p \wedge \neg\  q  &de\ morgans\  \\
+p \wedge \neg q &\equiv p \wedge \neg\  q  &double \ negaton  \\
+\end{align}$$
+Så derfor
+$$\neg (p \Rightarrow q) \equiv p \wedge \neg q$$
+
+
+# all 
+![[Pasted image 20250903093633.png]]![[Pasted image 20250903093657.png]]![[Pasted image 20250903093712.png]]
