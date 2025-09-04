@@ -31,4 +31,6 @@ $$
 ### addition af hel tal 
 Fungere på samme måde base 10 og base 2
 
+
+
 # Kommatal (Float)
