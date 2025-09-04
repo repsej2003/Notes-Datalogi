@@ -21,13 +21,13 @@ $\exists! x \in D : P(x)$
 ![[Pasted image 20250903094905.png]]
 
 $$
-\begin{align}
-\mathbb Z \\
-\mathbb Z^+ \\
-\mathbb Z^- \\
-\mathbb N \\
-\mathbb Q \\
+\begin{aligned}
+\mathbb Z &= \{\dots, -1, 0, 1,2, \dots \}\\
+\mathbb Z^+ &= \{1,2,3,\dots\}\\
+\mathbb Z^- &= \{\dots,-3, -2, -1 \}\\
+\mathbb N &= \{0, 1,2,3,\dots\}\\
+\mathbb Q &= \{\frac{m}{n} | m \in \mathbb Z, n \in \mathbb Z^+\}\\
 \mathbb R \\
-ø
-\end{align}
+ø &= \{\}
+\end{aligned}
 $$
