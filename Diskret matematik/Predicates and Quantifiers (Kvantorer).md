@@ -63,6 +63,20 @@ $\exists x \in D, Q(x): P(x) \equiv \forall x \in D : (Q(x)\wedge P(x))$
 
 
 
-## Negation af kvantorer
+## Negation af kvantorer -- De morgans laws for quantifers
 
 $\neg (\forall x \in D : P(x))\equiv \exists x \in D : \neg P(x)$
+$\neg (\exists x \in D : P(x))\equiv \forall x \in D : \neg P(x)$
+
+
+#### Proff
+
+$S$ er mægnden af studerner
+$P(x)$  $x$ er til stede
+$$ \begin{align} \\
+\neg (\forall x \in S : P(x)) \\
+\neg(P(x_{1}\wedge P(x_{2})\ \wedge \ \dots) \\
+\neg P(x_{1})\vee \neg P(x_{2})\ \vee \ \dots & \quad \text{De morgan}\\
+\exists x \in S : \neg P(x)
+
+ \end{align}$$
