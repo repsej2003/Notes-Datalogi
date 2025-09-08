@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro til datalogi/Øvelse.md",
+                "file": "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Øvelse"
+              "title": "Predicates and Quantifiers (Kvantorer)"
             }
           }
         ],
@@ -211,11 +211,11 @@
   },
   "active": "0015f8f4f72e4ebe",
   "lastOpenFiles": [
-    "Intro til datalogi/Repræstation af tal.md",
-    "Intro til datalogi/Øvelse.md",
-    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "Diskret matematik/Logic Propositions.md",
     "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
+    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
+    "Intro til datalogi/Øvelse.md",
+    "Intro til datalogi/Repræstation af tal.md",
     "Intro til Programing/Exersise class.md",
     "attachments/Pasted image 20250903094905.png",
     "attachments/Pasted image 20250903093712.png",

@@ -61,7 +61,7 @@ $$
 \end{align}
 $$
 
-## Contra position
+## kontraposition
 $$p\Rightarrow q \ \equiv \ \neg q \ \Rightarrow \neg p$$
 Husk at bytte plads
 $$\begin{align}
