@@ -80,3 +80,9 @@ $$ \begin{align} \\
 \exists x \in S : \neg P(x)
 
  \end{align}$$
+
+
+
+## Nested
+
+$\forall x \in \mathbb{Z} \ \exists x \in \mathbb{Z} P(x,y)$
