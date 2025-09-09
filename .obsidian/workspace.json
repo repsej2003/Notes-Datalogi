@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro til datalogi/Øvelse.md",
+                "file": "Intro til datalogi/Gates - Boolsk algebra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Øvelse"
+              "title": "Gates - Boolsk algebra"
             }
           }
         ],
@@ -212,8 +212,9 @@
   "active": "0015f8f4f72e4ebe",
   "lastOpenFiles": [
     "Intro til datalogi/Repræstation af tal.md",
-    "Diskret matematik/Logic Propositions.md",
+    "Intro til datalogi/Gates - Boolsk algebra.md",
     "Intro til datalogi/Øvelse.md",
+    "Diskret matematik/Logic Propositions.md",
     "Intro til Programing/Exersise class.md",
     "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
     "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
