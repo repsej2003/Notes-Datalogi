@@ -56,6 +56,12 @@ Huskeregel, de to toppe af v'et er forskellige så det er et eller
 
 Med fører 
 
+
+ In the conditional statement 
+$p \implies q$
+p is called the hypothesis (or antecedent or premise) 
+q is called the conclusion (or consequence).
+
 | $p$ | $q$ | $p \Rightarrow q$ |
 | --- | --- | ----------------- |
 | T   | T   | T                 |
