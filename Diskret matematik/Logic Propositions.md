@@ -1,6 +1,4 @@
 
-
-
 Noget der kan være falsk eller sandt
 
 Så 
