@@ -1,4 +1,4 @@
-	
+Dets	
 
 
 # Propstions (Udsavn)
