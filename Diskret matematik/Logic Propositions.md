@@ -3,8 +3,8 @@
 
 # Propstions (Udsavn)
 
-Noget der kan være falsk eller sandt
 
+Noget der kan være falsk eller sandt
 
 Så 
 * Han er den høsejste i klassen
