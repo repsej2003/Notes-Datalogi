@@ -1,7 +1,4 @@
-Dets	
 
-
-# Propstions (Udsavn)
 
 
 Noget der kan være falsk eller sandt

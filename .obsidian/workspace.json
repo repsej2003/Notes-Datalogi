@@ -165,13 +165,23 @@
               "icon": "lucide-list",
               "title": "Outline of Logic Propositions"
             }
+          },
+          {
+            "id": "1aa3d66956ad6710",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 364.5
   },
   "left-ribbon": {
     "hiddenItems": {
