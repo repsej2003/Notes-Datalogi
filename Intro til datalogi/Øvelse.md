@@ -18,4 +18,4 @@ mloll22@student.sdu.dk
 12. for at to tal er modsatte skal de lægges sammen og give nul, hvis man invitere talet og lægger sammen for man $111 \dots 1111$ lægges et til for at få det til at flyde over
 13. 5.875
 14. 0 100 1010, 1 011 0100
-15. 10.101 = 2,625, -1.11=1,75
+15. 10.101 = 2,625, -1.11=-1,75
