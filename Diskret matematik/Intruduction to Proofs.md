@@ -81,6 +81,8 @@ $$
 Corollary
 $\text{let } n \in \mathbb{Z} \text{ then } n^{2} \text{ is odd} \leftrightarrow  n \text{ is odd}$
 
+følge af theorem
+
 
 ## Modstrids bevis -- Proof by contradion
 $(\neg p \implies F)\implies p$
@@ -92,6 +94,8 @@ Trivial
 ### Proof by omission 
 the  proof is left as an execise to the reader
 
+
+## inddel i tifæde
 
 $$
 
@@ -113,3 +117,9 @@ Constructive bevis, et bevis der giver en løsning
 
 non Constructive bevis, et bevis ikke giver en løsning, bare at den findes
 
+
+
+## Råd til bevis
+1. kig på simple udgave
+2. Tegn passsende billede
+# Induktion Bevis
