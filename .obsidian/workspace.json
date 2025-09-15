@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro til datalogi/Øvelse.md",
+                "file": "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Øvelse"
+              "title": "Propositional Equivalences (Ækivalenser)"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -199,6 +198,8 @@
   },
   "active": "5ccab85a334660c1",
   "lastOpenFiles": [
+    "Intro til datalogi/Gates - Boolsk algebra.md",
+    "Intro til datalogi/Øvelse.md",
     "attachments/2025-09-15_124039 redigeret.jpg",
     "attachments/2025-09-15_124039 2.jpg",
     "attachments/2025-09-15_124039 1.jpg",
@@ -220,10 +221,8 @@
     "Diskret matematik/Proofs.md",
     "Diskret matematik/Introduction to Proofs.md",
     "Diskret matematik/Introduction to proofs.md",
-    "Intro til datalogi/Øvelse.md",
     "Intro til datalogi/CPUer og maskinkode.md",
     "Intro til Programing/Exersise class.md",
-    "Intro til datalogi/Gates - Boolsk algebra.md",
     "attachments/Pasted image 20250903094905.png",
     "attachments/Pasted image 20250903093712.png",
     "attachments/Pasted image 20250903093657.png",

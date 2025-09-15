@@ -53,4 +53,4 @@ mloll22@student.sdu.dk
 \end{align}
 $$ 
 5.  ![[2025-09-15_124039 redigeret.jpg]]
-6. 
+6. Nul ganger med $2^n$ 
