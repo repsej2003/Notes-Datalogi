@@ -123,3 +123,10 @@ non Constructive bevis, et bevis ikke giver en løsning, bare at den findes
 1. kig på simple udgave
 2. Tegn passsende billede
 # Induktion Bevis
+### opskrift
+basis skridt:
+$P(b)$
+$b \text{ er den lavst mulige tal i domænet}$
+
+induktionskridt:
+$P(k)\implies P(k+1)$
