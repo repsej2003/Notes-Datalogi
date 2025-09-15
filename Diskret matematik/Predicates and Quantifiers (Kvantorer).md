@@ -86,3 +86,22 @@ $$ \begin{align} \\
 ## Nested
 
 $\forall x \in \mathbb{Z} \ \exists x \in \mathbb{Z} P(x,y)$
+
+Rækkefølgen har bedtydening
+
+alså den er ikke cominakt
+
+#### Eksempel:
+s mængdende af studernde
+H mængdend af hobbyer
+
+p (x,y) = studende $x$ kan lide hobby $y$
+
+$\forall x \in S \ \exists y\in H:P(x,y)$
+Enhver studernede kan lide en hobby
+
+$\exists y \in H\  \forall x \in S:P(x,y)$
+Der findes  hobby som alle kan lide
+
+Eksempel på negation. 
+$\neg (\forall x \in S \ \exists y\in H:P(x,y))\equiv \exists x \in S \ \forall y\in H: \neg P(x,y))$
