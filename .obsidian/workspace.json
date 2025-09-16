@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro til datalogi/CPUer og maskinkode.md",
+                "file": "Intro til Programing/Exersise class.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CPUer og maskinkode"
+              "title": "Exersise class"
             }
           }
         ],
@@ -198,8 +198,8 @@
   },
   "active": "5ccab85a334660c1",
   "lastOpenFiles": [
-    "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
     "Intro til datalogi/CPUer og maskinkode.md",
+    "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
     "attachments/Pasted image 20250916123422.png",
     "Diskret matematik/Intruduction to Proofs.md",
     "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
