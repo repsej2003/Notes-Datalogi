@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Intruduction to Proofs.md",
+                "file": "Intro til datalogi/CPUer og maskinkode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intruduction to Proofs"
+              "title": "CPUer og maskinkode"
             }
           }
         ],
@@ -198,9 +198,11 @@
   },
   "active": "5ccab85a334660c1",
   "lastOpenFiles": [
-    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
-    "Diskret matematik/Intruduction to Proofs.md",
     "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
+    "Intro til datalogi/CPUer og maskinkode.md",
+    "attachments/Pasted image 20250916123422.png",
+    "Diskret matematik/Intruduction to Proofs.md",
+    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "Intro til datalogi/Øvelse.md",
     "Intro til datalogi/Gates - Boolsk algebra.md",
     "attachments/2025-09-15_124039 redigeret.jpg",
@@ -221,7 +223,6 @@
     "Diskret matematik/Proofs.md",
     "Diskret matematik/Introduction to Proofs.md",
     "Diskret matematik/Introduction to proofs.md",
-    "Intro til datalogi/CPUer og maskinkode.md",
     "Intro til Programing/Exersise class.md",
     "attachments/Pasted image 20250903094905.png",
     "attachments/Pasted image 20250903093712.png",
@@ -229,7 +230,6 @@
     "attachments/Pasted image 20250903093633.png",
     "attachments/Pasted image 20250902134559.png",
     "attachments",
-    "Pasted image 20250902134515.png",
     "Untitled.canvas",
     "Intro til datalogi",
     "Markdown syntax.md",

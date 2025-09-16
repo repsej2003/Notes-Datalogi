@@ -9,3 +9,4 @@ Gange to tall sammen
 5223
 D206
 C000
+![[Pasted image 20250916123422.png]]
