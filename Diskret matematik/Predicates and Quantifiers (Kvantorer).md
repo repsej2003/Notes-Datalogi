@@ -40,7 +40,8 @@ $$
 \end{aligned}
 $$
 
-
+Ved forall kvanator bruges impleies 
+ved ekstier bruges og
 ### ekskulderne i en mængde
 $D \textbackslash \{0\}$
 backslash og tuborgklammer 
