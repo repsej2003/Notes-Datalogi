@@ -1,4 +1,17 @@
+Unorded mængde af objekter
 
+# Representations
+
+## Enumeration
+## Set builder notation
+## Venn diagrams
+
+# Properties
+
+# Operations 
+
+
+## latex notes
 
 $\{ x \mid  x \in \mathbb{R}\}$
 

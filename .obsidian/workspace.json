@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
-                "mode": "source",
+                "file": "Diskret matematik/Set.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Propositional Equivalences (Ækivalenser)"
+              "title": "Set"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Set.md",
+                "file": "Intro til datalogi/Øvelse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Set"
+              "title": "Øvelse"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,18 +209,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9cb638ab782d8f7",
+  "active": "5ccab85a334660c1",
   "lastOpenFiles": [
+    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
+    "Diskret matematik/Intruduction to Proofs.md",
+    "Diskret matematik/Øvelsestimer - discret matematik.md",
     "Diskret matematik/Set.md",
     "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
-    "Diskret matematik/Øvelsestimer - discret matematik.md",
-    "Diskret matematik/Intruduction to Proofs.md",
-    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
+    "Intro til datalogi/Øvelse.md",
     "Diskret matematik/Logic Propositions.md",
     "Intro til Programing/Exersise class.md",
     "Intro til datalogi/CPUer og maskinkode.md",
     "attachments/Pasted image 20250916123422.png",
-    "Intro til datalogi/Øvelse.md",
     "Intro til datalogi/Gates - Boolsk algebra.md",
     "attachments/2025-09-15_124039 redigeret.jpg",
     "attachments/2025-09-15_124039 2.jpg",
