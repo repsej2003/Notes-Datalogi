@@ -27,3 +27,24 @@ T(n)\in O(f(n)) \ \Leftrightarrow \\  \\
 \end{align}
 $$
 $T(n)$ er tiden af en funktion tager ved n input, eller n er antal af karektiske opratoiner
+
+### Navne
+![[Pasted image 20250923111701.png]]
+
+
+
+
+## Korrekthed
+
+### invartions
+Er det rigtigt indtil videre
+
+$I:$ al til venstre for $i$ er $\neq x$
+
+Med indutkion
+
+
+
+basistilfæde -> initialixation
+induktionsskridt -> maintenance
+afslutning -> termination
