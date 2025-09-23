@@ -37,7 +37,7 @@ $T(n)$ er tiden af en funktion tager ved n input, eller n er antal af karektiske
 ## Korrekthed
 
 ### invartions
-Er det rigtigt indtil videre
+Er det rigtigt indtil videre, påstand som ændres løbe, som gør altid lige inden checket
 
 $I:$ al til venstre for $i$ er $\neq x$
 
