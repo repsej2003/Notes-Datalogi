@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Øvelsestimer - discret matematik.md",
+                "file": "Intro til Programing/Top down design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Øvelsestimer - discret matematik"
+              "title": "Top down design"
             }
           },
           {
@@ -211,8 +211,9 @@
   },
   "active": "5ccab85a334660c1",
   "lastOpenFiles": [
-    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "Diskret matematik/Øvelsestimer - discret matematik.md",
+    "Intro til Programing/Top down design.md",
+    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "Diskret matematik/Intruduction to Proofs.md",
     "Diskret matematik/Set.md",
     "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
