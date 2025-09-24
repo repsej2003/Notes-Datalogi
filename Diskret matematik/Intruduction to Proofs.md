@@ -127,6 +127,14 @@ non Constructive bevis, et bevis ikke giver en løsning, bare at den findes
 basis skridt:
 $P(b)$
 $b \text{ er den lavst mulige tal i domænet}$
+Induktoinsantalges
 
 induktionskridt:
 $P(k)\implies P(k+1)$
+
+
+
+basisskrid: vis at $P(b)$ er sand, $b$ er bases tilfædle, det vil sige det meste hvor det giver mening. 
+induktiionshyptose antag at $P(k)$ er sand for $k\geq b$
+Induktionsskridet, hvis at $P(k+1)$ føgler af $P(k)$
+konklusion 
