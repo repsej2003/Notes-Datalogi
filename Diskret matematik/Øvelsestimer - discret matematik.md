@@ -24,30 +24,19 @@ $$
 \sum_{i=1}^{n} \frac{1}{i(i+1)}&=\frac{n^{2}}{n(n+1)}
 \end{align}
 $$
+
+
 $$
-\begin{align}  
-n=1 \\
-\sum_{i=1}^{1} \frac{1}{1(1+1)}&=\frac{1^{2}}{1(1+1)}=\frac{1}{1\cdot 2}=\frac{1}{2} \\
- \\
-\text{hyoptese} \\
-\sum_{i=1}^{k} \frac{1}{i(i+1)}&=\frac{k^{2}}{k(k+1)} \\
- \\
- \\ \\
+\begin{align}
 &=\sum_{i=1}^{k} \frac{1}{i(i+1)}+\frac{1}{(k+1)(k+1+1)} \\
-&=\frac{k^{2}}{k(k+1)}+ \frac{1}{(k+1)(k+2)} \text{ hyptese brugt} \\
-&=\frac{k^{2}}{k^{2}+k}+\frac{1}{k^{2}+2k+1k+2} \\
-&=\frac{k^{2}}{k(k+1)}+\frac{1}{k^{2}+3k+2} \\
-&=\frac{2k\cdot k^{2}}{2k \cdot k(k+1)}+\frac{1}{k^{2}+3k+2} \\ 
-
-
-\\ \\
-&=\frac{(k+1)^{2}}{(k+1)(k+2)} \\
-&=\frac{k^{2}+2k+1}{(k+1)(k+2)} \\
-
+&=\frac{k^{2}}{k(k+1)}+ \frac{n}{(k+1)(k+2)} \text{ hyptese brugt} \\
+&=\frac{(k+2)\cdot k^{2}}{k(k+2)(k+1)}+\frac{n}{n(k+1)(k+2)} \\
+&=\frac{(k+2)\cdot k^{2}+k}{k(k+2)(k+1)} \\
+&=\frac{(k+2)\cdot k+1}{(k+2)(k+1)} \\
+&=\frac{k^{2}+2k+1}{(k+2)(k+1)} \\
+&=\frac{(k+1)^{2}}{(k+2)(k+1)} \\
 \end{align}
 $$
-
-
 
 2.  exersice 2
 	1. $\{x \in \mathbb{N}\mid x < 13 \text{ is power of 3}\}$
