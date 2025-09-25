@@ -19,6 +19,22 @@ Håndteringsfunkitioner
 `open(), close()`
 
 
+#### Ting der kan implenteres med sekventiel acces
+- linær søgning
+- find det mindste elemt
+- find sum og antalet elementer, og gennemsnint
+- fjerne mindst ellement
+- selectionssort
+- merge
+- merge sort
+
+##### Selection sort 
+Find og det mindste elemt i listen, sæt ind i ny liste, fjern første tilfæde af det tal fra oprindelige liste, forsæt til oprindlige list er tom.
+
+
+
+
+
 # Random access
 #### Interface
 Tilgang ved ID, ID er unkit
