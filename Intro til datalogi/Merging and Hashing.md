@@ -31,6 +31,8 @@ Håndteringsfunkitioner
 ##### Selection sort 
 Find og det mindste elemt i listen, sæt ind i ny liste, fjern første tilfæde af det tal fra oprindelige liste, forsæt til oprindlige list er tom.
 
+Invartion- skal bruge den ene side til at drive fremad, den anden til at vise at den er sortede til sidst
+
 
 
 
