@@ -44,17 +44,51 @@ $$
 $$
 
 
-Kardinaltiet 
+### Kardinaltiet 
 $|S|$: kardinatilet of the set $S$ if $S$ is finte
 
 eks
 $|\{2,4,6\}|=3$
 $|\{2,2,4,4,6\}|=3$
-$|$
-# Operations 
+$|\emptyset|=0$
+
+## Properties
+#### subset, del mæglder 
+$$
+A \subseteq B \leftrightarrow  \forall x:(x \in A \implies x \in B)
+$$
+A is a subset af B
+B is a superset of A (overmængde)
 
 
-## latex notes
+###### Theorem  2.1.6
+for any set $S$
+$$
+\begin{align}
+S \subseteq S \\
+\emptyset \subseteq S
+\end{align}
+$$
+### proper subset (ægte deleelemter)
+$A \subset B \leftrightarrow A \subseteq B \ \vee A\neq B$
+
+
+### Power set, (potensmænged)
+$\mathcal{P}(s)=\{A\mid A\subseteq S\}$
+## Operations 
+### union forenings mængde
+$A \cup B=\{x\mid x \in A \vee x \in B\}$
+### interseciton forenings mængde
+$A \cap B=\{x\mid x \in A \wedge x \in B\}$
+
+### set differnence (a fraregnet B)
+$A-B=A\textbackslash B=\{x \mid x \in A \wedge x \not\in B\}$
+
+## complement (komplent)
+$\bar{A}=\{x \in u \mid x \not\in A\}$
+$u$ er det universle set
+
+## latexobsidian notes
 
 $\{ x \mid  x \in \mathbb{R}\}$
 
@@ -63,7 +97,7 @@ $$
 \begin{align}
 \cap & \text{ and} \\
  
-\cup &\text{ or} \\
+\cup &\text{ orr} \\
 
 \emptyset &\text{ eset} \\
 
