@@ -88,6 +88,27 @@ $A-B=A\textbackslash B=\{x \mid x \in A \wedge x \not\in B\}$
 $\bar{A}=\{x \in u \mid x \not\in A\}$
 $u$ er det universle set
 
+### disjuint - disjunkt
+A and B are disjoint $A\cap B=\emptyset$ 
+
+man kan brug sum notation på union og intersection
+
+### Tuple
+an n-tuble is an ordered collection of n not necessaily distinct elemet
+
+### Cartesion - Kartetiske produkuter
+$A \times B=\{(a,b)\mid a \in A \wedge x \in B\}$
+$|A\times B|=|A|\cdot|B|$
+$A\times B\neq B\times A$
+
+
+For Kartetiske produkter med flere tal gælder det
+$A_{1} \times A_{2} \times \dots \times A_{n}=\{(a_{1},a_{2},\dots,a_{n})\mid a_{1} \in A_{1}, a_{2} \in A_{2},\ \dots,  a_{n} \in A_{n}\}$
+
+$A^n=A_{1} \times A_{2} \times \dots \times A_{n}$
+
+
+
 ## latexobsidian notes
 
 $\{ x \mid  x \in \mathbb{R}\}$
@@ -106,7 +127,8 @@ $$
 \subseteq &\text{ sub=} \\ 
 \supset &\text{ supset} \\
 \supseteq &\text{ sup=} \\
-
+\times &\text{ times} \\ 
+\{\} &\text{ tub}
 
 \end{align}
 $$
