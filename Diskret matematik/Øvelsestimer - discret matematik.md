@@ -29,17 +29,16 @@ $$
 $$
 \begin{align}
 &=\sum_{i=1}^{k} \frac{1}{i(i+1)}+\frac{1}{(k+1)(k+1+1)} \\
-&=\frac{k^{2}}{k(k+1)}+ \frac{n}{(k+1)(k+2)} \text{ hyptese brugt} \\
-&=\frac{(k+2)\cdot k^{2}}{k(k+2)(k+1)}+\frac{n}{n(k+1)(k+2)} \\
+&=\frac{k^{2}}{k(k+1)}+ \frac{1}{(k+1)(k+2)} \text{ hyptese brugt} \\
+&=\frac{(k+2)\cdot k^{2}}{k(k+2)(k+1)}+\frac{k}{k(k+1)(k+2)} \\
 &=\frac{(k+2)\cdot k^{2}+k}{k(k+2)(k+1)} \\
-&=\frac{(k+2)\cdot k+1}{(k+2)(k+1)} \\
 &=\frac{k^{2}+2k+1}{(k+2)(k+1)} \\
 &=\frac{(k+1)^{2}}{(k+2)(k+1)} \\
 \end{align}
 $$
 
 2.  exersice 2
-	1. $\{x \in \mathbb{N}\mid x < 13 \text{ is power of 3}\}$
+	1. $\{x \in \mathbb{N}\mid x < 13 \text{ is power of 3}\} = \{x \in \mathbb{N}\mid \exists k \in \mathbb{N}:(x=3k \vee k\leq 4 \}$
 	2. $\{x \in \mathbb{Z} \mid |x|\leq 3 \}$
 	 exersie 11
 	  yes
@@ -61,3 +60,4 @@ $$
 a. $\{\emptyset, \{a\}\}$
 b. $\{\emptyset, \{a\},\{b\},\{a,b\}\}$
 c. $\{\emptyset, \{\emptyset\},\{\{\emptyset\}\},\{\emptyset,\{\emptyset\}\}\}$
+
