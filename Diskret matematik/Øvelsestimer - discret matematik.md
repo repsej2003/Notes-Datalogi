@@ -38,7 +38,7 @@ $$
 $$
 
 2.  exersice 2
-	1. $\{x \in \mathbb{N}\mid x < 13 \text{ is power of 3}\} = \{x \in \mathbb{N}\mid \exists k \in \mathbb{N}:(x=3k \vee k\leq 4 \}$
+	1. $\{x \in \mathbb{N}\mid x < 13 \text{ is multiplu of 3}\} = \{x \in \mathbb{N}\mid \exists k \in \mathbb{N}:(x=3k \vee k\leq 4 )\}$
 	2. $\{x \in \mathbb{Z} \mid |x|\leq 3 \}$
 	 exersie 11
 	  yes
