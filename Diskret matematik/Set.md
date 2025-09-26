@@ -61,17 +61,17 @@ $\{ x \mid  x \in \mathbb{R}\}$
 
 $$
 \begin{align}
-\cap \text{ and} \\
+\cap & \text{ and} \\
  
-\cup \text{or} \\
+\cup &\text{ or} \\
 
-\emptyset \text{ eset} \\
+\emptyset &\text{ eset} \\
 
-\not\in \text{notin}  \\
-\subset \text{subset} \\ 
-\subseteq \text{sub=} \\ 
-\supset \text{supset} \\
-\supseteq \text{sup=} \\
+\not\in &\text{ notin}  \\
+\subset & \text{ subset} \\ 
+\subseteq &\text{ sub=} \\ 
+\supset &\text{ supset} \\
+\supseteq &\text{ sup=} \\
 
 
 \end{align}
