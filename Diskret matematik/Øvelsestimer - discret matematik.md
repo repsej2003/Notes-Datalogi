@@ -61,3 +61,9 @@ a. $\{\emptyset, \{a\}\}$
 b. $\{\emptyset, \{a\},\{b\},\{a,b\}\}$
 c. $\{\emptyset, \{\emptyset\},\{\{\emptyset\}\},\{\emptyset,\{\emptyset\}\}\}$
 
+
+## Exercise Sheet 7 (Week 40)
+1. section 2.2
+	- e.21
+2. $S_{4},S_{5},S_{6},S_{7}$
+3. 
