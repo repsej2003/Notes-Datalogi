@@ -7,3 +7,7 @@ X is domain, Y is codomain
 
 
 ![[Pasted image 20250926115701.png]]
+
+
+
+# $\aleph$ 
