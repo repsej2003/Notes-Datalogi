@@ -233,3 +233,98 @@ C000
 0000
 0202
 ```
+# Uge 40 i timen
+1. nej
+2. a) 7  b) 3 eller 4 c) 10.000 d) 15, 14 
+
+| 10.000 |     |
+| ------ | --- |
+| 5.000  |     |
+| 2.500  |     |
+| 1250   |     |
+| 625    |     |
+| 313    |     |
+| 157    |     |
+| 79     |     |
+| 39     |     |
+| 20     |     |
+| 10     |     |
+| 5      |     |
+| 3      |     |
+| 2      |     |
+| 1      |     |
+|        |     |
+
+
+3.
+tid en funktin tager
+$\text{samlet tid}=\frac{O(n)}{\text{ops pr sek}}$
+
+| function       | 1 min                             | 1 år                               |
+| -------------- | --------------------------------- | ---------------------------------- |
+| n              | $6\cdot 10^{10}$                  | $3.15\cdot 10^{16}$                |
+| $n \log_{2} n$ | $1.9\cdot 10^9$                   | $6.4 \cdot 10^{14}$                |
+| $n^{2}$        | $244 949 \approx 2.4\cdot 10^{5}$ | $177583783\approx 1.7\cdot 10^{8}$ |
+| $n^{3}$        | $3915\approx 3.9\cdot 10^3$       | $315938\approx 3.1 \cdot 10^5$     |
+| $2^{n}$        | 35                                | 54                                 |
+|                |                                   |                                    |
+
+4.
+* T
+* T
+* T
+* T
+* F
+* f) T
+* T
+* F
+* T
+* F
+
+5.
+a) $O(n)$
+b) $O(n^2)$
+c) $O(n^{2})$ ??
+d) $O(n^2)$
+
+
+```python
+s = 0
+for i = 1 til n
+	for j = 1 til n
+		hvis i == j 
+			for k = 1 til n
+				s = s + 1
+returner s
+```
+
+
+6.
+a) $O(n)$
+b) $min<L[j], 2\leq j\leq i-1$ 
+
+
+
+c) 
+
+```python
+Minimum(L)
+	n = L.length
+	min = L[1]
+	for i = 2 til n
+		hvis L[i] < min
+			min = L[i]
+			
+	returner min
+```
+resuktivet
+```python
+Minimum(L, i)
+	hvis n = L.length
+		return L[i]
+		
+	min = Minimum(L, i+1)
+	hvis L[i] < min
+		return L[i]
+	return min
+```
