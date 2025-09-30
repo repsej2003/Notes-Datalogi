@@ -306,6 +306,8 @@ b) $min\leq L[j], 1\leq j\leq i-1$
 Det er sandt i første tilfælede for der er kun selv der til venstre for $i$
 
 
+For et nyt tilfælde ved vi 
+
 
 
 
