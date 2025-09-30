@@ -35,6 +35,13 @@ Invartion- skal bruge den ene side til at drive fremad, den anden til at vise at
 
 
 
+### Mergesort
+
+mergesort bygger på merge
+
+#### Merge 
+sætte to soterede lister sammen
+
 
 
 # Random access
