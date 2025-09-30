@@ -45,12 +45,36 @@ $$
 
 
 ### Kardinaltiet 
+#### finite
 $|S|$: kardinatilet of the set $S$ if $S$ is finte
 
 eks
 $|\{2,4,6\}|=3$
 $|\{2,2,4,4,6\}|=3$
 $|\emptyset|=0$
+
+#### Infinte
+$|A|= |B| \Leftrightarrow \exists \ bijection f:A\to B$
+
+ex
+$|\mathbb{Z}⁺|=|E^+|$
+$f:\mathbb{Z}⁺\to E^+, \ f(n)=2n$ det er en bijection 
+$$
+\begin{align}
+1&\to 2 \\
+2 &\to 4 \\
+3 &\to 6 \\
+\cdots \\  
+\end{align}
+$$
+
+
+ $|\mathbb{Z}^+|=\aleph_{0}$ 
+
+større end $\aleph_{0}$ er den overtælling
+
+
+$\aleph_{0} \text{ aleph}$ 
 
 ## Properties
 #### subset, del mæglder 
