@@ -44,6 +44,23 @@ sætte to soterede lister sammen
 
 
 
+## Generilaslerit merge
+to ting med sammen værdi, vil altid møde hinanden
+
+Man kan gør noget forskellig i disse tilfælde, så kan vi selv bestemme hvad der skal ske i e forskellige tilfæde
+```python
+if A[i] == B[j]
+	gør en handling
+elif A[i] < B[j]
+	gør anden handling
+elif A[i] > B[j]
+	gør anden handling
+```
+
+man kan opdatere stor filer , B er opdatering af data, A er omrindlge data.
+
+
+
 # Random access
 #### Interface
 Tilgang ved ID, ID er unkit
@@ -55,3 +72,7 @@ deleteElem(ID)
 
 Håndteringsfunkitioner
 `open(), close()`
+
+
+
+## Hashing, en metode til Random access
