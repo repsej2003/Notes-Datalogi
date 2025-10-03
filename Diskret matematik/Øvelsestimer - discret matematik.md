@@ -71,7 +71,7 @@ c. $\{\emptyset, \{\emptyset\},\{\{\emptyset\}\},\{\emptyset,\{\emptyset\}\}\}$
 		* $\{a,b,c,d\}\times \{y,z\}=\{(a,y),(a,z),(b,y),(b,z),(c,y),(c,z),(d,y),(d,z),\}$
 		* $\{y,z\}\times\{a,b,c,d\}=\{(y,a),(y,b),(y,c),(y,d),(z,a),(z,b),(z,c),(z,d)\}$
 4. section 2.2 
-	- e31
+	- e31g
 		- a) $B \subseteq A$
 		- b) $A \subseteq B$
 		- c) $A\cap B=\emptyset$
