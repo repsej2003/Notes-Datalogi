@@ -72,6 +72,14 @@ $$
  $|\mathbb{Z}^+|=\aleph_{0}$ 
 
 større end $\aleph_{0}$ er den overtælling
+$\aleph_{0}$
+
+
+|                          | cardinatls                    | ex                           |
+| ------------------------ | ----------------------------- | ---------------------------- |
+| tælling endiilge         | # element                     | $\{3,2,1\}$                  |
+| tæælige uenlige          | $\aleph_{0}$                  | $E⁺, \mathbb{Q}, \mathbb{Z}$ |
+| overtællige, uncountable | $\aleph_{1}$ (ikke bevisligt) | $\mathbb{R}$                 |
 
 
 

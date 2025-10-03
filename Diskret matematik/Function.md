@@ -42,5 +42,18 @@ $(g\circ f)(x)=g(f(x))$
 
 
 
+# Recursive funktioner
+
+### Fibnacci Numbers
+$$
+\begin{align}
+fn(0)&=0 \\
+fn(1)&=0 \\
+fn(n)&=fn(n-1)+fn(n-2),\ \  n\geq2
+\end{align}
+$$
+
+
+
 
 #### $\aleph \text{ aleph}$ 

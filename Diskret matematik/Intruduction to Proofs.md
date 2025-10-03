@@ -138,3 +138,9 @@ basisskrid: vis at $P(b)$ er sand, $b$ er bases tilfædle, det vil sige det mest
 induktiionshyptose antag at $P(k)$ er sand for $k\geq b$
 Induktionsskridet, hvis at $P(k+1)$ føgler af $P(k)$
 konklusion 
+
+
+## stærk induktion
+
+
+$\phi$
