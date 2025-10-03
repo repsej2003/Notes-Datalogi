@@ -133,6 +133,10 @@ $A^n=A_{1} \times A_{2} \times \dots \times A_{n}$
 
 
 
+## Lawes
+![[Pasted image 20251003083810.png]]
+
+
 ## latexobsidian notes
 
 $\{ x \mid  x \in \mathbb{R}\}$

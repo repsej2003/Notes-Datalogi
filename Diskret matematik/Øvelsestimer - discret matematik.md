@@ -66,4 +66,19 @@ c. $\{\emptyset, \{\emptyset\},\{\{\emptyset\}\},\{\emptyset,\{\emptyset\}\}\}$
 1. section 2.2
 	- e.21
 2. $S_{4},S_{5},S_{6},S_{7}$
-3. 
+3. section 2.1
+	* e33
+		* $\{a,b,c,d\}\times \{y,z\}=\{(a,y),(a,z),(b,y),(b,z),(c,y),(c,z),(d,y),(d,z),\}$
+		* $\{y,z\}\times\{a,b,c,d\}=\{(y,a),(y,b),(y,c),(y,d),(z,a),(z,b),(z,c),(z,d)\}$
+4. section 2.2 
+	- e31
+		- a) $B \subseteq A$
+		- b) $A \subseteq B$
+		- c) $A\cap B=\emptyset$
+		- d) is comemntive
+		- E) $A=B$
+5. section 2.3
+	- e1:
+		- not define for $x=0$
+		- not define for $x<0$
+		- tvetydig, en værdi kan give $\pm$
