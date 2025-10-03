@@ -74,6 +74,7 @@ $$
 større end $\aleph_{0}$ er den overtælling
 
 
+
 $\aleph_{0} \text{ aleph}$ 
 
 ## Properties
