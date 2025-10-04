@@ -2,7 +2,6 @@ Instruktor: Mathilde
 mloll22@student.sdu.dk
 
 
-
 ## Hjemme til Uge 38
 1. 173, 252
 2. 50, 364

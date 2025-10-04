@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Intruduction to Proofs.md",
+                "file": "Intro til datalogi/Øvelse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intruduction to Proofs"
+              "title": "Øvelse"
             }
           }
         ]
@@ -182,9 +182,9 @@
   },
   "active": "7cb376539b848065",
   "lastOpenFiles": [
+    "Diskret matematik/Intruduction to Proofs.md",
     "Diskret matematik/Function.md",
     "Diskret matematik/Set.md",
-    "Diskret matematik/Intruduction to Proofs.md",
     "Diskret matematik/Logic Propositions.md",
     "Diskret matematik/Markdown syntax.md",
     "Diskret matematik/Øvelsestimer - discret matematik.md",
