@@ -338,11 +338,12 @@ Minimum(L, i)
 1.
 ```python
 file.open()
+i=0
 while not file.endoffile():
 	n = file.readNext()
 	if n == goal:
-		return goal
-	 
+		return i
+	 i++
 return -1
 
 ```
