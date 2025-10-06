@@ -334,3 +334,85 @@ Minimum(L, i)
 		return L[i]
 	return min
 ```
+# Uge 41 i timen
+1.
+```python
+file.open()
+while not file.endoffile():
+	n = file.readNext()
+	if n == goal:
+		return goal
+	 
+return -1
+
+```
+2.
+merge
+```python
+A.open()
+B.open()
+reslutat.open()
+a = A.readNext()
+b = B.readNext()
+
+while ikke A.endoffile() and ikke B.endoffile()
+	if a <= b
+		reslutat.writeNext(a)
+		a = A.readNext()
+	else
+		reslutat.writeNext(b)
+		b = B.readNext()
+
+while ikke A.endoffile():
+	reslutat.writeNext(a)
+	a = A.readNext()
+
+while ikke B.endoffile():
+	reslutat.writeNext(b)
+	b = B.readNext()
+
+A.close()
+B.close()
+reslutat.close()
+```
+3.
+merge, de to lister, tage den mindste over, og fjern den fra den gamle, 
+hvis de er ens så flyt en of fjern begge.
+
+4.
+merge A og B, der efter merge C in i den nye liste
+$O(n)$ hvor $n=2(|A|+|B|)+|C|$
+
+5.
+det er det samme som den ogriale, men istedt for at gruppere listerne af to, så grupper den  af 3
+$O(n\cdot \log n)$
+
+6.
+3, 9, 4, 10
+
+7.
+1 celle
+
+8.
+0.6122448979591837
+
+9.
+0.3819444444444444
+
+
+#### Hjemme
+-
+4.
+```python
+def chance(breath, n):
+	if n == 1:
+		return 1
+	return chance(breath, n -1) * (breath - (n-1))/breath
+```
+5.
+0.8194413370750351
+
+6.
+373
+
+7.
