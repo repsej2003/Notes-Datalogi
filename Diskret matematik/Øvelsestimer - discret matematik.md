@@ -98,8 +98,17 @@ $(f+g)(x)=x^{2}+1+x+2=x^{2}+x+3$
 $(f\cdot g)(x)=(x^{2}+1)(x+2)=x^{3}+2x^{2}+x+2$
 
 71.
-$f^{-1}(x)=\sqrt[3]{x-1}$
+$f^{-1}(y)=\sqrt[3]{y-1}$
+
 
 2.
 * is true,
+* is false
+* is false
+* is true
+
+
+1. section 2.5
+2.
+$\aleph_{0}$, finite, $\aleph_{0}$
 
