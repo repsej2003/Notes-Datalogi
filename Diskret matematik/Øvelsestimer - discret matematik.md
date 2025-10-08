@@ -85,7 +85,8 @@ c. $\{\emptyset, \{\emptyset\},\{\{\emptyset\}\},\{\emptyset,\{\emptyset\}\}\}$
 ##  Exercise Sheet 8 (Week 41-1)
 1. section 2.3
 12.
-T, F, T, F
+
+T,  F, T, F
 13.
 T, F, F, T
 (a is bijective)
