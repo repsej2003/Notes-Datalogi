@@ -82,4 +82,23 @@ c. $\{\emptyset, \{\emptyset\},\{\{\emptyset\}\},\{\emptyset,\{\emptyset\}\}\}$
 		- not define for $x=0$
 		- not define for $x<0$
 		- tvetydig, en værdi kan give $\pm$
-## Exersice sheet 8
+##  Exercise Sheet 8 (Week 41-1)
+1. section 2.3
+12.
+T, F, T, F
+13.
+T, F, F, T
+(a is bijective)
+38.
+$f\circ g=(x+2)^{2}+1=x^{2}+4x+5$
+$g\circ f=x^{2}+1+2=x^{2}+3$
+39.
+$(f+g)(x)=x^{2}+1+x+2=x^{2}+x+3$
+$(f\cdot g)(x)=(x^{2}+1)(x+2)=x^{3}+2x^{2}+x+2$
+
+71.
+$f^{-1}(x)=\sqrt[3]{x-1}$
+
+2.
+* is true,
+
