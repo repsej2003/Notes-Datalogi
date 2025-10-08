@@ -110,5 +110,7 @@ $f^{-1}(y)=\sqrt[3]{y-1}$
 
 1. section 2.5
 2.
-$\aleph_{0}$, finite, $\aleph_{0}$
+$\aleph_{0}$    $\mathbb{Z}^{+}+10$
+, finite,
+$\aleph_{0}$
 
