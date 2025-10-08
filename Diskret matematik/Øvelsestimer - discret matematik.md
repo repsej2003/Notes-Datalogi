@@ -82,3 +82,4 @@ c. $\{\emptyset, \{\emptyset\},\{\{\emptyset\}\},\{\emptyset,\{\emptyset\}\}\}$
 		- not define for $x=0$
 		- not define for $x<0$
 		- tvetydig, en værdi kan give $\pm$
+## Exersice sheet 8
