@@ -114,3 +114,8 @@ $\aleph_{0}$    $\mathbb{Z}^{+}+10$
 , finite,
 $\aleph_{0}$
 
+
+# Exercise Sheet 9 (Week 41-2)
+1. section 2.5
+exsoerise2 b)$\aleph_{0}$ d) uncoutable inftinete f) $\aleph_{0}$
+exersise 10

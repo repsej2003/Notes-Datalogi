@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro til datalogi/modeller for beregning.md",
+                "file": "Diskret matematik/Øvelsestimer - discret matematik.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "modeller for beregning"
+              "title": "Øvelsestimer - discret matematik"
             }
           }
         ]
@@ -182,10 +182,10 @@
   },
   "active": "7cb376539b848065",
   "lastOpenFiles": [
+    "Intro til datalogi/modeller for beregning.md",
     "Diskret matematik/Øvelsestimer - discret matematik.md",
     "Diskret matematik/Function.md",
     "Intro til datalogi/Øvelse.md",
-    "Intro til datalogi/modeller for beregning.md",
     "Diskret matematik/Intruduction to Proofs.md",
     "Diskret matematik/Set.md",
     "Diskret matematik/Logic Propositions.md",
