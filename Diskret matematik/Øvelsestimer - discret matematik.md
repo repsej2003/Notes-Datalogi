@@ -117,5 +117,67 @@ $\aleph_{0}$
 
 # Exercise Sheet 9 (Week 41-2)
 1. section 2.5
-exsoerise2 b)$\aleph_{0}$ d) uncoutable inftinete f) $\aleph_{0}$
-exersise 10
+exsoerise2
+b)$\aleph_{0}$ d) uncoutable inftinete f) $\aleph_{0}$
+exersise 10 
+a. $A=\mathbb{N}, B=\mathbb{Z}^+$, $A=[1,2], B=]1,2]$
+b. $A=\mathbb{Z}, B=\mathbb{Z}^+$, $A=[1,2]\cup \mathbb{Z}, B=[1,2]$
+c. $A=\mathbb{R}, B=\mathbb{R}^+$
+exersice 17
+yes
+
+2. section 5.3
+ecserice 1
+a.
+$$
+\begin{align}
+f(0) & =1 \\
+f(n+1) & = f(n)+2 \\ \\
+f(1) & =2 \\
+f(2) & =4 \\
+f(3) & =6 \\
+f(4) & =8
+\end{align}
+$$
+b.
+$$
+\begin{align}
+f(0) & =1 \\
+f(n+1) & = 3f(n) \\ \\
+f(1) & =3 \cdot 1 & =3 \\
+f(2) & =3\cdot 3 & =9 \\
+f(3) & =3 \cdot 9 & =27 \\
+f(4) & =3\cdot 27 & =81
+\end{align}
+$$
+exsicce 7
+a.
+$a(1)=6, a(n+1)=a(n)+6, n>1$
+b.
+$a(0)=1, a(n+1)=a(n)+2, n\geq 0$
+
+3.
+Prove that for all n ∈ N with n ≥ 8, there exist a, b ∈ N with n = 3a + 5b.
+
+$$
+\begin{align}  
+P(n)=3a+5b,  & \ a,b\in \mathbb{N}\\
+\text{Basecase: } \\  
+P(8) & =3\cdot 1+5\cdot 1  & = 8\\
+P(9) & =3\cdot 3+5\cdot 0  & = 9\\
+P(10) & =3\cdot 0+5\cdot 10 & = 10 \\
+ \\ 
+\text{inductions antagle} \\
+ P(k-3)  & \implies P(k), k\geq 11\\
+ k-3 & =3\cdot a + 5 \cdot b &\ a,b\in \mathbb{N}\\ \\
+\text{induktiions skridt} \\
+k & =(k-3)+3 \\
+k  & = 3\cdot a + 5 \cdot b +3, &  \ a,b \in \mathbb{N}& \text{ ved ind. hyp} \\ 
+k  & = 3\cdot a + 3+ 5 \cdot b , &  \ a,b \in \mathbb{N} \\
+k  & = 3(a + 1)+ 5 \cdot b , &  \ (a+1),b \in \mathbb{N} \\
+ &  &  &  \square
+
+\end{align}
+$$Does there exist a number k ∈ N such that, for all n ∈ N with n ≥ k, there
+exist a, b ∈ N with n = 4a + 5b?
+$k=13$
