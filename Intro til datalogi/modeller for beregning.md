@@ -22,3 +22,8 @@ Se på strengen $((((\dots(\dots)\dots)$ der er $k$ åbne parenteser, og der $k$
 der er må en gentalse af en state, for der er $k+1$ valg ind til midten, og der kun $k$ states.
 Så der for må der være en løkke inden midten, derfor kan man indsætte en mængde som gentager løkken en gang mere, derfor vil er kunne være mere flere åbning end lukket. Derfor modstrid.
 
+
+
+# CFG (Context-free grammar)
+non-terminal: det vi bruger til at bygge vores strings
+terminal: det vi ender med

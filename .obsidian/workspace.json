@@ -13,32 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Øvelsestimer - discret matematik.md",
+                "file": "Intro til datalogi/modeller for beregning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Øvelsestimer - discret matematik"
-            }
-          }
-        ]
-      },
-      {
-        "id": "fd6842b22a35a7bd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "57c1f92d24f9ae9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diskret matematik/Function.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Function"
+              "title": "modeller for beregning"
             }
           }
         ]
@@ -98,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -203,8 +182,8 @@
   },
   "active": "7cb376539b848065",
   "lastOpenFiles": [
-    "Diskret matematik/Function.md",
     "Diskret matematik/Øvelsestimer - discret matematik.md",
+    "Diskret matematik/Function.md",
     "Intro til datalogi/Øvelse.md",
     "Intro til datalogi/modeller for beregning.md",
     "Diskret matematik/Intruduction to Proofs.md",
