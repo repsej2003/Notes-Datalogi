@@ -421,3 +421,26 @@ def chance(breath, n):
 
 # Uge 43 i timen
 1. Øvelse
+$$
+\begin{align}
+&0 \\
+&03 \\
+&03\dots 3 
+\end{align}
+$$
+2. øvelse
+$$
+\begin{align}
+1111 \\
+121 \\
+
+\end{align}$$
+slutter altid på 1, kan have et vilkoralti antalt 1 i streg, men kun enkelt af 2'er
+
+3. øvelse
+lavet i hånd
+
+4. øvelse
+lavet i hånd
+
+5. øvelse
