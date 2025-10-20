@@ -417,3 +417,7 @@ def chance(breath, n):
 373
 
 7.
+
+
+# Uge 43 i timen
+1. Øvelse
