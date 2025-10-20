@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Øvelsestimer - discret matematik.md",
+                "file": "Intro til datalogi/Øvelse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Øvelsestimer - discret matematik"
+              "title": "Øvelse"
             }
           }
         ]
@@ -182,21 +182,21 @@
   },
   "active": "7cb376539b848065",
   "lastOpenFiles": [
-    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "Diskret matematik/Set.md",
+    "Intro til datalogi/Øvelse.md",
+    "Intro til datalogi/Repræstation af tal.md",
+    "Intro til datalogi/CPUer og maskinkode.md",
     "Diskret matematik/Øvelsestimer - discret matematik.md",
+    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "Diskret matematik/Markdown syntax.md",
     "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
     "Intro til datalogi/modeller for beregning.md",
     "Diskret matematik/Function.md",
-    "Intro til datalogi/Øvelse.md",
     "Diskret matematik/Intruduction to Proofs.md",
     "Diskret matematik/Logic Propositions.md",
     "attachments/Pasted image 20251003083810.png",
     "Intro til datalogi/Merging and Hashing.md",
     "Intro til datalogi/Gates - Boolsk algebra.md",
-    "Intro til datalogi/Repræstation af tal.md",
-    "Intro til datalogi/CPUer og maskinkode.md",
     "attachments/Pasted image 20250926115701.png",
     "Intro til datalogi/Algoritmer, asymptotisk notation, invarianter,.md",
     "attachments/Pasted image 20250923111701.png",
