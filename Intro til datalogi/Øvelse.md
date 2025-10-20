@@ -438,7 +438,8 @@ $$
 
 \end{align}$$
 slutter altid på 1, kan have et vilkoralti antalt 1 i streg, men kun enkelt af 2'er
-$regex = 1(1|21)*$
+$regex = 1(1|21)^*$
+
 3. øvelse
 lavet i hånd
 
@@ -455,13 +456,22 @@ ab \\
 ab\dots ab
 \end{align}
 $$
+$\text{regex}=(ab)^+$
+
 7. øvelse
 starting with ones,
 or starting  zero
+$$
+\begin{align}
+S\to 0M 1\to 00M 1\to000M 1\to000M 11\to000M 111\to0001111 \\
+S\to 0M 1\to 0M 11\to0M 111\to0M 1111\to00M 1111\to0001111 \\
+\end{align}
+$$
 
 8. øvelse
 $0\dots 1$
 minminu længde 4, dots er 0 eller 1
+$regex=0((0|1)(0|1))^+1$
 
 9. øvelse
 $$
