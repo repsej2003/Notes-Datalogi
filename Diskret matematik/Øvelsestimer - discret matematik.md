@@ -193,7 +193,8 @@ d) $\mathbb{Z}^+$
 
 excise 12
 $$
-\begin{align} 
+\begin{align}  \\
+n\implies n-1 \\
 P(n)=n-1 \\
  \\
 
