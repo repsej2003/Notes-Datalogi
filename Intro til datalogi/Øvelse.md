@@ -428,6 +428,8 @@ $$
 &03\dots 3 
 \end{align}
 $$
+$\text{regex } = 03*$
+
 2. øvelse
 $$
 \begin{align}
@@ -436,7 +438,7 @@ $$
 
 \end{align}$$
 slutter altid på 1, kan have et vilkoralti antalt 1 i streg, men kun enkelt af 2'er
-
+$regex = 1(1|21)*$
 3. øvelse
 lavet i hånd
 
@@ -444,3 +446,44 @@ lavet i hånd
 lavet i hånd
 
 5. øvelse
+løst i hånd
+
+6. øvelse
+$$
+\begin{align}
+ab \\
+ab\dots ab
+\end{align}
+$$
+7. øvelse
+starting with ones,
+or starting  zero
+
+8. øvelse
+$0\dots 1$
+minminu længde 4, dots er 0 eller 1
+
+9. øvelse
+$$
+\begin{align}
+S&\to 0 \ S\ 1 \\
+S&\to 0\ 1 \\
+\end{align}
+$$
+
+10. øvelse
+hånd
+
+11. øvelse
+$$
+\begin{align}
+
+\mathbb{N} = \text{:Digit:} \\
+ \\
+
+S &\to \mathbb{N} \\
+S &\to (S) \\
+S &\to (S+S) \\
+
+\end{align}
+$$
