@@ -4,3 +4,7 @@
 
 - Do this again to you new function until you reach something that is trivel to implemnt
 - Now we can program this
+
+
+
+[[lec9.pdf]]
