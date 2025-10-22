@@ -25,12 +25,14 @@
             "id": "0e4a244e2e9c7e02",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "attachments/intro-to-programing/lec9.pdf"
+                "file": "Diskret matematik/Relation.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "lec9"
+              "icon": "lucide-file",
+              "title": "Relation"
             }
           }
         ],
@@ -195,16 +197,18 @@
   },
   "active": "0e4a244e2e9c7e02",
   "lastOpenFiles": [
-    "Intro til Programing/Top down design.md",
-    "attachments/intro-to-programing/lec9.pdf",
+    "Intro til datalogi/CPUer og maskinkode.md",
+    "Diskret matematik/Relation.md",
     "Intro til datalogi/Øvelse.md",
+    "Intro til datalogi/Algoritmer, asymptotisk notation, invarianter,.md",
+    "attachments/intro-to-programing/lec9.pdf",
+    "Intro til Programing/Top down design.md",
     "attachments/intro-to-programing/Unconfirmed 987361.crdownload",
     "attachments/intro-to-programing",
     "attachments/intro-to-programinh",
     "attachments/intro-to-progran",
     "Diskret matematik/Set.md",
     "Intro til datalogi/Repræstation af tal.md",
-    "Intro til datalogi/CPUer og maskinkode.md",
     "Diskret matematik/Øvelsestimer - discret matematik.md",
     "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "Diskret matematik/Markdown syntax.md",
@@ -217,7 +221,6 @@
     "Intro til datalogi/Merging and Hashing.md",
     "Intro til datalogi/Gates - Boolsk algebra.md",
     "attachments/Pasted image 20250926115701.png",
-    "Intro til datalogi/Algoritmer, asymptotisk notation, invarianter,.md",
     "attachments/Pasted image 20250923111701.png",
     "Intro til Programing/Exersise class.md",
     "attachments/Pasted image 20250922123149.png",
