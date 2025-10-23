@@ -71,3 +71,22 @@ M_{R_{<}}&=\left[ {\begin{array}{ccc}
 $$
 
 
+# Relationer er genrealisering af funktioner
+$R:$  relationer from $A$ to $B$
+$S:$ relationer from $B$ to $C$
+$S \circ R =\{ (a,c) \mid \exists b \in B:(a,b)\in R \wedge(b,c) \in S \}$
+
+
+
+defnetion
+$R^1=R$
+$R ^{n+1}=R^n\circ R, \text{for} n \geq {1}$
+
+
+
+### defentions conectivty relation
+$$R^*=\bigcup_{i=1}^{\infty} R^{i}$$
+
+
+
+# Cloursers
