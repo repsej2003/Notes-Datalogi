@@ -27,3 +27,7 @@ Så der for må der være en løkke inden midten, derfor kan man indsætte en m�
 # CFG (Context-free grammar)
 non-terminal: det vi bruger til at bygge vores strings
 terminal: det vi ender med
+
+## Regex
+
+$(ac|b|\epsilon)c^*(\epsilon|a|d)$

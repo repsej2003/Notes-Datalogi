@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Relation.md",
+                "file": "Intro til datalogi/modeller for beregning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Relation"
+              "title": "modeller for beregning"
             }
           },
           {
@@ -196,8 +196,10 @@
   },
   "active": "7cb376539b848065",
   "lastOpenFiles": [
-    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
+    "Intro til datalogi/regex.md",
+    "Diskret matematik/Set.md",
     "Diskret matematik/Relation.md",
+    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "Intro til Programing/Top down design.md",
     "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
     "Diskret matematik/Function.md",
@@ -209,7 +211,6 @@
     "attachments/intro-to-programing",
     "attachments/intro-to-programinh",
     "attachments/intro-to-progran",
-    "Diskret matematik/Set.md",
     "Intro til datalogi/Repræstation af tal.md",
     "Diskret matematik/Øvelsestimer - discret matematik.md",
     "Diskret matematik/Markdown syntax.md",
@@ -235,7 +236,6 @@
     "Diskret matematik/Predicates and Quantifiers (Kvantorer) (conflicted copy 2025-09-12 122357).md",
     "Diskret matematik/Predicates and Quantifiers (Kvantorer) (conflicted copy 2025-09-12 122310).md",
     "Diskret matematik/Predicates and Quantifiers (Kvantorer) (conflicted copy 2025-09-12 121737).md",
-    "Diskret matematik/Indtruduction to Profs.md",
     "attachments/Pasted image 20250903094905.png",
     "attachments",
     "Untitled.canvas",
