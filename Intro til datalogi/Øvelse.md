@@ -477,7 +477,7 @@ $regex=0((0|1)(0|1))^+1$
 $$
 \begin{align}
 S&\to 0 \ S\ 1 \\
-S&\to 0\ 1 \\
+S&\to \epsilon \\
 \end{align}
 $$
 
@@ -493,7 +493,14 @@ $$
 
 S &\to \mathbb{N} \\
 S &\to (S) \\
-S &\to (S+S) \\
+S &\to S+S \\
 
 \end{align}
 $$
+# Øvelse uge 44
+1. $\text{regex } = 03*$
+2. $\text{regex} = 1(1|21)^*$
+3. $\text{regex}=0^*10^*(10^*10^*)^*$
+4. $\text{regex}=(0|1)^*010(0|1)^*$
+5. $\text{regex}=10 \ \ 10$
+6. 
