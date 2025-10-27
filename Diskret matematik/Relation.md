@@ -11,6 +11,8 @@ eksempler relation
 $A,B:$ sets
 A relation from A to B is a subset of $A \times B$
 
+A relation on A is a subset of $A\times A$
+
 
 ### def:
 $A:$ set
@@ -37,7 +39,7 @@ $R$ is irelfective if $\forall a\in A:(a,a) \not\in R$
 
 
 
-## (anti)symmetric
+## (anti) og symmetric
 $R:$ relation on $A$
 $R$ is symetrics if $\forall a,b\in A: ((a,b) \in R \implies (b,a)\in R)$
 
@@ -72,6 +74,7 @@ $$
 
 
 # Relationer er genrealisering af funktioner
+## Relations can be composed
 $R:$  relationer from $A$ to $B$
 $S:$ relationer from $B$ to $C$
 $S \circ R =\{ (a,c) \mid \exists b \in B:(a,b)\in R \wedge(b,c) \in S \}$
@@ -89,4 +92,9 @@ $$R^*=\bigcup_{i=1}^{\infty} R^{i}$$
 
 
 
-# Cloursers
+# Closures
+
+
+
+
+# Equivalence relations
