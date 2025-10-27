@@ -502,5 +502,39 @@ $$
 2. $\text{regex} = 1(1|21)^*$
 3. $\text{regex}=0^*10^*(10^*10^*)^*$
 4. $\text{regex}=(0|1)^*010(0|1)^*$
-5. $\text{regex}=10 \ \ 10$
-6. 
+øvelse 5
+5. $regex_{1}=((00)^*11^*0)((00)^*11^*0)(1|1^*01^*0)^*$
+6. $regex_{2}=((00)^*11^*0)(0(00)^*11^*0)(1|1^*01^*0)^*01^*$
+7. $regex_{3}=(0(00)^*11^*0)((00)^*11^*0)0(1|1^*01^*0)^*01^*$
+8. $regex_{4}=(0(00)^*11^*0)(0(00)^*11^*0)(1|1^*01^*0)^*$
+9. $ex_{5}=regex_{1}|regex_{2}|regex_{3}|regex_{4}$
+
+$$
+\begin{align}
+regex10_{odd}&= ((00)^*11^*0)\\
+regex10_{even}&= (0(00)^*11^*0) \\
+regex_{end}&=(1|1^*01^*0)^* \\ \\
+
+regex_{e-e}&=regex10_{even}regex10_{even}regex_{end} \\
+regex_{o-o}&=regex10_{odd}regex10_{odd}regex_{end} \\
+regex_{e-o}&=regex10_{even}regex10_{odd}regex_{end}01^* \\
+regex_{o-e}&=regex10_{odd}regex10_{even}regex_{end}01^* \\
+ \\
+regex_{reslut}&=regex_{e-e}|regex_{o-o}|regex_{e-o}|regex_{o-e}
+\end{align}
+$$
+
+
+### Hjemme 
+a. vilkårilig bit streng
+b. streng af 0 eller streng af 1
+c. vilkårlet antal 0 efterfulgt af vilkprt antal 1
+d. vilkårilig bit streng
+e. vilkårt antal c
+f. tomme streng $\epsilon$
+g. tomme streng $\epsilon$
+
+
+D.
+c,cc,ccd
+
