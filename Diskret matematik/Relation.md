@@ -93,8 +93,58 @@ $$R^*=\bigcup_{i=1}^{\infty} R^{i}$$
 
 
 # Closures
+def of clorsures 
+for any relation R and any property P, the closure of R with respect to P (if it exists) is the C
+1. C has propert P
+2. $R\subseteq C$
+3. $\forall$ relation S satisfying 1. og 2. : $C\subseteq S$ (Mindste mullige lukning)
+
+## Refelctiv Closure
+$R$: relation  on $A$
+the reflectiv closure of R is
+$r(R)=R \cup \{ (a,a)|a\in A \}$
+
+eksampel
+realtion on $\mathbb{N}$
+$R_{<}=\{ (a,b)|a<b \}$
+$r(R_{<})=\{ (a,b)|a<b \} \cup\{(a,b)|a=b  \}=\{ (a,b)|a\leq b \}$
+
+## Symmetric closure
+$R$: relation  on $A$
+the symmetric closure of R is
+$s(R)=R \cup \{ (b,a)|(a,b)\in R \}$
+
+eksampel
+realtion on $\mathbb{N}$
+$R_{<}=\{ (a,b)|a<b \}$
+$s(R_{<})=R_{<}\cup R_{>}=R_{\not=}$
 
 
+## Transtive clossure
+$R$: relation  on $A$
+the transtive closure of $R$ is
+$t(R)=R^*$
 
 
 # Equivalence relations
+a Relation is called Equvialnce realtions if it is reflectiv, symmetric, transtive
+
+if R os an eqeivalence realtion and $(a,b)\in R$ then a and b are equvialent
+
+
+
+## Eqivalence class
+if R is an equivalence relation on A and $a\in A$ then the equvialnce class of a is
+$[a]_{R}=\{ b|(a,b)\in R \}$
+
+laver en partoinering af mængden, så den deler mængden i dele
+
+
+eksempel relation on $\mathbb{N}$
+$\{ (a,b)|\ a \text{ and } b \text{ have the same parity} \}$
+$[0]_{R}=\{ 0,2,4,\dots \}$
+$[1]_{R}=\{ 1,3,5,\dots \}$
+$[2]_{R}=[0]_{R}=[4]_{R}=\dots$
+
+
+
