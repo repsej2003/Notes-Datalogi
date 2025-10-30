@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro til datalogi/satisfiability (SAT).md",
+                "file": "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "satisfiability (SAT)"
+              "title": "Predicates and Quantifiers (Kvantorer)"
+            }
+          },
+          {
+            "id": "dbb0d50f8321874a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diskret matematik/Relation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Relation"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -209,13 +223,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d9750c9db0cd8fea",
+  "active": "dbb0d50f8321874a",
   "lastOpenFiles": [
-    "Intro til datalogi/Repræstation af tal.md",
-    "Intro til datalogi/satisfiability (SAT).md",
-    "Diskret matematik/Relation.md",
-    "Diskret matematik/Set.md",
     "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
+    "Diskret matematik/Øvelsestimer - discret matematik.md",
+    "Diskret matematik/Set.md",
+    "Diskret matematik/Relation.md",
+    "Intro til datalogi/satisfiability (SAT).md",
+    "Intro til datalogi/Repræstation af tal.md",
     "Intro til datalogi/Øvelse.md",
     "Intro til datalogi/regex.md",
     "Intro til datalogi/modeller for beregning.md",
@@ -229,7 +244,6 @@
     "attachments/intro-to-programing",
     "attachments/intro-to-programinh",
     "attachments/intro-to-progran",
-    "Diskret matematik/Øvelsestimer - discret matematik.md",
     "Diskret matematik/Markdown syntax.md",
     "Diskret matematik/Intruduction to Proofs.md",
     "Diskret matematik/Logic Propositions.md",

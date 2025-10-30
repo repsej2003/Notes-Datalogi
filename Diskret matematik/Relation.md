@@ -1,4 +1,4 @@
-knytter ellemetner til hinaden
+	knytter ellemetner til hinaden
 eksempler relation
 * (student id, name, udandelse) , tertiary
 * (student id,  name) binary
