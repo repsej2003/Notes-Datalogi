@@ -131,8 +131,6 @@ a Relation is called Equvialnce realtions if it is reflectiv, symmetric, transti
 
 if R os an eqeivalence realtion and $(a,b)\in R$ then a and b are equvialent
 
-
-
 ## Eqivalence class
 if R is an equivalence relation on A and $a\in A$ then the equvialnce class of a is
 $[a]_{R}=\{ b|(a,b)\in R \}$
@@ -147,4 +145,7 @@ $[1]_{R}=\{ 1,3,5,\dots \}$
 $[2]_{R}=[0]_{R}=[4]_{R}=\dots$
 
 
+
+# Partial ordings
+a Relation is called Patial ording realtions if it is reflectiv, antisymmetric, transtive
 
