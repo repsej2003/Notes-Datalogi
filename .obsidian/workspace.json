@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Relation.md",
+                "file": "Intro til datalogi/Øvelse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Relation"
+              "title": "Øvelse"
             }
           }
         ],
@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -209,7 +210,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,11 +227,11 @@
   },
   "active": "dbb0d50f8321874a",
   "lastOpenFiles": [
+    "Intro til datalogi/satisfiability (SAT).md",
+    "Diskret matematik/Relation.md",
     "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "Diskret matematik/Øvelsestimer - discret matematik.md",
     "Diskret matematik/Set.md",
-    "Diskret matematik/Relation.md",
-    "Intro til datalogi/satisfiability (SAT).md",
     "Intro til datalogi/Repræstation af tal.md",
     "Intro til datalogi/Øvelse.md",
     "Intro til datalogi/regex.md",

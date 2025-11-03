@@ -526,8 +526,8 @@ $$
 
 
 ### Hjemme 
-a. vilkårilig bit streng
-b. streng af 0 eller streng af 1
+a. vilkårilig bit streng og tom
+b. streng af 0 eller streng af 1 eller tom
 c. vilkårlet antal 0 efterfulgt af vilkprt antal 1
 d. vilkårilig bit streng
 e. vilkårt antal c
@@ -538,3 +538,131 @@ g. tomme streng $\epsilon$
 D.
 c,cc,ccd
 
+# øvelse uge 45
+1.
+a) yes A = T and B = T
+b) Yes, A = T 
+c) yes, A = F
+d) no, cause it both will never be true, cause they are opssit
+E) yes, A=T, 
+
+2.
+A) 
+B) = C)
+D) = E)
+
+3.
+a) $-A\wedge B$
+b) $-A\vee B$
+c) $-A\vee B$
+d)
+$$
+\begin{align} \\
+(A\implies B)\wedge(-b\implies A) \\
+(-A\vee B )\wedge(--B\vee A) \\
+(-A\vee B )\wedge(B\vee A) \\
+\end{align}
+$$
+e)
+$$
+\begin{align}
+A\to(-(B\vee D)) \\
+-A\vee(-(B\vee D)) \\
+-A\vee(-B\wedge -D) \\
+(-A\vee-B)\wedge (-A\vee-D) \\
+\end{align}
+$$
+
+4.
+$-X_{1,3}\wedge -X_{1,4}$
+
+5.
+```
+p cnf 4 6
+-1 -2 0
+-1 -3 0
+-2 -4 0
+-3 -4 0
+1 2 0
+3 4 0
+```
+1 -2 -3 4
+
+6.
+$$
+\begin{align}
+(X_{1,1}\to-X_{1,2})  \wedge\\
+(X_{1,1}\to-X_{2,1})  \wedge\\
+(X_{1,2}\to-X_{2,2})  \wedge\\
+(X_{2,1}\to-X_{2,2})  \wedge\\
+(X_{1,1}\vee X_{1,2})  \wedge\\
+(X_{2,1}\vee X_{2,2})  \wedge\\
+
+\end{align}
+
+$$
+$$
+\begin{align}
+(-X_{1,1}\vee-X_{1,2}) \wedge\\
+(-X_{1,1}\vee-X_{2,1}) \wedge\\
+(-X_{1,2}\vee-X_{2,2}) \wedge\\
+(-X_{2,1}\vee-X_{2,2}) \wedge\\
+(X_{1,1}\vee X_{1,2}) \wedge\\
+(X_{2,1}\vee X_{2,2}) \wedge\\
+\end{align}
+$$
+```
+p cnf 4 7
+-1 -2 0
+-1 -3 0
+-2 -4 0
+-3 -4 0
+1 2 0
+3 4 0
+```
+
+
+## Hjemme 
+1.
+a) yes A = T, B = T
+b) yes A = T, B = T
+c)yes A = F, B = F
+d) no
+
+2.
+a) $(-A\vee B)\wedge(B\vee A)$ = D
+b) $(-A\vee-B)\wedge(-B\vee A)$ = C
+
+3.
+a)
+$$
+\begin{align}
+(-A\to B)\wedge(-B\to-A) \\
+(A\vee  B)\wedge(B\vee-A) \\
+
+\end{align}
+$$
+b)
+
+$$
+\begin{align}
+A\to (-(B\wedge D)) \\
+A\to (-B\vee -D) \\
+-A\vee (-B\vee -D) \\
+ -A\vee -B\vee -D \\
+\end{align}
+$$
+c)
+$$
+\begin{align}
+A\to (-(B\to (C\wedge D))) \\ 
+-A\vee (-(B\to (C\wedge D))) \\ 
+-A\vee (-(-B\vee (C\wedge D))) \\ 
+-A\vee (B\wedge -(C\wedge D)) \\ 
+-A\vee (B\wedge (-C\vee -D)) \\ 
+ (-A\vee B) \wedge (-A\vee(-C\vee -D)) \\ 
+ (-A\vee B) \wedge (-A\vee -C\vee -D) \\ 
+\end{align}
+$$
+
+4.
