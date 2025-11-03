@@ -175,3 +175,9 @@ Retning tages ud fra højden, pilen går op ad
 $(\{ 1,2,3,4,5,6,7,8 \},|)$
 
 
+# Total orders
+def 
+$(S,\preceq)$ poset
+if all pairs $a,b\in S$ are comparable, is $\preceq$ is a total order
+
+for eskempl $\leq$
