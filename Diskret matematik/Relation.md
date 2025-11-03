@@ -149,3 +149,29 @@ $[2]_{R}=[0]_{R}=[4]_{R}=\dots$
 # Partial ordings
 a Relation is called Patial ording realtions if it is reflectiv, antisymmetric, transtive
 
+if a relation R in a set A is 
+* reflecitv
+* anitsymters
+* transtive 
+R is a parital order (or ordering)  and (A, R) is  a parital  orded set (poset)
+
+
+## navne
+let $\preceq$ be a parial order 
+if $a\preceq b$ or$b\preceq a$ then a and b are comparable otherwise the incomparade
+
+## finding the 
+Let $(S,\preceq)$ be poset and $a\in S$
+then, a is
+- a minmal element if $\nexists b\in S-\{ a \}: b\preceq a$
+- the least  element if $\forall b\in S: b\preceq a$
+- a maximal element if $\nexists b\in S-\{ a \}: a\preceq b$
+- the least  element if $\forall b\in S: a\preceq b$
+
+### Hasse diagram
+fjern alt som kan udleds af Reflecktic og transtive.
+Retning tages ud fra højden, pilen går op ad
+![[Pasted image 20251103144439.png]]
+$(\{ 1,2,3,4,5,6,7,8 \},|)$
+
+
