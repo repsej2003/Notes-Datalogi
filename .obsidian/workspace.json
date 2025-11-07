@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Relation.md",
+                "file": "Diskret matematik/TalTeroi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Relation"
+              "title": "TalTeroi"
             }
           }
         ],
@@ -225,13 +225,13 @@
   },
   "active": "dbb0d50f8321874a",
   "lastOpenFiles": [
+    "Diskret matematik/Relation.md",
     "Intro til datalogi/Øvelse.md",
     "Intro til datalogi/Databaser.md",
     "Diskret matematik/TalTeroi.md",
     "Diskret matematik/Eksamen - ting fra lene.md",
     "Untitled",
     "Diskret matematik/Set.md",
-    "Diskret matematik/Relation.md",
     "attachments/Pasted image 20251103144439.png",
     "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
     "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
