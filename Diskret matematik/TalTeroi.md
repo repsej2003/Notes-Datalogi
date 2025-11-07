@@ -46,3 +46,6 @@ a\equiv b (\text{ mod }m) \wedge c\equiv d \text{ mod }m \implies \\
 
 \end{align}
 $$
+
+
+# Primtal
