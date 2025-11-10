@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -209,7 +210,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,6 +227,7 @@
   },
   "active": "dbb0d50f8321874a",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251110093405.png",
     "Diskret matematik/Set.md",
     "Diskret matematik/Relation.md",
     "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
@@ -266,7 +269,6 @@
     "attachments/2025-09-15_124039.jpg",
     "Diskret matematik/Intruduction to Proofs (conflicted copy 2025-09-12 133544).md",
     "Diskret matematik/Intruduction to Proofs (conflicted copy 2025-09-12 133537).md",
-    "Diskret matematik/Intruduction to Proofs (conflicted copy 2025-09-12 133530).md",
     "attachments",
     "Untitled.canvas",
     "Intro til datalogi",
