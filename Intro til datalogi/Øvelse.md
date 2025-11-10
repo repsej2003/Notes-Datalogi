@@ -666,3 +666,5 @@ A\to (-(B\to (C\wedge D))) \\
 $$
 
 4.
+# Øvelse uge 46
+1.
