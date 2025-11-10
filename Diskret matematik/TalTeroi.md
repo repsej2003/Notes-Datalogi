@@ -77,6 +77,10 @@ $$
 if $\bar{a}\cdot a\equiv 1(\text{mod } m)$, $\bar{a}$ is the multiplicative invesr of a moduluo m
 
 
+let $a,m \in \mathbb{Z}, m \geq_{2}$ then
+
+$gcd(a,m)=1\implies \exists! \bar{a}\in \mathbb{Z}_{m}:\bar{a}a\equiv 1 \text{ mod }m$
+
 
 
 # Primtal
