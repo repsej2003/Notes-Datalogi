@@ -73,6 +73,12 @@ c&\equiv d\ (\text{mod }m) \\
 
 $$
 
+## invsere
+if $\bar{a}\cdot a\equiv 1(\text{mod } m)$, $\bar{a}$ is the multiplicative invesr of a moduluo m
+
+
+
+
 # Primtal
 ### Defeniton
 Let $p \in \mathbb{Z}$ and $p\geq 2$ 
@@ -112,10 +118,26 @@ $a\cdot b=gcd(a,b)\cdot lcm(a,b)$
 # Lemma 4.3.1
 $$
 \begin{align}
-a = bq+r,& \ a,b,q,r \in \mathbb{Z} \\
+a = bq+r,& \ \ a,b,q,r \in \mathbb{Z} \\
 \Downarrow  \\
 gcd(a,b)=&gcd(b,r) \\
 \end{align}
 $$
 
-![[Pasted image 20251110093405.png]]
+
+ største fælles diviser  kan udrtryks som en linær kombinatoin af divsoor og divendten
+ $\forall a,b \in \mathbb{Z}: \exists s,t\in \mathbb{Z}:gcd(a,b)=s \cdot a+t\cdot b$
+
+
+### Lemma 4.3.2
+$$
+\begin{align}
+\text{for any } &a,b,c \in \mathbb{Z}^+ \\
+
+a|b\cdot c& \wedge gcd(a,b)=1 \\
+&\Downarrow \\
+a|c
+\end{align}
+$$
+
+

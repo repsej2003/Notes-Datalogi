@@ -667,4 +667,99 @@ $$
 
 4.
 # Øvelse uge 46
-1.
+1. a
+2. 
+Bands
+
+| name: CHAR(20) | formed in: INTEGER |
+| -------------- | ------------------ |
+| ’Foo Fighters` | 1994               |
+3. a d e
+4. 
+```
+     Game(name: string, relase_date: date, budget: integer)
+	 devops(gamename: string, studiename: string)
+	 
+	 developer studie(name: string, adresse: string, num_Emp: integer)
+```
+5. `
+```
+a	SELECT COUNT(*) FROM Movies M WHERE M.production_year > 1994; 4
+b   SELECT mid,title,director FROM Movies M ; 8
+
+c SELECT mid,title,director FROM Movies M ; 8
+d SELECT director FROM Movies M ; 7 but (8)
+		
+
+
+```
+6. 
+```
+CREATE TABLE Concert( cid: INTEGER PRIMARY KEY, band: CHAR(20), date: CHAR(20), location: CHAR(20), total number seats: INTEGER, ticket price: FLOAT);
+
+
+CREATE TABLE FestivalHasConcert( fid: INTEGER , cid: INTEGER, PRIMARY KEY (fid,cid), FOREIGN KEY (fid) REFERENCES Festival, FOREIGN KEY (cid) REFERENCES Concert);
+
+```
+
+7. opgave 7
+
+```
+DELETE FROM Movies M WHERE M.production_year != 1994;
+
+SELECT * FROM Movies;
+```
+
+8.
+$\sigma_{\text{productionYear=1994 and director = Quentin Tarantino}}(Movies)$
+`SELECT * FROM Movies M WHERE m.production_year = 1994 AND m.director = 'Quentin Tarantino';`
+
+9.
+```
+INSERT INTO Movies VALUES (8, 'The Lord of the Rings', 'Peter Jackson', 2001, 93000000);
+
+DElETE FROM Movies M WHERE M.mid = 2 OR M.mid = 3 OR M.mid = 4 OR M.mid = 6;
+```
+
+10.
+
+
+`SELECT title FROM Movies M WHERE M.production_year < 1990 OR m.budget_used > 3000000000;`
+$$\pi_{title}\sigma_{productionYear < 1990\ \vee \ BudgetUsed > 3000000000}(Movies)$$
+
+
+11.
+```
+SELECT * FROM Movies M
+WHERE M.production_year < 1990
+UNION
+SELECT * FROM Movies M
+WHERE m.budget_used > 3000000000;
+```
+
+$$\sigma_{BudgetUsed > 3000000000}(Movies) \cup \sigma_{production_year < 1990}(Movies)$$
+
+12.
+```
+SELECT * FROM Movies M WHERE (M.production_year < 1990 AND m.budget_used > 3000000000) OR m.production_year > 2010;
+```
+
+$$\sigma_{productionYear > 2010\vee(productionYear < 1990\ \wedge \ BudgetUsed > 3000000000)}(Movies)$$
+
+13.
+```
+SELECT * FROM Movies M, Movies M2 WHERE M.director = M2.director AND M.mid != M2.mid;
+
+```
+
+$$\sigma_{director_{1}=director_{2} \wedge mid_{1}!=mid_{2} }(Movies \times Movies)$$
+
+
+14.
+```
+
+SELECT * FROM Movies M, Movies M2 WHERE M.budget_used > M2.budget_used;
+
+```
+
+$$\sigma_{budgetUsed_{1}>budgetUsed{2} \wedge mid_{1}!=mid_{2} }(Movies \times Movies)$$
