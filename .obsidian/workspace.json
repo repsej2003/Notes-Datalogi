@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/TalTeroi.md",
+                "file": "Intro til datalogi/ShortspathInTree.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TalTeroi"
+              "title": "ShortspathInTree"
             }
           },
           {
@@ -225,8 +225,9 @@
   },
   "active": "d9750c9db0cd8fea",
   "lastOpenFiles": [
-    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "Diskret matematik/TalTeroi.md",
+    "Intro til datalogi/ShortspathInTree.md",
+    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "Diskret matematik/Set.md",
     "Intro til datalogi/Øvelse.md",
     "Intro til datalogi/Repræstation af tal.md",
