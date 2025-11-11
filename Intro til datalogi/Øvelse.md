@@ -763,3 +763,36 @@ SELECT * FROM Movies M, Movies M2 WHERE M.budget_used > M2.budget_used;
 ```
 
 $$\sigma_{budgetUsed_{1}>budgetUsed{2} \wedge mid_{1}!=mid_{2} }(Movies \times Movies)$$
+
+
+### Hjemme
+
+1.
+a. Yes
+b. No
+c. False
+d. false
+e. TRue
+f.  No it can be the same number of tuples
+g.  NO
+h. they have to be the same, ithing
+
+2.
+```
+Festival( fid: INTEGER , name: CHAR(20), start date: CHAR(20), end date: CHAR(20), festival: INTEGER , concert: INTEGER )
+```
+
+3.
+```
+SELECT (*) 
+FROM Festival  
+INNER JOIN FestivalHasConcert ON Festival.Fid=FestivalHasConcert.festival;
+```
+
+4.
+```
+SELECT (*) 
+FROM Festival  
+JOIN FestivalHasConcert ON Festival.Fid=FestivalHasConcert.festival
+JOIN Concert ON FestivalHasConcert.concert = Concert.Cid;
+```
