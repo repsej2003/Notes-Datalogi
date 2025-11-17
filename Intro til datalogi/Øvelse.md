@@ -711,7 +711,7 @@ SELECT * FROM Movies;
 ```
 
 8.
-$\sigma_{\text{productionYear=1994 and director = Quentin Tarantino}}(Movies)$
+$$\sigma_{\text{productionYear=1994 and director = Quentin Tarantino}}(Movies)$$
 `SELECT * FROM Movies M WHERE m.production_year = 1994 AND m.director = 'Quentin Tarantino';`
 
 9.
@@ -774,20 +774,28 @@ c. False
 d. false
 e. TRue
 f.  No it can be the same number of tuples
-g.  NO
-h. they have to be the same, ithing
+g.  True, den kan ske at fjerne dubikelter 
+h. they have to be the same, ithing same types
 
 2.
 ```
-Festival( fid: INTEGER , name: CHAR(20), start date: CHAR(20), end date: CHAR(20), festival: INTEGER , concert: INTEGER )
+Festival(fid: INTEGER , name: CHAR(20), start_date: CHAR(20), end_date: CHAR(20), festival: INTEGER , concert: INTEGER)
 ```
+
 
 3.
 ```
 SELECT (*) 
 FROM Festival  
-INNER JOIN FestivalHasConcert ON Festival.Fid=FestivalHasConcert.festival;
+JOIN FestivalHasConcert ON Festival.Fid=FestivalHasConcert.festival;
 ```
+
+```
+SELECT *
+FROM Festival, FestivalHasConcert
+WHERE Festival.Fid=FestivalHasConcert.festival;
+```
+Komma er implisit krydsprodukt.
 
 4.
 ```
@@ -796,3 +804,20 @@ FROM Festival
 JOIN FestivalHasConcert ON Festival.Fid=FestivalHasConcert.festival
 JOIN Concert ON FestivalHasConcert.concert = Concert.Cid;
 ```
+
+# Øvelse 47
+1. Opgave
+
+(b)
+
+13
+12
+6
+3
+2
+1
+
+2 gange 13 og 3
+
+2. Opgave
+$212\cdot 49\equiv 1 (\text{mod 221})$

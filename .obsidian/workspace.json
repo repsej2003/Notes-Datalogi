@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -223,7 +223,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d9750c9db0cd8fea",
+  "active": "dbb0d50f8321874a",
   "lastOpenFiles": [
     "Intro til datalogi/Øvelse.md",
     "Intro til datalogi/Kryptologi.md",
