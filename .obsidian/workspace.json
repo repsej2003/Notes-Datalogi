@@ -35,8 +35,7 @@
               "title": "Recursive definitions"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,10 +194,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ce0325b292024289",
+  "active": "dbb0d50f8321874a",
   "lastOpenFiles": [
-    "Diskret matematik/Talfølger.md",
     "Diskret matematik/Recursive definitions.md",
+    "Diskret matematik/Talfølger.md",
     "Diskret matematik/TalTeroi.md",
     "Intro til datalogi/Repræstation af tal.md",
     "Intro til datalogi/Øvelse.md",
