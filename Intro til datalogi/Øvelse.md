@@ -821,3 +821,68 @@ JOIN Concert ON FestivalHasConcert.concert = Concert.Cid;
 
 2. Opgave
 $212\cdot 49\equiv 1 (\text{mod 221})$
+
+opgave 3
+```
+a) e*d===1 mod n
+b) is correct
+c) not 2 prime factors of N
+d) not 2 prime factors of N
+```
+
+opgave 4
+6
+
+opgave 6
+to make sure we talk aboyut the same document
+
+opgave 7
+it esay to factor
+
+opgave 8
+to ensure the data is keept
+
+opgave 9
+$$
+\begin{align}
+ N = 1517 \\
+e = 13 \\
+m = 43 \\
+ \\
+c = 43^{13} \text{ mod 1517} = 894 \\
+m^2 = 43\cdot 43\text{ mod 1517} = 332 \\
+m^3 = 43 \cdot m^2\text{ mod 1517} =43 \cdot 332 \text{ mod 1517}  = 632 \\
+m^6 = m^3\cdot m^3\text{ mod 1517} =632 \cdot 632 \text{ mod 1517}  = 1294 \\
+m^{12} = m ^6\cdot m^6\text{ mod 1517} =1294 \cdot 1294 \text{ mod 1517}  = 1185  \\
+c=m^{13}= m^{12} \cdot m \text{ mod 1517} = 1185 \cdot 43 \text{ mod 1517} = 894
+\end{align}
+$$
+
+b)
+
+$$
+\begin{align} 
+p =37 \ q = 41\\
+gcd (13, (37-1)\cdot(41-1)) = gcd(13,36\cdot 40)= gcd(13,1440)\\ \\
+1440 = 13 \cdot 110 + 10\\
+13 = 10 \cdot 1 + 3 \\
+10 = 3 \cdot 3 + 1 \\
+3 = 1 \cdot 3 + 0  \\
+ \\
+1 &= 10 - 3 \cdot 3 \\
+&= 10 - 3 \cdot (13- 10 \cdot 1) \\
+&= 10 - 3 \cdot 13 +3 \cdot 10 \\
+&= -3 \cdot 13 +4 \cdot 10 \\
+&= -3 \cdot 13 +4 \cdot (1440-110\cdot 13) \\
+&= -3 \cdot 13 +4 \cdot 1440 -440\cdot 13 \\ 
+&= 4 \cdot 1440 -443\cdot 13 \\  \\
+ \\
+d = -443 = -443 \text{ mod }1440 = 997\\
+\end{align}
+$$
+
+decrypter
+
+$$
+r = 894^{997}\text{ mod }1517 = 43
+$$
