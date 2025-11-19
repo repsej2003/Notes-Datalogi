@@ -886,3 +886,78 @@ decrypter
 $$
 r = 894^{997}\text{ mod }1517 = 43
 $$
+
+
+### Hjemme
+1.
+$$
+\begin{align}
+p &= 11 \\
+q &= 13 \\
+N'&=(11-1)(13-1)=10\cdot 12= 120 \\
+e&=70 \\
+gcd(e,N') &= 2 \cdot 5 = 10 \\
+d&= \text{finds ikke }
+\end{align}
+$$
+
+2.
+```
+filter (\x -> (x*x `mod` 143) == 1) [0..143]
+[1,12,131,142]
+
+```
+
+3.
+test of 11
+$$
+
+\begin{align}
+a = 8 \\
+ \\
+8^{11-1} \text{ mod } 11 = 1 \\
+8^{5} \text{ mod } 11 = 10 = -1 \\ \\
+ \\
+
+a = 3 \\
+ \\
+3^{11-1} \text{ mod } 11 = 1 \\
+3^{5} \text{ mod } 11 = 10 = 1 \\
+
+\end{align}
+
+$$
+
+
+test of 15
+$$
+
+\begin{align}
+a = 8 \\
+ \\
+8^{15-1} \text{ mod } 15 = 4 \\
+\end{align}
+
+$$
+not pirme
+
+test of 561
+$$
+
+\begin{align}
+a = 13 \\
+ \\
+13^{561-1} \text{ mod } 561 = 1 \\
+13^{280} \text{ mod } 561 = 1 \\
+13^{140} \text{ mod } 561 = 1 \\ 
+ 13^{70} \text{ mod } 561 = 67  \\
+ \\
+
+a = 3 \\
+ \\
+3^{561-1} \text{ mod } 561 = 375 \\
+ \\
+\end{align}
+
+$$
+
