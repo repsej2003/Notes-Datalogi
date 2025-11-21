@@ -55,16 +55,17 @@ $$
 
 $$
 \begin{align}
-\sum_{i=0}^{n} r^n= \frac{r^{n+1}-1}{r-1}\ \ & r \in \mathbb{R} , r\neq 1 \\
-\sum_{i=0}^{n} r^n= n +1\ \ &r \in \mathbb{R} , r= 1
+\sum_{i=0}^{n} a\cdot r^n= a \cdot\frac{r^{n+1}-1}{r-1}\ \ & r \in \mathbb{R} , r\neq 1 \\
+\sum_{i=0}^{n} a \cdot r^n=a( n +1)\ \ &r \in \mathbb{R} , r= 1
 
 \end{align}
 
 $$
 
+
 # Arithmetic  series
 $$
 \begin{align}
-
+\sum_{i=0}^{n}(a+di)=a(n+1)+d\cdot\frac{n(n+1)}{2}
 \end{align}
 $$
