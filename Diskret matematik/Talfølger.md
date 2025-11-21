@@ -43,3 +43,12 @@ $a_n = \left( \frac{1}{2} \right)^n=\frac{1}{2^n}$
 $a_{n}=b\cdot r^n, n \in \mathbb{N}$
 b : begyndelse led (inital term)
 r : fælles forhold( common ratio  )
+
+# Summations
+
+#### Eksempel
+$$
+\sum_{i=1}^{n} \frac{1}{2^i}= 2-\left( \frac{1}{2} \right)^n
+$$
+
+## Geometric Series
