@@ -61,7 +61,7 @@ $$
 \end{align}
 
 $$
-
+ 
 
 # Arithmetic  series
 $$
