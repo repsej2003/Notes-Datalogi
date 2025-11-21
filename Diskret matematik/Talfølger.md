@@ -48,7 +48,23 @@ r : fælles forhold( common ratio  )
 
 #### Eksempel
 $$
-\sum_{i=1}^{n} \frac{1}{2^i}= 2-\left( \frac{1}{2} \right)^n
+\sum_{i=0}^{n} \frac{1}{2^i}= 2-\left( \frac{1}{2} \right)^n
 $$
 
 ## Geometric Series
+
+$$
+\begin{align}
+\sum_{i=0}^{n} r^n= \frac{r^{n+1}-1}{r-1}\ \ & r \in \mathbb{R} , r\neq 1 \\
+\sum_{i=0}^{n} r^n= n +1\ \ &r \in \mathbb{R} , r= 1
+
+\end{align}
+
+$$
+
+# Arithmetic  series
+$$
+\begin{align}
+
+\end{align}
+$$
