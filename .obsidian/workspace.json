@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Talfølger.md",
+                "file": "Intro til datalogi/Øvelse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Talfølger"
+              "title": "Øvelse"
             }
           },
           {
@@ -196,8 +196,8 @@
   },
   "active": "dbb0d50f8321874a",
   "lastOpenFiles": [
-    "Diskret matematik/Recursive definitions.md",
     "Diskret matematik/Talfølger.md",
+    "Diskret matematik/Recursive definitions.md",
     "Intro til datalogi/Online algortimer.md",
     "Intro til datalogi/Øvelse.md",
     "Diskret matematik/TalTeroi.md",

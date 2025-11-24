@@ -806,6 +806,7 @@ JOIN Concert ON FestivalHasConcert.concert = Concert.Cid;
 ```
 
 # Øvelse 47
+###
 1. Opgave
 
 (b)
@@ -896,8 +897,10 @@ p &= 11 \\
 q &= 13 \\
 N'&=(11-1)(13-1)=10\cdot 12= 120 \\
 e&=70 \\
-gcd(e,N') &= 2 \cdot 5 = 10 \\
-d&= \text{finds ikke }
+gcd(e,N') &= 2 \cdot 5 = 10 \\ 
+10\cdot d &\equiv \text{ mod }40\\ \\
+
+d& \text{ finds ikke }
 \end{align}
 $$
 
@@ -929,7 +932,7 @@ a = 3 \\
 $$
 
 
-test of 15
+test of $15=5\cdot 3$
 $$
 
 \begin{align}
@@ -941,7 +944,7 @@ a = 8 \\
 $$
 not pirme
 
-test of 561
+test of $561=17\cdot 11\cdot 3$
 $$
 
 \begin{align}
@@ -961,3 +964,15 @@ a = 3 \\
 
 $$
 
+# Øvelse uge 48
+
+1.
+```
+4
+|23
+|||
+|2|
+1|1
+```
+
+Max er 5
