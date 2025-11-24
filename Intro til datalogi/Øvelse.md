@@ -805,7 +805,7 @@ JOIN FestivalHasConcert ON Festival.Fid=FestivalHasConcert.festival
 JOIN Concert ON FestivalHasConcert.concert = Concert.Cid;
 ```
 
-# Øvelse 47
+# Øvelse uge 47
 ###
 1. Opgave
 
