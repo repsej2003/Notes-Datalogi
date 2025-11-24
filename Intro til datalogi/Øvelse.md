@@ -976,3 +976,42 @@ $$
 ```
 
 Max er 5
+
+2.
+```
+0.0|0.1|0.0
+0.8|0.4|0.3
+0.2|0.5|0.7
+```
+
+3.
+```
+1|0|0|
+4|3|0|
+1|3|4|
+```
+
+4.
+2 ville ikke kunne komme til at ligge i den sidste, den kan være i den før, for der kun 7 nu
+
+5.
+$\frac{14}{5}=\frac{28}{10}$
+$\frac{24}{10}$
+
+### Hjemme
+1.
+$$
+\frac{6}{42}, \frac{14}{42}, \frac{21}{42}
+$$
+Vi skal have 3 sæt, også skal $\frac{21}{42}$ sættes sidst. alle er $+\frac{1}{1000}$ Eksempel
+```
+6 6 6 14 14 14 21 21 21
+OPT
+6|14|21|
+6|14|21|
+6|14|21|
+FF
+6|14|00|
+6|14|00|
+6|14|21|21|21
+```
