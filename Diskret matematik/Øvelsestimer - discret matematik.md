@@ -210,3 +210,15 @@ P(1) & = 1-1=0\\ \\
 k+1 & = P(a) + P(b),  & a+b &=(k+1)
 \end{align}
 $$
+# Exercise Sheet 15 (Week 48-1)
+5.3.25.:
+a) $0\in S$ and if $x \in S$ then $x+2\in S$
+b) $2\in S$ and if $x \in S$ then $x+3\in S$
+b) $1,2,3,4\in S$ and if $x \in S$ then $x+5\in S$
+
+5.3.45.:
+$$
+\begin{align}
+
+\end{align}
+$$

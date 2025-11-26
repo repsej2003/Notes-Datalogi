@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro til datalogi/Kortst vej i en graf.md",
+                "file": "Diskret matematik/Øvelsestimer - discret matematik.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kortst vej i en graf"
+              "title": "Øvelsestimer - discret matematik"
             }
           },
           {
@@ -196,8 +196,8 @@
   },
   "active": "dbb0d50f8321874a",
   "lastOpenFiles": [
-    "Diskret matematik/Matrices.md",
     "Intro til datalogi/Kortst vej i en graf.md",
+    "Diskret matematik/Matrices.md",
     "Intro til datalogi/Øvelse.md",
     "Intro til datalogi/Online algortimer.md",
     "Diskret matematik/Talfølger.md",
