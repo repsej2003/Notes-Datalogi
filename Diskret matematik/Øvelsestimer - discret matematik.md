@@ -211,14 +211,74 @@ k+1 & = P(a) + P(b),  & a+b &=(k+1)
 \end{align}
 $$
 # Exercise Sheet 15 (Week 48-1)
-5.3.25.:
-a) $0\in S$ and if $x \in S$ then $x+2\in S$
+## 5.3.25.:
+a) $0\in S$ and if $x \in S \Leftrightarrow x+2\in S$
 b) $2\in S$ and if $x \in S$ then $x+3\in S$
 b) $1,2,3,4\in S$ and if $x \in S$ then $x+5\in S$
 
-5.3.45.:
+## 5.3.45.:
 $$
 \begin{align}
-
+n(T)\geq 2 \cdot h(T)+1 \\
+ \\
+\text{Base case: } \\
+\text{a tree with one node} \\
+1\geq 2\cdot 0 +1 = 1 \\
+ \\
+\text{induction hyp} \\
+n(T)\geq 2 \cdot h(T)+1, &\text{ for all }T\in S_{i} \\
+ \\
+&\text{induction step:} (i\geq 1)\\
+let\ T&\in S_{i+1}-S_{i} \\
+ \\  \\
+n(T) &= 1 + n(T_{1}) + n(T_{2}) \\
+&\geq 1 + 2h(T_{1})+1+2h(T_{2})+1 & \text{by the ind. hyp.} \\
+&=3+2(h(T_{1})+h(T_{2})) \\
+&\geq3+2(h(T)-1+h(T)-1) \\
+&=3+4h(T)-4 \\ 
+&=-1+4h(T) \\
+&\geq 2h(T)+1 & \text{da h(T) er mindst 1}
 \end{align}
 $$
+## 5.3.46:
+$$
+\begin{align}
+l(T)=i(T)+1 \\
+ \\
+\text{Basecase} \\ 
+l(T_{0})=1=0+1=1 \\
+ \\
+\text{Induktions hyp} \\
+l(T)=i(T) , &\text{ for all }T\in S_{i} \\
+\end{align}
+$$
+$$
+\begin{align}
+\text{induktion step : } &(i\geq 1)\\
+let\ T&\in S_{i+1}-S_{i} \\
+ \\
+l(T)&=l(T_{1})+l(T_{2}) \\
+&=i(T_{1})+1+i(T_{2})+1 &\text{IH}\\
+&=2+i(T_{1})+ i(T_{2}) \\
+&=i(T)+1 & i(T)=i(T_{1})+i(T_{2})+1
+\end{align}
+$$
+
+## 5.3.7.:
+a)
+$a_{1}=6$ $a_{n+1}=6+ a_{n}$
+
+b)
+$a_{1}=3$  $a_{n+1}=a_{n}+2$
+
+c)
+$a_{1}=10$   $a_{n+1}=10\cdot a_{n}$
+
+
+2.4.1
+$3$
+-1
+787
+2639
+
+
