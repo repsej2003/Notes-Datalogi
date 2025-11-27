@@ -677,10 +677,11 @@ Bands
 3. a d e
 4. 
 ```
-     Game(name: string, relase_date: date, budget: integer)
-	 devops(gamename: string, studiename: string)
-	 
-	 developer studie(name: string, adresse: string, num_Emp: integer)
+Game(name: string, relase_date: date, budget: integer)
+
+Develops(gamename: string, studiename: string)
+
+developer_studie(name: string, adresse: string, num_Emp: integer)
 ```
 5. `
 ```
