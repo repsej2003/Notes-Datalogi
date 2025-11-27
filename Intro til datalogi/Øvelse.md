@@ -686,25 +686,21 @@ developer_studie(name: string, adresse: string, num_Emp: integer)
 5. `
 ```
 a	SELECT COUNT(*) FROM Movies M WHERE M.production_year > 1994; 4
+
 b   SELECT mid,title,director FROM Movies M ; 8
 
 c SELECT mid,title,director FROM Movies M ; 8
+
 d SELECT director FROM Movies M ; 7 but (8)
-		
-
-
 ```
 6. 
 ```
-CREATE TABLE Concert( cid: INTEGER PRIMARY KEY, band: CHAR(20), date: CHAR(20), location: CHAR(20), total number seats: INTEGER, ticket price: FLOAT);
+CREATE TABLE Concert(cid INTEGER PRIMARY KEY, band CHAR(20), date CHAR(20), location CHAR(20), total_number_seats INTEGER, ticket_price FLOAT);
 
-
-CREATE TABLE FestivalHasConcert( fid: INTEGER , cid: INTEGER, PRIMARY KEY (fid,cid), FOREIGN KEY (fid) REFERENCES Festival, FOREIGN KEY (cid) REFERENCES Concert);
-
+CREATE TABLE FestivalHasConcert(fid INTEGER , cid, PRIMARY KEY (fid, cid), FOREIGN KEY (fid) REFERENCES Festival, FOREIGN KEY (cid) REFERENCES Concert);
 ```
 
 7. opgave 7
-
 ```
 DELETE FROM Movies M WHERE M.production_year != 1994;
 
