@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Recursive definitions.md",
+                "file": "Intro til datalogi/Kortst vej i en graf.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Recursive definitions"
+              "title": "Kortst vej i en graf"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,14 +195,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dbb0d50f8321874a",
+  "active": "ce0325b292024289",
   "lastOpenFiles": [
+    "Diskret matematik/Recursive definitions.md",
     "Intro til datalogi/Kortst vej i en graf.md",
     "Diskret matematik/Matrices.md",
     "Intro til datalogi/Øvelse.md",
     "Intro til datalogi/Online algortimer.md",
     "Diskret matematik/Talfølger.md",
-    "Diskret matematik/Recursive definitions.md",
     "Diskret matematik/TalTeroi.md",
     "Intro til datalogi/Repræstation af tal.md",
     "Diskret matematik/Relation.md",
