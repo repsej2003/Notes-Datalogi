@@ -69,3 +69,5 @@ $$
 \sum_{i=0}^{n}(a+di)=a(n+1)+d\cdot\frac{n(n+1)}{2}
 \end{align}
 $$
+
+![[Pasted image 20251128090018.png]]
