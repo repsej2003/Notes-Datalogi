@@ -27,6 +27,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Diskret matematik/Talfølger.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Talfølger"
+            }
+          },
+          {
+            "id": "ce0325b292024289",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Diskret matematik/Kombinatorik.md",
                 "mode": "source",
                 "source": false
@@ -36,21 +50,35 @@
             }
           },
           {
-            "id": "ce0325b292024289",
+            "id": "15ae143a58aa76f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Matrices.md",
+                "file": "Diskret matematik/Talfølger.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Matrices"
+              "title": "Talfølger"
+            }
+          },
+          {
+            "id": "b74c0f9625b94ac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Diskret matematik/Talfølger.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Talfølger"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -209,17 +237,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9cb638ab782d8f7",
+  "active": "ce0325b292024289",
   "lastOpenFiles": [
     "Diskret matematik/Talfølger.md",
     "Diskret matematik/Kombinatorik.md",
+    "Diskret matematik/Matrices.md",
+    "Diskret matematik/Function.md",
     "attachments/Pasted image 20251128090018.png",
     "Diskret matematik/TalTeroi.md",
     "Intro til datalogi/Øvelse.md",
     "Intro til datalogi/Kryptologi.md",
     "Intro til datalogi/Kortst vej i en graf.md",
     "Diskret matematik/Øvelsestimer - discret matematik.md",
-    "Diskret matematik/Matrices.md",
     "Diskret matematik/Recursive definitions.md",
     "Intro til datalogi/Online algortimer.md",
     "Intro til datalogi/Repræstation af tal.md",
@@ -231,7 +260,6 @@
     "Diskret matematik/Markdown syntax.md",
     "Diskret matematik/Logic Propositions.md",
     "Diskret matematik/Eksamen - ting fra lene.md",
-    "Diskret matematik/Function.md",
     "Diskret matematik/Intruduction to Proofs.md",
     "Intro til datalogi/Databaser.md",
     "Untitled",
