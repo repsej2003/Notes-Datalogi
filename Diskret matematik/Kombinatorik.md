@@ -26,3 +26,5 @@ $B_{i}\cap B_{j}=\emptyset$ for all $i\neq j$
 then $n=\frac{|A|}{d}$
 
 # tree diagrams
+
+# due holds principet

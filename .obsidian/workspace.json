@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro til datalogi/Øvelse.md",
+                "file": "Diskret matematik/Kombinatorik.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Øvelse"
+              "title": "Kombinatorik"
             }
           },
           {
@@ -240,13 +240,13 @@
   },
   "active": "ce0325b292024289",
   "lastOpenFiles": [
+    "Intro til datalogi/Øvelse.md",
     "Diskret matematik/Kombinatorik.md",
     "Diskret matematik/Talfølger.md",
     "Diskret matematik/Matrices.md",
     "Diskret matematik/Function.md",
     "attachments/Pasted image 20251128090018.png",
     "Diskret matematik/TalTeroi.md",
-    "Intro til datalogi/Øvelse.md",
     "Intro til datalogi/Kryptologi.md",
     "Intro til datalogi/Kortst vej i en graf.md",
     "Diskret matematik/Øvelsestimer - discret matematik.md",
