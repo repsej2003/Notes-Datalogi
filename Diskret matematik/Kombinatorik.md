@@ -28,3 +28,5 @@ then $n=\frac{|A|}{d}$
 # tree diagrams
 
 # due holds principet
+let $k\geq$ 1 be an intger. hwen $k+1$ or more objevt are placed into $k$ boxes
+there exists at elast one box that contaoins at least two object
