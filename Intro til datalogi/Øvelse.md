@@ -831,6 +831,65 @@ d) not 2 prime factors of N
 opgave 4
 6
 
+Opgave 5
+$$
+\begin{align}
+N=1517 \\
+e= 17 \\
+N'=(37-1)\cdot(41-1)=1440 \\
+ \\
+\text{Find d med extend eulkikd} \\
+1440 &= 84 \cdot 17 +12 \\
+17 &= 1 \cdot 12 +5 \\
+12 &= 2\cdot 5 +2 \\
+5 &= 2\cdot 2 +1 \\
+\\ 
+1&=5-2\cdot 2 \\
+&=5-2\cdot(12-2\cdot 5) =-2\cdot 12+5\cdot 5 \\
+&=-2\cdot 12 +5(17-12)=5\cdot 17 - 7 \cdot 12 \\
+&=5 \cdot 17 -7(1440-84\cdot 17)=-7\cdot 1440+593\cdot 17 \\
+ \\
+d &= 593 \\
+de &  \equiv 17\cdot 593\equiv 1 \text{ mod }1440
+\end{align}
+$$
+$$
+\begin{align}
+m&=423 \\
+e&=17 \\
+N &= 1517 \\
+ \\
+c&=m^e=423^{17} \text{ mod }1517\\ \\
+m^2& = m \cdot m  \text{ mod }1517 &=423\cdot 423 \text{ mod }1517 & =1440\\
+m^4& = m^2 \cdot m^2  \text{ mod }1517 &=1440\cdot 1440 \text{ mod }1517 & =1378\\
+m^8& = m^4 \cdot m^4  \text{ mod }1517 &=1378\cdot 1378   \text{ mod }1517 & =1117\\
+m^{16}& = m^8 \cdot m^8  \text{ mod }1517 &=1117\cdot 1117  \text{ mod }1517 & =715\\
+m^{17}& = m^{16} \cdot m  \text{ mod }1517 &=715\cdot 423  \text{ mod }1517 & =562\\
+c & =562
+\end{align}
+
+$$
+$$
+\begin{align}
+ & c  =562,  & d  =593, & N=1517  \\ 
+m & = c^d = 562^{593}\text{ mod }1517 \\
+ \\
+c^2& = c \cdot c  \text{ mod }1517 &=562\cdot 562 \text{ mod }1517 & =308\\
+c^4& = c^2 \cdot c^2  \text{ mod }1517 &=308\cdot 308 \text{ mod }1517 & =810\\
+c^8& = c^4 \cdot c^4  \text{ mod }1517 &=810\cdot 810 \text{ mod }1517 & =756\\
+c^{16}& = c^8 \cdot c^8  \text{ mod }1517 &=756\cdot 756   \text{ mod }1517 & =1144\\
+c^{17}& = c^{16}\cdot c \text{ mod }1517 &=1144\cdot 562   \text{ mod }1517 & =1237\\
+c^{34}& = c^{17} \cdot c^{17} \text{ mod }1517 &=1237\cdot 1237   \text{ mod }1517 & =1033\\
+c^{35}& = c^{34}\cdot c \text{ mod }1517 &=1033\cdot 562   \text{ mod }1517 & =1052\\
+c^{70}& = c^{35} \cdot c^{35} \text{ mod }1517 &=1052\cdot 1052   \text{ mod }1517 & =811\\
+c^{140}& = c^{70} \cdot c^{70} \text{ mod }1517 &=811\cdot 811   \text{ mod }1517 & =860\\
+c^{280}& = c^{140} \cdot c^{140} \text{ mod }1517 &=860\cdot 860   \text{ mod }1517 & =821\\
+c^{281}& = c^{280}\cdot c \text{ mod }1517 &=821\cdot 562   \text{ mod }1517 & =234\\
+c^{562}& = c^{281} \cdot c^{281} \text{ mod }1517 &=234\cdot 234     \text{ mod }1517 & =144 \\
+\end{align}
+$$
+Har regnet forket ved ikke hvor jeg brugte den forkrete espoent, pythun siger det er rigtigt
+
 opgave 6
 to make sure we talk aboyut the same document
 
