@@ -734,7 +734,7 @@ SELECT * FROM Movies M
 WHERE m.budget_used > 3000000000;
 ```
 
-$$\sigma_{BudgetUsed > 3000000000}(Movies) \cup \sigma_{production_year < 1990}(Movies)$$
+$$\sigma_{BudgetUsed > 3000000000}(Movies) \cup \sigma_{productionYear < 1990}(Movies)$$
 
 12.
 ```
