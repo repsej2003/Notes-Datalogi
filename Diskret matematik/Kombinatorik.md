@@ -47,3 +47,25 @@ r
 \end{pmatrix}=\frac{n!}{r!(n-r)!}
 $$
 antal delmængde med cardinatl r ud af et set r
+#### Binimial cofitcenten $\uparrow$
+
+
+# Pascals identity
+let $a, b$ be integers with $1\leq k\leq n$ then it holdes
+$$
+\begin{pmatrix}
+n+1 \\
+k
+\end{pmatrix}
+=
+\begin{pmatrix}
+n \\
+k-1
+\end{pmatrix}
++
+\begin{pmatrix}
+n \\
+k
+\end{pmatrix}
+$$
+
