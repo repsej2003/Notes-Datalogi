@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Talfølger.md",
+                "file": "Diskret matematik/Intruduction to Proofs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Talfølger"
+              "title": "Intruduction to Proofs"
             }
           },
           {
@@ -240,10 +240,11 @@
   },
   "active": "ce0325b292024289",
   "lastOpenFiles": [
-    "Diskret matematik/TalTeroi.md",
     "Diskret matematik/Kombinatorik.md",
-    "Intro til datalogi/Øvelse.md",
+    "Diskret matematik/Set.md",
     "Diskret matematik/Talfølger.md",
+    "Diskret matematik/TalTeroi.md",
+    "Intro til datalogi/Øvelse.md",
     "Diskret matematik/Matrices.md",
     "Diskret matematik/Function.md",
     "attachments/Pasted image 20251128090018.png",
@@ -254,7 +255,6 @@
     "Intro til datalogi/Online algortimer.md",
     "Intro til datalogi/Repræstation af tal.md",
     "Diskret matematik/Relation.md",
-    "Diskret matematik/Set.md",
     "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "attachments/Pasted image 20251110093405.png",
     "Diskret matematik/Propositional Equivalences (Ækivalenser).md",

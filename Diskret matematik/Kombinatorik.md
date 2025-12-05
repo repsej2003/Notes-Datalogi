@@ -30,3 +30,20 @@ then $n=\frac{|A|}{d}$
 # due holds principet
 let $k\geq$ 1 be an intger. hwen $k+1$ or more objevt are placed into $k$ boxes
 there exists at elast one box that contaoins at least two object
+
+
+
+# permunationer 
+$$
+P(n,r)=\frac{n!}{(n-r)!}
+$$
+ ordnede lister
+
+# combinationer
+$$
+C(n,r)=\begin{pmatrix}
+n  \\
+r
+\end{pmatrix}=\frac{n!}{r!(n-r)!}
+$$
+antal delmængde med cardinatl r ud af et set r
