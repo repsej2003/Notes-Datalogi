@@ -49,6 +49,12 @@ $$
 antal delmængde med cardinatl r ud af et set r
 #### Binimial cofitcenten $\uparrow$
 
+$$
+(x+y)^n=\sum_{j=0}^n\begin{pmatrix}
+n \\
+j
+\end{pmatrix}\cdot x^{n-j}\cdot y^j
+$$
 
 # Pascals identity
 let $a, b$ be integers with $1\leq k\leq n$ then it holdes
