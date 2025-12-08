@@ -116,4 +116,9 @@ k
 \end{pmatrix} =2^n
 \end{align}
 $$
-# 
+# Permutations ith indistingusahble
+supse there are $n$ object, each of whcih has exatly one of $k$ types and there are $n_{i}$ objcet of type $i$ for any $i \in \{ 1, \dots,k \}$ then the number of diffrenet permuation of $n$ object
+$$
+\frac{n!}{n_{1}!\cdot n_{2}!\cdot . . .  \cdot n_{k}!}
+$$
+
