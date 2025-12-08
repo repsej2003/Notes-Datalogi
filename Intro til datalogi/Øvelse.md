@@ -1,4 +1,4 @@
-Instruktor: Mathilde
+	Instruktor: Mathilde
 mloll22@student.sdu.dk
 
 
@@ -1083,6 +1083,7 @@ a)
 8
 
 b)
+
 c)
 $$
 \begin{bmatrix}
@@ -1096,6 +1097,7 @@ $$
 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0
 \end{bmatrix}
 $$
+d)
 $$
 \begin{bmatrix}
 0 & 5 & 4 & 3 & 1 & 2 & 2 & 3 \\
@@ -1130,3 +1132,9 @@ t_{0}= 745.42\cdot \log_{2}(8+4.4)-689.4=2018 \\
 
 \end{align}
 $$
+
+# uge 50
+1)
+2,42
+
+2)
