@@ -122,3 +122,5 @@ $$
 \frac{n!}{n_{1}!\cdot n_{2}!\cdot . . .  \cdot n_{k}!}
 $$
 
+
+![[Pasted image 20251208155206.png]]
