@@ -34,19 +34,40 @@ there exists at elast one box that contaoins at least two object
 
 
 # permunationer 
+## uden tilbage ligning
 $$
 P(n,r)=\frac{n!}{(n-r)!}
 $$
  ordnede lister
+  med unike objeter der bliver taget ud
+
+
+# med tilbageligning (med reption)
+$$
+n^r 
+$$
 
 # combinationer
+## uden reption
 $$
 C(n,r)=\begin{pmatrix}
 n  \\
 r
-\end{pmatrix}=\frac{n!}{r!(n-r)!}
+\end{pmatrix}=\frac{P(n,r)}{r!}=\frac{n!}{r!(n-r)!}
 $$
 antal delmængde med cardinatl r ud af et set r
+
+
+# med reption
+$$
+\begin{pmatrix}
+n+r-1 \\
+r
+\end{pmatrix}
+$$
+
+![[Pasted image 20251208144857.png]]
+
 #### Binimial cofitcenten $\uparrow$
 
 $$
@@ -75,3 +96,24 @@ k
 \end{pmatrix}
 $$
 
+# corollar 
+$$
+\begin{pmatrix}
+n \\
+r
+\end{pmatrix}
+=
+\begin{pmatrix}
+n \\
+n-r
+\end{pmatrix}
+$$
+$$
+\begin{align}
+\sum_{k=1}^n \begin{pmatrix}
+n \\
+k
+\end{pmatrix} =2^n
+\end{align}
+$$
+# 
