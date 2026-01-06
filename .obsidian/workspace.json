@@ -4,81 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "8c063d53469904ee",
+        "id": "9d34ef536ba7b267",
         "type": "tabs",
         "children": [
           {
-            "id": "dbb0d50f8321874a",
+            "id": "89a2f847779b49da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Talfølger.md",
+                "file": "Diskret matematik/Function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Talfølger"
+              "title": "Function"
             }
           },
           {
-            "id": "1278785fc640279a",
+            "id": "4194eb747eaae84a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Talfølger.md",
+                "file": "Diskret matematik/Logic Propositions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Talfølger"
-            }
-          },
-          {
-            "id": "ce0325b292024289",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Intro til datalogi/Øvelse.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Øvelse"
-            }
-          },
-          {
-            "id": "15ae143a58aa76f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diskret matematik/Talfølger.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Talfølger"
-            }
-          },
-          {
-            "id": "b74c0f9625b94ac2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diskret matematik/Talfølger.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Talfølger"
+              "title": "Logic Propositions"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,36 +195,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ce0325b292024289",
+  "active": "89a2f847779b49da",
   "lastOpenFiles": [
+    "Diskret matematik/Set.md",
+    "attachments/Pasted image 20260106114403.png",
+    "Diskret matematik/Eksamen - ting fra lene.md",
+    "Diskret matematik/TalTeroi.md",
+    "Diskret matematik/Talfølger.md",
+    "Diskret matematik/Relation.md",
+    "Diskret matematik/Recursive definitions.md",
+    "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
+    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
+    "Diskret matematik/Øvelsestimer - discret matematik.md",
+    "Diskret matematik/Matrices.md",
+    "Diskret matematik/Logic Propositions.md",
     "Diskret matematik/Kombinatorik.md",
-    "attachments/Pasted image 20251215154050.png",
+    "Diskret matematik/Intruduction to Proofs.md",
+    "Diskret matematik/Function.md",
     "Intro til datalogi/Øvelse.md",
+    "attachments/Pasted image 20251215154050.png",
     "Intro til datalogi/regex.md",
     "attachments/Pasted image 20251215101256.png",
     "attachments/Pasted image 20251210084321.png",
     "attachments/Pasted image 20251208155206.png",
     "attachments/Pasted image 20251208144857.png",
-    "Diskret matematik/Intruduction to Proofs.md",
-    "Diskret matematik/Set.md",
-    "Diskret matematik/Talfølger.md",
-    "Diskret matematik/TalTeroi.md",
-    "Diskret matematik/Matrices.md",
-    "Diskret matematik/Function.md",
     "attachments/Pasted image 20251128090018.png",
     "Intro til datalogi/Kryptologi.md",
     "Intro til datalogi/Kortst vej i en graf.md",
-    "Diskret matematik/Øvelsestimer - discret matematik.md",
-    "Diskret matematik/Recursive definitions.md",
     "Intro til datalogi/Online algortimer.md",
     "Intro til datalogi/Repræstation af tal.md",
-    "Diskret matematik/Relation.md",
-    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "attachments/Pasted image 20251110093405.png",
-    "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
     "Diskret matematik/Markdown syntax.md",
-    "Diskret matematik/Logic Propositions.md",
-    "Diskret matematik/Eksamen - ting fra lene.md",
     "Intro til datalogi/Databaser.md",
     "Untitled",
     "attachments/Pasted image 20251103144439.png",
@@ -280,7 +238,6 @@
     "attachments/intro-to-programinh",
     "attachments/intro-to-progran",
     "attachments/Pasted image 20251003083810.png",
-    "attachments/Pasted image 20250926115701.png",
     "attachments",
     "Untitled.canvas",
     "Intro til datalogi",

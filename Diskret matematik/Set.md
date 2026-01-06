@@ -169,3 +169,6 @@ $$
 
 \end{align}
 $$
+
+
+![[Pasted image 20260106114403.png]]
