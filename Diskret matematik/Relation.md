@@ -166,7 +166,7 @@ then, a is
 - a minmal element if $\nexists b\in S-\{ a \}: b\preceq a$
 - the least  element if $\forall b\in S: b\preceq a$
 - a maximal element if $\nexists b\in S-\{ a \}: a\preceq b$
-- the least  element if $\forall b\in S: a\preceq b$
+- the greatst  element if $\forall b\in S: a\preceq b$
 
 ### Hasse diagram
 fjern alt som kan udleds af Reflecktic og transtive.
