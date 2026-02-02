@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Intro til algoritmer og datastrukter.md",
+                "file": "DM578-Algoritmer og Datastrukturer/Analyse af alogritmer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro til algoritmer og datastrukter"
+              "title": "Analyse af alogritmer"
             }
           }
         ],
@@ -211,8 +211,8 @@
   },
   "active": "4194eb747eaae84a",
   "lastOpenFiles": [
-    "DM578-Algoritmer og Datastrukturer/Analyse af byttespil.md",
     "DM578-Algoritmer og Datastrukturer/Intro til algoritmer og datastrukter.md",
+    "DM578-Algoritmer og Datastrukturer/Analyse af alogritmer.md",
     "DM576-Databasesystemer/Database-intro.md",
     "attachments/Pasted image 20260202133729.png",
     "Diskret matematik/Set.md",
