@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diskret matematik/Set.md",
+                "file": "DM575-Objektorienteret/Database-intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Set"
+              "title": "Database-intro"
             }
           }
         ],
@@ -195,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,10 +211,15 @@
   },
   "active": "4194eb747eaae84a",
   "lastOpenFiles": [
+    "Diskret matematik/Set.md",
+    "DM575-Objektorienteret/Database-intro.md",
+    "AI501-kunstig intelligens",
+    "DM578-Algoritmer og Datastrukturer",
+    "DM575-Objektorienteret",
+    "DM576-Databasesystemer",
     "Diskret matematik/TalTeroi.md",
     "Diskret matematik/Relation.md",
     "Diskret matematik/Function.md",
-    "Diskret matematik/Set.md",
     "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
     "Diskret matematik/Logic Propositions.md",
     "Diskret matematik/Kombinatorik.md",
@@ -228,10 +232,6 @@
     "Diskret matematik/Forelæsninger/Lecture Notes 16.pdf",
     "Diskret matematik/Forelæsninger/Lecture20_notes.pdf",
     "Diskret matematik/Forelæsninger/Lecture1.pdf",
-    "Diskret matematik/Forelæsninger/Lecture17.pdf",
-    "Diskret matematik/Forelæsninger/Lecture Notes 15.pdf",
-    "Diskret matematik/Forelæsninger/Lecture5.pdf",
-    "Diskret matematik/Forelæsninger/Lecture18.pdf",
     "Diskret matematik/potens regne relger.md",
     "attachments/Pasted image 20260112145331.png",
     "Diskret matematik/Øvelsestimer - discret matematik.md",
