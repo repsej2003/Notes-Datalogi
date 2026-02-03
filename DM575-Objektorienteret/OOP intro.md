@@ -43,3 +43,15 @@ dele kode, fra the parrent
 - Conceptual hierarcht building
 - polypormis
 - reuse behavior
+
+
+# Bad code
+Code smells
+- Duplicated code
+- long methodes
+- large class
+- public instance variables
+- no comments
+- useless comments
+- unreadable code
+
