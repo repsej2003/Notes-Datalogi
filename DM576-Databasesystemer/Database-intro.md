@@ -65,5 +65,5 @@ $$
 \pi_{name,displacemt,numsGuns,}(Classes \bowtie(\sigma_{battle=Guadalma}(Outcomes)\bowtie_{ship=name}Ships))
 $$
 $$
-\pi_{name}(Ships)\cup(\rho_{name}(\pi_{ship}(Outcomes))
+\pi_{name}(Ships)\cup(\rho_{R_{1_{name}}}(\pi_{ship}(Outcomes))
 $$
