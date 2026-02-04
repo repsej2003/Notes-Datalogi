@@ -46,3 +46,5 @@ Prima key, allways unicq , can be more than one attriubete,  to ensure they are
 candidante keys, are possible primary keys, that are not nullable
 Uniqe, allows null, but the key is stil uniqe so only one null
 
+
+# 
