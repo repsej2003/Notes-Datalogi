@@ -57,3 +57,13 @@ $$
 $$
 \pi_{ship}(\sigma_{result=sunk \wedge battle=Denmark strait(Outcomes)})
 $$
+
+$$
+\sigma_{displancment \geq 35.000 \wedge launched>1921}(Classes\bowtie Ships)
+$$
+$$
+\pi_{name,displacemt,numsGuns,}(Classes \bowtie(\sigma_{battle=Guadalma}(Outcomes)\bowtie_{ship=name}Ships))
+$$
+$$
+\pi_{name}(Ships)\cup(\rho_{name}(\pi_{ship}(Outcomes))
+$$
