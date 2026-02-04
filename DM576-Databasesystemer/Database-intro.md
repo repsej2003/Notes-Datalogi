@@ -47,4 +47,13 @@ candidante keys, are possible primary keys, that are not nullable
 Uniqe, allows null, but the key is stil uniqe so only one null
 
 
-# 
+# Execise
+$$
+\pi_{Class,country}(\sigma_{bore\geq 16}(Classes))
+$$
+$$
+\pi_{name}(\sigma_{launched<1921}(Ship)) 
+$$
+$$
+\pi_{ship}(\sigma_{result=sunk \wedge battle=Denmark strait(Outcomes)})
+$$
