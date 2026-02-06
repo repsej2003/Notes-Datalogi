@@ -42,7 +42,7 @@ model int,
 type varchar(20)
 );
 
-ALTER TABLE Printers  
+ALTER TABLE Printer  
 DROP COLUMN color;
 
 ALTER TABLE PC  
