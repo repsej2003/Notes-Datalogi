@@ -35,6 +35,29 @@ serienumre
 $n!\cdot m!$
 
 # 2.3.1
+```
+CREATE TABLE Product(
+maker CHAR(1),
+model int,
+type varchar(20)
+);
 
+ALTER TABLE Printers  
+DROP COLUMN color;
+
+ALTER TABLE PC  
+ADD COLUMN od BOOLEAN DEFUALT None;
+```
 
 # 2.3.2
+```
+CREATE TABLE Classes(
+class CHAR(2),
+type VARCHAR(20),
+country VARCHAR(20),
+numGuns integer,
+bore integer,
+displacement integer
+);
+
+```
