@@ -76,10 +76,16 @@ g) &\ \pi_{pc_{1}.mod el, pc_{2}.mod el}(PC\bowtie_{PC_{1}.mod el>PC_{2}.mod el 
 h) &\ \pi_{maker}(Prod uct\bowtie_{mod el=mode l_{1}}((\pi_{mod el,sped }(PC)\cup \pi_{mod el, sped}(Laptop))\bowtie_{mod el_{1} > mod el_{2}\cap sped_{1}>2.8 \cap sped_{2}>2.8}(\pi_{mod el,sped }(PC)\cup \pi_{mod el, sped}(Laptop))) \\
 i) &\  \pi_{maker}(prod uct \bowtie_{mod el=mode l_{1}}(\pi_{mode l}(Z) - \pi_{mod el_{1}\to mo d el}(Z \bowtie_{sped_{1}<sped_{2}} Z)) )\\
 &\ Z = \pi_{mod el, sped}(PC) \cup \pi_{mod el, sped}(Laptop)\\
-&\ B = \pi_{maker,sped}(pro d ucts \bowtie PC)
+
 \end{align}
 $$
-
+$$
+\begin{align}
+j) &\ \pi_{maker}(B_{1}\bowtie_{mode l_{1}\neq mod el_{2}\neq mod el_{3}\cap maker_{1}=maker_{2}\cap sped_{1}\neq sped_{2}\neq sped_{3}}B_{2}(\bowtie_{mode l_{3}\neq mod el_{2}\cap maker_{3}=maker_{2}\cap sped_{3}\neq sped_{2}}B_{3}=)\\
+&\ B = \pi_{maker,sped,mod el}(pro d ucts \bowtie PC) \\
+k) &\ 
+\end{align}
+$$
 # 2.4.2
 
 
