@@ -6,6 +6,21 @@ Sorteringsnøgle, det stykke data der samenliges, der mere data der flyttes, men
 
 # Insertionsort
 *kører tid $O(n^2)$*
+```c
+Insertionsort(A,n):
+	for i = 2 to n:
+		key = A[i]
+		// A[1:i-1] er sortet
+		j = i -1
+		while j > 0 and A[j]> key:
+			A[j+1] = A[j]
+			j = j -1
+		A[j+1] = key
 ```
 
-```
+
+# Selectionsort
+
+# Mergesort
+
+# Quciksort
