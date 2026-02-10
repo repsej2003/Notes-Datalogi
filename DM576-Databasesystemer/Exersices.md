@@ -74,7 +74,9 @@ f) &\ \pi_{hd}(\sigma_{pc_{1}.hd=pc_{2}.hd\cap pc_{1}.mod el != pc_{2}.mod el}(P
 &\ \pi_{hd}(PC\bowtie_{pc_{1}.hd=pc_{2}.hd\cap pc_{1}.mod el != pc_{2}.mod el} PC) \\
 g) &\ \pi_{pc_{1}.mod el, pc_{2}.mod el}(PC\bowtie_{PC_{1}.mod el>PC_{2}.mod el \cap PC_{1}.sped =PC_{2}.sped \cap PC_{1}.ram =PC_{2}.ram }PC) \\
 h) &\ \pi_{maker}(Prod uct\bowtie_{mod el=mode l_{1}}((\pi_{mod el,sped }(PC)\cup \pi_{mod el, sped}(Laptop))\bowtie_{mod el_{1} > mod el_{2}\cap sped_{1}>2.8 \cap sped_{2}>2.8}(\pi_{mod el,sped }(PC)\cup \pi_{mod el, sped}(Laptop))) \\
-i) &\ 
+i) &\  \pi_{maker}(prod uct \bowtie_{mod el=mode l_{1}}(\pi_{mode l}(Z) - \pi_{mod el_{1}\to mo d el}(Z \bowtie_{sped_{1}<sped_{2}} Z)) )\\
+&\ Z = \pi_{mod el, sped}(PC) \cup \pi_{mod el, sped}(Laptop)\\
+&\ B = \pi_{maker,sped}(pro d ucts \bowtie PC)
 \end{align}
 $$
 
