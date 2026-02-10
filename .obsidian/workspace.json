@@ -8,63 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "89a2f847779b49da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diskret matematik/TalTeroi.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TalTeroi"
-            }
-          },
-          {
-            "id": "d5cf717483736a89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Diskret matematik/Talfølger.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Talfølger"
-            }
-          },
-          {
-            "id": "4194eb747eaae84a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DM576-Databasesystemer/Database-intro.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Database-intro"
-            }
-          },
-          {
             "id": "0a8bffec8c5c789c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DM576-Databasesystemer/Exersices.md",
+                "file": "DM578-Algoritmer og Datastrukturer/Sorting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exersices"
+              "title": "Sorting"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -224,53 +180,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0a8bffec8c5c789c",
+  "active": "b9cb638ab782d8f7",
   "lastOpenFiles": [
-    "DM576-Databasesystemer/Database-intro.md",
     "DM576-Databasesystemer/Exersices.md",
+    "DM578-Algoritmer og Datastrukturer/Sorting.md",
+    "DM576-Databasesystemer/Database-intro.md",
     "AI501-kunstig intelligens/Intro.md",
     "DM575-Objektorienteret/Java.md",
     "DM575-Objektorienteret/OOP intro.md",
     "DM578-Algoritmer og Datastrukturer/Analyse af alogritmer.md",
     "DM578-Algoritmer og Datastrukturer/Intro til algoritmer og datastrukter.md",
     "attachments/Pasted image 20260202133729.png",
-    "Diskret matematik/Set.md",
+    "DM549 - Diskret matematik/Set.md",
     "AI501-kunstig intelligens",
     "DM578-Algoritmer og Datastrukturer",
     "DM575-Objektorienteret",
     "DM576-Databasesystemer",
-    "Diskret matematik/TalTeroi.md",
-    "Diskret matematik/Relation.md",
-    "Diskret matematik/Function.md",
-    "Diskret matematik/Propositional Equivalences (Ækivalenser).md",
-    "Diskret matematik/Logic Propositions.md",
-    "Diskret matematik/Kombinatorik.md",
-    "Diskret matematik/Matrices.md",
-    "Diskret matematik/Talfølger.md",
-    "Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
-    "Diskret matematik/Forelæsninger/Lecture21.pdf",
-    "Diskret matematik/Forelæsninger/Lecture20.pdf",
-    "Diskret matematik/Forelæsninger/Lecture19.pdf",
-    "Diskret matematik/Forelæsninger/Lecture Notes 16.pdf",
-    "Diskret matematik/Forelæsninger/Lecture20_notes.pdf",
-    "Diskret matematik/Forelæsninger/Lecture1.pdf",
-    "Diskret matematik/potens regne relger.md",
+    "DM549 - Diskret matematik/TalTeroi.md",
+    "DM549 - Diskret matematik/Relation.md",
+    "DM549 - Diskret matematik/Function.md",
+    "DM549 - Diskret matematik/Propositional Equivalences (Ækivalenser).md",
+    "DM549 - Diskret matematik/Logic Propositions.md",
+    "DM549 - Diskret matematik/Kombinatorik.md",
+    "DM549 - Diskret matematik/Matrices.md",
+    "DM549 - Diskret matematik/Talfølger.md",
+    "DM549 - Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
+    "DM549 - Diskret matematik/Forelæsninger/Lecture21.pdf",
+    "DM549 - Diskret matematik/Forelæsninger/Lecture20.pdf",
+    "DM549 - Diskret matematik/Forelæsninger/Lecture19.pdf",
+    "DM549 - Diskret matematik/Forelæsninger/Lecture Notes 16.pdf",
+    "DM549 - Diskret matematik/Forelæsninger/Lecture20_notes.pdf",
+    "DM549 - Diskret matematik/Forelæsninger/Lecture1.pdf",
+    "DM549 - Diskret matematik/potens regne relger.md",
     "attachments/Pasted image 20260112145331.png",
-    "Diskret matematik/Øvelsestimer - discret matematik.md",
+    "DM549 - Diskret matematik/Øvelsestimer - discret matematik.md",
     "attachments/Pasted image 20260106114403.png",
-    "Diskret matematik/Eksamen - ting fra lene.md",
-    "Diskret matematik/Recursive definitions.md",
-    "Diskret matematik/Intruduction to Proofs.md",
-    "Intro til datalogi/Øvelse.md",
+    "DM549 - Diskret matematik/Eksamen - ting fra lene.md",
+    "DM549 - Diskret matematik/Recursive definitions.md",
+    "DM549 - Diskret matematik/Intruduction to Proofs.md",
+    "DM573 - Intro til datalogi/Øvelse.md",
     "attachments/Pasted image 20251215154050.png",
-    "Intro til datalogi/regex.md",
+    "DM573 - Intro til datalogi/regex.md",
     "attachments/Pasted image 20251215101256.png",
     "attachments/Pasted image 20251210084321.png",
     "attachments/Pasted image 20251208155206.png",
     "attachments/Pasted image 20251208144857.png",
     "attachments/Pasted image 20251128090018.png",
-    "Intro til datalogi/Kryptologi.md",
-    "Intro til datalogi/Kortst vej i en graf.md",
+    "DM573 - Intro til datalogi/Kryptologi.md",
     "attachments/Pasted image 20251110093405.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
