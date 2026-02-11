@@ -41,6 +41,8 @@ bags are set that can cotain doublecates
 No data, just the structure
 
 
+
+$\rho$ is renaming
 # Keys
 Prima key, allways unicq , can be more than one attriubete,  to ensure they are 
 candidante keys, are possible primary keys, that are not nullable
