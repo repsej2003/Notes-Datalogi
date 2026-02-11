@@ -17,3 +17,6 @@ $\text{samlet tid}=\frac{O(n)}{\text{ops pr sek}}$
 det bedste tilfæde vore alle ikke står på deres rigtige, er der kredse af størelse af 2, så  er er $\frac{n}{2}$ kredse
 
 3.
+
+5.
+$O(n)$
