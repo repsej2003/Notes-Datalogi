@@ -37,8 +37,6 @@ where name like '%Royal%'
 
 
 # Null
-
-
 3 logic steps
 * true $1$
 * Unkown $\frac{1}{2}$
@@ -50,3 +48,77 @@ And is like minumin,
 Or is like maximum
 $not(x)$ is like $1-x$
 
+
+# Multi relations
+``` sql
+Crosproduct
+
+Select pc.model, laptop.model
+From pc ,laptop
+
+eller
+
+Select pc.model, laptop.model
+From pc cross join laptop
+
+Eller
+
+Select  maker, price
+From pc, product
+where Product.model = pc.model
+
+### Joins
+
+R CROSS JOIN S -- cartesike product
+
+R NATURAL join S
+
+R JOIN S ON Condition
+
+
+Eksample:
+
+SELECT maker, speed
+FROM Product NATURAL JOIN laptop
+WHERE hd >= 30;
+```
+
+
+
+## Set 
+```sql
+R UNION S
+
+R INTERSECT S
+
+R EXCEPT S
+
+
+--Example
+(SELECT maker
+FROM product
+WHERE type = 'laptop')
+EXCEPT 
+(SELECT maker 
+from product
+WHERE type = 'PC')
+
+
+(SELECT model, price
+FROM product NATURAL JOIN PC
+WHERE maker = 'B')
+
+UNION
+
+(SELECT model, price
+FROM product NATURAL JOIN Laptop
+WHERE maker = 'B')
+
+UNION
+
+(SELECT model, price
+FROM product NATURAL JOIN printer
+WHERE maker = 'B')
+
+```
+This resluts in a set, not a bag
