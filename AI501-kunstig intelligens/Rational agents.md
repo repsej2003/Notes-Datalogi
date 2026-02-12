@@ -61,15 +61,13 @@ Excelent in simple envirmetns full obserbalve
 ![[Pasted image 20260212154057.png]]
 
 ```tikz
-\usepackage{circuitikz}
 \begin{document}
-
-\begin{circuitikz}
-
-\draw  [line width=2pt] (0,0) rectangle (10,10);
-\draw  [line width=2pt] (5,0) rectangle (2,2);
-
-\end{circuitikz}
+  \begin{tikzpicture}
+    \draw[very thin,color=gray] (-5,-5) grid (5,5);
+	  \draw[line width=2pt, rounded corners=10pt] (-5,-5) rectangle (1,5);
+	  \draw[line width=2pt, rounded corners=10pt] (2,-5) rectangle (5,5);
+		  \draw[->,line width=2pt] (3,3) -- (0,3) node[left,font=\large] {Sensors};
+  \end{tikzpicture}
 \end{document}
 ```
 
