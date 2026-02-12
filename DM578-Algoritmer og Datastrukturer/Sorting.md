@@ -20,7 +20,19 @@ Insertionsort(A,n):
 
 
 # Selectionsort
+Kan gøres i inplace
+kører $O(n^2)$
+```c
+indlist
+udliste
+while indlist ikke tom:
+	find mindst i indlist  x
+	sæt x in i udlist
+
+```
 
 # Mergesort
 
 # Quciksort
+
+# Heapsort
