@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Sorting.md",
+                "file": "DM578-Algoritmer og Datastrukturer/Øvelser.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sorting"
+              "title": "Øvelser"
             }
           },
           {
@@ -226,6 +226,7 @@
   },
   "active": "3b00118f47a962c3",
   "lastOpenFiles": [
+    "DM578-Algoritmer og Datastrukturer/Sorting.md",
     "DM576-Databasesystemer/SQL.md",
     "DM573 - Intro til datalogi/Øvelse.md",
     "DM576-Databasesystemer/Database-intro.md",
@@ -236,7 +237,6 @@
     "DM573 - Intro til datalogi/Kryptologi.md",
     "DM573 - Intro til datalogi/Kortst vej i en graf.md",
     "DM573 - Intro til datalogi/Gates - Boolsk algebra.md",
-    "DM578-Algoritmer og Datastrukturer/Sorting.md",
     "DM576-Databasesystemer/Exersices.md",
     "AI501-kunstig intelligens/Intro.md",
     "DM575-Objektorienteret/Java.md",

@@ -32,7 +32,7 @@ while indlist ikke tom:
 ```
 
 # Mergesort
-
+$O(n\cdot \log n)$
 # Quciksort
 
 # Heapsort
