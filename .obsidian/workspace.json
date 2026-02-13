@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI501-kunstig intelligens/Rational agents.md",
+                "file": "DM576-Databasesystemer/Exersices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rational agents"
+              "title": "Exersices"
             }
           }
         ],
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -212,6 +213,10 @@
   },
   "active": "a76560c9eefefbbc",
   "lastOpenFiles": [
+    "DM576-Databasesystemer/Database-intro.md",
+    "DM576-Databasesystemer/SQL.md",
+    "DM576-Databasesystemer/Exersices.md",
+    "AI501-kunstig intelligens/Rational agents.md",
     "attachments/Pasted image 20260212154236.png",
     "attachments/Pasted image 20260212154217.png",
     "attachments/Pasted image 20260212154151.png",
@@ -219,19 +224,15 @@
     "attachments/Pasted image 20260212154057.png",
     "DM573 - Intro til datalogi/Øvelse.md",
     "Untitled.canvas",
-    "AI501-kunstig intelligens/Rational agents.md",
     "AI501-kunstig intelligens/Intro.md",
     "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
-    "DM576-Databasesystemer/SQL.md",
-    "DM576-Databasesystemer/Database-intro.md",
     "DM573 - Intro til datalogi/Online algortimer.md",
     "DM573 - Intro til datalogi/Algoritmer, asymptotisk notation, invarianter,.md",
     "DM573 - Intro til datalogi/Merging and Hashing.md",
     "DM573 - Intro til datalogi/Kryptologi.md",
     "DM573 - Intro til datalogi/Kortst vej i en graf.md",
     "DM573 - Intro til datalogi/Gates - Boolsk algebra.md",
-    "DM576-Databasesystemer/Exersices.md",
     "DM575-Objektorienteret/Java.md",
     "DM575-Objektorienteret/OOP intro.md",
     "DM578-Algoritmer og Datastrukturer/Analyse af alogritmer.md",
@@ -258,7 +259,6 @@
     "attachments/Pasted image 20260106114403.png",
     "attachments/Pasted image 20251215154050.png",
     "attachments/Pasted image 20251215101256.png",
-    "attachments/Pasted image 20251210084321.png",
     "Untitled 1.canvas"
   ]
 }
