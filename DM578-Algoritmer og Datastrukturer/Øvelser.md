@@ -22,3 +22,11 @@ det bedste tilfæde vore alle ikke står på deres rigtige, er der kredse af st�
 $O(n)$
 
 # Uge 8 B
+2)
+sætning 1
+$$
+\lim_{ n \to \infty } \frac{0.1\cdot n ^2+5\cdot n+25}{n^2} = 0.1+\frac{5}{n} +\frac{25}{n^2}= 0.1
+$$
+sætning 2
+
+3)

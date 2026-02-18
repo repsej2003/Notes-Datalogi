@@ -34,3 +34,6 @@ Så analyse resluter en en funktion, der siger worst case for et givet n input
 To kan samlignes, den der bliver mindst når n bliver stor nok er bedst
 
 asymptotisk voksehatighed at sammenligne disse funktioner
+
+
+#
