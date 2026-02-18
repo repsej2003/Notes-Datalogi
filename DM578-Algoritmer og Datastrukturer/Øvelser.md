@@ -20,3 +20,5 @@ det bedste tilfæde vore alle ikke står på deres rigtige, er der kredse af st�
 
 5.
 $O(n)$
+
+# Uge 8 B
