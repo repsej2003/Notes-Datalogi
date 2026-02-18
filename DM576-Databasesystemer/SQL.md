@@ -76,6 +76,8 @@ R NATURAL join S
 R JOIN S ON Condition
 
 
+R [NATURAL] [FULL, RIGHT, LEFT] OUTER JOIN S [ON]
+
 Eksample:
 
 SELECT maker, speed
@@ -122,3 +124,37 @@ WHERE maker = 'B')
 
 ```
 This resluts in a set, not a bag
+
+To force it to do it like a bage 
+`.. UNION ALL ..`
+
+# Distinct
+`SELECT DISTINCT ...`
+
+# Ordering
+```sql
+ORDER BY L1, l2 ASC --or DESC
+```
+
+# Limit
+```sql
+Limit -- How many rows to return, from top, can be offset
+```
+
+# AGGREGATIONS
+laver et array og kallder en en kúntion på det array
+
+
+# Grouping
+```sql
+SELECT -- alt i select skal endten være i agg funktion eller i group by list
+
+GROUP BY l -- list
+```
+
+# HAVING
+```sql
+
+GROUP BY 
+HAVING (condition)
+```
