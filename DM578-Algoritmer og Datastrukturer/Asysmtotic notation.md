@@ -2,7 +2,7 @@
 
 $$
 \begin{align}
-f(n)\in O(g(n)) \ \Leftrightarrow \\  \\
+f(n)= O(g(n)) \ \Leftrightarrow \\  \\
 
 \exists k>0,n_{0}:\forall n\geq n_{0}:f(n)\leq k\cdot g(n)
 \end{align}
@@ -11,7 +11,7 @@ $$
 # $\Omega$ (Omgea)
 $$
 \begin{align}
-f(n)\in \Omega(g(n)) \ \Leftrightarrow \\  \\
+f(n)= \Omega(g(n)) \ \Leftrightarrow \\  \\
 
 \exists k>0,n_{0}:\forall n\geq n_{0}:f(n)\geq k\cdot g(n)
 \end{align}
