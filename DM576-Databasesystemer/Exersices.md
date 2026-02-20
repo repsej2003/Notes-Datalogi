@@ -271,3 +271,123 @@ WHERE ship1 = ship2 and date2 > date1
 f)
 
 ```
+
+
+# 6.3.1 USe Exists, in, all and any
+```sql
+a)
+SELECT DISTINCT maker
+from Product
+WHERE model IN (
+	SELECT model
+	from PC
+	WHERE speed >= 3.0
+	) AND type = 'pc'
+
+eller
+
+SELECT DISTINCT maker
+from product p
+WHERE type = 'pc' and
+EXISTS (
+SELECT *
+From PC
+where model = p.model
+and speed >= 3.0);
+
+b)
+SELECT *
+from printer p 
+where price >= ALL (SELECT price from printer where model <> p.model);
+
+eller
+SELECT *
+from printer p
+where NOT  EXISTS (SELECT * FROM printer WHERE price > p.price)
+
+c)
+SELECT * 
+FROM laptop
+WHERE speed < ALL (SELECT speed from pc)
+
+or
+
+???
+SELECT *
+FROM laptop lt
+where speed ???
+
+d)
+SELECT model
+from (SELECT model, price from PC 
+UNION 
+SELECT model, price from laptop
+UNION 
+SELECT model, price from printer
+)
+order by price desc
+limit 1;
+
+eller 
+????
+
+
+e)
+
+SELECT *
+FROM product p join printer pr on p.model = pr.model
+where pr.price <= all (SELECT price from printer where color = true)
+
+ELLER
+
+SELECT *
+FROM product p join printer pr on p.model = pr.model
+where pr.price = (SELECT MIN(price) from printer where color = true)
+
+
+
+
+
+```
+# 6.3.2
+```sql
+a)
+SELECT DISTINCT country
+FROM Classes
+where numGuns = (SELECT max(numGuns) FROM Classes)
+
+b)
+SELECT *
+FROM classes c
+WHERE 'sunk' = any (SELECT result FROM Outcomes JOIN Ships ON ship = name where c.class == class)
+
+eller
+
+SELECT class
+FROM classes c
+WHERE class in (SELECT class FROM Outcomes JOIN Ships ON ship = name where result = 'sunk' )
+
+
+c)
+SELECT name
+from ships S
+where 16 = (SELECT bore FROM classes where class = S.name)
+
+d)
+SELECT *
+FROM outcomes O
+WHERE 'Kongo' = (SELECT class FROM ships where O.ship = name)
+
+
+```
+
+
+# 5.2.1
+
+
+a) $\{ (1,0,1),(5,4,9),(0,0,1), (6,4,16),(7,9,16)\}$
+c) $\{ (1,0),(3,2),(1,0),(4,2),(4,3) \}$
+e) $\{ (0,1),(2,3),(2,4),(3,4) \}$
+g) $\{ (0,2),(2,7),(3,4) \}$
+k) $\{ (0,1,n ull),(2,3,4),(2,3,4),(0,1,n ull),(2,4,n ull),(3,4,null) \}$
+
