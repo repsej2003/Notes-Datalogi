@@ -27,7 +27,7 @@ A path is a sequence of actions
 A soluion is a path starting from the inital state and ending in a goal
 
 
-(0,5)
+	(0,5)
 (3,2)
 (0,2)
 (2,0)
