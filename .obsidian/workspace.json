@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Øvelser.md",
+                "file": "DM576-Databasesystemer/How to degsign a database.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Øvelser"
+              "title": "How to degsign a database"
             }
           },
           {
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -211,8 +212,9 @@
   },
   "active": "45fdb2dfd54b7554",
   "lastOpenFiles": [
-    "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
     "DM578-Algoritmer og Datastrukturer/Øvelser.md",
+    "DM576-Databasesystemer/How to degsign a database.md",
+    "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
     "attachments/Pasted image 20260223111244.png",
     "attachments/Pasted image 20260223110232.png",
     "DM576-Databasesystemer/Exersices.md",
