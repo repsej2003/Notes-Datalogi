@@ -31,7 +31,7 @@ $$
 \begin{align}
 f(n)\in o(g(n)) \ \Leftrightarrow \\  \\
 
-\exists n_{0}:\forall k>0, n\geq n_{0}:f(n)\leq k\cdot g(n)
+\exists n_{0}:\forall k>0, n\geq n_{0}:f(n)< k\cdot g(n)
 \end{align}
 $$
 
@@ -40,7 +40,7 @@ $$
 \begin{align}
 f(n)\in \omega(g(n)) \ \Leftrightarrow \\  \\
 
-\exists n_{0}:\forall k>0, n\geq n_{0}:f(n)\geq k\cdot g(n)
+\exists n_{0}:\forall k>0, n\geq n_{0}:f(n)> k\cdot g(n)
 \end{align}
 $$
 

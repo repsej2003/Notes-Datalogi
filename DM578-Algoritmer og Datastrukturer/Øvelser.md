@@ -30,3 +30,30 @@ $$
 sætning 2
 
 3)
+
+
+## Uge 8 hjemme del 2
+
+
+2)
+det ville være hurtige at finde den rigtige plads, men det skulle stadig flytte alle til højrer for den så det ville stadig tage $O(n^2)$
+
+3)
+![[Pasted image 20260223110232.png]]
+$$
+2^{n+1}=2\cdot 2^n
+$$
+Så jeg kan vælge en konstant der er højre end 2, der med er den maks så stor
+
+$$
+\lim_{ n \to \infty } \frac{2^n}{2^{2n}}=\frac{2^n}{2^n\cdot 2^n}=\frac{1}{2 ^ n}= 0\implies 2^n=o(2^{2n})\implies 2^n=O(2^{2n})
+$$
+
+4)
+![[Pasted image 20260223111244.png]]
+$$
+\lim_{ n \to \infty }\frac{2^n}{n!}=0\implies 2^n=o(n!) \Leftrightarrow n! = \omega (2^n)
+$$
+$$
+\lim_{ n \to \infty } \frac{n!}{n^n}=0 \implies n! = o(n^n) 
+$$
