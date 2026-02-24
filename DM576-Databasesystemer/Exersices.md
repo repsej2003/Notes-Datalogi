@@ -391,3 +391,132 @@ e) $\{ (0,1),(2,3),(2,4),(3,4) \}$
 g) $\{ (0,2),(2,7),(3,4) \}$
 k) $\{ (0,1,n ull),(2,3,4),(2,3,4),(0,1,n ull),(2,4,n ull),(3,4,null) \}$
 
+# 6.4.1
+
+```sql
+a)
+SELECT DISTINCT model
+FROM PC
+WHERE speed >= 3.00
+
+c)
+SELECT model
+FROM Product NATURAL JOIN PC
+WHERE maker = 'B'
+UNION
+SELECT model
+FROM Product NATURAL JOIN Laptop
+WHERE maker = 'B'
+UNION
+SELECT model
+FROM Product NATURAL JOIN Printer
+WHERE maker = 'B'
+
+h)
+SELECT DISTINCT maker
+FROM (SELECT speed, model, maker FROM Product NATURAL JOIN PC
+	UNION
+	SELECT speed, model, maker FROM Product NATURAL JOIN laptop) out
+WHERE speed >= 2.8 AND EXISTS (SELECT * 
+	FROM (SELECT speed, model, maker FROM Product NATURAL JOIN PC
+			UNION
+		SELECT speed, model, maker FROM Product NATURAL JOIN laptop)
+	where out.model <> model and speed >= 2.8 and out.maker = maker);
+	
+```
+# 6.4.2
+```sql
+g)
+
+SELECT DISTINCT class
+from ships out
+WHERE NOT EXISTS (SELECT * FROM ships WHERE out.name <> name AND out.class = class)
+
+```
+
+# 6.4.6
+```sql
+a)
+SELECT AVG(speed)
+FROM pc
+
+b)
+SELECT AVG(speed)
+FROM laptop
+WHERE price <1000
+
+d)
+SELECT avg(price)
+FROM ((SELECT price, product.model FROM Product Join  PC ON pc.model = Product.model and maker = 'D') union
+	 (SELECT price, product.model FROM Product Join  Laptop ON laptop.model = Product.model and maker = 'D'))
+	 
+e)
+SELECT SPeed, avg(price)
+FROm PC
+GROUP BY speed
+
+f)
+SELECT maker, avg(screen)
+FROM laptop NATURAL JOIN product
+GROUP BY maker
+
+g)
+SELECT maker
+FROM product NATURAL JOIN pc
+GROUP BY maker
+HAVING count(*) >=3
+
+h)
+SELECT maker
+FROM product NATURAL JOIN pc
+WHERE price >= (SELECT max(price) from pc)
+
+SELECT maker, max(price)
+from product NATURAL JOIN pc
+GROuP by maker 
+
+
+i)
+SELECT speed, avg(price)
+FRom PC
+WHERE speed > 2.00
+GROUP by speed
+
+```
+
+# 6.4.7
+```sql
+a)
+SELECT count(class)
+from classes
+
+d)
+SELECT class, min(launched) as fist_launch
+FROM ships
+GROUP BY class
+
+e)
+SELECT class, count(result)
+FROM ships left join outcomes ON ships.name= outcomes.ship and result = 'sunk'
+GROUP BY class
+```
+
+# 6.5.1
+```sql
+a)
+INSERT INTO PC
+values (1100, 3.2, 1024, 180, 2499);
+
+INSERT INTO Product
+values ('C', 1100, 'PC');
+
+b)
+
+c)
+DELETE FROM PC WHERE hd < 100;
+
+d)
+DELETE FROM laptop WHERE 
+
+
+```

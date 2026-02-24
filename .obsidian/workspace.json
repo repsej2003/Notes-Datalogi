@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Divede and conquer.md",
+                "file": "DM576-Databasesystemer/Exersices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Divede and conquer"
+              "title": "Exersices"
             }
           },
           {
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -211,8 +212,8 @@
   },
   "active": "45fdb2dfd54b7554",
   "lastOpenFiles": [
-    "DM576-Databasesystemer/How to degsign a database.md",
     "DM578-Algoritmer og Datastrukturer/Divede and conquer.md",
+    "DM576-Databasesystemer/How to degsign a database.md",
     "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
     "attachments/Pasted image 20260223111244.png",
