@@ -511,12 +511,29 @@ INSERT INTO Product
 values ('C', 1100, 'PC');
 
 b)
+INSERT INTO laptop
+SELECT model +1100, speed, ram, hd, 17, price+500 FROM PC;
+
+INSERT into product
+SELECT maker, model+ 1100, 'laptop' FROM product where type='pc'
 
 c)
 DELETE FROM PC WHERE hd < 100;
 
 d)
-DELETE FROM laptop WHERE 
+DELETE FROM laptop lp WHERE not exists (SELECT * FROM product where type = 'printer' and (SELECT maker FROM product where model= lp.model) = maker)
 
+e)
+UPDATE Product
+SET maker = 'A'
+WHERE maker = 'B'
 
+f)
+UPDATE PC
+SET ram=ram*2, hd=hd+60
+
+g)
+UPDATE laptop
+SET screen=screen+1, price=price-100
+WHERE model IN (SELECT model FROM product WHERE maker = 'B')
 ```
