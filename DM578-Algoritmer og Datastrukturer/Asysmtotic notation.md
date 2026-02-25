@@ -56,3 +56,8 @@ hvis \frac{f(n)}{g(n)}\to 0for\ n\to \infty  & \Leftrightarrow f(n)=o(g(n))
 \end{align}
 $$
 Den støreste funktion skal stå  nederest
+
+
+![[Pasted image 20260225132712.png]]
+![[Pasted image 20260225132736.png]]
+![[Pasted image 20260225132751.png]]

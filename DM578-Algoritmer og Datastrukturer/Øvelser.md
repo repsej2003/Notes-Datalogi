@@ -106,3 +106,35 @@ alg2
 $\Theta(n^3)$
 
 ### Del 2 (hjemme)
+![[Pasted image 20260225132628.png]]
+1)sandt
+2) flask
+3) sandt
+4) sandt
+5) Sandt
+
+2)
+alg3
+$\Theta(n^2)$
+
+alg4
+$\Theta(n ^3)$
+
+3)
+
+
+4)
+
+![[Pasted image 20260225134417.png]]
+A)
+2,1
+3,1
+8,6
+8,1
+6,1
+
+b)
+revsed $n, n-1 \dots,2,1$
+
+
+

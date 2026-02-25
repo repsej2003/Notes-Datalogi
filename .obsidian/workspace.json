@@ -49,8 +49,7 @@
               "title": "Asysmtotic notation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -210,10 +210,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26f84b44016bd531",
+  "active": "45fdb2dfd54b7554",
   "lastOpenFiles": [
-    "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
+    "DM578-Algoritmer og Datastrukturer/Øvelser.md",
+    "attachments/Pasted image 20260225134417.png",
+    "attachments/Pasted image 20260225132751.png",
+    "attachments/Pasted image 20260225132747.png",
+    "attachments/Pasted image 20260225132736.png",
+    "attachments/Pasted image 20260225132712.png",
+    "attachments/Pasted image 20260225132628.png",
     "attachments/Pasted image 20260225125306.png",
     "attachments/Pasted image 20260225123332.png",
     "DM576-Databasesystemer/Exersices.md",
@@ -230,11 +236,6 @@
     "DM578-Algoritmer og Datastrukturer/Analyse af alogritmer.md",
     "DM578-Algoritmer og Datastrukturer/Intro til algoritmer og datastrukter.md",
     "DM576-Databasesystemer/Database-intro.md",
-    "attachments/Pasted image 20260212154236.png",
-    "attachments/Pasted image 20260212154217.png",
-    "attachments/Pasted image 20260212154151.png",
-    "attachments/Pasted image 20260212154109.png",
-    "attachments/Pasted image 20260212154057.png",
     "DM573 - Intro til datalogi/Øvelse.md",
     "Untitled.canvas",
     "AI501-kunstig intelligens/Intro.md",
@@ -245,7 +246,6 @@
     "DM573 - Intro til datalogi/Gates - Boolsk algebra.md",
     "DM575-Objektorienteret/Java.md",
     "DM575-Objektorienteret/OOP intro.md",
-    "attachments/Pasted image 20260202133729.png",
     "AI501-kunstig intelligens",
     "DM578-Algoritmer og Datastrukturer",
     "DM575-Objektorienteret",
