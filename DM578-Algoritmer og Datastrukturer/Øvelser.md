@@ -43,11 +43,15 @@ det ville være hurtige at finde den rigtige plads, men det skulle stadig flytte
 $$
 2^{n+1}=2\cdot 2^n
 $$
+$$
+\lim_{ n \to \infty } \frac{2^n\cdot 2}{2^n}=2
+$$
 Så jeg kan vælge en konstant der er højre end 2, der med er den maks så stor
 
 $$
-\lim_{ n \to \infty } \frac{2^n}{2^{2n}}=\frac{2^n}{2^n\cdot 2^n}=\frac{1}{2 ^ n}= 0\implies 2^n=o(2^{2n})\implies 2^n=O(2^{2n})
+\lim_{ n \to \infty } \frac{2^n}{2^{2n}}=\frac{2^n}{2^n\cdot 2^n}=\frac{1}{2 ^ n}= 0\implies 2^n=o(2^{2n})\implies 2^{n}=O(2^{2n})
 $$
+Så der for passer det ikke
 
 4)
 ![[Pasted image 20260223111244.png]]
@@ -57,3 +61,48 @@ $$
 $$
 \lim_{ n \to \infty } \frac{n!}{n^n}=0 \implies n! = o(n^n) 
 $$
+
+# uge 9 
+###  Del 1
+![[Pasted image 20260225123332.png]]
+$$
+\log_{2}n,(\log_{10}n)^2,\sqrt{ n },n, 2^n
+$$
+2.
+a) true
+b) True
+c) True
+d) false
+e) falsk
+f) falsk
+g) falsk ($\frac{\sqrt{ n }}{\sqrt{ n }\cdot \log_{2}n}=0\implies \sqrt{ n }=o(\sqrt{ n }\cdot \log n)$)
+h) Sandt 
+i) Sandt
+j) sandt $\frac{(\log n)^3}{n \log n}= 0\implies \log^3 n = o(n \log n)$
+
+3.
+![[Pasted image 20260225125306.png]]
+a)
+sandt
+
+b) 
+sandt
+
+c)
+$f_{1}=n²$
+$f_{2}=n$
+
+$g_{1}=n^2$
+$g_{2}=n^2$
+
+falsk
+
+4.
+alg1
+$\Theta(n^2)$
+
+
+alg2
+$\Theta(n^3)$
+
+### Del 2 (hjemme)
