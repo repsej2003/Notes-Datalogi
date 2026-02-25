@@ -17,6 +17,31 @@ a)
 | --------------- | ------------------------------------------------------------------------------------------ |
 | Actions         | Turn right<br>Turn left<br>Move forward                                                    |
 | Transtion model | turn actions change orationer, to a adjacnet oritation<br>move forward a certiain distence |
-|                 |                                                                                            |
+| costs           | ting man har set dyre før dyre                                                             |
+| goal            | outside the maze                                                                           |
+$all possible postions \times directions$
 
+b)
 
+| Intial state    | Center of mace facing north                                                                |
+| --------------- | ------------------------------------------------------------------------------------------ |
+| Actions         | Turn right<br>Turn left<br>Move forward to interctions or wall                             |
+| Transtion model | turn actions change orationer, to a adjacnet oritation<br>move forward a certiain distence |
+| costs           |                                                                                            |
+| goal            | outside the maze                                                                           |
+$antal gange \times directions$
+
+c)
+
+| Intial state    | Center of mace facing north                                  |
+| --------------- | ------------------------------------------------------------ |
+| Actions         | Move Direction till turning point                            |
+| Transtion model | flyt need a direction indtil den har mulighed for vælge igen |
+| costs           |                                                              |
+| goal            | outside the maze                                             |
+only the possible aciont of a given state can take
+
+d)
+1) der er kun 4 retninger
+2) Stop before hitting wall
+3) kvadrisk
