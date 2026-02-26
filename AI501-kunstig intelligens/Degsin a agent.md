@@ -52,3 +52,12 @@ Is it good
 * Admissible heuristict never overstimates the cost reach the goal
 * Consistent heuristic: for every node $n$  and every succesor  $n'$ of $n$ the estimanted cost of reacing the goal is no grater the step of getting to$n'$ plus the stimated cost of reaching the goal from $n'$
 Hvor meget arbejde er der inden goal state 
+
+
+
+# partially observable envimert
+* local information, the agent has only access to adjacent states
+	* no need much memor
+	* It can work in infinte space
+	* Just imporve curent state,, no planing
+	* Unfinde local menmu
