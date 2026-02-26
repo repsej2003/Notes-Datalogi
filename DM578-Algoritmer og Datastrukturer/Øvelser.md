@@ -138,6 +138,8 @@ revsed $n, n-1 \dots,2,1$
 
 c)
 
+d)
+
 
 
 
