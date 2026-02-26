@@ -35,4 +35,21 @@ while indlist ikke tom:
 $O(n\cdot \log n)$
 # Quciksort
 
+$\Theta(n\log n)$
 # Heapsort
+En heap
+1. et binært træ
+2. med heap orden
+	1. max heap orden, forældre er større end begge børn, (min heap orden, hvor forældre er mindre end børn)
+3. og heap- facon
+	1. et fuldt binært træ, men med undtagelse at det nederste lag er fyldt fra venstre, 
+4. udlagt i et array
+	1. top -down , venstr-højre gennem hvertlag
+		1. hvert barn findes ved $2\cdot i$ og $2\cdot i +1$ hvor i knude index
+
+#### Fuldt binært træ
+Et fuldt træ med højde h har 
+$1+2+4+\dots+2^h=\sum_{i=0}^{h}2^i=2^{h+1}-1$
+knuder
+
+heraf $2^h$ blade
