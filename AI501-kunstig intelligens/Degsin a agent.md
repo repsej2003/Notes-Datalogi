@@ -33,3 +33,22 @@ A soluion is a path starting from the inital state and ending in a goal
 (2,0)
 (2,5)
 (3,4)
+
+
+# Tree search vs graph search
+tree search 
+- cannot detet loops
+- dont track vistited states
+
+graph seact
+* Track vistes states
+
+Alllways billed treac
+
+
+# informed search
+Heuristictis estiamet the distance to goal
+Is it good
+* Admissible heuristict never overstimates the cost reach the goal
+* Consistent heuristic: for every node $n$  and every succesor of $n'$ of $n$ the estimanted cost of reacing the goal is no grater the step of getting to$n'$ plus the stimated cost of reaching the goal from $n'$
+Hvor meget arbejde er der inden goal state 
