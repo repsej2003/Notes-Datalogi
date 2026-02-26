@@ -139,6 +139,9 @@ revsed $n, n-1 \dots,2,1$
 c)
 
 d)
+For vær gang vi tager noget fra højre array merge stiger vores counter med 1, starte rmed nul .
+Hver gang vi tager fra venstre ligger vi til vores sum vores counter
+
 
 
 
