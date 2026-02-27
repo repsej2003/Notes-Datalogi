@@ -538,4 +538,17 @@ SET screen=screen+1, price=price-100
 WHERE model IN (SELECT model FROM product WHERE maker = 'B')
 ```
 
+# 3.1.1
+$$
+\begin{align}
+zip code &\to state, city \\
+SS\# &\to name \\
+state &\to Area code \\
+areacode, phone\# &\to name \\
+SS\# &\to street address, city, state , zipcode
+\end{align}
+$$
 
+key - $SS\#, phone\#$
+
+# 3.2.1

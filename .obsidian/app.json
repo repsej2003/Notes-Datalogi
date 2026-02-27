@@ -1,6 +1,6 @@
 {
   "attachmentFolderPath": "attachments",
   "alwaysUpdateLinks": true,
-  "vimMode": false,
+  "vimMode": true,
   "showLineNumber": true
 }
