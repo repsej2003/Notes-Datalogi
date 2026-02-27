@@ -567,3 +567,30 @@ iii) keys $\{ A,B,C,D \}$
 
 # 3.2.10
 A)
+$$
+\begin{align}
+C&\to A \\
+AB&\to C
+\end{align}
+$$
+B)
+$$
+\begin{align}
+AC\to B
+\end{align}
+$$
+C)
+$$
+\begin{align}
+AC\to B \\
+BC\to A
+\end{align}
+$$
+D)
+$$
+\begin{align}
+A\to B \\
+B\to C \\
+C\to A
+\end{align}
+$$
