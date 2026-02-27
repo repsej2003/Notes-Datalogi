@@ -552,3 +552,18 @@ $$
 key - $SS\#, phone\#$
 
 # 3.2.1
+i)
+
+$\{ A \}$
+
+Anytinh med A
+
+ii)
+
+Key $\{ AB,AD,BC,CD \}$
+
+iii) keys $\{ A,B,C,D \}$
+
+
+# 3.2.10
+A)
