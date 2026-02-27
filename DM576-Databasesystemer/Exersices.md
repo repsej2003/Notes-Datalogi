@@ -537,3 +537,5 @@ UPDATE laptop
 SET screen=screen+1, price=price-100
 WHERE model IN (SELECT model FROM product WHERE maker = 'B')
 ```
+
+
