@@ -26,7 +26,20 @@ i needs to be minmal
 
 K is a key for R if K is a superkey, but no proper subset of K is a superkey
 
-
+## Normalforms
+### 1NF (the key)
+* no list(only atomic values)
+* There ae no repationg groups or atributes
+* we need a key
+* 
+### 2NF (the whole key)
+* Every atribute need to depend on the whole key
+* 
+### 3NF (and nothing but the key)
+* no transtitive dependencies
+* 
+### BCNF
+- all FD, skal værer superkeys på venstre side
 
 
 # Conteption way (ER-diagram)
