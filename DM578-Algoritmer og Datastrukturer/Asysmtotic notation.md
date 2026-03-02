@@ -16,7 +16,7 @@ f(n)= \Omega(g(n)) \ \Leftrightarrow \\  \\
 \exists k>0,n_{0}:\forall n\geq n_{0}:f(n)\geq k\cdot g(n)
 \end{align}
 $$
-$f(n)$ vokser mindst så hurtigt som funktuner fra $g(n)$ klasse
+$f(n)$ vokser mindst så hurtigt som funktioner fra $g(n)$ klasse
 # $\Theta$ (theta)
 $$
 \begin{align}

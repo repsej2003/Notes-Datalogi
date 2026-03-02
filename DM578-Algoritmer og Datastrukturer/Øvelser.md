@@ -107,7 +107,7 @@ $\Theta(n^3)$
 
 ### Del 2 (hjemme)
 ![[Pasted image 20260225132628.png]]
-1)sandt
+1) sandt
 2) flask
 3) sandt
 4) sandt
@@ -143,6 +143,55 @@ For vær gang vi tager noget fra højre array merge stiger vores counter med 1, 
 Hver gang vi tager fra venstre ligger vi til vores sum vores counter
 
 
+# uge 10 Del 1
+1.
+7.1-1
+$$
+\begin{align}
+\{ 13,19,5,12,8,7,4,21,2,6,11 \} \\
+\{ 5,19,13,12,8,7,4,21,2,6,11 \} \\
+\{ 5,8,13,12,19,7,4,21,2,6,11 \} \\
+\{ 5,8,7,12,19,13,4,21,2,6,11 \} \\
+\{ 5,8,7,4,19,13,12,21,2,6,11 \} \\
+\{ 5,8,7,4,2,13,12,21,19,6,11 \} \\
+\{ 5,8,7,4,2,6,12,21,19,13,11 \} \\
+\{ 5,8,7,4,2,6,11,21,19,13,12 \} \\
+\end{align}
+$$
+
+2.
+7.1-2
+$r$
+Tilad ting der er lige med pivot til at lille på begge sidder, og så skifte hvis lægge dem på den en eller den anden siden
+
+3.
+7.2-2
+
+$\Theta(n ^2)$
+for array vi arbejde bliver kun en korter pr quick sort kald
+
+
+4.
+7.2-3
+den vil kun tage et element af gange for, der vil aldrig blive byttet op mere end enden og starten
+
+
+5.
+
+|                 | best Case  | Worst-case | Sorteret input |
+| --------------- | ---------- | ---------- | -------------- |
+| Insertions Sort | $n$        | $n^2$      | $n$            |
+| Merge sort      | $n\log n$  | $n\log n$  | $n\log n$      |
+| Quicksort       | $n \log n$ | $n²$       | $n²$           |
+
+
+6.
+7-2 b)
+Vi laver et tre rul i tilfælde af at den er mindre 
+ligmed laver det vi før gjorde hvis car mindre eller ligememd
+større udvider j
 
 
 
+7.2-2
+$\Theta(n)$
