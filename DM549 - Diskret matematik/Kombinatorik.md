@@ -55,7 +55,7 @@ n  \\
 r
 \end{pmatrix}=\frac{P(n,r)}{r!}=\frac{n!}{r!(n-r)!}
 $$
-antal delmængde med cardinatl r ud af et set r
+antal delmængde med cardinatl r ud af et set n
 
 
 # med reption

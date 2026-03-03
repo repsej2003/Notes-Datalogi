@@ -45,3 +45,34 @@ d)
 1) der er kun 4 retninger
 2) Stop before hitting wall
 3) kvadrisk
+
+
+# 3.1.6
+
+![[Pasted image 20260303141658.png]]
+a)
+
+| Intial state    | 3 missonærs på venstre side<br>3 kanibaler på venstre siden<br>1 båd på venstre siden |
+| --------------- | ------------------------------------------------------------------------------------- |
+| Actions         | Move boat with 1 or 2 persons to outher sider                                         |
+| Transtion model | Lose if on a side more kanibals than missinær                                         |
+| costs           |                                                                                       |
+| goal            | All mensker på højre sidde                                                            |
+all states
+$$
+\begin{pmatrix}
+7 \\
+1
+\end{pmatrix}
+
+$$
+der findes  på venstre sidden, all with both on the left, and on right
+1. 3 m 3 k
+2. 3 m 2 k
+3. 3m 1k
+4. 3m 0k
+5. 2m 2k
+6. 1m 1k
+
+b)
+# 3.1.7 

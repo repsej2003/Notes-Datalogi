@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DM576-Databasesystemer/How to degsign a database.md",
+                "file": "AI501-kunstig intelligens/Øvelser.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to degsign a database"
+              "title": "Øvelser"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
+                "file": "DM549 - Diskret matematik/Kombinatorik.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Asysmtotic notation"
+              "title": "Kombinatorik"
             }
           }
         ]
@@ -187,17 +187,21 @@
   },
   "active": "45fdb2dfd54b7554",
   "lastOpenFiles": [
+    "DM549 - Diskret matematik/Kombinatorik.md",
+    "AI501-kunstig intelligens/Øvelser.md",
+    "DM576-Databasesystemer/How to degsign a database.md",
+    "attachments/Pasted image 20260303141733.png",
+    "attachments/Pasted image 20260303141658.png",
+    "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
     "DM576-Databasesystemer/Database-intro.md",
     "DM576-Databasesystemer/Normalfomrs.md",
     "DM578-Algoritmer og Datastrukturer/Øvelser.md",
-    "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
     "DM576-Databasesystemer/Exersices.md",
     "DM549 - Diskret matematik/Set.md",
     "DM576-Databasesystemer/SQL.md",
     "AI501-kunstig intelligens/Degsin a agent.md",
     "DM578-Algoritmer og Datastrukturer/Divede and conquer.md",
-    "AI501-kunstig intelligens/Øvelser.md",
     "attachments/Pasted image 20260225134417.png",
     "attachments/Pasted image 20260225132751.png",
     "attachments/Pasted image 20260225132747.png",
@@ -206,9 +210,6 @@
     "attachments/Pasted image 20260225132628.png",
     "attachments/Pasted image 20260225125306.png",
     "attachments/Pasted image 20260225123332.png",
-    "DM576-Databasesystemer/How to degsign a database.md",
-    "attachments/Pasted image 20260223111244.png",
-    "attachments/Pasted image 20260223110232.png",
     "AI501-kunstig intelligens/Rational agents.md",
     "DM573 - Intro til datalogi/Algoritmer, asymptotisk notation, invarianter,.md",
     "DM578-Algoritmer og Datastrukturer/Analyse af alogritmer.md",
@@ -227,7 +228,6 @@
     "DM578-Algoritmer og Datastrukturer",
     "DM575-Objektorienteret",
     "DM576-Databasesystemer",
-    "DM549 - Diskret matematik/TalTeroi.md",
     "DM549 - Diskret matematik/Forelæsninger/Lecture21.pdf",
     "DM549 - Diskret matematik/Forelæsninger/Lecture20.pdf",
     "DM549 - Diskret matematik/Forelæsninger/Lecture19.pdf",
