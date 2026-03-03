@@ -95,11 +95,12 @@ a)
 | actions         | put peice from bag to the ground, conecting to one other peice, <br>if no peice on the ground put one with conninting |
 | transtion model |                                                                                                                       |
 | cost            | 1                                                                                                                     |
-| goal            | all peice on ground                                                                                                   |
+| goal            | all peice on ground, og ingen løse ender                                                                              |
 
 b)
 Depth first, fordi der kan ikke være loops, da det ikke er muligt at fjerne igen. Den vil finde en løsning, ikke alle.
-for at finde all skal den man bruge breath first
+
+for at finde all skal den man bruge breath first, men det er forstort 
 
 c)
 For så ville der ikke være lige mange åben luk.
