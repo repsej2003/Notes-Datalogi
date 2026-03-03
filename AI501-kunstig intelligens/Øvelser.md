@@ -49,8 +49,10 @@ d)
 
 # 3.1.6
 
-![[Pasted image 20260303141658.png]]
 a)
+
+![[Pasted image 20260303150205.png]]
+
 
 | Intial state    | 3 missonærs på venstre side<br>3 kanibaler på venstre siden<br>1 båd på venstre siden |
 | --------------- | ------------------------------------------------------------------------------------- |
@@ -74,5 +76,38 @@ der findes  på venstre sidden, all with both on the left, and on right
 5. 2m 2k
 6. 1m 1k
 
+![[IMG20260303145920.jpg]]
+
 b)
+breath first
+
+c)
+Der en lang løsning
+
 # 3.1.7 
+
+![[Pasted image 20260303150232.png]]
+![[Pasted image 20260303150242.png]]
+a)
+
+| Initnale state  | no peices on ground, all in bag                                                                                       |
+| --------------- | --------------------------------------------------------------------------------------------------------------------- |
+| actions         | put peice from bag to the ground, conecting to one other peice, <br>if no peice on the ground put one with conninting |
+| transtion model |                                                                                                                       |
+| cost            | 1                                                                                                                     |
+| goal            | all peice on ground                                                                                                   |
+
+b)
+Depth first, fordi der kan ikke være loops, da det ikke er muligt at fjerne igen. Den vil finde en løsning, ikke alle.
+for at finde all skal den man bruge breath first
+
+c)
+For så ville der ikke være lige mange åben luk.
+d)
+$$
+\frac{(12+2+2+16)!}{12!\cdot 2! \cdot 2! \cdot 16!}=6.563.797.858.800=6,6\cdot 10^{12}
+$$
+if all peice are unice and may overlap 
+$$
+(12+2+2+16)! =2.6\cdot 10^{35}
+$$
