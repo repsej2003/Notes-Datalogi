@@ -202,3 +202,13 @@ Ja
 Ja
 
 ## 6.2-1
+tegning
+
+
+juni 08 4a)
+tegning
+
+## 6.1-4
+på et blad
+
+# Hjemme uge 10 b
