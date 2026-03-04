@@ -199,7 +199,8 @@ $\Theta(n)$
 ## 6.1-6
 Ja
 ## 6.1-7
-Ja
+forket
+
 
 ## 6.2-1
 tegning
@@ -212,3 +213,13 @@ tegning
 på et blad
 
 # Hjemme uge 10 b
+
+# 6.5-11
+set alle in i min
+
+# 6.2 problem
+
+![[Pasted image 20260304105753.png]]
+a)
+$\{i+x \mid x \in{0,1,\dots d}\}$
+b)
