@@ -214,8 +214,11 @@ på et blad
 
 # Hjemme uge 10 b
 
+
+
 # 6.5-11
 set alle in i min
+MergeSort
 
 # 6.2 problem
 
