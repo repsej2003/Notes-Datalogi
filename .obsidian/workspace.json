@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DM576-Databasesystemer/ER.md",
+                "file": "DM578-Algoritmer og Datastrukturer/Øvelser.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ER"
+              "title": "Øvelser"
             }
           },
           {
@@ -187,9 +187,11 @@
   },
   "active": "45fdb2dfd54b7554",
   "lastOpenFiles": [
+    "DM578-Algoritmer og Datastrukturer/Sorting.md",
+    "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
+    "DM576-Databasesystemer/ER.md",
     "DM576-Databasesystemer/How to degsign a database.md",
     "DM576-Databasesystemer/Normalfomrs.md",
-    "DM576-Databasesystemer/ER.md",
     "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "attachments/Pasted image 20260304105753.png",
     "AI501-kunstig intelligens/Øvelser.md",
@@ -200,9 +202,7 @@
     "attachments/Pasted image 20260303150205.png",
     "attachments/Pasted image 20260303141733.png",
     "attachments/Pasted image 20260303141658.png",
-    "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
     "DM576-Databasesystemer/Database-intro.md",
-    "DM578-Algoritmer og Datastrukturer/Sorting.md",
     "DM576-Databasesystemer/Exersices.md",
     "DM549 - Diskret matematik/Set.md",
     "DM576-Databasesystemer/SQL.md",
