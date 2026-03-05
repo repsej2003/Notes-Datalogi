@@ -220,9 +220,26 @@ på et blad
 set alle in i min
 MergeSort
 
+et element fra hver k liste, tag min ud, put endnu ind fra samme list den oprindeligt kom fra in heap
+
+
 # 6.2 problem
 
 ![[Pasted image 20260304105753.png]]
 a)
-$\{i+x \mid x \in{0,1,\dots d}\}$
+$\{d\cdot i+x \mid x \in{1,\dots d}\}$
+
 b)
+$$
+\Theta(\log_{d}n)
+$$
+c)
+
+$$
+\Theta(\log_{d}n)
+$$
+e)
+
+d)
+
+e)
