@@ -594,3 +594,119 @@ B\to C \\
 C\to A
 \end{align}
 $$
+# 3.3.1
+a)
+BNCF violations
+$$
+\begin{align}
+C\to D \\ 
+C\to A \\
+D\to A \\
+
+\end{align}
+$$
+first violation
+$$
+\begin{align}
+C\to D \\
+ \\
+C^+ =\{ A,C,D \} \\
+ \\
+R_{1}(A,C,D) \\   
+\text{med projekt fundet}   \\ 
+C\to D \\
+D\to A \\
+C\to A \\
+
+\\
+R_{2}(B,C) \\
+ \\
+I R_{1} \text{ er } D\to A ikke en superkey \\
+ \\
+D^+ = \{ A,D \} \\ \\
+
+R_{11}(A,D) \\
+R_{12}(C,D) \\
+og \\
+R_{2}(B,C)
+\end{align}
+$$
+
+e)
+
+BNCF violations
+$$
+\begin{align}
+AB\to C \\
+DE\to C \\
+B\to D \\
+\end{align}
+$$
+$$
+\begin{align}
+AB^+ =ABCD \\
+
+\\
+R_{1}(ABCD) \\
+AB\to C \\
+B\to D \\
+ \\
+R_{2}(ABE) \\ \\
+
+R_{11}(BD) \\
+R_{12}(ABC)
+
+\end{align}
+$$
+# 3.5.2
+keys
+$$
+\begin{align}
+HS
+\end{align}
+$$
+mimalbases
+$$
+\begin{align}
+C\to T \\
+HR\to C \\
+HT\to R \\
+HS\to R \\
+CS\to G \\
+\end{align}
+$$
+$R_{1}(C,T),R_{2}(H,R,C),R_{3}(H,T,R),R_{4}(H,S,R),R_{5}(C,S,G)$
+
+
+# 3.3.2
+Du får det samme
+
+# 3.5.1
+a)
+keys $AB, BC, BD$
+i)
+$AB\to C,C\to D, D\to A$
+ Ikke nogen
+$$
+
+$$
+ii)
+allredy in 3NF
+
+b)
+i)
+key $ABE,$
+All
+
+ii )
+
+$R_{1}(A,B,C), R_{2}(D,E,C), R_{3}(B,D), R_{key}(A,B,E)$
+
+
+# 3.5.3
+keys
+$$
+\begin{align}
+SI^+=BOSIQD
+\end{align}
+$$

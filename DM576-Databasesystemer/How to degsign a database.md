@@ -33,9 +33,11 @@ K is a key for R if K is a superkey, but no proper subset of K is a superkey
 * we need a key
 * 
 ### 2NF (the whole key)
+* and 1NF
 * Every atribute need to depend on the whole key
 * 
 ### 3NF (and nothing but the key)
+* and 2NF
 * no transtitive dependencies
 * 
 ### BCNF
