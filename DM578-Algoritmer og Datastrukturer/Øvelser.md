@@ -213,6 +213,8 @@ tegning
 på et blad
 
 # Hjemme uge 10 b
+1) papir
+2) papir
 
 
 
@@ -234,12 +236,17 @@ $$
 \Theta(\log_{d}n)
 $$
 c)
-
+For været lag skal den samenlige med d ellemeter og der $\log_{d}n$ lag
 $$
-\Theta(\log_{d}n)
+O(d\cdot\log_{d}n)
 $$
-e)
-
 d)
+for skal kun samenlige en for hvert lag
+$$
+O(\log_{d}n)
+$$
 
 e)
+$$
+O(\log_{d} n)
+$$
