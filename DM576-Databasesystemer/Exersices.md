@@ -714,3 +714,22 @@ $$
 ![[Pasted image 20260310102934.png]]
 no need for acctsets one to one bettwen coustmer and that, 
 address realtion is redant  hvis to bo på den samme adres
+# 4.5.1
+Customers(**SS#,** name, addr, phone)
+Flights(**Number**, **day**, aircraft)
+Bookings(**SS#, number,day**,row,seat)
+
+# 4.6.1
+### E/R
+Depts(**name**, chair)
+Couses(**number**,**dept_name**, room)
+labCourses(**number**, **dept_name**, computer allocation)
+
+## OO
+Depts(**name**, chair)
+Couses(**number**,**dept_name**, room)
+labCourses(**number**, **dept_name**, room, computer allocation)
+
+## Null
+Depts(**name**, chair)
+Couses(**number**,**dept_name**, room, computer allocation)
