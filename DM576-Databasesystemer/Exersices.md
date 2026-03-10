@@ -710,4 +710,7 @@ $$
 SI^+=BOSIQD
 \end{align}
 $$
-# 4.1.1
+# 4.2.1
+![[Pasted image 20260310102934.png]]
+no need for acctsets one to one bettwen coustmer and that, 
+address realtion is redant  hvis to bo på den samme adres
