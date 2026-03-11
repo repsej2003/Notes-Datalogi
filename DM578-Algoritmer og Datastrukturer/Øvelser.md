@@ -252,3 +252,69 @@ O(\log_{d} n)
 $$
 
 
+# uge 11 del A
+papir
+
+2.
+### 6.4.4
+![[Pasted image 20260311121356.png]]
+En sammenligns alg kan ikke gøre det hurtige en $n\log n$ så der for vil hapsort også altid kører lang sommere
+
+## 8.2.1
+![[Pasted image 20260311122746.png]]
+
+## 8.2.3
+![[Pasted image 20260311123353.png]]
+
+for c indholder.  det sidst eleemnt så derfor vil vi sætte ind fra sidst
+
+shift c en til højre med nul, brug den til at putte plads i en nul indekset liste, lig en til værdien hver gang der indsættes
+
+## 8.2.6
+use c to return answer, before calucation indekset
+også returner 
+$$
+C[b]-C[a-1]
+$$
+
+## 8.3.2
+stable
+* Insertionsort
+* Merge sort
+* 
+
+unstable
+* heapsort
+* quick sort
+
+Scheme
+Rembemer the index where before, after the list is sorted, sort each eq elemt after ther previous postion
+
+space af O(n)
+Højst doblet tid
+
+
+laver om på key ved at gange med længden af listen og plus indekst i den oprindligt, sortes efter de ny keys
+
+# 
+papir
+
+# 8.3.5
+![[Pasted image 20260311130709.png]]
+
+$$
+\begin{align}
+O(n+10^{\log_{10}(n^3-1)}) \\
+n+10^{3\cdot \log_{10}n} \\
+n+3\cdot \log_{10}n\cdot \log_{10}10 \\
+n+3\cdot \log_{10}n
+\end{align}
+
+$$
+
+
+## hjemme uge 11 del b
+# 8.3.1
+![[Pasted image 20260311134520.png]]
+# problem 7.5
+![[Pasted image 20260311134625.png]]
