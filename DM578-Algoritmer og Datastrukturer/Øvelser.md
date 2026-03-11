@@ -311,7 +311,7 @@ n+3\cdot \log_{10}n
 \end{align}
 
 $$
-
+$O(n)$
 
 ## hjemme uge 11 del b
 # 8.3.1
