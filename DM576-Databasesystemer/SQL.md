@@ -158,3 +158,12 @@ GROUP BY l -- list
 GROUP BY 
 HAVING (condition)
 ```
+
+
+
+# Defferable
+`Deferrable INttially deferred/immediate`
+
+immediate: Constraion a check doing transiont (defualt ca)
+defered: check constrrais at the end of trancsation
+

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Øvelser.md",
+                "file": "DM576-Databasesystemer/SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Øvelser"
+              "title": "SQL"
             }
           }
         ],
@@ -188,6 +188,7 @@
   },
   "active": "bbdd93837077ea60",
   "lastOpenFiles": [
+    "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "attachments/Pasted image 20260311134625.png",
     "attachments/Pasted image 20260311134520.png",
     "attachments/Pasted image 20260311130709.png",
@@ -199,7 +200,6 @@
     "attachments/Pasted image 20260311101846.png",
     "DM576-Databasesystemer/Exersices.md",
     "attachments/Pasted image 20260310102934.png",
-    "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "DM576-Databasesystemer/How to degsign a database.md",
     "DM549 - Diskret matematik/Kombinatorik.md",
     "DM576-Databasesystemer/ER.md",
@@ -208,7 +208,6 @@
     "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
     "DM576-Databasesystemer/Normalfomrs.md",
     "attachments/Pasted image 20260304105753.png",
-    "attachments/Pasted image 20260303150242.png",
     "DM576-Databasesystemer/Database-intro.md",
     "DM549 - Diskret matematik/Set.md",
     "DM576-Databasesystemer/SQL.md",
