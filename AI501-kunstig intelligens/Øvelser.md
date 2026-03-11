@@ -112,3 +112,80 @@ if all peice are unice and may overlap
 $$
 (12+2+2+16)! =2.6\cdot 10^{35}
 $$
+
+# 3.2.1
+![[Pasted image 20260311101846.png]]
+Intial state - Two diffrent city 
+State - postion of the two personen
+action - both can  moves to a adjancet city
+transtion model - 
+cost - is the max of the the distance of the p1 move and p2 move
+Goal - same postion
+
+$$
+\begin{align}
+S&=\{c_{1},c_{2}\} \\
+S_{0}&=\{c_{1},c_{2}\},c_{1}\neq c_{2} \\
+S_{g}&=\{c_{1},c_{2}\},c_{1}= c_{2} \\
+T:result(c_{1},c_{2},move)=(j_{1},j_{2})\ j_{1}&\in neoghbor\ c_{1} \\
+ j_{2} &\in neoghbore \ c_{2} \\
+U: c ost((c_{1},c_{2}),(j_{1},j_{2}))&=max(d(c_{1},j_{1}),d(c_{2},j_{2}))
+\end{align}
+$$
+
+b)
+i) false fordi den de vil mødes på halve
+ii) Flase
+iii) True
+
+c)
+Nej, fordi i min defentnoin må de stå stille, så den ene kan stå stille hele tiden, den nden finden
+
+d)
+Ja, for hvis der er et ulige hop mellem den skal den en stå stile på et tidnspunkt, dermed være i den samme togange
+# 3.2.2
+![[Pasted image 20260311104517.png]]
+a)
+4 
+
+b)
+$4\cdot k$
+
+| k   |     |
+| --- | --- |
+| 1   | 4   |
+| 2   | 9   |
+| 3   | 16  |
+
+$$
+(k+1)^2
+$$
+
+c)
+
+$$
+\sum_{k=0}^{m+n}4^k
+$$
+
+d)
+$$
+\begin{align}
+k=m+n \\
+(k+1)^2+k^2
+\end{align}
+$$
+$$
+1+\sum_{k=1}^{m+n} 4k
+$$
+
+e)
+det er den, det er den koreste muige vel
+
+f)
+$1+m+n$
+
+g)
+Yes
+
+h)
+no
