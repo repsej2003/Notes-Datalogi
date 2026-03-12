@@ -315,6 +315,7 @@ $O(n)$
 
 ## hjemme uge 11 del b
 # 8.3.1
-![[Pasted image 20260311134520.png]]
+![[Pasted image 20260311134520.png|644]]
+
 # problem 7.5
 ![[Pasted image 20260311134625.png]]

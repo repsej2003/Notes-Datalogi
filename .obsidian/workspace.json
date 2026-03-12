@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DM575-Objektorienteret/Design Patterns.md",
+                "file": "DM578-Algoritmer og Datastrukturer/Øvelser.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design Patterns"
+              "title": "Øvelser"
             }
           }
         ],
@@ -188,8 +188,9 @@
   },
   "active": "bbdd93837077ea60",
   "lastOpenFiles": [
-    "DM575-Objektorienteret/OOP intro.md",
+    "DM578-Algoritmer og Datastrukturer/Intro til algoritmer og datastrukter.md",
     "DM575-Objektorienteret/Design Patterns.md",
+    "DM575-Objektorienteret/OOP intro.md",
     "DM576-Databasesystemer/SQL.md",
     "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "attachments/Pasted image 20260311134625.png",
@@ -217,7 +218,6 @@
     "DM578-Algoritmer og Datastrukturer/Divede and conquer.md",
     "DM573 - Intro til datalogi/Algoritmer, asymptotisk notation, invarianter,.md",
     "DM578-Algoritmer og Datastrukturer/Analyse af alogritmer.md",
-    "DM578-Algoritmer og Datastrukturer/Intro til algoritmer og datastrukter.md",
     "DM573 - Intro til datalogi/Øvelse.md",
     "Untitled.canvas",
     "AI501-kunstig intelligens/Intro.md",
