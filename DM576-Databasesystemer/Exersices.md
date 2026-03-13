@@ -733,3 +733,53 @@ labCourses(**number**, **dept_name**, room, computer allocation)
 ## Null
 Depts(**name**, chair)
 Couses(**number**,**dept_name**, room, computer allocation)
+
+# 7.1.1
+```sql
+a)
+ALTER TABLE Movies ADD FOREIGN KEY (producerC#) REFRENCES MovieExec(cert#)
+
+b)
+ALTER TABLE Movies ADD FOREIGN KEY (producerC#) REFERENCES MovieExec(cert#) ON UPDATE SET NULL 
+
+c)
+ALTER TABLE Movies ADD FOREIGN KEY (producerC#) REFERENCES MovieExec(cert#)
+ON UPDATE CASCADE
+ON DELETE CASCADS
+
+
+d)
+ALTER TABLE StarsIn ADD FOREIGN KEY (movieTitle) REFERENCES Movies(title) 
+
+ALTER TABLE StarsIn ADD FOREIGN KEY (movieTitle, movieYear) REFERENCES Movies(title, year) 
+
+
+e)
+ALTER TABLE StarsIn ADD FOREIGN KEY (starName) REFERENCES MovieStar(Name)
+
+```
+# 7.1.3
+```sql
+ALTER TABLE product ADD PRIMARY KEY (model);
+ALTER TABLE PC ADD PRIMARY KEY (model);
+ALTER TABLE Laptop ADD PRIMARY KEY (model);
+ALTER TABLE Printer ADD PRIMARY KEY (model);
+
+ALTER TABLE PC ADD FOREIGN KEY (model) REFERENCES Product(model);
+ALTER TABLE Laptop ADD FOREIGN KEY (model) REFERENCES Product(model);
+ALTER TABLE Printer ADD FOREIGN KEY (model) REFERENCES Product(model);
+```
+
+
+# 7.2.1
+```sql
+a)
+ALTER TABLE Movies ADD CHECK (year >= 1915);
+
+b)
+ALTER TABLE Movies ADD CHECK (60 <= length <= 250);
+
+c)
+ALTER TABLE Movies ADD CHECK (studioName IN ('Disney','Fox','MGM','Paramount'))
+```
+
