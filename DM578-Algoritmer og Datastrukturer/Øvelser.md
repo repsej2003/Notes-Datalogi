@@ -319,3 +319,63 @@ $O(n)$
 
 # problem 7.5
 ![[Pasted image 20260311134625.png]]
+
+# opgave 4a
+Spørgsmål b (6%): Tegn alle mulige binære søgetræer, som har højde 2 og indeholder fire knuder med nøglerne 1, 2, 3 og 4.
+
+
+# 12.2-1
+![[Pasted image 20260316142504.png]]
+a) true
+b)true
+c) fejler på 912
+d) true
+e) fejler på 299 mod 347
+
+# 12.2-3
+```python
+if x.left not nil:
+	return TREE-maxmun(x.left)
+y = x.p
+while y not nil and x == y.left: # Jeg var venstre barn, så mindre en min forældre, find den første forfædre der var som højre barn
+	x = y
+	y = y.p
+
+return y
+```
+
+# 12.1-5
+For ellers, ville vi kunne gøre sorter  hurtie ved inoder tree walk
+
+# 12.2-5
+![[Pasted image 20260316143855.png]]
+if the succors hand a left child, the childe it would be the succsur
+if the predsurce had a right chid, the child  it would be the suscure 
+
+
+
+![[Pasted image 20260316144517.png]]
+1. $O(n^4)$
+2. $O(n)$
+3. $O(n^2)$
+4. $O(n \log n)$
+5. $O(n^2)$
+![[Pasted image 20260316144745.png]]
+$c=\{ 0,1,2,4,4,9,9,10 \}$
+
+
+# 13.1-2
+case 1 a
+case 2
+case 3
+
+
+juni 5
+![[Pasted image 20260316151325.png]]
+$t_{1}$ sandt
+$t_{2}$ for få sorte i højre ben
+$t_{3}$ ikke ind order
+$t_{4}$ to røde i streng
+
+
+![[Pasted image 20260316151338.png]]
