@@ -319,7 +319,7 @@ $O(n)$
 
 # problem 7.5
 ![[Pasted image 20260311134625.png]]
-
+# UGE 12 del 1 
 # opgave 4a
 Spørgsmål b (6%): Tegn alle mulige binære søgetræer, som har højde 2 og indeholder fire knuder med nøglerne 1, 2, 3 og 4.
 
@@ -379,3 +379,22 @@ $t_{4}$ to røde i streng
 
 
 ![[Pasted image 20260316151338.png]]
+
+### Hjemme
+![[Pasted image 20260316152825.png]]
+Nej vi kender kun det mindste ikke rækkefælgdende, for at genoprret orden skal vi bruge log n pr n
+
+
+![[Pasted image 20260316153118.png]]
+![[Pasted image 20260316153203.png]]
+wrong
+```python
+RB-enumerae(T,r,a,b)
+if r not nil:
+	if r.key 
+		RB-enum(T, r.left, a, b)
+	print r.key # assume the  a and b in the tree
+	if r.key > a: 
+		RB-enum(T, r.right, a, b)
+```
+
