@@ -391,11 +391,13 @@ wrong
 ```python
 RB-enumerae(T,r,a,b)
 if r not nil:
-	if r.key < b:
+	if r.key > a:
 		RB-enum(T, r.left, a, b)
 	if a <= r.key <= b:
 		print r.key # assume the  a and b in the tree
-	if r.key > a: 
+	if r.key < b: 
 		RB-enum(T, r.right, a, b)
 ```
+
+
 
