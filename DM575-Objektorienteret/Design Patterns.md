@@ -29,9 +29,6 @@ https://refactoring.guru/design-patterns/composite
 ### Decorator
 Intent " attach adduntel respsnibitles to an object dynamcally dacoratises , decoratoes proce a flex"
 
-
-
-
 # Creatinoal patterns
 ### builder
 
@@ -50,7 +47,16 @@ To separate code that change and code that stables
 # Behhavore patterns
 
 ### Observer
+Motivaton: avoid coupling of class
+(explicit refernece such as impors)
 
+Example: no coupling between graphical
+user interfaces and the application data
+(cf., model-view-controller)
+
+dea data object (model) has a list of
+observers (views) that are notified about
+changes«interface»
 ### Staregy
 
 ### Iterator
