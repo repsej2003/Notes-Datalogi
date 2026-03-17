@@ -58,6 +58,16 @@ dea data object (model) has a list of
 observers (views) that are notified about
 changes«interface»
 ### Staregy
+motivation: introducing a new behavior
+to a class causes several changes to existing
+code
+
+example: navigation system, delegate
+calculations, use different logics on views
+
+idea: collect the different behaviors as
+methods in an interface and choose the cor-
+rect implementing class at runtime
 
 ### Iterator
 Motivation
