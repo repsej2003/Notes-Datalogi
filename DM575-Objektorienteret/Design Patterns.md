@@ -79,3 +79,13 @@ https://refactoring.guru/design-patterns/iterator
 ### Mediator
 
 ### State
+motivation:
+an object has in internal state which needs
+to change at runtime
+
+example: TCPConnections, automata/-
+machines (e.g., media player)
+
+idea introduce an interface representing the
+desired states, the realizations implement
+the behavior specific for a certain state
