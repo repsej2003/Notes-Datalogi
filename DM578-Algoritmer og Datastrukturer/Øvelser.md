@@ -406,7 +406,25 @@ if r not nil:
 ![[Pasted image 20260318121904.png]]
 
 ## 13.1-6
-![[Pasted image 20260318122108.png]]
 
-## 13.3-3
-![[Pasted image 20260318122351.png]]
+![[Pasted image 20260318122108.png]]
+lagerst: $\sum_{i=0}^{k\cdot 2-1}2^i=2^{2\cdot k}-1$
+mindst: $\sum_{i=0}^{k-1}2^i=2^k-1$
+
+## 12.3-3
+![[Pasted image 20260318125602.png]]
+tree insert $\Theta(h)$ og inorder kører $O(n)$
+worst case $O(n\cdot n+n)=O(n^2)$
+best case $O(n \log n)$
+
+
+## Hejmme
+![[Pasted image 20260318131807.png]]
+![[Pasted image 20260318131814.png]]
+er $t_{3},t_{4}, t_{8}$
+ikke $t_{1},t_{2},t_{5},t_{6},t_{7}$
+
+
+b)
+$t_{7}$
+
