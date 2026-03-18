@@ -197,3 +197,34 @@ no
 
 ![[Pasted image 20260318102426.png]]
 ![[Pasted image 20260318102709.png]]
+
+
+# The ochrad 
+a)
+
+fully observable
+deterministic
+discrete
+
+b)
+Formulate this problem precisely as a search problem: describe the state space, the initial state,
+the actions, the transition model, the goal test, and the cost function. Make sure to abstract
+as much as possible from details that are not relevant for solving the problem.
+
+| State           | Conatins postion of robot, and status of all trees, |
+| --------------- | --------------------------------------------------- |
+| Initnale state  | robot at depot, and all trees full                  |
+| actions         | Move to adjancet tree                               |
+| transtion model | Move to adjacant tree                               |
+| cost            | is the length of the road                           |
+| goal            | all trees visted and robot at depot                 |
+
+$$
+\begin{align}
+S&=\{r,trees \} \\
+S_{0}&=\{depot, \emptyset\}\\
+S_{g}&=\{depot, T\}, |T| = tree\_ count\\
+T:result(r_{1},Trees,move)&=(r_{2},Trees \cup tree)\\
+U: c ost((r_{1},tree),(r_{2},tree))&=d(r_{1},r_{2})
+\end{align}
+$$
