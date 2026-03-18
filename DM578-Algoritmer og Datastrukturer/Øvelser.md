@@ -401,3 +401,12 @@ if r not nil:
 
 
 
+# Del 2 
+## 13.3-2
+![[Pasted image 20260318121904.png]]
+
+## 13.1-6
+![[Pasted image 20260318122108.png]]
+
+## 13.3-3
+![[Pasted image 20260318122351.png]]
