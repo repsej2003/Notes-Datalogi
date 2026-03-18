@@ -189,3 +189,11 @@ Yes
 
 h)
 no
+
+
+3.6-2
+![[Pasted image 20260318101928.png]]
+![[Pasted image 20260318102137.png]]
+
+![[Pasted image 20260318102426.png]]
+![[Pasted image 20260318102709.png]]

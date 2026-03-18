@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Øvelser.md",
+                "file": "AI501-kunstig intelligens/Øvelser.md",
                 "mode": "source",
                 "source": false
               },
@@ -186,11 +186,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "b9cb638ab782d8f7",
+  "active": "bbdd93837077ea60",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260318102709.png",
+    "attachments/Pasted image 20260318102426.png",
+    "attachments/Pasted image 20260318102137.png",
+    "attachments/Pasted image 20260318101928.png",
+    "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
     "DM575-Objektorienteret/Design Patterns.md",
-    "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "attachments/Pasted image 20260316153203.png",
     "attachments/Pasted image 20260316153118.png",
     "attachments/Pasted image 20260316152825.png",
@@ -198,9 +202,6 @@
     "attachments/Pasted image 20260316151338.png",
     "attachments/Pasted image 20260316151325.png",
     "attachments/Pasted image 20260316144745.png",
-    "attachments/Pasted image 20260316144525.png",
-    "attachments/Pasted image 20260316144517.png",
-    "attachments/Pasted image 20260316143855.png",
     "DM576-Databasesystemer/Exersices.md",
     "DM578-Algoritmer og Datastrukturer/Intro til algoritmer og datastrukter.md",
     "DM575-Objektorienteret/OOP intro.md",
