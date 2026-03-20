@@ -785,32 +785,102 @@ ALTER TABLE Movies ADD CHECK (studioName IN ('Disney','Fox','MGM','Paramount'))
 
 # 7.5.1
 ```sql
-CREATE FUNCTION AvgNetWorth()
+
+CREATE OR REPLACE FUNCTION AvgNetWorth()
 RETURNS TRIGGER AS 
 $$
 BEGIN
-	RAISE NOTICE 'avg is %', (SELECT AVG(netWorth) from MovieExxec)
-	IF (500000 > (SELECT AVG(netWorth) from MovieExec) THEN
+	RAISE NOTICE 'avg is %', (SELECT AVG(netWorth) from MovieExec);
+	IF 500000 > (SELECT AVG(netWorth) from MovieExec) THEN
 		RAISE NOTICE 'AVg bellow 500000';
 		DELETE from	MovieExec
-		where cert = NEW.cert;
-		INSERT INTO MovieExec old;
+		where (cert) in (SELECT cert from Newstuff);
+		INSERT INTO movieExec (SELECT * from oldstuff);
 	END IF; 
-	RETURN NEW; 
+	RETURN Null; 
 END;
 $$
 LANGUAGE plpgsql;
 
 
-CREATE TRIGGER AvgNetWorthTrigger
+CREATE Or REPLACE TRIGGER AvgNetWorthTrigger
 AFTER UPDATE ON MovieExec
+REFERENCING 
+	OLD TABLE as oldstuff
+	NEW TABLE as newstuff
 FOR EACH STATEMENT
-EXECUTE PROCEDURE AvgNetWorth
+EXECUTE PROCEDURE AvgNetWorth();
 
+
+
+CREATE OR REPLACE FUNCTION AvgNetWorthDelete()
+RETURNS TRIGGER AS 
+$$
+BEGIN
+	RAISE NOTICE 'avg is %', (SELECT AVG(netWorth) from MovieExec);
+	IF 500000 > (SELECT AVG(netWorth) from MovieExec) THEN
+		RAISE NOTICE 'AVg bellow 500000';
+		INSERT INTO movieExec (SELECT * from oldstuff);
+	END IF; 
+	RETURN Null; 
+END;
+$$
+LANGUAGE plpgsql;
+
+
+CREATE Or REPLACE TRIGGER AvgNetWorthTriggerDelete
+AFTER DELETE ON MovieExec
+REFERENCING 
+	OLD TABLE as oldstuff
+FOR EACH STATEMENT
+EXECUTE PROCEDURE AvgNetWorthdelete();
+
+
+
+CREATE OR REPLACE FUNCTION AvgNetWorthInsert()
+RETURNS TRIGGER AS 
+$$
+BEGIN
+	RAISE NOTICE 'avg is %', (SELECT AVG(netWorth) from MovieExec);
+	IF 500000 > (SELECT AVG(netWorth) from MovieExec) THEN
+		RAISE NOTICE 'AVg bellow 500000';
+		DELETE from	MovieExec
+		where (cert) in (SELECT cert from Newstuff);
+	END IF; 
+	RETURN Null; 
+END;
+$$
+LANGUAGE plpgsql;
+
+
+CREATE Or REPLACE TRIGGER AvgNetWorthTriggerInsert
+AFTER Insert ON MovieExec
+REFERENCING 
+	NEW TABLE as newstuff
+FOR EACH STATEMENT
+EXECUTE PROCEDURE AvgNetWorthInsert();
 ```
 
 # 7.4.1
+```sql
+a)
 
+CREATE ASSERTION NoPcAndLaptop CHECK (
+	NOT EXSITS (
+		SELECT maker FROM Product WHERE type = 'pc'
+		INTERSECT
+		SELECT maker FROM Product WHERE type = 'laptop'
+	)
+);
+
+b)
+CREATE ASSERTION PCandLaptopSpeed CHECK(
+	NOT EXSITS (
+		SELECT *
+		FROM Product Natural JOIn pc NATURAL JOIN laptop
+	)
+);
+```
 
 # 7.5.2
 
