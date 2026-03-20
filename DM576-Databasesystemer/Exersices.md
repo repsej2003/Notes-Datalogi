@@ -783,3 +783,34 @@ c)
 ALTER TABLE Movies ADD CHECK (studioName IN ('Disney','Fox','MGM','Paramount'))
 ```
 
+# 7.5.1
+```sql
+CREATE FUNCTION AvgNetWorth()
+RETURNS TRIGGER AS 
+$$
+BEGIN
+	RAISE NOTICE 'avg is %', (SELECT AVG(netWorth) from MovieExxec)
+	IF (500000 > (SELECT AVG(netWorth) from MovieExec) THEN
+		RAISE NOTICE 'AVg bellow 500000';
+		DELETE from	MovieExec
+		where cert = NEW.cert;
+		INSERT INTO MovieExec old;
+	END IF; 
+	RETURN NEW; 
+END;
+$$
+LANGUAGE plpgsql;
+
+
+CREATE TRIGGER AvgNetWorthTrigger
+AFTER UPDATE ON MovieExec
+FOR EACH STATEMENT
+EXECUTE PROCEDURE AvgNetWorth
+
+```
+
+# 7.4.1
+
+
+# 7.5.2
+
