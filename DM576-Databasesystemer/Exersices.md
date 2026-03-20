@@ -876,8 +876,30 @@ CREATE ASSERTION NoPcAndLaptop CHECK (
 b)
 CREATE ASSERTION PCandLaptopSpeed CHECK(
 	NOT EXSITS (
+		SELECT * FROM 
+		(SELECT maker, speed FROM PRoduct NATURAL Join pc) 
+			NATURAL Join
+		(SELECT  maker, MAX(speed) as maxLaptopSpeed FROM Product  Natural LEFT JOIn laptop
+		GROUP BY maker)
+		WHERE speed > maxlaptopspeed;
+	)
+);
+
+c)
+
+CREATE ASSERTION PCandLaptopMemPrice CHECK(
+	NOT EXSITS (
 		SELECT *
-		FROM Product Natural JOIn pc NATURAL JOIN laptop
+		from laptop, pc
+		WHERE laptop.ram > pc.ram and laptop.price <= pc.price;
+
+	)
+);
+
+d)
+CREATE ASSERTION PCandLaptopMemPrice CHECK(
+	NOT EXSITS (
+			
 	)
 );
 ```
