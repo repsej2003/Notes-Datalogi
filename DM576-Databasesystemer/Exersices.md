@@ -905,4 +905,47 @@ CREATE ASSERTION PCandLaptopMemPrice CHECK(
 ```
 
 # 7.5.2
+```sql
+a)
+CREATE OR REPLACE FUNCTION PCcheck()
+RETURNS TRIGGER AS 
+$$
+BEGIN
+	IF new.price < ALL (SELECT price from pc where speed = new.speed) THEN
+		RAISE EXCEPTION 'to low price';
+	END IF; 
+	RETURN new; 
+END;
+$$
+LANGUAGE plpgsql;
+
+
+CREATE Or REPLACE TRIGGER PCcheck
+BEFORE UPDATE ON PC
+FOR EACH ROW
+EXECUTE PROCEDURE PCcheck();
+
+b)
+
+CREATE OR REPLACE FUNCTION ModelExiss()
+RETURNS TRIGGER AS 
+$$
+BEGIN
+	IF new.model not in (SELECT model FROM product) THEN
+		RAISE EXCEPTION 'model dosent exists';
+	END IF; 
+	RETURN new; 
+END;
+$$
+LANGUAGE plpgsql;
+
+
+CREATE Or REPLACE TRIGGER PrinterModelExiss
+BEFORE Insert ON Printer
+FOR EACH ROW
+EXECUTE PROCEDURE ModelExiss();
+
+
+
+```
 
