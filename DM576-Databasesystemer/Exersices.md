@@ -966,4 +966,68 @@ LANGUAGE plpgsql;
 
 
 SELECT speedAndram (1024,2.10);
+
+
+CREATE OR REPLACE FUNCTION speedAndRam(ramI integer, speedI float)
+ RETURNS void AS 
+$$
+DECLARE
+ rec RECORD;
+BEGIN
+ FOR rec IN
+       SELECT model, price FROM pc WHERE ram = ramI and speedI = speed
+    LOOP
+		RAISE NOTICE 'model %, price: %' , rec.model, rec.price;
+    END LOOP;
+   
+END;
+$$
+LANGUAGE plpgsql;
+
+SELECT speedAndRam(1024, 2.10)
+
+
+DO $$ BEGIN
+PERFORM speedAndram (1024,2.10);
+END $$;
+
+b)
+
+CREATE OR REPLACE FUNCTION deleteModel(modl integer)
+ RETURNS void AS 
+$$
+BEGIN 
+   DELETE FROM pc WHERE pc.model = modl;
+   DELETE FROM product WHERE product.model = modl;
+END;
+$$
+LANGUAGE plpgsql;
+
+SELECT deleteModel(1001)
+
+c)
+CREATE OR REPLACE FUNCTION decreaseprice(modl integer)
+ RETURNS void AS 
+$$
+BEGIN 
+   UPDATE pc SET price = price - 100 WHERE model = modl
+END;
+$$
+LANGUAGE plpgsql;
+
+
+SELECT decreaseprice(1003)
+
+d)
+
+CREATE OR REPLACE FUNCTION insertPC(modl integer)
+ RETURNS void AS 
+$$
+BEGIN 
+   UPDATE pc SET price = price - 100 WHERE model = modl
+END;
+$$
+LANGUAGE plpgsql;
+
+
 ```
