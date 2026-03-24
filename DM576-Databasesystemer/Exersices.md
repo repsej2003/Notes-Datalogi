@@ -949,3 +949,21 @@ EXECUTE PROCEDURE ModelExiss();
 
 ```
 
+# 6.6.1
+```sql
+
+CREATE OR REPLACE FUNCTION speedAndRam(ramI integer, speedI float)
+   RETURNS TABLE (
+        modelout integer
+)AS 
+$$
+BEGIN
+	return query (SELECT model FROM pc WHERE ram = ramI and speedI = speed);
+    
+END;
+$$
+LANGUAGE plpgsql;
+
+
+SELECT speedAndram (1024,2.10);
+```
