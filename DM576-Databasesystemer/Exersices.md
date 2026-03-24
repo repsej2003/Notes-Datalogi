@@ -1019,15 +1019,26 @@ LANGUAGE plpgsql;
 SELECT decreaseprice(1003)
 
 d)
-
-CREATE OR REPLACE FUNCTION insertPC(modl integer)
+CREATE OR REPLACE FUNCTION insertPC(Mak char, modl integer, sped float, rm integer, hdd integer, price integer)
  RETURNS void AS 
 $$
 BEGIN 
-   UPDATE pc SET price = price - 100 WHERE model = modl
+	if (EXISTS (SELECT * from pc WHERE model = modl)) then 
+		RAISE exception 'det kan du ikke fordi det allrede findes';
+	else
+		INSERT INTO product VALUES (Mak, modl, 'PC');
+		INSERT INTO pc VALUES (modl, sped, rm, hdd, price)	;
+	end if;
 END;
 $$
 LANGUAGE plpgsql;
 
 
+
+SELECT insertPC('A',1014,4.2,1234,12,3142)
+
+
+
 ```
+
+# 6.6.2
