@@ -459,11 +459,11 @@ $T_{3}$
 
 Consider a hash table with 9 slots and the hash function h(k) = k mod 9. Demonstrate what happens upon inserting the keys 5, 28, 19, 15, 20, 33, 12, 17, 10 with collisions resolved by chaining.
 0
-1: 1 - 19 - 10
+1: 28 - 19 - 10
 2: 20
-3
+3: 12
 4
-5: 5 - 12
+5: 5 
 6: 15 - 33
 7
 8: 17
@@ -480,13 +480,13 @@ Consider inserting the keys 10, 22, 31, 4, 15, into a hash table of length m = 1
 |  22 |      |     |        |  4  |  15  |     |     |        |  31 |   10  |
 
 | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 
-|       |      |     |        |       |       |     |     |        |       |  10  | $(10+0\cdot(1+10\ mod\ 10) \ mod\ 11$
-|  22|      |     |        |       |       |     |     |        |       |  10  | $(22+0\cdot(1+22\ mod\ 10) \ mod\ 11$
-|  22|      |     |        |       |       |     |     |        |  31 |  10  |  $(31+0\cdot(1+31\ mod\ 10) \ mod\ 11$
-|  22|      |     |        |  4  |       |     |     |        |  31 |  10  |  $(4+0\cdot(1+4\ mod\ 10) \ mod\ 11$
-|  22|      |     |        |  4  |       |     |     |        |  31 |  10  |  $(15+0\cdot(1+15\ mod\ 10) \ mod\ 11 = 4$
-|  22|      |     |        |  4  |       |     |     |        |  31 |  10  |  $(15+1\cdot(1+15\ mod\ 10) \ mod\ 11 = 10$
-|  22|      |     |        |  4  |  15 |     |     |        |  31 |  10  |      | $(15+2\cdot(1+15\ mod\ 10) \ mod\ 11 = 5$
+|       |      |     |        |       |       |     |     |        |       |  10  | $(10+0\cdot(1+10\ mod\ 10)) \ mod\ 11$
+|  22|      |     |        |       |       |     |     |        |       |  10  | $(22+0\cdot(1+22\ mod\ 10)) \ mod\ 11$
+|  22|      |     |        |       |       |     |     |        |  31 |  10  |  $(31+0\cdot(1+31\ mod\ 10)) \ mod\ 11$
+|  22|      |     |        |  4  |       |     |     |        |  31 |  10  |  $(4+0\cdot(1+4\ mod\ 10)) \ mod\ 11$
+|  22|      |     |        |  4  |       |     |     |        |  31 |  10  |  $(15+0\cdot(1+15\ mod\ 10)) \ mod\ 11 = 4$
+|  22|      |     |        |  4  |       |     |     |        |  31 |  10  |  $(15+1\cdot(1+15\ mod\ 10)) \ mod\ 11 = 10$
+|  22|      |     |        |  4  |  15 |     |     |        |  31 |  10  |   $(15+2\cdot(1+15\ mod\ 10)) \ mod\ 11 = 5$
 
 6)
 ![[Pasted image 20260325125814.png]]
@@ -506,3 +506,15 @@ $7\to 5$
 13.4-4
 
 In Exercise 13.3-2 on page 346, you found the red-black tree that results from successively inserting the keys 41, 38, 31, 12, 19, 8 into an initially empty tree. Now show the red-black trees that result from the successive deletion of the keys in the order 8, 12, 19, 31, 38, 41.
+
+![[Pasted image 20260325133315.png]]
+
+![[Pasted image 20260325133219.png]]
+![[Pasted image 20260325133229.png]]
+|3| | | 59| | 23 | 38 |53 | 60 | 72 | 87 |
+
+$60\cdot 3+2=182$ 72-55 = 17 = 6
+
+| 3 | 45 | | 59 | | 23 | 38 | 53 | 60 | 72 | 87 |
+
+$45\cdot 3 +2=137$ 27 5
