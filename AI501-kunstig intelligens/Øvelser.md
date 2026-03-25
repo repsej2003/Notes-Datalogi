@@ -228,3 +228,39 @@ T:result(r_{1},Trees,move)&=(r_{2},Trees \cup tree)\\
 U: c ost((r_{1},tree),(r_{2},tree))&=d(r_{1},r_{2})
 \end{align}
 $$
+
+# 4.1
+![[Pasted image 20260325102216.png]]
+a)
+Hil climbing
+
+b)
+breath first search
+
+c)
+Hill climbing 
+
+(random)
+
+d)
+Random walk
+
+e)
+Random hill climbing
+
+
+# 4.6
+![[Pasted image 20260325103142.png]]
+Unsovalb because we dont know w
+![[Pasted image 20260325104457.png]]
+
+# 4.9![[Pasted image 20260325104723.png]]
+
+
+
+# 4.10
+
+
+# 6.4
+# 6.5
+# 6.7
