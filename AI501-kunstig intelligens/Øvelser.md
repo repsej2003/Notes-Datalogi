@@ -259,7 +259,15 @@ Unsovalb because we dont know w
 
 
 # 4.10
+a)
 
+$2^{12}$
+$2$
+
+b)
+4
+assuming it is sovable 
+3
 
 # 6.4
 # 6.5
