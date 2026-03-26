@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Øvelser.md",
+                "file": "DM578-Algoritmer og Datastrukturer/Divede and conquer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Øvelser"
+              "title": "Divede and conquer"
             }
           }
         ],
@@ -188,6 +188,8 @@
   },
   "active": "bbdd93837077ea60",
   "lastOpenFiles": [
+    "DM576-Databasesystemer/Exersices.md",
+    "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "attachments/Pasted image 20260325133315.png",
     "attachments/Pasted image 20260325133306.png",
     "attachments/Pasted image 20260325133229.png",
@@ -199,9 +201,6 @@
     "attachments/Pasted image 20260325122223.png",
     "attachments/Pasted image 20260325121852.png",
     "AI501-kunstig intelligens/Øvelser.md",
-    "attachments/Pasted image 20260325104723.png",
-    "DM576-Databasesystemer/Exersices.md",
-    "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
     "DM575-Objektorienteret/Design Patterns.md",
     "DM578-Algoritmer og Datastrukturer/Intro til algoritmer og datastrukter.md",
