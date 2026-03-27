@@ -1083,9 +1083,37 @@ LANGUAGE plpgsql;
 
 SELECT getOC('Sam Zimbalist', 'Sams address')
 
+
+e)
+CREATE OR REPLACE FUNCTION getstar(staddress varchar)
+ RETURNS varchar AS 
+$$
+BEGIN
+	IF 1 = (SELECT COUNT(*) FROM moviestar WHERE address = staddress) THEN
+		return (SELECT name from moviestar WHERE address = staddress);
+	END IF;
+	RETURN null;
+END;
+$$
+LANGUAGE plpgsql;
+
+SELECT getstar('Hollywood address 2');
+
+f)
+CREATE OR REPLACE PROCEDURE deleteMoviesBystar(stname varchar)AS 
+$$
+BEGIN
+	DELETE from moviestar where name = stname;
+	DELETE from Movies where (title, year) in (SELECT movieTitle, movieyear FROM StarsIn Where starname = stname);
+	DELETE from StarsIn where name = stname;
+	
+END;
+$$
+LANGUAGE plpgsql;
+
+SELECT getstar('Hollywood address 2');
+
+
+
 ```
 
-# 9.3.1
-```sql
-
-```
