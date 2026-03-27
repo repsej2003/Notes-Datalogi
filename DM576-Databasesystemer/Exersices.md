@@ -1042,3 +1042,50 @@ SELECT insertPC('A',1014,4.2,1234,12,3142)
 ```
 
 # 6.6.2
+
+
+# 9.4.1
+```sql
+a)
+CREATE OR REPLACE FUNCTION getNetWort(stname varchar)
+ RETURNS Integer AS 
+$$
+BEGIN
+	RETURN (SELECT netWorth FROM movieExec JOIN studio ON cert = presc WHERE studio.name = stname);   
+END;
+$$
+
+LANGUAGE plpgsql;
+
+SELECT getnetWort('MGM');
+
+b)
+
+CREATE OR REPLACE FUNCTION getOc(personname varchar, persaddress varchar)
+ RETURNS Integer AS 
+$$
+DECLARE
+ isMovieStar BOOLEAN;
+ isExec BOOLEAN;
+BEGIN
+	isMovieStar := EXISTS (SELECT * from moviestar WHERE name = personname AND address = persaddress);
+	isExec := EXISTS (SELECT * from movieExec WHERE name = personname AND address = persaddress);
+	RAISE NOTICE 'movie start: %, movie exec %', isMovieStar, isExec;
+	IF isMovieStar and NOT isExec then RETURN 1;
+	ELSEIF not isMovieStar and isExec then RETURN 2;
+	ELSEIF isMovieStar and isExec then RETURN 3;
+	ELSE RETURN 4;
+	END IF;	
+END;
+$$
+LANGUAGE plpgsql;
+
+
+SELECT getOC('Sam Zimbalist', 'Sams address')
+
+```
+
+# 9.3.1
+```sql
+
+```
