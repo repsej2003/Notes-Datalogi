@@ -518,3 +518,90 @@ $60\cdot 3+2=182$ 72-55 = 17 = 6
 | 3 | 45 | | 59 | | 23 | 38 | 53 | 60 | 72 | 87 |
 
 $45\cdot 3 +2=137$ 27 5
+
+
+# skole A uge 15
+
+![[Pasted image 20260408102355.png]]
+![[Pasted image 20260408102745.png]]
+![[Pasted image 20260408103149.png]]
+
+
+`OS-select(T.root, OS-rank(T,x) + i)`
+
+```python
+next(x, i):
+	if i = 0:
+		return x
+	p = x.p
+	right_size = x.right.size
+	if right_size < i:
+		while (x = p.right):
+			x = p
+			p = x.p
+		return next(p, i - (right_size +1))
+	
+	if 
+	
+	
+```
+
+4)
+$(5,17)$
+
+b)
+tag den sørste af de træ brøtte, gør den samme op ad hvis der ændres i ymax
+
+![[Pasted image 20260408110315.png]]
+
+
+c
+```python 
+minAbove(x, tres):
+	while x.left.maxy >= tres:
+		x = x.left
+	
+	if x.y >= tres:
+		return x
+		
+	if x.right.maxy >= tres: 
+		return minAbove(x.right, tres)
+		
+	return -1 # not findet
+
+```
+
+![[Pasted image 20260408111610.png]]
+
+```python
+linarSeach(A, x):
+	i = 0
+	while i < A.len:
+		if A[i] = x:
+			return i
+		i++
+	return nil
+```
+Inveraiter 
+i topen af while løken er alt på alt til venstre for det i idex er ikke x. 
+
+![[Pasted image 20260408112126.png]]
+```python
+SelectionSort(A):
+	i = 0
+	while i < A.len-1:
+		s_i = minum(A[i...A.len-1])
+		A[i], A[s_i] = A[s_i], A[i]
+		i++
+```
+Invariat
+Alt til venstre for i er sortet og 
+alt til højre for i er >= i
+
+det sidste elemnt er ifølge invariate større eller ligemed i så derfor bøhoves ikke at flyttes
+
+$$
+\Theta(n²)
+$$
+
+![[Pasted image 20260408113135.png]]
