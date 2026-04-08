@@ -270,5 +270,21 @@ assuming it is sovable
 3
 
 # 6.4
+![[Pasted image 20260408085456.png]]
+I treat the as unkown so the know walue i smaller treat as zero
+
+infitte loop
+
+proof??
+
 # 6.5
 # 6.7
+![[Pasted image 20260408091127.png]]
+a)
+$$
+\begin{align}
+Games: 9! \\
+states: <3^9=19683
+\end{align}
+$$
+
