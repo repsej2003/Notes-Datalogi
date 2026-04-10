@@ -605,3 +605,12 @@ $$
 $$
 
 ![[Pasted image 20260408113135.png]]
+Når vi insætter i et balacenert træ, når ved indsættelse gåes til venstre lægges p.højre.size +1 en til antalt af invertions.
+
+
+![[Pasted image 20260408115025.png]]
+i) falsk hvornår bliver der spurgt hvis der er efter testen så sandt
+ii)  flaks
+iii)  falsk
+iv sand
+v) falsk
