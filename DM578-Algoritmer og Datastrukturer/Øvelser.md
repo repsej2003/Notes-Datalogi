@@ -609,8 +609,105 @@ Når vi insætter i et balacenert træ, når ved indsættelse gåes til venstre 
 
 
 ![[Pasted image 20260408115025.png]]
-i) falsk hvornår bliver der spurgt hvis der er efter testen så sandt
-ii)  flaks
+i)  sandt 
+ii)  falsk
 iii)  falsk
 iv sand
 v) falsk
+
+
+# Anden del 15
+$$
+\begin{align}
+a=4 \\
+b=3 \\
+f(n) = n \\
+ \\
+\alpha = \log_{3}4=1.262 \\
+ \\
+n=O(n^{1.262-0.1})  \\
+ \\
+T(n)=\Theta(n^{1.262}) \\
+
+\end{align}
+$$
+stigene potsens begrænset af den største
+
+$$
+\huge
+4^{\log_{3}n}=n^{\log_{3}4}=n^{1.262}
+$$
+
+### opgave 2
+![[Pasted image 20260410143621.png]]
+$$
+\begin{align}
+a=1 \\
+b=2 \\
+f(n)=n^2 \\
+ \\
+\alpha=\log_{2}1=0 \\
+ \\
+n^2=\Omega (n^{0 + 1}) \\ \\
+c = \frac{1}{2}\\
+1\cdot \left( \frac{n}{2} \right)^2 = \frac{n^2}{2^2}=\frac{1}{2^2}\cdot n^2=\frac{1}{4}\cdot n^2 \leq  \frac{1}{2} \cdot n^2
+ \\ \\
+
+T(n)=\Theta(n^2)
+\end{align}
+$$
+
+expotpn falne så sum er begrænset af det første led
+$$
+\Theta(n²)
+$$
+
+## opgave 3
+![[Pasted image 20260410144653.png]]
+$$
+\begin{align}
+a= 16 \\
+b=2  \\
+f(n)=n^4+n^2 \\
+\alpha=\log_{2}16=4 \\
+ \\
+f(n)=n^4+n^2=\Theta(n^4\cdot \log^0n)  \\
+ \\
+\text{så} \\
+T(n)= \Theta(n^4\cdot \log n)
+\end{align}
+$$
+
+# Hjemme
+![[Pasted image 20260410145354.png]]
+$$
+\begin{align}
+a=3 \\
+b=3 \\
+f(n)=n^2 \\
+ \\
+\alpha=\log_{3}3=1 \\
+ \\
+f(n)=n^2=\Omega (n^{1+0.1}) \\
+ \\
+\text{så} \\
+T(n)=\Theta(n^2)
+\end{align}
+$$
+
+![[Pasted image 20260410145721.png]]
+det er expotieltet $\Theta(n^2)$
+
+$$
+\begin{align}
+a=4 \\
+b=2 \\
+f(n)=n^2 \\
+ \\
+\alpha=\log_{2}4=2 \\
+ \\
+f(n)=n=O(n^{2-0.01}) \\
+\text{så} \\
+T(n)=\Theta(n^2)
+\end{align}
+$$
