@@ -649,9 +649,9 @@ f(n)=n^2 \\
 \alpha=\log_{2}1=0 \\
  \\
 n^2=\Omega (n^{0 + 1}) \\ \\
-c = \frac{1}{2}\\
-1\cdot \left( \frac{n}{2} \right)^2 = \frac{n^2}{2^2}=\frac{1}{2^2}\cdot n^2=\frac{1}{4}\cdot n^2 \leq  \frac{1}{2} \cdot n^2
- \\ \\
+1\cdot \left( \frac{n}{2} \right)^2 = \frac{n^2}{2^2}=\frac{1}{2^2}\cdot n^2=\frac{1}{4}\cdot n^2 \leq  c \cdot n^2 \\
+\frac{1}{4}\leq c\text{   del med }n^2
+\text{ så der findes et c mindre end } \\ \\
 
 T(n)=\Theta(n^2)
 \end{align}
