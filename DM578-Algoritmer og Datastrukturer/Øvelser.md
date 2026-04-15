@@ -690,6 +690,10 @@ f(n)=n^2 \\
  \\
 f(n)=n^2=\Omega (n^{1+0.1}) \\
  \\
+ 3\cdot \left( \frac{n}{3} \right)^2=3\cdot \frac{3}{9}\cdot n² \leq c n^2 \\ 
+\frac{1}{3}\leq c \\
+
+
 \text{så} \\
 T(n)=\Theta(n^2)
 \end{align}
@@ -711,3 +715,120 @@ f(n)=n=O(n^{2-0.01}) \\
 T(n)=\Theta(n^2)
 \end{align}
 $$
+# Skole uge 16
+![[Pasted image 20260415123026.png]]
+a)
+$$
+\begin{align}
+a=2 \\
+b=4 \\
+f(n)=1 \\
+\alpha=\log_{4}2=\frac{1}{2} \\
+ \\
+1=O( n^{\frac{1}{2} -0.1} ) \\
+T(n)=\Theta(n^{1/2})
+\end{align}
+$$
+b)
+$$
+\begin{align}
+a=2 \\
+b=4 \\
+f(n)=\sqrt{ n } =n^{1/2}\\
+\alpha=\log_{4}2=\frac{1}{2} \\
+ \\
+n^{1/2}=\Theta(n^{1/2}\cdot \log ^0n) \\
+ \\
+T(n)=\Theta(n^{1/2}\log n)
+\end{align}
+$$
+c)
+$$
+\begin{align}
+a=2 \\
+b=4 \\
+f(n)=\sqrt{ n }\log^2 n=n^{1/2}\log^2n \\
+\alpha= \log_{4}2=\frac{1}{2} \\
+ \\
+n^{1/2}\log^2n=\Theta(n^{1/2}\cdot \log² n) \\
+ \\
+T(n) = \Theta(n^{1/2}\log^3n)
+\end{align}
+$$
+
+d)
+$$
+\begin{align}
+a=2 \\
+b=4 \\
+f(n)=n \\
+\alpha=\log_{4}2 =\frac{1}{2} \\ 
+ \\
+n=\Omega (n^{1/2+0.1}) \\
+ \\
+2\cdot \frac{n}{4}=n \cdot \frac{1}{2} \leq c \cdot n  \\
+\frac{1}{2}\leq c \\
+så  c = \frac{1}{2} \\
+ \\
+T(n) = \Theta(n)
+\end{align}
+$$
+e)
+$$
+\begin{align}
+a=2 \\
+b=4 \\
+f(n) = n^2 \\
+\alpha=\log_{4}2=\frac{1}{2} \\
+ \\
+n^2=\Omega (n^{1/2+0.1}) \\
+ \\
+2\cdot \left( \frac{n}{4} \right)^2=n^2\cdot \frac{1}{8}\leq c\cdot n^2 \\
+\frac{1}{8}\leq c \\
+ \\
+så\ c = \frac{1}{8} \\
+ \\
+T(n) = \Theta(n^2)
+\end{align}
+$$
+
+opgave 2
+$$
+\begin{align}
+a= 1 \\
+b= 2 \\
+f(n)= 1 \\
+\alpha=\log_{2}1= 0 \\
+ \\
+1= \Theta(n^0\cdot \log^0n) \\
+ \\
+T(n)=\Theta(\log n)
+\end{align}
+$$
+
+
+opgave 3
+
+$$
+\Theta(2^n)
+$$
+Nej
+
+opgave 4
+![[Pasted image 20260415125842.png]]
+```python
+def insertsort(A, n):
+	if n = 0:
+		return
+	insertSort(A, n -1)
+	
+	while A[n] < A[n-1]
+		swap A[n], A[n-1]
+		n--
+
+```
+
+nej
+
+opgave 5
+![[Pasted image 20260415131034.png]]
