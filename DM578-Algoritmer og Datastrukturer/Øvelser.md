@@ -900,3 +900,28 @@ strassen 2.81 så en smule bedre
 5)
 
 48
+
+
+# skole uge 17 del 1
+![[Pasted image 20260420142552.png]]
+![[Pasted image 20260420142631.png]]
+1. Sandt
+2. sandt
+3. sandt
+4. falsk
+5. sandt
+6. Sandt??? hvorfor demsos $n\cdot \frac{1}{ \log n}$
+7. falsk $n\cdot \frac{1}{2 ^n}$
+8. falsk
+9. Sandt
+10. falsk
+
+
+![[Pasted image 20260420144605.png]]
+9 8 7 5 4 2 6 1 3
+
+opgave 7
+a)
+5
+
+b)
