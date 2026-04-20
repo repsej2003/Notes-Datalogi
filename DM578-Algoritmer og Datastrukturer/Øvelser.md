@@ -853,6 +853,34 @@ a=9 \\
 b=3 \\
 f(n)=n^2 \\
 \alpha=\log_{3}9=2\\ \\
-f(n)=n^2=\Theta(n^2\cdot \log^0n)
+f(n)=n^2=\Theta(n^2\cdot \log^0n)\\
+T(n)=\Theta(n^2\cdot \log n)
+\end{align}
+
+$$
+$$
+\begin{align}
+a=10 \\
+b=3 \\
+f(n)=n^2 \\
+\alpha=\log_{3}10\approx2.1\\ \\
+f(n)=n^2=O(n^{2.1-0.001})\\
+T(n)=\Theta(n^{2.1})
 \end{align}
 $$
+2)
+$$
+\begin{align}
+a=4 \\
+b=2 \\
+f(n)=n^2\log n \\
+ \\
+\alpha=\log_{2}4=2 \\
+ \\
+f(n)=n^2\log n=\Theta(n^2\cdot \log^1n) \\
+ \\
+T(n)=\Theta(n^2\cdot \log^2n)
+\end{align}
+$$
+
+3)
