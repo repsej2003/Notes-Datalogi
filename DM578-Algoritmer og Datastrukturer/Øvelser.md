@@ -884,3 +884,19 @@ T(n)=\Theta(n^2\cdot \log^2n)
 $$
 
 3)
+$$
+\begin{align}
+i=n\cdot 2^i+4\cdot 4^i
+\end{align}
+$$
+
+4)
+2.79513
+2.79512
+2.79515
+
+strassen 2.81 så en smule bedre
+
+5)
+
+48
