@@ -832,3 +832,27 @@ nej
 
 opgave 5
 ![[Pasted image 20260415131034.png]]
+
+# Hjemme uge 16
+$$
+\begin{align}
+a=8 \\
+b=3 \\
+f(n)=n^2 \\
+\alpha=\log_{3}8\approx 1.8 \\
+f(n)=n^2=\Omega (n^{1.8+0.1}) \\
+ 8\cdot\left( \frac{n}{3} \right)^2=n^2\cdot \frac{8}{9}\leq c\cdot n^2\\
+\frac{8}{9}\leq c \\
+T(n)=\Theta(n^2)
+\end{align}
+$$
+
+$$
+\begin{align}
+a=9 \\
+b=3 \\
+f(n)=n^2 \\
+\alpha=\log_{3}9=2\\ \\
+f(n)=n^2=\Theta(n^2\cdot \log^0n)
+\end{align}
+$$
