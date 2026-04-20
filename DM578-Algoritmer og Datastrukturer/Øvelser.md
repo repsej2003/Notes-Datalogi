@@ -920,8 +920,36 @@ strassen 2.81 så en smule bedre
 ![[Pasted image 20260420144605.png]]
 9 8 7 5 4 2 6 1 3
 
+9 8 7 4 2 6 5 1 3 
+
 opgave 7
 a)
 5
 
 b)
+6
+
+c)
+5
+
+d)
+1
+
+![[Pasted image 20260420150731.png]]
+1. falsk
+2. falsk, for når den fejler er $r=7n$
+3. Sand
+4. sandt
+5. sandt
+
+![[Pasted image 20260420151103.png]]
+
+1. $\Theta(n^2)$
+2. $\Theta(\log n)$
+3. $\Theta(1)$
+4. $\Theta(n \log n)$
+
+# hjemme
+
+![[Pasted image 20260420152148.png]]
+![[Pasted image 20260420152223.png]]
