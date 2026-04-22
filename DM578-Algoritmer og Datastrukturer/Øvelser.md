@@ -938,7 +938,7 @@ d)
 ![[Pasted image 20260420150731.png]]
 1. falsk
 2. falsk, for når den fejler er $r=7n$
-3. Sand
+3. Falsk
 4. sandt
 5. sandt
 
@@ -947,9 +947,34 @@ d)
 1. $\Theta(n^2)$
 2. $\Theta(\log n)$
 3. $\Theta(1)$
-4. $\Theta(n \log n)$
+4. $\Theta(n)$
 
 # hjemme
 
 ![[Pasted image 20260420152148.png]]
 ![[Pasted image 20260420152223.png]]
+
+2. 
+i.  hvis der dels med 2 så stiger k, og log i falder med 1
+ii. holder fordi der kun deles med lige tal
+
+3. Nå algo er færdig er i = 1 og $\lfloor\log i  \rfloor = 0$
+og der for ifølge invarente er $k = \lfloor \log n \rfloor$
+
+d)
+Værste tilfælde for så skal vi ramer vi et ulige tal vær gang$O(2\log n)$
+
+
+## Sidste
+
+$$
+\begin{align}
+P_{1}=(a+b)(c-d)=ac-ad+bc+bd \\
+p_{2}=ad \\
+p_{3}=bc \\
+ \\
+R_{R}=P_{1}+P_{2}-P_{3} \\
+R_{C}= P_{2}+P_{3} \\
+
+\end{align}
+$$
