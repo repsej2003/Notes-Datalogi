@@ -978,3 +978,12 @@ R_{C}= P_{2}+P_{3} \\
 
 \end{align}
 $$
+
+# 14.1-3
+$$
+\begin{align}
+r(n)=max_{1\leq i < n}(p_{i}+r(n-i)-c, P_{i}), R(0)=0
+\end{align}
+$$
+
+![[Pasted image 20260422122651.png]]
