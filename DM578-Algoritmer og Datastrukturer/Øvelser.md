@@ -987,3 +987,19 @@ r(n)=max_{1\leq i < n}(p_{i}+r(n-i)-c, P_{i}), R(0)=0
 $$
 
 ![[Pasted image 20260422122651.png]]
+
+```python
+def wlcs(X,Y,w):
+	r = r[X.len][Y.len]
+	
+	for i in r[Y.len]:
+		for j in r[X.len]:
+			if (i = 0 or j = 0)
+				r[i][j] = 0
+			elif (Y[i] != X[j])
+				r[i][j] = max(r[i-1][j],r[i][j-1])
+			elif (Y[i] = X[j])
+					r[i][j] = max(r[i-1][j],r[i][j-1], w(Y[i]))
+	return r[Y.len][X.len]
+
+```
