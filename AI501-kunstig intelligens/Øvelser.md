@@ -300,3 +300,24 @@ $$
 
 
 # 5.1
+
+
+# 5.4
+
+| State           | some letters in the blank spot                                  |
+| --------------- | --------------------------------------------------------------- |
+| Initnale state  | all blank empty                                                 |
+| actions         | add a word from the dictanry or word extending from dictary<br> |
+| transtion model | The half complete words have to be posible                      |
+| cost            |                                                                 |
+| goal            | All blank filled                                                |
+
+greedy best first
+
+huerist -  flest intersetcion 
+
+
+
+variable $x_{i,j}$ 
+domain $x_{i,j}\in alfabatet$
+constrain, all strait of word in dictanary
