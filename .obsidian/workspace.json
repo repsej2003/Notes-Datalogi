@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Øvelser.md",
+                "file": "AI501-kunstig intelligens/Øvelser.md",
                 "mode": "source",
                 "source": false
               },
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -202,6 +203,7 @@
   },
   "active": "bbdd93837077ea60",
   "lastOpenFiles": [
+    "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "attachments/Pasted image 20260422122651.png",
     "attachments/Pasted image 20260422122546.png",
     "DM549 - Diskret matematik/Markdown syntax.md",
@@ -219,7 +221,6 @@
     "DM549 - Diskret matematik/Matrices.md",
     "DM549 - Diskret matematik/TalTeroi.md",
     "AI501-kunstig intelligens/Øvelser.md",
-    "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "attachments/Pasted image 20260420152223.png",
     "attachments/Pasted image 20260420152148.png",
     "attachments/Pasted image 20260420151103.png",
@@ -229,7 +230,6 @@
     "attachments/Pasted image 20260420142631.png",
     "attachments/Pasted image 20260420142552.png",
     "attachments/Pasted image 20260415131034.png",
-    "attachments/Pasted image 20260415125842.png",
     "DM576-Databasesystemer/How to degsign a database.md",
     "DM549 - Diskret matematik/potens regne relger.md",
     "AI501-kunstig intelligens/Intro.md",
