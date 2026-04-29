@@ -1003,3 +1003,8 @@ def wlcs(X,Y,w):
 	return r[Y.len][X.len]
 
 ```
+
+# 15.1-4
+Skedulerings problem indtil der ikke er flere at vælge
+
+den der slutter først, lige i en nye hvis der ikke er plads i nogen af de andre
