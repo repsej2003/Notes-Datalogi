@@ -1008,3 +1008,18 @@ def wlcs(X,Y,w):
 Skedulerings problem indtil der ikke er flere at vælge
 
 den der slutter først, lige i en nye hvis der ikke er plads i nogen af de andre
+
+
+```python
+def findset(x):
+	X = x
+	while X != X.p:
+		X = X.p
+
+	while x != X:
+		tmp = x
+		x.p = X
+		x = x.p
+
+	return X
+```
