@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intro til datalogi/Repræstation af tal.md",
+                "file": "DM576-Databasesystemer/Exersices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Repræstation af tal"
+              "title": "Backlinks for Exersices"
             }
           },
           {
@@ -180,13 +180,11 @@
               "title": "Outline of Intruduction to Proofs"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,7 +198,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bbdd93837077ea60",
+  "active": "52e0c0a53c52a91c",
   "lastOpenFiles": [
     "attachments/Pasted image 20260508102540.png",
     "attachments/Pasted image 20260508102040.png",
