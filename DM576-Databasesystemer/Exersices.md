@@ -1117,3 +1117,26 @@ SELECT getstar('Hollywood address 2');
 
 ```
 
+
+
+# 14.1.1
+![[Pasted image 20260508102034.png]]
+
+$$
+\frac{n}{3}+\frac{n}{10}
+$$
+
+$$
+\frac{n}{3}+\frac{\frac{n}{3}}{10}=\frac{n}{3}+\frac{n}{30}
+$$
+
+
+![[Pasted image 20260508102040.png]]
+
+
+![[Pasted image 20260508102540.png]]
+a)
+$$
+10\cdot 100.000\cdot 1000\cdot 1024b=1024000000000b=1024Gb
+$$
+b)
