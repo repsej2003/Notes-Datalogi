@@ -321,3 +321,109 @@ huerist -  flest intersetcion
 variable $x_{i,j}$ 
 domain $x_{i,j}\in alfabatet$
 constrain, all strait of word in dictanary
+
+# 11.1
+Ojects:
+
+Banana
+Monky
+Box
+A
+B
+C
+
+Skal bruges hvis height predicate
+HIGH 
+LOW
+
+Predicate:
+at(x,R)
+high(x)
+low(x)
+holds(x,y)
+
+Alt ikke notere  er falsk
+Init
+$$
+\begin{align}
+at(Monkey,A) \wedge
+at(Bananas,B) \wedge
+at(Bo x,C) \wedge \\
+low(Monkey) \wedge
+low(b o x) \wedge
+high(bananas) \wedge \\
+\end{align}
+$$
+
+action
+$$
+\begin{align}
+Action(go(a,b),  \\
+P: at(Monkey,a) \wedge low(monkey) \\
+E: \neg at(Monkey,a) \wedge at(Monkey,b))
+\end{align}
+$$
+$$
+\begin{align}
+Action(p u sh(a,b),  \\
+P: at(Monkey,a) \wedge at(b o x,a) \wedge low(monkey)  \\
+E: \neg at(Monkey,a) \wedge at(Monkey,b) \wedge \neg at(b o x,a) \wedge at(b o x,b) )
+\end{align}
+$$
+$$
+\begin{align}
+Action(climpUp(a),  \\
+P: at(Monkey,a) \wedge at(b o x,a) \wedge low(monkey)  \\
+E: \neg low(Monkey) \wedge high(Monkey))
+\end{align}
+$$
+$$
+\begin{align}
+Action(climpDown(a),  \\
+P: at(Monkey,a) \wedge at(b o x,a) \wedge high(monkey)  \\
+E: low(Monkey) \wedge\neg  high(Monkey))
+\end{align}
+$$
+$$
+\begin{align}
+Action(grasp(a),  \\
+P: at(Monkey,a) \wedge at(banana,a) \wedge high(monkey) \wedge \neg holds(monky, banana)  \\
+E: holds(monkey,banana)) \wedge
+\end{align}
+$$
+
+$$
+\begin{align}
+Action(graspUn(a),  \\
+P: at(Monkey,a) \wedge holds(monkey,banna) \\
+E: \neg holds(monkey,banana))
+\end{align}
+$$
+height 
+den burde væres ådan her
+$$
+height(e,h)
+$$
+
+Goal
+$$
+\begin{align}
+at(Monkey,A) \wedge
+at(Bo x,C) \wedge \\
+low(Monkey) \wedge
+low(b o x) \wedge
+holds(monky, bannas)
+\end{align}
+$$
+
+
+## 11.2
+
+$$
+\begin{align}
+fly(P_{1}, JFK, SFO) \\
+fly(P_{2}, SFO, JFK) \\
+fly(P_{1}, JFK, JFK) \\
+fly(P_{2}, SFO, SFO) \\
+\end{align}
+$$
