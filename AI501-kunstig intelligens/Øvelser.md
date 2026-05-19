@@ -427,3 +427,48 @@ fly(P_{1}, JFK, JFK) \\
 fly(P_{2}, SFO, SFO) \\
 \end{align}
 $$
+
+## 11.4
+$$
+\begin{align}
+action(go(x,y,r) \\
+P: At(sanky, x) \wedge In(x,r) \wedge In(y,r) \wedge \neg on(sanky, flo or)\\
+E: \neg At(sanky,x) \wedge At(sanky,y))
+\end{align}
+$$
+$$
+\begin{align}
+action( p u sh(b,x,y,r) \\
+P: bo x(b) \wedge At (b,x) \wedge At(sanky, x) \wedge In(x,r) \wedge In(y,r)  \wedge on(sanky,floor)\\
+E: \neg At(sanky,x) \wedge At(sanky,y) \wedge \neg At(b,x) \wedge At(b,y) )
+\end{align}
+$$
+
+$$
+\begin{align}
+action( climpUp(x,b) \\
+P: bo x(b) \wedge At(sanky, x) \wedge At(bo x,x) \wedge On(Sanky, floor) \\
+E: \neg On(Sanky,floor) \wedge On(sanky,b) )
+\end{align}
+$$
+$$
+\begin{align}
+action( climpDown(x,b) \\
+P: bo x(b) \wedge At(sanky, x) \wedge At(bo x,x) \wedge On(Sanky, box) \\
+E: On(Sanky,floor) \wedge \neg On(sanky,b) )
+\end{align}
+$$
+$$
+\begin{align}
+action( TurnOn(s,b) \\
+P: bo x(b) \wedge sw(S) \wedge At(sanky, s) \wedge On(Sanky, b) \wedge \neg swOn(s)\\
+E: swOn(s) )
+\end{align}
+$$
+$$
+\begin{align}
+action( TurnOff(s,b) \\
+P: bo x(b) \wedge sw(S) \wedge At(sanky, s)  \wedge On(Sanky, b) \wedge swOn(s)\\
+E: \neg swOn(s) )
+\end{align}
+$$
