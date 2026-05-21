@@ -472,3 +472,16 @@ P: bo x(b) \wedge sw(S) \wedge At(sanky, s)  \wedge On(Sanky, b) \wedge swOn(s)\
 E: \neg swOn(s) )
 \end{align}
 $$
+
+$$
+\begin{align}
+(r_{1}\vee r_{2}\vee r_{3})\wedge \\
+(\neg r_{1}\vee  g_{1}\vee  b_{1})\wedge \\
+(\neg r_{2}\vee  g_{2}\vee b_{2})\wedge \\
+(\neg r_{3}\vee  g_{3}\vee  b_{3})\wedge \\
+
+\end{align}
+$$
+
+
+
