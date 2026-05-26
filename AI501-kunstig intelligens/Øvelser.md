@@ -513,3 +513,5 @@ $$
 
 ![[Pasted image 20260526151549.png]]
 ![[Pasted image 20260526151808.png]]
+
+![[Pasted image 20260526153724.png]]
