@@ -20,7 +20,8 @@
 | April 30, 14h-16h, U140    | Lecture 12                         | Bayesian Networks  <br>[slides](https://matteoacclavio.com/pages/courses/2026-IAI/12_Bayesian_Networks.pdf)                                                                                            | Chapters 12.6, 13.1, 13.2.1, 13.3.(1-3) |
 | May 07, 14h-16h, U140      | Lecture 13                         | Classical Planning  <br>[slides](https://matteoacclavio.com/pages/courses/2026-IAI/13_PDDL.pdf)                                                                                                        | Chapter 11                              |
 | May 21, 14h-16h, U140      | Lecture 14                         | Wrap-up and Review  <br>[slides](https://matteoacclavio.com/pages/courses/2026-IAI/99_wrap_up.pdf)                                                                                                     |                                         |
-- [ ] Chapter 1
+- [x] Chapter 1
+		Fist halv del læst, anden del skimmet
 - [ ] Chapter 2
 - [ ] chapter 3
 - [ ] chapter 4

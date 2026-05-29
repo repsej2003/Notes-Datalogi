@@ -11,12 +11,14 @@
             "id": "45fdb2dfd54b7554",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "AI501-kunstig intelligens/bog.pdf"
+                "file": "AI501-kunstig intelligens/Læse plan.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "bog"
+              "icon": "lucide-file",
+              "title": "Læse plan"
             }
           },
           {
@@ -118,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI501-kunstig intelligens/bog.pdf",
+                "file": "AI501-kunstig intelligens/Læse plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +130,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for bog"
+              "title": "Backlinks for Læse plan"
             }
           },
           {
@@ -137,12 +139,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI501-kunstig intelligens/bog.pdf",
+                "file": "AI501-kunstig intelligens/Læse plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from bog"
+              "title": "Outgoing links from Læse plan"
             }
           },
           {
@@ -166,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI501-kunstig intelligens/bog.pdf",
+                "file": "AI501-kunstig intelligens/Læse plan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of bog"
+              "title": "Outline of Læse plan"
             }
           }
         ],
@@ -196,9 +198,9 @@
   },
   "active": "45fdb2dfd54b7554",
   "lastOpenFiles": [
+    "AI501-kunstig intelligens/bog.pdf",
     "AI501-kunstig intelligens/Øvelser.md",
     "AI501-kunstig intelligens/Læse plan.md",
-    "AI501-kunstig intelligens/bog.pdf",
     "DM576-Databasesystemer/How to degsign a database.md",
     "attachments/Pasted image 20260526153724.png",
     "attachments/Pasted image 20260526151808.png",
