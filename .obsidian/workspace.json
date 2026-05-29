@@ -11,28 +11,24 @@
             "id": "45fdb2dfd54b7554",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "DM576-Databasesystemer/How to degsign a database.md",
-                "mode": "source",
-                "source": false
+                "file": "AI501-kunstig intelligens/bog.pdf"
               },
-              "icon": "lucide-file",
-              "title": "How to degsign a database"
+              "icon": "lucide-file-text",
+              "title": "bog"
             }
           },
           {
             "id": "bbdd93837077ea60",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "AI501-kunstig intelligens/Øvelser.md",
-                "mode": "source",
-                "source": false
+                "file": "AI501-kunstig intelligens/bog.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Øvelser"
+              "icon": "lucide-file-text",
+              "title": "bog"
             }
           },
           {
@@ -49,8 +45,7 @@
               "title": "Asysmtotic notation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI501-kunstig intelligens/Øvelser.md",
+                "file": "AI501-kunstig intelligens/bog.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Øvelser"
+              "title": "Backlinks for bog"
             }
           },
           {
@@ -142,12 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI501-kunstig intelligens/Øvelser.md",
+                "file": "AI501-kunstig intelligens/bog.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Øvelser"
+              "title": "Outgoing links from bog"
             }
           },
           {
@@ -171,21 +166,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Diskret matematik/Intruduction to Proofs.md",
+                "file": "AI501-kunstig intelligens/bog.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Intruduction to Proofs"
+              "title": "Outline of bog"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 369.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,8 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bbdd93837077ea60",
+  "active": "45fdb2dfd54b7554",
   "lastOpenFiles": [
+    "AI501-kunstig intelligens/Øvelser.md",
+    "AI501-kunstig intelligens/Læse plan.md",
+    "AI501-kunstig intelligens/bog.pdf",
+    "DM576-Databasesystemer/How to degsign a database.md",
     "attachments/Pasted image 20260526153724.png",
     "attachments/Pasted image 20260526151808.png",
     "attachments/Pasted image 20260526151549.png",
@@ -210,7 +209,6 @@
     "attachments/Pasted image 20260508102040.png",
     "attachments/Pasted image 20260508102034.png",
     "DM578-Algoritmer og Datastrukturer/Øvelser.md",
-    "AI501-kunstig intelligens/Øvelser.md",
     "attachments/Pasted image 20260422122651.png",
     "attachments/Pasted image 20260422122546.png",
     "DM549 - Diskret matematik/Markdown syntax.md",
@@ -228,15 +226,12 @@
     "DM549 - Diskret matematik/Matrices.md",
     "DM549 - Diskret matematik/TalTeroi.md",
     "attachments/Pasted image 20260420152223.png",
-    "attachments/Pasted image 20260420152148.png",
     "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
-    "DM576-Databasesystemer/How to degsign a database.md",
     "DM549 - Diskret matematik/potens regne relger.md",
     "AI501-kunstig intelligens/Intro.md",
     "DM578-Algoritmer og Datastrukturer/Divede and conquer.md",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
     "DM575-Objektorienteret/Design Patterns.md",
-    "DM578-Algoritmer og Datastrukturer/Intro til algoritmer og datastrukter.md",
     "Untitled.canvas",
     "AI501-kunstig intelligens",
     "DM578-Algoritmer og Datastrukturer",
@@ -247,7 +242,6 @@
     "DM549 - Diskret matematik/Forelæsninger/Lecture19.pdf",
     "DM549 - Diskret matematik/Forelæsninger/Lecture Notes 16.pdf",
     "DM549 - Diskret matematik/Forelæsninger/Lecture20_notes.pdf",
-    "DM549 - Diskret matematik/Forelæsninger/Lecture1.pdf",
     "Untitled 1.canvas"
   ]
 }
