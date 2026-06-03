@@ -8,15 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "45fdb2dfd54b7554",
+            "id": "664041ba6c79a4f4",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/04_Search2.pdf"
+                "file": "AI501-kunstig intelligens/Slides/99_wrap_up.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "04_Search2"
+              "title": "99_wrap_up"
             }
           },
           {
@@ -25,24 +25,22 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/03_Search.pdf"
+                "file": "AI501-kunstig intelligens/Slides/07_logicalAgents.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "03_Search"
+              "title": "07_logicalAgents"
             }
           },
           {
             "id": "3451edf708bbaba6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "AI501-kunstig intelligens/Øvelser.md",
-                "mode": "source",
-                "source": false
+                "file": "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Øvelser"
+              "icon": "lucide-file-text",
+              "title": "08_InferenceAndFoL"
             }
           },
           {
@@ -51,10 +49,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/02_Intelligent_Agents.pdf"
+                "file": "AI501-kunstig intelligens/Slides/06_CSP.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "02_Intelligent_Agents"
+              "title": "06_CSP"
             }
           },
           {
@@ -68,22 +66,9 @@
               "icon": "lucide-file-text",
               "title": "bog"
             }
-          },
-          {
-            "id": "2dedb233a82d8ef4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Asysmtotic notation"
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -204,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI501-kunstig intelligens/Læse plan.md",
+                "file": "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Læse plan"
+              "title": "Outline of 08_InferenceAndFoL"
             }
           }
         ],
@@ -237,11 +222,11 @@
     "type": "floating",
     "children": [
       {
-        "id": "663e2e2e3898a169",
+        "id": "fd0e4e0205f675d2",
         "type": "window",
         "children": [
           {
-            "id": "3390953401177f96",
+            "id": "08f15f8a114fc847",
             "type": "tabs",
             "children": [
               {
@@ -262,29 +247,30 @@
           }
         ],
         "direction": "vertical",
-        "x": 448,
-        "y": 116,
-        "width": 1024,
-        "height": 800,
+        "x": 500,
+        "y": 131,
+        "width": 1039,
+        "height": 902,
         "maximize": true,
         "zoom": 0.5
       }
     ]
   },
-  "active": "dba28bbdae0702d2",
+  "active": "3451edf708bbaba6",
   "lastOpenFiles": [
-    "AI501-kunstig intelligens/Slides/04_Search2.pdf",
+    "AI501-kunstig intelligens/Slides/07_logicalAgents.pdf",
     "AI501-kunstig intelligens/Læse plan.md",
-    "AI501-kunstig intelligens/Slides/05_Search3.pdf",
-    "AI501-kunstig intelligens/Slides/99_wrap_up.pdf",
-    "AI501-kunstig intelligens/Slides/examplesSearch.pdf",
-    "AI501-kunstig intelligens/Slides/examplesSearch.pdf.crdownload",
-    "attachments/Pasted image 20260603152842.png",
-    "AI501-kunstig intelligens/Slides/03_Search.pdf",
+    "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf",
     "AI501-kunstig intelligens/Øvelser.md",
-    "AI501-kunstig intelligens/Slides/02_Intelligent_Agents.pdf",
+    "AI501-kunstig intelligens/Slides/99_wrap_up.pdf",
+    "AI501-kunstig intelligens/Slides/04_Search2.pdf",
+    "AI501-kunstig intelligens/Slides/05_Search3.pdf",
+    "AI501-kunstig intelligens/Slides/06_CSP.pdf",
     "AI501-kunstig intelligens/bog.pdf",
-    "AI501-kunstig intelligens/Slides/00_Course_Description.pdf",
+    "AI501-kunstig intelligens/Slides/03_Search.pdf",
+    "AI501-kunstig intelligens/Slides/02_Intelligent_Agents.pdf",
+    "AI501-kunstig intelligens/Slides/examplesSearch.pdf",
+    "attachments/Pasted image 20260603152842.png",
     "DM576-Databasesystemer/How to degsign a database.md",
     "attachments/Pasted image 20260526153724.png",
     "attachments/Pasted image 20260526151808.png",
@@ -318,7 +304,6 @@
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
     "DM575-Objektorienteret/Design Patterns.md",
     "Untitled.canvas",
-    "AI501-kunstig intelligens",
     "Untitled 1.canvas"
   ]
 }

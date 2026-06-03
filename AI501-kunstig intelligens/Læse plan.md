@@ -135,6 +135,60 @@ Note: complexity in the worst case is the same as breadth-first search, but in p
 If the heuristic is admissible, then A* tree search is optimal.
 If the heuristic is consistent, then A* graph search is optimal.
 
+## Two player search - adervsial
+### mimax
+Optimal if the opponent also plays optimally 
+Complexity: $O (b^m)$ where b is the branching factor and m is the maximum depth of the tree
+Space complexity: O (bm
+
+### Alpha-beta prune
+????? ved ca hvordan? viggtigt præcis
+
+Optimal if the opponent also plays optimally
+Complexity:  $O(b^{m/2})$ in the best case,$O (b^m)$ in the worst case
+Space complexity: O (bm) 
+
+# Constraint Satisfaction Problems (CSP) 
+Beskriv varaible og deres domane og hvilke ting der skal vør opflydt for at den er løst
+
+### assingment
+nogle af varaible sat til nogle sepefike værdi
+parital hvis ikke alle varibler er sat, 
+complete hvis alle er sat
+
+Consist hvis den over holder allle constraints
+
+Solution if complete and consisten
+
+### hyper grah
+variable node
+hyperedge(edge mellem flere end to noder) - er en eller anden constraint
+
+## solving 
+### backtracking
+min sudko løsning, dybde først til den fejler derfeter gå prøv den næste
+
+#### ways to improve
+##### constraint propagation
+local consistency 
+* Node consitsy - alt i domænet overholder consraint på node selv
+* arc consisten -  x and y, for alle værdi i x's domane er der en værdi i y der overholder en costraint mellem de to
+* path consistent - any pair (x, y ) is path consitent with z, hvis alle consist værdi der kan gives x, y, også gælder at der findes et z som over holder alle constraint mellem x og z, og  y og z
+* k - consisty, det samme som oven over bare skallert til en k størrlse, så for all gyldige værdie til de første $k_{n-1}$ finders der en værdi der gør $k_{{n}}$ gyldig
+* strong k - consisty, så gælder det at den er konsitet med alle værdi under k .
+
+##### variable heuristics
+- Minimum Remaining Values (MRV)
+- Degree Heuristic - den varibale med flest constraites
+- Dom/Wdeg (adaptive) - tilpasser så constrait der for det fejler oftere får bliver prioteret
+###### value heuristics 
+- Least Constraining Value (LCV)
+- Most Constraining Value
+- Min-Value / Max-Value - vælg dem i en naturlig række følge, fra minst til størt eller modsat ?? 
+
+#### Backjumping
+hop til bage til det rigtie sted, på magisk måde
+
 
 # Ordbog
 - Forward chaning
