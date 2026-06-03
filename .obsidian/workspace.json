@@ -11,14 +11,50 @@
             "id": "45fdb2dfd54b7554",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI501-kunstig intelligens/Slides/04_Search2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "04_Search2"
+            }
+          },
+          {
+            "id": "4e14842d30644f12",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI501-kunstig intelligens/Slides/03_Search.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "03_Search"
+            }
+          },
+          {
+            "id": "3451edf708bbaba6",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "AI501-kunstig intelligens/Læse plan.md",
+                "file": "AI501-kunstig intelligens/Øvelser.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Læse plan"
+              "title": "Øvelser"
+            }
+          },
+          {
+            "id": "80340dcb7e9cc06f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI501-kunstig intelligens/Slides/02_Intelligent_Agents.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "02_Intelligent_Agents"
             }
           },
           {
@@ -196,11 +232,59 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "45fdb2dfd54b7554",
+  "floating": {
+    "id": "c2faae06566338ed",
+    "type": "floating",
+    "children": [
+      {
+        "id": "663e2e2e3898a169",
+        "type": "window",
+        "children": [
+          {
+            "id": "3390953401177f96",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "dba28bbdae0702d2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "AI501-kunstig intelligens/Læse plan.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Læse plan"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 448,
+        "y": 116,
+        "width": 1024,
+        "height": 800,
+        "maximize": true,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "dba28bbdae0702d2",
   "lastOpenFiles": [
-    "AI501-kunstig intelligens/bog.pdf",
-    "AI501-kunstig intelligens/Øvelser.md",
+    "AI501-kunstig intelligens/Slides/04_Search2.pdf",
     "AI501-kunstig intelligens/Læse plan.md",
+    "AI501-kunstig intelligens/Slides/05_Search3.pdf",
+    "AI501-kunstig intelligens/Slides/99_wrap_up.pdf",
+    "AI501-kunstig intelligens/Slides/examplesSearch.pdf",
+    "AI501-kunstig intelligens/Slides/examplesSearch.pdf.crdownload",
+    "attachments/Pasted image 20260603152842.png",
+    "AI501-kunstig intelligens/Slides/03_Search.pdf",
+    "AI501-kunstig intelligens/Øvelser.md",
+    "AI501-kunstig intelligens/Slides/02_Intelligent_Agents.pdf",
+    "AI501-kunstig intelligens/bog.pdf",
+    "AI501-kunstig intelligens/Slides/00_Course_Description.pdf",
     "DM576-Databasesystemer/How to degsign a database.md",
     "attachments/Pasted image 20260526153724.png",
     "attachments/Pasted image 20260526151808.png",
@@ -227,7 +311,6 @@
     "DM549 - Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "DM549 - Diskret matematik/Matrices.md",
     "DM549 - Diskret matematik/TalTeroi.md",
-    "attachments/Pasted image 20260420152223.png",
     "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
     "DM549 - Diskret matematik/potens regne relger.md",
     "AI501-kunstig intelligens/Intro.md",
@@ -236,14 +319,6 @@
     "DM575-Objektorienteret/Design Patterns.md",
     "Untitled.canvas",
     "AI501-kunstig intelligens",
-    "DM578-Algoritmer og Datastrukturer",
-    "DM575-Objektorienteret",
-    "DM576-Databasesystemer",
-    "DM549 - Diskret matematik/Forelæsninger/Lecture21.pdf",
-    "DM549 - Diskret matematik/Forelæsninger/Lecture20.pdf",
-    "DM549 - Diskret matematik/Forelæsninger/Lecture19.pdf",
-    "DM549 - Diskret matematik/Forelæsninger/Lecture Notes 16.pdf",
-    "DM549 - Diskret matematik/Forelæsninger/Lecture20_notes.pdf",
     "Untitled 1.canvas"
   ]
 }
