@@ -256,7 +256,52 @@ sound and complete
 
 refutation at finde mod stid for at bevise at den er derf
 
+### Resolution Rule
+![[Pasted image 20260604094045.png]]
+RR er mere genrel, hvor man har to claues hvor man har en modsætning så $m_{j}$ i den ene og $\neg m_{j}$ i den anden.
+![[Pasted image 20260604094412.png]]
+
+Hvis man rammer den tome sætning er man fundet en modstrid
+Den virker på sætninger på CNF 
+
+En clause er or af littereace
+og en helt sætning er and af claueses
+#### Resoltion algorithem
+idea:
+bevis $KB\models \alpha$ ved at hvise at $KB \wedge \neg \alpha$ er unstaitfiable
+Så et modstrid bevis
+
+ 1. $KB \wedge \neg \alpha$ til CNF
+ 2. brug RR til at lave nye clauses
+ 3. getag 2. indtil 
+	 - der ikke kan laves flere clauses så $KB \not \models a$
+	 - Eller finder den tome sætning så  $KB \wedge \neg \alpha$ er unsitfabiale $\implies KB\models alpha$
+
+### Resolution closure
+RC (S) = set of all clauses obtained from S by repeated resolution
+
+### First-Order Logic
+
+Predicate kan være sandt eller falsk
+Funciton retuner et obejct
+
+#### Terms
+- Constant - et spesfik object
+- function(term, ..) - spesik object ud fra et eller andet  - ek vensrtebenaf(kingjohn)
+- variable: et genrelt object
+
+#### models
+model i FOL er 
+$$
+\mathfrak{M}=(\mathbb{D}, I)
+$$
+- Domain $\mathbb{D}$ a set of object $\mathbb{D} \not =\emptyset$
+- Interpreations, $I$ assign meaning to symboles
+	- cosntas $\to$ objects in $\mathbb{D}$
+	- Predicate symbols $\to$ relations over $\mathbb{D}$
+	- funcitons symbols $\to$ functaln relations over $\mathbb{D}$
 # Ordbog
+
 - Forward chaning
 - backwardchaning
 - 

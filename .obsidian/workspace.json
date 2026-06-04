@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI501-kunstig intelligens/Læse plan.md",
+                "file": "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Læse plan"
+              "title": "Outline of 08_InferenceAndFoL"
             }
           }
         ],
@@ -255,10 +255,12 @@
       }
     ]
   },
-  "active": "dba28bbdae0702d2",
+  "active": "664041ba6c79a4f4",
   "lastOpenFiles": [
-    "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf",
     "AI501-kunstig intelligens/Læse plan.md",
+    "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf",
+    "attachments/Pasted image 20260604094412.png",
+    "attachments/Pasted image 20260604094045.png",
     "AI501-kunstig intelligens/Slides/99_wrap_up.pdf",
     "AI501-kunstig intelligens/bog.pdf",
     "AI501-kunstig intelligens/Slides/07_logicalAgents.pdf",
@@ -279,9 +281,7 @@
     "DM576-Databasesystemer/Exersices.md",
     "attachments/Pasted image 20260508102540.png",
     "attachments/Pasted image 20260508102040.png",
-    "attachments/Pasted image 20260508102034.png",
     "DM578-Algoritmer og Datastrukturer/Øvelser.md",
-    "attachments/Pasted image 20260422122651.png",
     "DM549 - Diskret matematik/Markdown syntax.md",
     "DM549 - Diskret matematik/Logic Propositions.md",
     "DM549 - Diskret matematik/Kombinatorik.md",
