@@ -300,6 +300,22 @@ $$
 	- cosntas $\to$ objects in $\mathbb{D}$
 	- Predicate symbols $\to$ relations over $\mathbb{D}$
 	- funcitons symbols $\to$ functaln relations over $\mathbb{D}$
+#### man kan lave FOL om til PL
+1. unviersal qunaifer til et connret object, for all objecter i domanet
+2.  extinal qunaifer til variabel med nyt navn(helt nyt navn)
+3. lave den om til PL ved at inføre propositnal symobl
+#### Substuion
+![[Pasted image 20260604123422.png]]
+## Unification
+at finde en subsituins der gør de to sætninger logisk identisek
+### Most General Unifier (MGU)
+Den unifer der sætter færest varaible
+#### Unfiy alog kan jeg ikke gøre, ved hvad menining er 
+
+#### Relusion i FOL ????
+#### Forward chaing  i FOL
+### Hornclauses
+# Uncertiany
 
 # Ordbog
 
