@@ -189,6 +189,72 @@ local consistency
 #### Backjumping
 hop til bage til det rigtie sted, på magisk måde
 
+# Syntax and sematics
+## Syntax
+hvor dan et sprog skal se ud 
+## sematics
+hvad et sprog betyder
+# Inference in PL
+## Model
+Det giver en værdi til alle propostions i et sprog
+
+En sætning $\alpha$ er satisfiable in $\mathfrak{M}$ hvis den er sand for de værdi i den model
+$$
+\mathfrak{M}\models \alpha
+$$
+En sætning $\alpha$ er vaild hvis den er sand i  alle modeler
+$$
+\models \alpha
+$$
+hvis der ikke findes en model hvor den er er sand
+$$
+\not\models \alpha
+$$
+
+$\alpha$ er unsatifalvbe hvis der ikke findes nogle modle hvor den er sand.
+
+## Entialment
+Hvis en sætning og er sand, så følger en anden sætning.
+$$
+\alpha \models\beta \ \text{iff} \ (\forall M, M \models \alpha \to M \models \beta)
+$$
+
+logisk ekvilente
+$$
+\alpha\equiv \beta \ \text{iff} \ (\alpha \models \beta \ \text{and }\beta  \models \alpha)
+$$
+
+## Infernce 
+infernce alogtrtimer tage to sætning og fortæller om den en entailer den anden
+
+- Sound (or truth-preserving ) - hvis den kun svar ja når det er sandt
+- compelete - hvis den svar ja i alle tilfæde hvor det er sandt.
+
+bruteforce hvor man tjekker alle modeler er en algortimer men meget langsom.
+
+### PL
+#### Deduction therom
+$$
+\begin{align}
+\alpha \models\beta&\Leftrightarrow \models \alpha\to \beta \\
+\alpha \models\beta&\Leftrightarrow \not\models \alpha \wedge \neg \beta
+\end{align}
+$$
+#### modus punus
+![[Pasted image 20260604092159.png]]
+### Forward chaning
+Du har en KB og en spørgsmål $\alpha$ 
+
+Start med KB og bruger inferenes rules, til at bevæge sig fremad, for ny facts, indtil man rammer $\alpha$ eller ikke kan få mere information
+
+sound and complete
+### Backward chaining
+Du har en KB og en spørgsmål $\alpha$ 
+
+Start bagfra og bruger inferens regler til at gå baglænds fra $\alpha$ til man rammer en modstrid eller ikke kan finde mere
+sound and complete
+
+refutation at finde mod stid for at bevise at den er derf
 
 # Ordbog
 - Forward chaning

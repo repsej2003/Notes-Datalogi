@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/99_wrap_up.pdf"
+                "file": "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "99_wrap_up"
+              "title": "08_InferenceAndFoL"
             }
           },
           {
@@ -67,8 +67,7 @@
               "title": "bog"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf",
+                "file": "AI501-kunstig intelligens/Læse plan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 08_InferenceAndFoL"
+              "title": "Outline of Læse plan"
             }
           }
         ],
@@ -247,8 +246,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 500,
-        "y": 131,
+        "x": 578,
+        "y": 56,
         "width": 1039,
         "height": 902,
         "maximize": true,
@@ -256,17 +255,18 @@
       }
     ]
   },
-  "active": "3451edf708bbaba6",
+  "active": "dba28bbdae0702d2",
   "lastOpenFiles": [
-    "AI501-kunstig intelligens/Slides/07_logicalAgents.pdf",
-    "AI501-kunstig intelligens/Læse plan.md",
     "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf",
-    "AI501-kunstig intelligens/Øvelser.md",
+    "AI501-kunstig intelligens/Læse plan.md",
     "AI501-kunstig intelligens/Slides/99_wrap_up.pdf",
+    "AI501-kunstig intelligens/bog.pdf",
+    "AI501-kunstig intelligens/Slides/07_logicalAgents.pdf",
+    "attachments/Pasted image 20260604092159.png",
+    "AI501-kunstig intelligens/Øvelser.md",
     "AI501-kunstig intelligens/Slides/04_Search2.pdf",
     "AI501-kunstig intelligens/Slides/05_Search3.pdf",
     "AI501-kunstig intelligens/Slides/06_CSP.pdf",
-    "AI501-kunstig intelligens/bog.pdf",
     "AI501-kunstig intelligens/Slides/03_Search.pdf",
     "AI501-kunstig intelligens/Slides/02_Intelligent_Agents.pdf",
     "AI501-kunstig intelligens/Slides/examplesSearch.pdf",
@@ -282,7 +282,6 @@
     "attachments/Pasted image 20260508102034.png",
     "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "attachments/Pasted image 20260422122651.png",
-    "attachments/Pasted image 20260422122546.png",
     "DM549 - Diskret matematik/Markdown syntax.md",
     "DM549 - Diskret matematik/Logic Propositions.md",
     "DM549 - Diskret matematik/Kombinatorik.md",
