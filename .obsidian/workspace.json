@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf"
+                "file": "AI501-kunstig intelligens/Slides/09_unificationAndFoL.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "08_InferenceAndFoL"
+              "title": "09_unificationAndFoL"
             }
           },
           {
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf",
+                "file": "AI501-kunstig intelligens/Slides/09_unificationAndFoL.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 08_InferenceAndFoL"
+              "title": "Outline of 09_unificationAndFoL"
             }
           }
         ],
@@ -255,9 +255,10 @@
       }
     ]
   },
-  "active": "664041ba6c79a4f4",
+  "active": "b9cb638ab782d8f7",
   "lastOpenFiles": [
     "AI501-kunstig intelligens/Læse plan.md",
+    "AI501-kunstig intelligens/Slides/09_unificationAndFoL.pdf",
     "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf",
     "attachments/Pasted image 20260604094412.png",
     "attachments/Pasted image 20260604094045.png",
@@ -271,7 +272,6 @@
     "AI501-kunstig intelligens/Slides/06_CSP.pdf",
     "AI501-kunstig intelligens/Slides/03_Search.pdf",
     "AI501-kunstig intelligens/Slides/02_Intelligent_Agents.pdf",
-    "AI501-kunstig intelligens/Slides/examplesSearch.pdf",
     "attachments/Pasted image 20260603152842.png",
     "DM576-Databasesystemer/How to degsign a database.md",
     "attachments/Pasted image 20260526153724.png",

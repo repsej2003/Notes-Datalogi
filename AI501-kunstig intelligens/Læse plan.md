@@ -300,6 +300,7 @@ $$
 	- cosntas $\to$ objects in $\mathbb{D}$
 	- Predicate symbols $\to$ relations over $\mathbb{D}$
 	- funcitons symbols $\to$ functaln relations over $\mathbb{D}$
+
 # Ordbog
 
 - Forward chaning
