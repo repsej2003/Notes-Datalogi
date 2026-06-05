@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/11_Uncertainty.pdf"
+                "file": "AI501-kunstig intelligens/Slides/examplesSearch.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "11_Uncertainty"
+              "title": "examplesSearch"
             }
           },
           {
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/11_Uncertainty.pdf",
+                "file": "AI501-kunstig intelligens/Læse plan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 11_Uncertainty"
+              "title": "Outline of Læse plan"
             }
           }
         ],
@@ -250,15 +250,17 @@
         "y": 56,
         "width": 1039,
         "height": 902,
-        "maximize": true,
+        "maximize": false,
         "zoom": 0.5
       }
     ]
   },
-  "active": "664041ba6c79a4f4",
+  "active": "dba28bbdae0702d2",
   "lastOpenFiles": [
     "AI501-kunstig intelligens/Læse plan.md",
+    "AI501-kunstig intelligens/Slides/examplesSearch.pdf",
     "AI501-kunstig intelligens/Slides/13_PDDL.pdf",
+    "AI501-kunstig intelligens/Slides/99_wrap_up.pdf",
     "AI501-kunstig intelligens/Slides/12_Bayesian_Networks.pdf",
     "AI501-kunstig intelligens/Slides/11_Uncertainty.pdf",
     "AI501-kunstig intelligens/Slides/09_unificationAndFoL.pdf",
@@ -267,12 +269,10 @@
     "AI501-kunstig intelligens/bog.pdf",
     "attachments/Pasted image 20260604094412.png",
     "attachments/Pasted image 20260604094045.png",
-    "AI501-kunstig intelligens/Slides/99_wrap_up.pdf",
     "AI501-kunstig intelligens/Slides/07_logicalAgents.pdf",
     "attachments/Pasted image 20260604092159.png",
     "AI501-kunstig intelligens/Øvelser.md",
     "AI501-kunstig intelligens/Slides/04_Search2.pdf",
-    "AI501-kunstig intelligens/Slides/05_Search3.pdf",
     "attachments/Pasted image 20260603152842.png",
     "DM576-Databasesystemer/How to degsign a database.md",
     "attachments/Pasted image 20260526153724.png",
