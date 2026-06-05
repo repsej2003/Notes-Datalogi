@@ -392,6 +392,36 @@ $$
 
 D-s
 # Classical Planning
+### Database semantics
+- Unique names: differnt constants refer to different object
+- closed wolrd: what is not known to be true is false
+- Domain closure: the nly object in the domaion are those nambed by constants
+
+## Core compents
+* States: conjunctin of ground facts
+* Actions: precoditions + effect
+* initalte state: facts true at the start
+* Goal: facts that must hold at he end
+* plan: action sequense
+### actions
+For each action $a \in A$ we define
+- Pre condtion set $pre(a)$
+- add list $add(a)$ det der bliver tilføjet ved brug af action
+- delete list $de l (a)$ det der bliver fjerne ved brug af action
+Så ser tranfromer ation sådan her ud, s er staten
+$$
+\gamma(s,a)=\left\{
+\begin{array}{ll}
+(s - de l(a))\cup add(a)& \text{if } pre(a) \subseteq s \\
+\text{undefined}&\text{otherwise}
+\end{array}
+\right.
+
+$$
+A vaild plan id list of actions that goes from inatile state til goal state
+
+### Example
+![[Pasted image 20260605123550.png]]
 
 # Ordbog
 

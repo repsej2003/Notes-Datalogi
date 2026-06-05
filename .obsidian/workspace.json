@@ -125,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -189,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/13_PDDL.pdf",
+                "file": "AI501-kunstig intelligens/Læse plan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 13_PDDL"
+              "title": "Outline of Læse plan"
             }
           }
         ],
@@ -203,7 +204,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.5
+    "width": 369.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,12 +258,13 @@
       }
     ]
   },
-  "active": "4e14842d30644f12",
+  "active": "dba28bbdae0702d2",
   "lastOpenFiles": [
-    "AI501-kunstig intelligens/Læse plan.md",
+    "attachments/Pasted image 20260605123550.png",
     "AI501-kunstig intelligens/Slides/13_PDDL.pdf",
-    "AI501-kunstig intelligens/Slides/12_Bayesian_Networks.pdf",
+    "AI501-kunstig intelligens/Læse plan.md",
     "AI501-kunstig intelligens/bog.pdf",
+    "AI501-kunstig intelligens/Slides/12_Bayesian_Networks.pdf",
     "AI501-kunstig intelligens/Slides/examplesSearch.pdf",
     "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf",
     "AI501-kunstig intelligens/Slides/07_logicalAgents.pdf",
