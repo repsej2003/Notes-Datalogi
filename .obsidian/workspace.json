@@ -25,10 +25,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/12_Bayesian_Networks.pdf"
+                "file": "AI501-kunstig intelligens/Slides/13_PDDL.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "12_Bayesian_Networks"
+              "title": "13_PDDL"
             }
           },
           {
@@ -189,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/12_Bayesian_Networks.pdf",
+                "file": "AI501-kunstig intelligens/Slides/13_PDDL.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 12_Bayesian_Networks"
+              "title": "Outline of 13_PDDL"
             }
           }
         ],
@@ -259,6 +259,7 @@
   "active": "4e14842d30644f12",
   "lastOpenFiles": [
     "AI501-kunstig intelligens/Læse plan.md",
+    "AI501-kunstig intelligens/Slides/13_PDDL.pdf",
     "AI501-kunstig intelligens/Slides/12_Bayesian_Networks.pdf",
     "AI501-kunstig intelligens/bog.pdf",
     "AI501-kunstig intelligens/Slides/examplesSearch.pdf",
@@ -267,7 +268,6 @@
     "AI501-kunstig intelligens/Slides/06_CSP.pdf",
     "AI501-kunstig intelligens/Slides/11_Uncertainty.pdf",
     "AI501-kunstig intelligens/Slides/09_unificationAndFoL.pdf",
-    "AI501-kunstig intelligens/Slides/13_PDDL.pdf",
     "AI501-kunstig intelligens/Slides/99_wrap_up.pdf",
     "attachments/Pasted image 20260604123422.png",
     "attachments/Pasted image 20260604094412.png",

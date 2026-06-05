@@ -389,7 +389,10 @@ $$
 2. Common cause: $Y\to X$ and $Y\to Z$ observer y gør at der ikke er indflydes mellem X og Z (Hvar der det før)
 3. Common effect $X\to Y\leftarrow Z$. uden Y er x og y uafhængde, men når Y observes bliver de afhængde
 
+
 D-s
+# Classical Planning
+
 # Ordbog
 
 - Forward chaning
