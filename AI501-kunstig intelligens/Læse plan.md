@@ -315,8 +315,81 @@ Den unifer der sætter færest varaible
 #### Relusion i FOL ????
 #### Forward chaing  i FOL
 ### Hornclauses
+Ands til en medføre
+$$
+P_{1}\wedge P_{2}\wedge \dots \wedge P_{n}\to Q
+$$
+
 # Uncertiany
 
+## Conditnail probabilut
+E er event 
+F er evidnece
+$$
+P(E \wedge F)= P(E\mid F)\cdot P(F)
+$$
+## Bayers rule
+C er coliusoin
+E er evidence
+$$
+P(C\mid E)=\frac{P(C)\cdot P(E\mid C)}{P(E)}
+$$
+## Bayesian Reasoning
+### Random varbile independent
+hvis
+$$
+P(X \wedge Y)=P(X)\cdot P(Y)
+$$
+eller
+$$
+P(X \mid Y)=P(X)
+$$
+#### Conditinane independence
+to vairbaler er indepence givet en tjerde variable
+$$
+\forall x,y,z:P(x,y \mid z)=P(x \mid z)\cdot P(y \mid z)
+$$
+
+### marginalization
+For sandslyghed for en enkelt varibe, når man kun kender sandsynligheden for den og en anden variable sammen
+$$
+P(X)=\sum_{y\in D_{Y}}P(X,Y=y)
+$$
+### conditioning
+Opdater sandsynligheden af en variable når man får giver noget evendince, udfra den sammehængene sandsynlighed.
+$$
+P(X \mid Y = y )=\frac{P(X,Y = y)}{P(Y=y)}
+$$
+### Chain rule
+Man kan skrive en en joint distrubtuin af et set af varible udfra der condiinal destrubutin
+$$
+P(x_{1},\dots,X_{n})=P(X_{1}\mid X_{2}, \dots, X_{n})\cdot P(X_{2}\mid X_{3},\dots X_{n})\cdots P(X_{n})
+$$
+
+## Bayesian Network
+
+Bayesian Network er direceted acylic grapgh (DAG) hvorom det gææder
+1. Nodes  er random variables
+2. Kanter hviser directe indflydes (condidtilanl indepence)
+3. Hver node X har en table der giver dens udfald udfra den forælder (Conditional Probability Table)
+
+Det muliger og at finde sandsynligheden for et vært givet udfald af alle varbible med denne formel
+$$
+P(x_{1},x_{2},\dots,x_{n})=\prod_{i=1}^n P(x_{i}\mid parents(x_{i}))
+$$
+
+#### Modeling with BNs:
+* Bygge kompakte joint distribution
+* Enkode selve aussimtion i en graf
+* Mere komakter:
+	* full joint over N boolean varialbes $2 ^N$ entries
+	* BN with at most $k$ parentes per node: $O(N\cdot 2^{k+1})$ parameters
+### Three Canonical Dependency Patterns
+1. Causal chain $X\to Y\to Z$ at observer Y gør at X ikker har inflydes på Z
+2. Common cause: $Y\to X$ and $Y\to Z$ observer y gør at der ikke er indflydes mellem X og Z (Hvar der det før)
+3. Common effect $X\to Y\leftarrow Z$. uden Y er x og y uafhængde, men når Y observes bliver de afhængde
+
+D-s
 # Ordbog
 
 - Forward chaning
