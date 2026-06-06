@@ -23,12 +23,14 @@
             "id": "4e14842d30644f12",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/13_PDDL.pdf"
+                "file": "AI501-kunstig intelligens/MCQ.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "13_PDDL"
+              "icon": "lucide-file",
+              "title": "MCQ"
             }
           },
           {
@@ -68,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -260,10 +262,12 @@
   },
   "active": "dba28bbdae0702d2",
   "lastOpenFiles": [
-    "attachments/Pasted image 20260605123550.png",
-    "AI501-kunstig intelligens/Slides/13_PDDL.pdf",
-    "AI501-kunstig intelligens/Læse plan.md",
     "AI501-kunstig intelligens/bog.pdf",
+    "AI501-kunstig intelligens/Læse plan.md",
+    "AI501-kunstig intelligens/MCQ.md",
+    "AI501-kunstig intelligens/Øvelser.md",
+    "AI501-kunstig intelligens/Slides/13_PDDL.pdf",
+    "attachments/Pasted image 20260605123550.png",
     "AI501-kunstig intelligens/Slides/12_Bayesian_Networks.pdf",
     "AI501-kunstig intelligens/Slides/examplesSearch.pdf",
     "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf",
@@ -276,7 +280,6 @@
     "attachments/Pasted image 20260604094412.png",
     "attachments/Pasted image 20260604094045.png",
     "attachments/Pasted image 20260604092159.png",
-    "AI501-kunstig intelligens/Øvelser.md",
     "attachments/Pasted image 20260603152842.png",
     "DM576-Databasesystemer/How to degsign a database.md",
     "attachments/Pasted image 20260526153724.png",
@@ -284,7 +287,6 @@
     "attachments/Pasted image 20260526151549.png",
     "attachments/Pasted image 20260526142755.png",
     "DM576-Databasesystemer/Exersices.md",
-    "attachments/Pasted image 20260508102540.png",
     "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "DM549 - Diskret matematik/Markdown syntax.md",
     "DM549 - Diskret matematik/Logic Propositions.md",
@@ -305,7 +307,6 @@
     "AI501-kunstig intelligens/Intro.md",
     "DM578-Algoritmer og Datastrukturer/Divede and conquer.md",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
-    "DM575-Objektorienteret/Design Patterns.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

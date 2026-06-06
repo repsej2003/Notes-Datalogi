@@ -334,6 +334,9 @@ E er evidence
 $$
 P(C\mid E)=\frac{P(C)\cdot P(E\mid C)}{P(E)}
 $$
+
+ random variable is A function that assigns numerical values to the outcomes of a
+random experiment.
 ## Bayesian Reasoning
 ### Random varbile independent
 hvis
@@ -427,4 +430,4 @@ A vaild plan id list of actions that goes from inatile state til goal state
 
 - Forward chaning
 - backwardchaning
-- 
+- 8-puzzle 
