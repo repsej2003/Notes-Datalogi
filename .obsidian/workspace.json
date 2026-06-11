@@ -4,61 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9d34ef536ba7b267",
+        "id": "251e221111a406bb",
         "type": "tabs",
         "children": [
           {
-            "id": "664041ba6c79a4f4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "AI501-kunstig intelligens/Slides/examplesSearch.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "examplesSearch"
-            }
-          },
-          {
-            "id": "4e14842d30644f12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI501-kunstig intelligens/MCQ.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MCQ"
-            }
-          },
-          {
-            "id": "3451edf708bbaba6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "08_InferenceAndFoL"
-            }
-          },
-          {
-            "id": "80340dcb7e9cc06f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "AI501-kunstig intelligens/Slides/06_CSP.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "06_CSP"
-            }
-          },
-          {
-            "id": "bbdd93837077ea60",
+            "id": "8192d98a92a0ed2e",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -68,9 +18,35 @@
               "icon": "lucide-file-text",
               "title": "bog"
             }
+          },
+          {
+            "id": "adc9e3720e625b77",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI501-kunstig intelligens/Slides/exampleAlphaBeta.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "exampleAlphaBeta"
+            }
+          },
+          {
+            "id": "946c3219e6737f0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI501-kunstig intelligens/Læse plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Læse plan"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,8 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -192,13 +167,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI501-kunstig intelligens/Læse plan.md",
+                "file": "AI501-kunstig intelligens/2021-reexam-solved.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Læse plan"
+              "title": "Outline of 2021-reexam-solved"
+            }
+          },
+          {
+            "id": "fbebcd8e01177953",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -206,8 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.5,
-    "collapsed": true
+    "width": 369.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,56 +210,97 @@
     "type": "floating",
     "children": [
       {
-        "id": "fd0e4e0205f675d2",
+        "id": "89db36f2e5ae385a",
         "type": "window",
         "children": [
           {
-            "id": "08f15f8a114fc847",
+            "id": "03b5767d0dbe5aaf",
             "type": "tabs",
             "children": [
               {
-                "id": "dba28bbdae0702d2",
+                "id": "43b3e04aa766c1f2",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "AI501-kunstig intelligens/Læse plan.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "AI501-kunstig intelligens/mockup_OQ.pdf"
                   },
-                  "icon": "lucide-file",
-                  "title": "Læse plan"
+                  "icon": "lucide-file-text",
+                  "title": "mockup_OQ"
+                }
+              },
+              {
+                "id": "28b174902770edc8",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "AI501-kunstig intelligens/mockup_OQ_answers.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "mockup_OQ_answers"
+                }
+              },
+              {
+                "id": "a045ae4b307bf519",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "AI501-kunstig intelligens/2021-reexam.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "2021-reexam"
+                }
+              },
+              {
+                "id": "950ca25208c62322",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "AI501-kunstig intelligens/2021-reexam-solved.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "2021-reexam-solved"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical",
-        "x": 578,
-        "y": 56,
-        "width": 1039,
-        "height": 902,
+        "x": 442,
+        "y": 573,
+        "width": 1024,
+        "height": 800,
         "maximize": true,
-        "zoom": 1
+        "zoom": 0.5
       }
     ]
   },
-  "active": "dba28bbdae0702d2",
+  "active": "950ca25208c62322",
   "lastOpenFiles": [
-    "AI501-kunstig intelligens/bog.pdf",
     "AI501-kunstig intelligens/Læse plan.md",
-    "AI501-kunstig intelligens/MCQ.md",
-    "AI501-kunstig intelligens/Øvelser.md",
-    "AI501-kunstig intelligens/Slides/13_PDDL.pdf",
-    "attachments/Pasted image 20260605123550.png",
-    "AI501-kunstig intelligens/Slides/12_Bayesian_Networks.pdf",
+    "AI501-kunstig intelligens/bog.pdf",
+    "AI501-kunstig intelligens/2021-reexam-solved.pdf",
+    "AI501-kunstig intelligens/Slides/exampleAlphaBeta.pdf",
+    "AI501-kunstig intelligens/Slides/examplesHeuristics.pdf",
     "AI501-kunstig intelligens/Slides/examplesSearch.pdf",
-    "AI501-kunstig intelligens/Slides/08_InferenceAndFoL.pdf",
-    "AI501-kunstig intelligens/Slides/07_logicalAgents.pdf",
-    "AI501-kunstig intelligens/Slides/06_CSP.pdf",
-    "AI501-kunstig intelligens/Slides/11_Uncertainty.pdf",
-    "AI501-kunstig intelligens/Slides/09_unificationAndFoL.pdf",
-    "AI501-kunstig intelligens/Slides/99_wrap_up.pdf",
+    "AI501-kunstig intelligens/Slides/Ikke bekræftet 105631.crdownload",
+    "AI501-kunstig intelligens/Slides/exampleMiniMax.pdf",
+    "AI501-kunstig intelligens/Slides/Ikke bekræftet 950466.crdownload",
+    "AI501-kunstig intelligens/Slides/Ikke bekræftet 163062.crdownload",
+    "AI501-kunstig intelligens/Rational agents.md",
+    "AI501-kunstig intelligens/2021-reexam.pdf",
+    "AI501-kunstig intelligens/2021 - reexamen.md",
+    "DM549 - Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
+    "DM549 - Diskret matematik/Propositional Equivalences (Ækivalenser).md",
+    "AI501-kunstig intelligens/Øvelser.md",
+    "AI501-kunstig intelligens/Intro.md",
+    "AI501-kunstig intelligens/Mockup examn fra nici.md",
+    "AI501-kunstig intelligens/MCQ.md",
+    "attachments/Pasted image 20260605123550.png",
     "attachments/Pasted image 20260604123422.png",
     "attachments/Pasted image 20260604094412.png",
     "attachments/Pasted image 20260604094045.png",
@@ -298,15 +323,9 @@
     "DM549 - Diskret matematik/Set.md",
     "DM549 - Diskret matematik/Relation.md",
     "DM549 - Diskret matematik/Recursive definitions.md",
-    "DM549 - Diskret matematik/Propositional Equivalences (Ækivalenser).md",
-    "DM549 - Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
     "DM549 - Diskret matematik/Matrices.md",
     "DM549 - Diskret matematik/TalTeroi.md",
     "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
-    "DM549 - Diskret matematik/potens regne relger.md",
-    "AI501-kunstig intelligens/Intro.md",
-    "DM578-Algoritmer og Datastrukturer/Divede and conquer.md",
-    "DM578-Algoritmer og Datastrukturer/Sorting.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

@@ -105,6 +105,8 @@ Optimal? NO
 
 where m is the maximum depth of the search tree 
 ![[Pasted image 20260603152842.png]]
+#### Bidirectiona search
+søg fra start mod slut og slut mod start og tage der hvor det først mødes
 ### Informed search
 #### Heurusitk
 et gæt på hvor langt der mål fra en given state
