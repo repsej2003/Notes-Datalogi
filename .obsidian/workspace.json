@@ -8,27 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8192d98a92a0ed2e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "AI501-kunstig intelligens/bog.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "bog"
-            }
-          },
-          {
             "id": "adc9e3720e625b77",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/exampleAlphaBeta.pdf"
+                "file": "DM578-Algoritmer og Datastrukturer/Slides/tables.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "exampleAlphaBeta"
+              "title": "tables"
+            }
+          },
+          {
+            "id": "486ced1ac97f5dfe",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DM578-Algoritmer og Datastrukturer/Slides/slidesWithNoPausesAllInOne.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slidesWithNoPausesAllInOne"
             }
           }
         ],
@@ -153,23 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/exampleAlphaBeta.pdf",
+                "file": "DM578-Algoritmer og Datastrukturer/Slides/slidesWithNoPausesAllInOne.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of exampleAlphaBeta"
-            }
-          },
-          {
-            "id": "fbebcd8e01177953",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of slidesWithNoPausesAllInOne"
             }
           }
         ],
@@ -191,20 +181,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "adc9e3720e625b77",
+  "active": "486ced1ac97f5dfe",
   "lastOpenFiles": [
+    "DM578-Algoritmer og Datastrukturer/Slides/originalSlidesAllInOne.pdf",
+    "DM578-Algoritmer og Datastrukturer/Slides/tables.pdf",
+    "AI501-kunstig intelligens/bog.pdf",
+    "DM578-Algoritmer og Datastrukturer/Slides/slidesWithNoPausesAllInOne.pdf",
+    "AI501-kunstig intelligens/Slides/exampleAlphaBeta.pdf",
     "AI501-kunstig intelligens/Slides/04_Search2.pdf",
     "AI501-kunstig intelligens/Slides/03_Search.pdf",
     "AI501-kunstig intelligens/Læse plan.md",
     "AI501-kunstig intelligens/2021-reexam-solved.pdf",
-    "AI501-kunstig intelligens/bog.pdf",
-    "AI501-kunstig intelligens/Slides/exampleAlphaBeta.pdf",
     "AI501-kunstig intelligens/Slides/examplesHeuristics.pdf",
     "AI501-kunstig intelligens/Slides/examplesSearch.pdf",
     "AI501-kunstig intelligens/Slides/Ikke bekræftet 105631.crdownload",
-    "AI501-kunstig intelligens/Slides/exampleMiniMax.pdf",
-    "AI501-kunstig intelligens/Slides/Ikke bekræftet 950466.crdownload",
-    "AI501-kunstig intelligens/Slides/Ikke bekræftet 163062.crdownload",
     "AI501-kunstig intelligens/Rational agents.md",
     "AI501-kunstig intelligens/2021 - reexamen.md",
     "DM549 - Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
