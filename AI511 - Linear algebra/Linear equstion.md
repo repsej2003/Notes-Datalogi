@@ -20,3 +20,10 @@ gives a value to each varible such that all eqaions are satisfided simultasly
 it can have 0, 1 or infentet
 
 consinstn if it has 1 solution otherwise inconsisten
+
+
+# Transofrom et system a linar ligninger
+1. Gange en scalar på en ligning
+2. Ændre rækkefølgen
+3. Ligge et scalar product af en af de andre ligning til en ligning
+4. 
