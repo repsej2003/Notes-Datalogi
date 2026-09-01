@@ -32,21 +32,27 @@
               "icon": "lucide-file",
               "title": "Linear equstion"
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "990d90ba38a02479",
+        "type": "tabs",
+        "children": [
           {
-            "id": "fc5ce4c23a199340",
+            "id": "48b7100237fa4624",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Slides/formelsamlingDM507.pdf"
+                "file": "AI511 - Linear algebra/Linear algebra.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "formelsamlingDM507"
+              "title": "Linear algebra"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -167,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI511 - Linear algebra/Linear equstion.md",
+                "file": "AI511 - Linear algebra/Linear algebra.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Linear equstion"
+              "title": "Outline of Linear algebra"
             }
           }
         ],
@@ -181,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.5
+    "width": 369.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,13 +199,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "486ced1ac97f5dfe",
+  "active": "48b7100237fa4624",
   "lastOpenFiles": [
-    "AI511 - Linear algebra/Linear algebra.pdf",
     "AI511 - Linear algebra/Linear equstion.md",
+    "AI511 - Linear algebra/Linear algebra.pdf",
     "DM578-Algoritmer og Datastrukturer/Slides/slidesWithNoPausesAllInOne.pdf",
     "AI511 - Linear algebra",
     "DM578-Algoritmer og Datastrukturer/Slides/formelsamlingDM507.pdf",
