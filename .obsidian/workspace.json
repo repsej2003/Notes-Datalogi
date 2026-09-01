@@ -23,12 +23,26 @@
             "id": "486ced1ac97f5dfe",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI511 - Linear algebra/Linear equstion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linear equstion"
+            }
+          },
+          {
+            "id": "fc5ce4c23a199340",
+            "type": "leaf",
+            "state": {
               "type": "pdf",
               "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Slides/slidesWithNoPausesAllInOne.pdf"
+                "file": "DM578-Algoritmer og Datastrukturer/Slides/formelsamlingDM507.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "slidesWithNoPausesAllInOne"
+              "title": "formelsamlingDM507"
             }
           }
         ],
@@ -153,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Slides/slidesWithNoPausesAllInOne.pdf",
+                "file": "AI511 - Linear algebra/Linear equstion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of slidesWithNoPausesAllInOne"
+              "title": "Outline of Linear equstion"
             }
           }
         ],
@@ -177,24 +191,24 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
   "active": "486ced1ac97f5dfe",
   "lastOpenFiles": [
+    "AI511 - Linear algebra/Linear algebra.pdf",
+    "AI511 - Linear algebra/Linear equstion.md",
+    "DM578-Algoritmer og Datastrukturer/Slides/slidesWithNoPausesAllInOne.pdf",
+    "AI511 - Linear algebra",
+    "DM578-Algoritmer og Datastrukturer/Slides/formelsamlingDM507.pdf",
+    "DM578-Algoritmer og Datastrukturer/Slides/alfbetet.jpg",
     "DM578-Algoritmer og Datastrukturer/Slides/originalSlidesAllInOne.pdf",
     "DM578-Algoritmer og Datastrukturer/Slides/tables.pdf",
     "AI501-kunstig intelligens/bog.pdf",
-    "DM578-Algoritmer og Datastrukturer/Slides/slidesWithNoPausesAllInOne.pdf",
     "AI501-kunstig intelligens/Slides/exampleAlphaBeta.pdf",
     "AI501-kunstig intelligens/Slides/04_Search2.pdf",
     "AI501-kunstig intelligens/Slides/03_Search.pdf",
     "AI501-kunstig intelligens/Læse plan.md",
-    "AI501-kunstig intelligens/2021-reexam-solved.pdf",
-    "AI501-kunstig intelligens/Slides/examplesHeuristics.pdf",
-    "AI501-kunstig intelligens/Slides/examplesSearch.pdf",
-    "AI501-kunstig intelligens/Slides/Ikke bekræftet 105631.crdownload",
     "AI501-kunstig intelligens/Rational agents.md",
     "AI501-kunstig intelligens/2021 - reexamen.md",
     "DM549 - Diskret matematik/Predicates and Quantifiers (Kvantorer).md",
@@ -213,7 +227,6 @@
     "attachments/Pasted image 20260526153724.png",
     "attachments/Pasted image 20260526151808.png",
     "attachments/Pasted image 20260526151549.png",
-    "attachments/Pasted image 20260526142755.png",
     "DM576-Databasesystemer/Exersices.md",
     "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "DM549 - Diskret matematik/Markdown syntax.md",
@@ -228,7 +241,6 @@
     "DM549 - Diskret matematik/Recursive definitions.md",
     "DM549 - Diskret matematik/Matrices.md",
     "DM549 - Diskret matematik/TalTeroi.md",
-    "DM578-Algoritmer og Datastrukturer/Asysmtotic notation.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
