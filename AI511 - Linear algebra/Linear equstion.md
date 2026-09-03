@@ -19,7 +19,7 @@ gives a value to each varible such that all eqaions are satisfided simultasly
 
 it can have 0, 1 or infentet
 
-consinstn if it has 1 solution otherwise inconsisten
+consinstn if it has  at least 1 solution otherwise inconsisten
 
 
 # Transofrom et system a linar ligninger
@@ -73,3 +73,18 @@ For at lave det til reduced skal det  trin
 
 # Unqueness
 All matrix can be row-reduced til en og kun en matix in RREF
+
+
+
+## RREF til løsninger
+
+
+Hvis der er en række i en RREF findes der ikke en løsning hvis og kun hvis
+$$
+\begin{bmatrix}
+0 & 0 & \dots & 0 &| &b 
+\end{bmatrix}
+
+\text{for some } b \neq 0
+$$
+Det skal have mindst en løsning - Hvis der færre ikke er leading entry i RREF end der er varaible så der uendlige mange løsninger 

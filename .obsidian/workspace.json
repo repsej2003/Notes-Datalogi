@@ -11,18 +11,6 @@
             "id": "adc9e3720e625b77",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Slides/tables.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "tables"
-            }
-          },
-          {
-            "id": "486ced1ac97f5dfe",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "AI511 - Linear algebra/Linear equstion.md",
@@ -31,6 +19,20 @@
               },
               "icon": "lucide-file",
               "title": "Linear equstion"
+            }
+          },
+          {
+            "id": "0de8a7a1976139b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI511 - Linear algebra/Matrix.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Matrix"
             }
           }
         ],
@@ -219,20 +221,21 @@
   },
   "active": "763c9657c9f78d77",
   "lastOpenFiles": [
+    "AI511 - Linear algebra/Matrix.md",
     "AI511 - Linear algebra/Linear equstion.md",
     "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf",
-    "attachments/Pasted image 20260903122425.png",
+    "DM578-Algoritmer og Datastrukturer/Slides/tables.pdf",
+    "AI511 - Linear algebra/SLides/slides 01 - general information, systems of linear equations.pdf",
     "AI511 - Linear algebra/Linear algebra.pdf",
+    "attachments/Pasted image 20260903122425.png",
     "Untitled.md",
     "AI511 - Linear algebra/SLides/Ikke bekræftet 543639.crdownload",
-    "AI511 - Linear algebra/SLides/slides 01 - general information, systems of linear equations.pdf",
     "AI511 - Linear algebra/SLides/Ikke bekræftet 659894.crdownload",
     "AI511 - Linear algebra/SLides",
     "DM578-Algoritmer og Datastrukturer/Slides/slidesWithNoPausesAllInOne.pdf",
     "AI511 - Linear algebra",
     "DM578-Algoritmer og Datastrukturer/Slides/formelsamlingDM507.pdf",
     "DM578-Algoritmer og Datastrukturer/Slides/alfbetet.jpg",
-    "DM578-Algoritmer og Datastrukturer/Slides/originalSlidesAllInOne.pdf",
     "AI501-kunstig intelligens/Læse plan.md",
     "AI501-kunstig intelligens/Rational agents.md",
     "AI501-kunstig intelligens/2021 - reexamen.md",
