@@ -51,8 +51,21 @@
               "icon": "lucide-file-text",
               "title": "Linear algebra"
             }
+          },
+          {
+            "id": "763c9657c9f78d77",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slides 02 - systems of linear equations (continued), matrices and matrix operations"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,21 +217,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9cb638ab782d8f7",
+  "active": "763c9657c9f78d77",
   "lastOpenFiles": [
+    "AI511 - Linear algebra/Linear equstion.md",
+    "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf",
+    "attachments/Pasted image 20260903122425.png",
+    "AI511 - Linear algebra/Linear algebra.pdf",
+    "Untitled.md",
+    "AI511 - Linear algebra/SLides/Ikke bekræftet 543639.crdownload",
     "AI511 - Linear algebra/SLides/slides 01 - general information, systems of linear equations.pdf",
     "AI511 - Linear algebra/SLides/Ikke bekræftet 659894.crdownload",
     "AI511 - Linear algebra/SLides",
-    "AI511 - Linear algebra/Linear algebra.pdf",
-    "AI511 - Linear algebra/Linear equstion.md",
     "DM578-Algoritmer og Datastrukturer/Slides/slidesWithNoPausesAllInOne.pdf",
     "AI511 - Linear algebra",
     "DM578-Algoritmer og Datastrukturer/Slides/formelsamlingDM507.pdf",
     "DM578-Algoritmer og Datastrukturer/Slides/alfbetet.jpg",
     "DM578-Algoritmer og Datastrukturer/Slides/originalSlidesAllInOne.pdf",
-    "DM578-Algoritmer og Datastrukturer/Slides/tables.pdf",
-    "AI501-kunstig intelligens/bog.pdf",
-    "AI501-kunstig intelligens/Slides/exampleAlphaBeta.pdf",
     "AI501-kunstig intelligens/Læse plan.md",
     "AI501-kunstig intelligens/Rational agents.md",
     "AI501-kunstig intelligens/2021 - reexamen.md",
@@ -237,7 +251,6 @@
     "DM576-Databasesystemer/How to degsign a database.md",
     "attachments/Pasted image 20260526153724.png",
     "attachments/Pasted image 20260526151808.png",
-    "attachments/Pasted image 20260526151549.png",
     "DM576-Databasesystemer/Exersices.md",
     "DM578-Algoritmer og Datastrukturer/Øvelser.md",
     "DM549 - Diskret matematik/Markdown syntax.md",
@@ -251,7 +264,6 @@
     "DM549 - Diskret matematik/Relation.md",
     "DM549 - Diskret matematik/Recursive definitions.md",
     "DM549 - Diskret matematik/Matrices.md",
-    "DM549 - Diskret matematik/TalTeroi.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
