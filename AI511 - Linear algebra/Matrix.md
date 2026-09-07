@@ -59,3 +59,20 @@ $$
 AA^{-1}=A^{-1}A=I_{n}
 $$
 
+### inverse of 2x2
+$$
+\begin{align}
+A\in \mathbb{R}^{2\times 2} \\
+A=\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix} \\
+\text{ is invertiable if and only if }  \\
+ad-bc \neq 0  \\
+\text{ and in this case} \\
+A^{-1}=\frac{1}{ad-bc} \begin{bmatrix}
+d & -b \\
+-c & a
+\end{bmatrix}
+\end{align}
+$$
