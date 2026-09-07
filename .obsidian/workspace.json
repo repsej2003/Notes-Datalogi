@@ -79,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,11 +231,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4dfddb164e86381e",
+  "active": "763c9657c9f78d77",
   "lastOpenFiles": [
-    "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf",
-    "AI511 - Linear algebra/Matrix.md",
     "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
+    "AI511 - Linear algebra/Matrix.md",
+    "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf",
     "AI511 - Linear algebra/SLides/Ikke bekræftet 518515.crdownload",
     "AI511 - Linear algebra/Linear equstion.md",
     "DM578-Algoritmer og Datastrukturer/Slides/tables.pdf",
