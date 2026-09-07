@@ -51,3 +51,11 @@ $$
 # Trace
 denote $tr(A)$ summen af elemnter på main diganile,
 definere for kvardreisk matrix
+
+# Inverse of matrix
+a matrix is invertable if has a inverse,
+square matrix $A$
+$$
+AA^{-1}=A^{-1}A=I_{n}
+$$
+
