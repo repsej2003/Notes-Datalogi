@@ -55,31 +55,19 @@
             }
           },
           {
-            "id": "763c9657c9f78d77",
+            "id": "272ee42420c91f45",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf"
+                "file": "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "slides 02 - systems of linear equations (continued), matrices and matrix operations"
-            }
-          },
-          {
-            "id": "4dfddb164e86381e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "slides 03 - matrices and matrix operations (continued), inverses"
+              "title": "slides 04 - inverses (continued)"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,22 +219,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4dfddb164e86381e",
+  "active": "272ee42420c91f45",
   "lastOpenFiles": [
-    "AI511 - Linear algebra/Matrix.md",
-    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
+    "AI511 - Linear algebra/Linear algebra.pdf",
     "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf",
+    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
+    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
+    "AI511 - Linear algebra/SLides/Ikke bekræftet 232968.crdownload",
+    "AI511 - Linear algebra/Matrix.md",
     "AI511 - Linear algebra/SLides/Ikke bekræftet 518515.crdownload",
     "AI511 - Linear algebra/Linear equstion.md",
     "DM578-Algoritmer og Datastrukturer/Slides/tables.pdf",
     "AI511 - Linear algebra/SLides/slides 01 - general information, systems of linear equations.pdf",
-    "AI511 - Linear algebra/Linear algebra.pdf",
     "attachments/Pasted image 20260903122425.png",
     "Untitled.md",
     "AI511 - Linear algebra/SLides/Ikke bekræftet 543639.crdownload",
     "AI511 - Linear algebra/SLides/Ikke bekræftet 659894.crdownload",
     "AI511 - Linear algebra/SLides",
-    "DM578-Algoritmer og Datastrukturer/Slides/slidesWithNoPausesAllInOne.pdf",
     "DM578-Algoritmer og Datastrukturer/Slides/alfbetet.jpg",
     "AI501-kunstig intelligens/Læse plan.md",
     "AI501-kunstig intelligens/Rational agents.md",
