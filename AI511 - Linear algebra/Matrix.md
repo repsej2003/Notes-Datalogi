@@ -58,6 +58,12 @@ square matrix $A$
 $$
 AA^{-1}=A^{-1}A=I_{n}
 $$
+equianlent suppuse $A\in R^{n\times n}$
+1. $A$ is invertiable
+2. the linear sytems $Ax=0$
+3. RREF of $A$ is $I_{n}$
+
+der findes flere ens stament men disse er udvalgt
 
 ### inverse of 2x2
 $$
@@ -76,3 +82,13 @@ d & -b \\
 \end{bmatrix}
 \end{align}
 $$
+
+If two coloms in the matrix are linear dependt ( meaning on colom is a scalar of another ) then it is not invertiable
+
+
+# elementary matrices
+$E\in R^{n\times n}$ 
+kan laves en enkelt row oprations  fra idenity matrix
+
+
+Row oprstions kan udtrykkes som et elementary matrix

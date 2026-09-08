@@ -88,3 +88,12 @@ $$
 \text{for some } b \neq 0
 $$
 Det skal have mindst en løsning - Hvis der færre ikke er leading entry i RREF end der er varaible så der uendlige mange løsninger 
+
+# Homogensos system of linear eq
+$$
+Ax=0
+$$
+at least has one solution
+det er altid muligt at x er 0
+
+
