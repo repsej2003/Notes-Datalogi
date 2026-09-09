@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DM548 - Asm - C/Untitled.md",
+                "file": "DM548 - Asm - C/intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "intro"
             }
           }
         ]
@@ -194,7 +194,7 @@
   },
   "active": "9299b50a06cb369a",
   "lastOpenFiles": [
-    "DM548 - Asm - C/Untitled.md",
+    "DM548 - Asm - C/intro.md",
     "DM548 - Asm - C/Slides/slides-1.pdf",
     "AI511 - Linear algebra/Matrix.md",
     "DM548 - Asm - C/Slides/slides.pdf",
