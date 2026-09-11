@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DM548 - Asm - C/Slides/slides-1.pdf"
+                "file": "DM548 - Asm - C/Slides/slides-2.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "slides-1"
+              "title": "slides-2"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -194,17 +193,18 @@
   },
   "active": "9299b50a06cb369a",
   "lastOpenFiles": [
-    "DM548 - Asm - C/intro.md",
-    "DM548 - Asm - C/Slides/slides-1.pdf",
-    "AI511 - Linear algebra/Matrix.md",
+    "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf",
+    "DM548 - Asm - C/Slides/slides-2.pdf",
     "DM548 - Asm - C/Slides/slides.pdf",
+    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
+    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
+    "AI511 - Linear algebra/Matrix.md",
+    "DM548 - Asm - C/Slides/slides-1.pdf",
+    "DM548 - Asm - C/intro.md",
     "DM548 - Asm - C/Slides",
     "DM548 - Asm - C",
-    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
-    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
     "AI511 - Linear algebra/Linear equstion.md",
     "AI511 - Linear algebra/Linear algebra.pdf",
-    "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf",
     "AI511 - Linear algebra/SLides/Ikke bekræftet 232968.crdownload",
     "AI511 - Linear algebra/SLides/Ikke bekræftet 518515.crdownload",
     "attachments/Pasted image 20260903122425.png",
