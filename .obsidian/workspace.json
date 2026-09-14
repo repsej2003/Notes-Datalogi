@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "58a019027689ba50",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "97747c7806fbffed",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DM548 - Asm - C/Slides/slides-2.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "slides-2"
-            }
-          }
-        ]
-      },
-      {
         "id": "623916dafe8a0546",
         "type": "tabs",
         "children": [
@@ -96,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -190,47 +171,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "398d32b6cce699f6",
-    "type": "floating",
-    "children": [
-      {
-        "id": "38611f6d099a0ba7",
-        "type": "window",
-        "children": [
-          {
-            "id": "1175425ff2e87e4d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9299b50a06cb369a",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/sortingSlides.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "sortingSlides"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1153,
-        "y": 644,
-        "width": 854,
-        "height": 600,
-        "maximize": true,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "9299b50a06cb369a",
+  "active": "db3f84425c8d52ef",
   "lastOpenFiles": [
-    "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/sortingSlides.pdf",
     "DM548 - Asm - C/Slides/slides-2.pdf",
+    "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/sortingSlides.pdf",
     "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf",
     "DM548 - Asm - C/Slides/slides.pdf",
     "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
