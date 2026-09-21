@@ -3,3 +3,9 @@
 
 Defulat is a collom vector, hvis anndet ikker er noteret, hvis det er vigtigt
 
+
+
+For unit vectors
+$$
+v \cdot w = \cos (\theta)
+$$
