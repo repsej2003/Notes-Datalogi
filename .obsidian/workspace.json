@@ -18,6 +18,18 @@
               "icon": "lucide-file-text",
               "title": "slides-1-intro"
             }
+          },
+          {
+            "id": "170e7d21055fc020",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DM548 - Asm - C/Slides/slides-2-asm.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slides-2-asm"
+            }
           }
         ]
       }
@@ -174,18 +186,18 @@
   "active": "db3f84425c8d52ef",
   "lastOpenFiles": [
     "DM548 - Asm - C/Slides/slides-2-asm.pdf",
-    "DM548 - Asm - C/Slides/slides-1-intro.pdf",
-    "DM548 - Asm - C/Slides/slides-3-numbers.pdf",
-    "DM548 - Asm - C/Slides/Ikke bekræftet 989459.crdownload",
-    "AI511 - Linear algebra/Aplied/Slides/lec2.pdf",
-    "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf",
-    "AI511 - Linear algebra/Aplied/Slides/lec3.pdf",
-    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
-    "AI511 - Linear algebra/Aplied/Slides/lec1.pdf",
     "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/sortingSlides.pdf",
-    "DM548 - Asm - C/Slides/slides.pdf",
-    "AI511 - Linear algebra/Matrix.md",
+    "DM548 - Asm - C/Slides/slides-3-numbers.pdf",
     "DM548 - Asm - C/intro.md",
+    "AI511 - Linear algebra/Aplied/Slides/lec2.pdf",
+    "AI511 - Linear algebra/Aplied/Slides/lec1.pdf",
+    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
+    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
+    "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf",
+    "AI511 - Linear algebra/SLides/slides 01 - general information, systems of linear equations.pdf",
+    "DM548 - Asm - C/Slides/slides-1-intro.pdf",
+    "DM548 - Asm - C/Slides/Ikke bekræftet 989459.crdownload",
+    "AI511 - Linear algebra/Matrix.md",
     "AI511 - Linear algebra/Linear equstion.md",
     "attachments/Pasted image 20260903122425.png",
     "Untitled.md",
