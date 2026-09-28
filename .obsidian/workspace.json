@@ -53,10 +53,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/sortingSlides.pdf"
+                "file": "AI512 - maskinlæring/Textbook/Machine_Learning.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "sortingSlides"
+              "title": "Machine_Learning"
             }
           },
           {
@@ -73,24 +73,6 @@
           }
         ],
         "currentTab": 3
-      },
-      {
-        "id": "a901f74c7a3f9db0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "75a9610b64407d95",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DM548 - Asm - C/Slides/slides-2-asm.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "slides-2-asm"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -149,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -245,8 +226,10 @@
   },
   "active": "6a190d75e1f29fea",
   "lastOpenFiles": [
-    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
+    "AI512 - maskinlæring/Textbook/01 Basic_Concepts.md",
+    "AI512 - maskinlæring/Textbook/00 Notation.md",
     "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/sortingSlides.pdf",
+    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
     "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
     "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
     "DM573 - Intro til datalogi/Gates - Boolsk algebra.md",
@@ -289,7 +272,6 @@
     "DM549 - Diskret matematik/Logic Propositions.md",
     "DM549 - Diskret matematik/Kombinatorik.md",
     "DM549 - Diskret matematik/Intruduction to Proofs.md",
-    "DM549 - Diskret matematik/Function.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

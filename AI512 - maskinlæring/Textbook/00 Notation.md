@@ -13,16 +13,16 @@ This table collects the symbols used throughout the book for quick reference. Ch
 
 **Data and samples**
 
-| Symbol | Meaning |
-|---|---|
-| $S$ | A data set / sample |
-| $m$ | Size of $S$ |
-| $d$ | Dimension of the feature space |
-| $C$ | Number of classes |
-| $x, x_i$ | An input (feature vector) |
-| $y, y_i$ | A true label |
-| $\widehat{y}$ | A predicted label |
-| $z, z_i$ | A score / pre-activation (also a training example in generic contexts) |
+| Symbol        | Meaning                                                                |
+| ------------- | ---------------------------------------------------------------------- |
+| $S$           | A data set / sample                                                    |
+| $m$           | Size of $S$                                                            |
+| $d$           | Dimension of the feature space                                         |
+| $C$           | Number of classes                                                      |
+| $x, x_i$      | An input (feature vector)                                              |
+| $y, y_i$      | A true label                                                           |
+| $\widehat{y}$ | A predicted label                                                      |
+| $z, z_i$      | A score / pre-activation (also a training example in generic contexts) |
 
 **Probability**
 
