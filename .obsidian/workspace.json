@@ -53,10 +53,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI512 - maskinlæring/Textbook/Machine_Learning.pdf"
+                "file": "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Machine_Learning"
+              "title": "slides 07 - composition, subspaces, linear combinations"
             }
           },
           {
@@ -226,23 +226,23 @@
   },
   "active": "6a190d75e1f29fea",
   "lastOpenFiles": [
+    "AI511 - Linear algebra/SLides/slides 06 - linear transformations (continued), compositions.pdf",
+    "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
+    "AI511 - Linear algebra/SLides/Ikke bekræftet 81872.crdownload",
+    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
+    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
+    "AI511 - Linear algebra/SLides/slides 05 - euclidean vector spaces, linear transformations.pdf",
+    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
+    "AI511 - Linear algebra/Aplied/Slides/lec3.pdf",
+    "AI511 - Linear algebra/Vectors.md",
     "DM548 - Asm - C/Slides/slides-4-digital-logic.pdf",
+    "AI512 - maskinlæring/Textbook/Machine_Learning.pdf",
     "DM548 - Asm - C/Slides/Ikke bekræftet 396867.crdownload",
     "AI512 - maskinlæring/Textbook/01 Basic_Concepts.md",
     "AI512 - maskinlæring/Textbook/00 Notation.md",
-    "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/sortingSlides.pdf",
-    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
-    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
-    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
     "DM573 - Intro til datalogi/Gates - Boolsk algebra.md",
     "DM573 - Intro til datalogi/Databaser.md",
-    "AI511 - Linear algebra/SLides/slides 05 - euclidean vector spaces, linear transformations.pdf",
-    "AI511 - Linear algebra/Aplied/Slides/lec2.pdf",
-    "DM548 - Asm - C/Slides/slides-3-numbers.pdf",
-    "DM580-Funktionel/slides/week39-intro.pdf",
     "DM580-Funktionel/intro.md",
-    "DM580-Funktionel/slides/Ikke bekræftet 342904.crdownload",
-    "AI511 - Linear algebra/Vectors.md",
     "AI511 - Linear algebra/Matrix.md",
     "AI511 - Linear algebra/Linear equstion.md",
     "DM548 - Asm - C/intro.md",
