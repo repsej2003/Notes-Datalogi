@@ -36,6 +36,8 @@ We assume that there exists a **labeling function** $f: \mathcal{X} \rightarrow 
 
 We further assume that each observation in the data set is an **independent and identically distributed (i.i.d.)** sample from an unknown data distribution $\mathcal{D}$. An i.i.d. data set is denoted as $S := \{(x_i, y_i) \overset{i.i.d.}{\sim} \mathcal{D} : i \in [m]\}$. 
 
+*i.i.d. distributed Betyder  er statik ord, at der valgt nogle input tilfældigt.  betyder independet at data set er uafhænginge af hinanden række følge er lige meget, identically betyder at de bliver gentaget  *
+
 Imagine playing backgammon. Each rolling of the dice is a sample. These are independent samples if consecutive rolls do not influence each other. The samples are identically distributed if we use the same dice throughout the game. The i.i.d. assumption is at the heart of machine learning. The same process needs to be repeated for an agent to be able to learn it, just like us humans. 
 
 ### Task (T) 
