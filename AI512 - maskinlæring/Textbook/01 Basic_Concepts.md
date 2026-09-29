@@ -52,6 +52,7 @@ Our task is to predict the outputs $y_i$ from input observations $x_i$ as accura
 
 We do not search over all conceivable maps $\mathcal{X} \rightarrow \mathcal{Y}$. We commit in advance to a **hypothesis class** $\mathcal{H} \subseteq \mathcal{Y}^{\mathcal{X}}$ and search inside it. This commitment is the **inductive bias** of the learner. Chapter 5 shows that learning is impossible without one.
 
+
 ### Performance Measure (P) 
 
 We define what we mean by an **accurate prediction** via a **loss function**: $\ell: \mathcal{Y} \times \mathcal{Y} \rightarrow \mathbb{R}^+$ which maps a pair $(y,y')$ comprising a prediction $y'$ and a corresponding true label $y$ to a score inversely proportional to the quality of the prediction. Commonsense design choices for supervised learning problems are:
