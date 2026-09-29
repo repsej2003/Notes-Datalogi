@@ -55,7 +55,7 @@
               "state": {
                 "file": "AI512 - maskinlæring/Textbook/01 Basic_Concepts.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "01 Basic_Concepts"
