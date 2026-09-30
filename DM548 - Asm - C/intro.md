@@ -18,3 +18,6 @@ Level 0 digtal logic no hardward
 Hvor realiceres achitecture
 *Hardware, memory techolnly*
 
+
+
+Add 2 zeros

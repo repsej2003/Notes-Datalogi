@@ -37,42 +37,42 @@
             "id": "0e3e5674d61a1cc9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "DM573 - Intro til datalogi/Gates - Boolsk algebra.md",
-                "mode": "source",
-                "source": false
+                "file": "DM548 - Asm - C/Slides/slides-3-numbers.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Gates - Boolsk algebra"
+              "icon": "lucide-file-text",
+              "title": "slides-3-numbers"
             }
           },
           {
             "id": "6a190d75e1f29fea",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "DM580-Funktionel/slides/week40-1-types.pdf"
+                "file": "DM548 - Asm - C/intro.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "week40-1-types"
+              "icon": "lucide-file",
+              "title": "intro"
             }
           },
           {
-            "id": "170e7d21055fc020",
+            "id": "49d353b6ab284c62",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DM548 - Asm - C/Slides/slides-2-asm.pdf"
+                "file": "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "slides-2-asm"
+              "title": "slides 07 - composition, subspaces, linear combinations"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -224,29 +224,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a190d75e1f29fea",
+  "active": "0e3e5674d61a1cc9",
   "lastOpenFiles": [
+    "DM573 - Intro til datalogi/Gates - Boolsk algebra.md",
+    "DM548 - Asm - C/intro.md",
+    "DM548 - Asm - C/Slides/slides-3-numbers.pdf",
+    "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf",
+    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
+    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
+    "AI511 - Linear algebra/SLides/slides 08 - bases, coordinates, dimension.pdf",
+    "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
     "DM580-Funktionel/slides/week40-2-functions.pdf",
     "DM580-Funktionel/slides/week40-1-types.pdf",
     "DM580-Funktionel/slides/week39-intro.pdf",
     "Untitled.md",
-    "DM548 - Asm - C/Slides/slides-3-numbers.pdf",
     "DM580-Funktionel/slides/Ikke bekræftet 333859.crdownload",
-    "DM580-Funktionel/slides/Ikke bekræftet 964487.crdownload",
-    "DM548 - Asm - C/Slides/slides-1-intro.pdf",
     "AI512 - maskinlæring/Textbook/01 Basic_Concepts.md",
     "AI512 - maskinlæring/Textbook/00 Notation.md",
-    "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
-    "AI512 - maskinlæring/Slides",
-    "AI511 - Linear algebra/SLides/slides 08 - bases, coordinates, dimension.pdf",
-    "AI511 - Linear algebra/SLides/Ikke bekræftet 589931.crdownload",
     "AI511 - Linear algebra/Vectors.md",
-    "DM573 - Intro til datalogi/Gates - Boolsk algebra.md",
     "DM573 - Intro til datalogi/Databaser.md",
     "DM580-Funktionel/intro.md",
     "AI511 - Linear algebra/Matrix.md",
     "AI511 - Linear algebra/Linear equstion.md",
-    "DM548 - Asm - C/intro.md",
     "attachments/Pasted image 20260903122425.png",
     "DM578-Algoritmer og Datastrukturer/Slides/alfbetet.jpg",
     "AI501-kunstig intelligens/Læse plan.md",
