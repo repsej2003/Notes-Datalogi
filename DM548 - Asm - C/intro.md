@@ -21,3 +21,7 @@ Hvor realiceres achitecture
 
 
 Add 2 zeros
+
+$$
+\bar{A}
+$$
