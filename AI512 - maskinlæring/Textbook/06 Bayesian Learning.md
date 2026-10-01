@@ -1,10 +1,10 @@
 # Maximum Likelihood Estimation
 
-Machine learning is the desired tool especially in real-world problems where there are factors of uncertainty and randomness. Having learned the principled way of accounting for uncertainty via probability theory, next we will see how we can use this theory to build machine learning models. Every machine learning problem has two key components: the data and the model. Let our data set be $S=\{x_1, x_2, \ldots, x_m\}$, where $x_i$ are the observed data points. At the stage of modeling, we draw a hypothesis about how this data could have been generated. Let our hypothesis be that the data is generated as independent samples from a distribution following a parametric probability function $P(x \mid \theta)$, where $\theta$ is the parameter of the distribution. Then the joint probability of the random variables representing the occurrence of the data set is given by
+Machine learning is the tool of choice especially in real-world problems where there are factors of uncertainty and randomness. Having learned the principled way of accounting for uncertainty via probability theory, next we will see how we can use this theory to build machine learning models. Every machine learning problem has two key components: the data and the model. Let our data set be $S=\{x_1, x_2, \ldots, x_m\}$, where $x_i$ are the observed data points. At the stage of modeling, we draw a hypothesis about how these data could have been generated. Let our hypothesis be that the data are generated as independent samples from a distribution following a parametric probability function $P(x \mid \theta)$, where $\theta$ is the parameter of the distribution. Then the joint probability of the random variables representing the occurrence of the data set is given by
 
 $$P(S \mid \theta) = P(x_1, x_2, \ldots, x_m \mid \theta) = \prod_{i=1}^m P(x_i \mid \theta).$$
 
-This quantity, viewed as a function of $\theta$ for the fixed, observed $S$, is called the **likelihood** of $\theta$ given the data set $S$. The second equality follows from the assumption that the data points are independent. The maximum likelihood estimation (MLE) is a method of estimating the parameters $\theta$ by maximizing the likelihood $P(S \mid \theta)$. This way we aim to find the parameters that are most likely to have generated the data set $S$. We are up to solving the optimization problem below:
+This quantity, viewed as a function of $\theta$ for the fixed, observed $S$, is called the **likelihood** of $\theta$ given the data set $S$. The second equality follows from the assumption that the data points are independent. The maximum likelihood estimation (MLE) is a method of estimating the parameters $\theta$ by maximizing the likelihood $P(S \mid \theta)$. This way we aim to find the parameters that are most likely to have generated the data set $S$, which leads to the optimization problem below:
 
 $$\theta_{MLE} = \arg\max_\theta P(S \mid \theta) = \arg\max_\theta \prod_{i=1}^m P(x_i \mid \theta).$$
 
@@ -87,7 +87,7 @@ using the known mean of the Beta distribution. This is the **posterior predictiv
 * It **averages over all possible values of $\theta$**, weighted by their posterior probability — a form of **model averaging** that accounts for parameter uncertainty, rather than committing to a single point estimate.
 * As $m \to \infty$, the pseudo-counts $\alpha,\beta$ become negligible relative to $\sum_i x_i$ and $m - \sum_i x_i$, so $P(x_*=1 \mid S) \to \theta_{MLE}$: the Bayesian and frequentist predictions coincide in the large-sample limit, while differing — often substantially — for small $m$, exactly where accounting for uncertainty matters most.
 
-Given a predictive distribution, there is more than one way to commit to a single prediction. The **Bayes predictor** takes the mode of the predictive distribution, $\widehat{x} := \arg\max_{x} P(x_*=x \mid S)$; it is optimal in the sense of minimizing expected 0/1 loss. The **Gibbs predictor** instead samples a prediction, $\widehat{x} \sim P(x_* \mid S)$.
+Given a predictive distribution, there is more than one way to commit to a single prediction. The **Bayes predictor** takes the mode of the predictive distribution — its most probable value, $\arg\max_{x} P(x_*=x \mid S)$ — and is optimal in the sense of minimizing expected 0/1 loss. The **Gibbs predictor** instead samples a prediction, $\widehat{x} \sim P(x_* \mid S)$: it is correct exactly as often as the mode is, on average, but individual predictions vary.
 
 # Maximum A-Posteriori Estimation
 
@@ -119,7 +119,7 @@ This is called **Monte Carlo integration**. By the weak law of large numbers (Ch
 
 Consider a supervised learning problem with $(x,y) \sim \mathcal{D}$ for an unknown data distribution $\mathcal{D}$. Take the label $y$ to be discrete and the features $x$ to be continuous, so that — following the convention of Chapter 1 — the joint object is written $p(x,y)$ while its discrete factors are written with a capital $P$. There are two ways to factorize $p(x,y)$, and each suggests a different modeling strategy:
 
-* $p(x,y) = P(y \mid x)\,p(x)$: model $P(y \mid x)$ directly and treat $p(x)$ as a nuisance (e.g. approximated via Monte Carlo integration on the training inputs). This is called **discriminative modeling** — the logistic regression model of Chapter 3 is an example.
+* $p(x,y) = P(y \mid x)\,p(x)$: model $P(y \mid x)$ directly and treat $p(x)$, the distribution of inputs alone, as something not worth modeling (it enters our formulas only as the distribution we average over — the same "average it out" treatment we gave the label in the marginal $\mathcal{D}_{\mathcal{X}}$ of Chapter 1; when it does appear, it can be approximated by Monte Carlo integration on the training inputs). This is called **discriminative modeling** — the logistic regression model of Chapter 3 is an example.
 * $p(x,y) = p(x \mid y)\,P(y)$: model both $P(y)$ and $p(x \mid y)$, i.e. infer the whole data-generating process where a label is chosen first and the corresponding input is generated conditioned on it. This is called **generative modeling**.
 
 ## Example: a generative Bernoulli classifier

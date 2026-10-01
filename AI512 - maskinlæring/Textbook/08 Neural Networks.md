@@ -9,7 +9,7 @@ $$
 $$
 Above,
   - $x$ is the input vector,
-  - $w_j$ is the weight vector, which correspond to the synapses of the neuron that admit input signals from the previous layer,
+  - $w_j$ is the weight vector, which corresponds to the synapses of the neuron that admit input signals from the previous layer,
   - $g$ is the activation function that determines whether the neuron is activated or not,
   - $b_j$ is the bias, which is a constant,
   - $z$ is the linear activation of the neuron,
@@ -96,7 +96,7 @@ A neural network is a collection of neurons. The neurons are organized in layers
 \input{fig/neural_network.tex}
 ```
 
-The operation of $k$ neurons sharing the same layer $l$ on the $i$ th can be given in the vector form below:
+The operation of $k$ neurons sharing the same layer $l$ on the $i$-th input can be given in the vector form below:
 
 $$
 \begin{aligned}
@@ -125,7 +125,7 @@ $$\widehat{y}_n = W_3^\top g(W_2^\top g(W_1^\top x_n + b^1) + b^2) + b^3.$$
 
 # Training a Neural Network: Backpropagation
 
-As other machine learning models we covered thus far, neural networks are also trained to minimize a loss function. Denote the loss function by $\ell(y, \widehat{y})$ for a prediction $\widehat{y}$ and the true value $y$. Due to the cascaded application of the nonlinear activation functions, the loss function is not convex. Therefore, we cannot find the optimal solution analytically. Instead, we use gradient descent:
+As with other machine learning models we covered thus far, neural networks are also trained to minimize a loss function. Denote the loss function by $\ell(y, \widehat{y})$ for a prediction $\widehat{y}$ and the true value $y$. Due to the cascaded application of the nonlinear activation functions, the loss function is not convex. Therefore, we cannot find the optimal solution analytically. Instead, we use gradient descent:
 
 $$
 \begin{aligned}
@@ -171,7 +171,7 @@ $$
 \end{aligned}
 $$
 
-where $k$ ranges over the neurons in the next layer. Place the definition of $z_k^{l+1}$ into the above equation, we have
+where $k$ ranges over the neurons in the next layer. Placing the definition of $z_k^{l+1}$ into the above equation, we have
 
 $$
 \begin{aligned}
@@ -188,7 +188,7 @@ $$
 \end{aligned}
 $$
 
-This way we obtain a recursive formula for the error of a neuron in an intermediate layer, where the recursion applies in the backward direction of the layers. There are remarkable facts regarding the computational efficiency of this formula that are first observed by Rumelhart et al. in 1986 and made the training of multilayer neural networks feasible:
+This way we obtain a recursive formula for the error of a neuron in an intermediate layer, where the recursion applies in the backward direction of the layers. There are remarkable facts regarding the computational efficiency of this formula that were first observed by Rumelhart et al. in 1986 and made the training of multilayer neural networks feasible:
 
  - It requires only $z_j^l$, which is already calculated during the forward pass.
  - Its computational cost is linear to the number of neurons in the network, i.e. $O(|W|)$ where $|W|$ is the number of weights in the network.
@@ -205,7 +205,7 @@ This way we obtain a recursive formula for the error of a neuron in an intermedi
     - Compute $\delta_j^l = \frac{\partial g(z_j^l)}{\partial z_j^l} \sum_{k} \delta_k^{l+1} w_{jk}^{l+1}$ for every neuron $j$ in layer $l$ (for $l=H$, use $\delta_j^H = \widehat{y}_j - y_j$ directly, as derived above).
     - Compute $\frac{\partial \ell}{\partial w_{ij}^l} = \delta_j^l h_i^{l-1}$ for every synaptic connection $i \rightarrow j$.
 
-This algorithm is called **backpropagation** [Rumelhart et al. (1986)](https://doi.org/10.1038/323533a0)<!-- cite: rumelhart1986learning | article | author={Rumelhart, David E. and Hinton, Geoffrey E. and Williams, Ronald J.}; title={Learning Representations by Back-Propagating Errors}; journal={Nature}; year={1986}; volume={323}; pages={533--536} -->. The name comes after the notion that the error term $\delta_j^l$ is propagated backward from the output layer to the input layer.
+This algorithm is called **backpropagation** [Rumelhart et al. (1986)](https://doi.org/10.1038/323533a0)<!-- cite: rumelhart1986learning | article | author={Rumelhart, David E. and Hinton, Geoffrey E. and Williams, Ronald J.}; title={Learning Representations by Back-Propagating Errors}; journal={Nature}; year={1986}; volume={323}; pages={533--536} -->. The name refers to the fact that the error term $\delta_j^l$ is propagated backward from the output layer to the input layer.
 
 ## Stochastic Gradient Descent
 
@@ -226,7 +226,7 @@ $$
 \end{aligned}
 $$
 
-where the first step draws a mini-batch $B$ uniformly at random from the **training set** $S$ — not from the data distribution $\mathcal{D}$, which we cannot sample from — and the second step performs a gradient descent update using the backpropagation algorithm. The random selection makes the gradient signal a random variable. This is why the algorithm is called stochastic gradient descent. Because $B$ is drawn uniformly from $S$, this random variable is an unbiased estimate of the full-batch gradient over $S$, i.e. of the gradient of the empirical risk $\widehat{R}_S$. Hence, under mild conditions (a suitably decaying learning rate $\alpha$, among others) clarified by [Robbins and Monro (1951)](https://doi.org/10.1214/aoms/1177729586)<!-- cite: robbins1951stochastic | article | author={Robbins, Herbert and Monro, Sutton}; title={A Stochastic Approximation Method}; journal={The Annals of Mathematical Statistics}; year={1951}; volume={22}; number={3}; pages={400--407} -->, the algorithm is guaranteed to converge to a stationary point of the loss, just as deterministic gradient descent is. Since the neural network loss is generally non-convex, owing to the cascaded, nonlinear composition of layers described above, neither algorithm is guaranteed to reach the *same* stationary point, or the global optimum; in practice the noise injected by the mini-batch sampling is even considered beneficial, as it helps the iterate escape poor local stationary points that plain gradient descent could get stuck in.
+where the first step draws a mini-batch $B$ uniformly at random from the **training set** $S$ — not from the data distribution $\mathcal{D}$, which we cannot sample from — and the second step performs a gradient descent update using the backpropagation algorithm. The random selection makes the gradient signal a random variable. This is why the algorithm is called stochastic gradient descent. Because $B$ is drawn uniformly from $S$, this random variable is an unbiased estimate of the full-batch gradient over $S$, i.e. of the gradient of the empirical risk $\widehat{R}_S$. Hence, under mild conditions (a suitably decaying learning rate $\alpha$, among others) clarified by [Robbins and Monro (1951)](https://doi.org/10.1214/aoms/1177729586)<!-- cite: robbins1951stochastic | article | author={Robbins, Herbert and Monro, Sutton}; title={A Stochastic Approximation Method}; journal={The Annals of Mathematical Statistics}; year={1951}; volume={22}; number={3}; pages={400--407} -->, the algorithm is guaranteed to converge to a stationary point of the loss, just as deterministic gradient descent is. Since the neural network loss is generally non-convex, owing to the cascaded, nonlinear composition of layers described above, neither algorithm is guaranteed to reach the *same* stationary point, or the global optimum; in practice the noise injected by the mini-batch sampling is even considered beneficial, as it helps the current parameter estimate (the *iterate*) escape poor local stationary points that plain gradient descent could get stuck in.
 
 ## Backpropagation in Matrix Form
 
@@ -259,7 +259,7 @@ where $\odot$ is the elementwise (Hadamard) product and $\mathbf{1}_b \in \mathb
 
 $$\begin{gathered}
 \widehat{y}_j := \frac{\exp(z_j^H)}{\sum_{c=1}^C \exp(z_c^H)}, \\
-\ell(y,\widehat{y}) := -\sum_{c=1}^C y_c \log \widehat{y}_c \quad (y \text{ one-hot}),
+\ell(y,\widehat{y}) := -\sum_{c=1}^C y_c \log \widehat{y}_c \quad (y \text{ one-hot, i.e. } y_c = \mathds{1}(c = \text{true class})),
 \end{gathered}$$
 
 and a short calculation gives the *same* form. Writing $\widehat y_j = \exp(z_j)/Z$ with $Z := \sum_c \exp(z_c)$,
@@ -269,7 +269,7 @@ $$\begin{gathered}
 \Longrightarrow\quad \frac{\partial \ell}{\partial z_j^H} = -\sum_{c} \frac{y_c}{\widehat y_c}\,\widehat{y}_c\big(\mathds{1}(c{=}j)-\widehat y_j\big) = -y_j + \widehat y_j \sum_c y_c = \widehat{y}_j - y_j,
 \end{gathered}$$
 
-using $\sum_c y_c = 1$. So $\delta_j^H = \widehat y_j - y_j$ holds for the squared loss with a linear output *and* for the cross-entropy loss with a softmax output: in both cases the error that starts the backward recursion is simply **prediction minus target**. This is not a coincidence — it holds for every matched pair of an exponential-family output layer and its negative log-likelihood loss.
+using $\sum_c y_c = 1$. So $\delta_j^H = \widehat y_j - y_j$ holds for the squared loss with a linear output *and* for the cross-entropy loss with a softmax output: in both cases the error that starts the backward recursion is simply **prediction minus target**. This is not a coincidence. It holds for every matched pair of a probability-model output layer (softmax here — one from the standard catalogue of distributions, the *exponential family*, that statistics uses for this purpose) and the loss equal to the negative logarithm of the probability that model assigns to the observed label (called its *negative log-likelihood*). We will meet this pairing again from the modeling side in Chapter 6.
 
 # Implementation: A Multilayer Perceptron From Scratch
 
@@ -337,7 +337,7 @@ class SoftmaxCrossEntropy:
         Z = Z - Z.max(dim=1, keepdim=True).values     # shift: exp cannot overflow
         E = Z.exp()
         self.Yhat = E / E.sum(dim=1, keepdim=True)    # softmax probabilities
-        self.Y = Y                                    # one-hot targets
+        self.Y = Y                                    # one-hot targets (see above)
         return -(Y * (self.Yhat + 1e-12).log()).sum() / Z.shape[0]
 
     def backward(self):
@@ -406,7 +406,7 @@ tr, te = idx[:n_tr], idx[n_tr:]
 mu, sd = X_all[tr].mean(dim=0), X_all[tr].std(dim=0) + 1e-8
 X_tr, X_te = (X_all[tr] - mu) / sd, (X_all[te] - mu) / sd
 y_tr, y_te = y_all[tr], y_all[te]
-Y_tr = th.eye(10, dtype=th.float64)[y_tr]  # one-hot targets
+Y_tr = th.eye(10, dtype=th.float64)[y_tr]  # one-hot targets: row i of the identity matrix, a 1 in the true class's slot and 0 elsewhere
 
 net = MLP([64, 64, 32, 10])                           # d=64 -> 64 -> 32 -> C=10
 alpha, batch_size, epochs = 0.5, 32, 60
@@ -425,7 +425,7 @@ for epoch in range(epochs):
 print(f"train error: {curve_tr[-1]:.4f}   test error: {curve_te[-1]:.4f}")
 
 plt.figure(figsize=(6, 4))
-plt.plot(curve_tr, label="training error $\\widehat{R}_S(h)$")
+plt.plot(curve_tr, label="training error $\\widehat{R}_{S_{train}}(h)$")
 plt.plot(curve_te, label="test error (estimate of $R(h)$)")
 plt.xlabel("epoch"); plt.ylabel("zero-one error"); plt.legend(); plt.grid(alpha=.3)
 plt.tight_layout()
@@ -437,7 +437,7 @@ plt.show()
 
 ![Learning curve of the from-scratch multilayer perceptron on the digits data set: training error reaches zero while test error settles near 3%.](fig/generated/08_Neural_Networks_2.png)
 
-The analytic and numerical gradients agree to within $10^{-10}$, confirming that the four backward identities are implemented correctly. The learning curve shows the training error driven to exactly $0$ — the network has $64\cdot64 + 64\cdot32 + 32\cdot10 = 6{,}464$ weights against $m=1437$ training examples, so it can interpolate the training set outright — while the test error settles near $3\%$. This is the empirical form of the puzzle the next section addresses: a hypothesis class whose VC dimension far exceeds $m$, achieving $\widehat{R}_S(h)=0$, and generalizing anyway.
+The analytic and numerical gradients agree to within $10^{-10}$, confirming that the four backward identities are implemented correctly. The learning curve shows the training error driven to exactly $0$ — the network has $64\cdot64 + 64\cdot32 + 32\cdot10 = 6{,}464$ weights against $m=1437$ training examples, so it can interpolate the training set outright — while the test error settles near $3\%$. This is the empirical form of the puzzle the next section addresses: a hypothesis class whose VC dimension far exceeds $m$, achieving $\widehat{R}_{S_{train}}(h)=0$ on its training set, and generalizing anyway.
 
 # PAC Analysis of Neural Networks
 
@@ -500,7 +500,7 @@ Three things are worth noting about this bound:
 * It scales with $\sqrt{k}$, not with the number of parameters $k(d+1)$. Width still costs something — but far less than a naive parameter-counting argument (à la Theorem 5.4) would suggest, and this residual $\sqrt k$ is itself an artifact of the crude row-independent decomposition step above; sharper arguments based on matrix covering numbers (Golowich, Rakhlin & Shamir, 2018) remove even this factor, at the cost of machinery beyond this course's scope.
 * The bound gives no credit to gradient descent for finding a good hypothesis — it only certifies that *if* training happens to land on a hypothesis with small weight norms, that hypothesis generalizes well. This matches an empirical regularity of trained networks: gradient descent on over-parameterized networks tends to find solutions with small weight norms even without explicit regularization, an implicit-bias phenomenon that is an active research topic and, again, outside our scope — but it is exactly why this norm-based, width-independent view of capacity, rather than the VC-dimension view, is the one that matches practice. We revisit this network in a further-simplified, exactly solvable form — where only the output layer is trained and the hidden layer is fixed — in the Neural Tangent Kernel discussion of Chapter 9.
 
-Nearly every neural network used nowadays is trained by minimizing a loss function using stochastic gradient descent with backpropagation. The common practice is to use an automatic differentiation library such as TensorFlow or PyTorch that automates the process of calculating the gradients. These libraries also provide a variety of neural network architectures and optimization algorithms. Below, we give an example implementation of a neural network using PyTorch on a handwritten digit classification problem. The used data set is among the most famous data sets in machine learning, called MNIST. It contains 70,000 images of handwritten digits. Each image is a 28x28 grayscale image. The goal is to classify the images into 10 classes, one for each digit.
+Nearly every neural network used nowadays is trained by minimizing a loss function using stochastic gradient descent with backpropagation. The common practice is to use an automatic differentiation library such as TensorFlow or PyTorch that automates the process of calculating the gradients. These libraries also provide a variety of neural network architectures and optimization algorithms. Below, we give an example implementation of a neural network using PyTorch on a handwritten digit classification problem. The data set used is among the most famous data sets in machine learning, called MNIST. It contains 70,000 images of handwritten digits. Each image is a 28x28 grayscale image. The goal is to classify the images into 10 classes, one for each digit.
 
 ```python
 # MNIST digits classification with a simple deep neural network,

@@ -1,6 +1,6 @@
 # Logistic Regression
 
-Assume we have a binary classification problem. We aim to fit a $h$ to a data set $S=\{(x_i,y_i)|i \in [m]\}$ that consists of $(x,y)$ pairs with $y \in \{0,1\}$. 
+Assume we have a binary classification problem. We aim to fit an $h$ to a data set $S=\{(x_i,y_i)|i \in [m]\}$ that consists of $(x,y)$ pairs with $y \in \{0,1\}$. 
 
 As in the previous lecture, we choose the hypothesis to be a linear function of the input: 
 
@@ -47,7 +47,7 @@ $$\mathcal{L}_{CE}(w) = -\sum_{i=1}^m \log g(w^\top x_i)^{y_i} (1-g(w^\top x_i))
 
 ## Extension to multi-class classification
 
-Let us quickly extend the above formulation to multi-class classification. Assume we have $C$ classes, that is we aim to fit a $h$ to a data set $S=\{(x_i,y_i)|i \in [m]\}$ that consists of $(x,y)$ pairs with $y \in \{1,\ldots, C\}$. We will then need to model the class probabilities of $C$ different classes, $P_1, \ldots, P_C$, from $C$ per-class logits $u_c := w_c^\top x_i$:
+Let us quickly extend the above formulation to multi-class classification. Assume we have $C$ classes, that is, we aim to fit an $h$ to a data set $S=\{(x_i,y_i)|i \in [m]\}$ that consists of $(x,y)$ pairs with $y \in \{1,\ldots, C\}$. We will then need to model the class probabilities of $C$ different classes, $P_1, \ldots, P_C$, from $C$ per-class logits $u_c := w_c^\top x_i$:
 
 $$\log P_c \propto u_c = w_c^\top x_i.$$
 
@@ -59,7 +59,7 @@ which is called the **softmax** function. The related loss function is then:
 
 $$\mathcal{L}_{CE}(W) = -\sum_{i=1}^m \log \mathrm{softmax}(u_i)_{y_i} = \sum_{i=1}^m \Big \{ -w_{y_i}^\top x_i + \log \Big ( \sum_{c=1}^C e^{w_c^\top x_i} \Big )  \Big \},$$
 
-where $u_i := (w_1^\top x_i, \ldots, w_C^\top x_i)$ and $W = [w_1 \ldots w_C]$ is a matrix of the weight vectors for each class. This loss function is called the **cross-entropy loss**. We will revisit it and understand better why it is given this particular name.
+where $u_i := (w_1^\top x_i, \ldots, w_C^\top x_i)$ and $W = [w_1 \ldots w_C]$ is a matrix of the weight vectors for each class. This loss function is called the **cross-entropy loss**. The name is inherited from information theory, where the very same expression appears as a measure of the disagreement between two probability distributions; anticipating the probability chapter, the intuitive reading is enough for now: since $\mathrm{softmax}(u_i)_{y_i}$ is the probability the model assigns to the correct label of $x_i$, the loss is the *negative logarithm* of the model's probability of the observed data — minimizing it means making the observed labels as probable as possible. (Its information-theoretic content will resurface in Chapter 7, where the closely related notion of entropy is used to grow decision trees.)
 
 Let us take the well-known **Iris** data set as an example. Our task is to classify the iris flowers into three species. The data set is available in the sklearn library. The data set consists of 150 data points. Each data point has four features: sepal length, sepal width, petal length, and petal width. The data points are labeled as one of the three species: i) setosa, ii) versicolor, and iii) virginica. The data set is balanced: There are 50 data points for each species.
 
@@ -82,11 +82,11 @@ X_train, y_train = X_all[perm[:n_train]], y_all[perm[:n_train]]
 X_test, y_test = X_all[perm[n_train:]], y_all[perm[n_train:]]
 ```
 
-Let us put together what we learned thus far to make up an as general algorithm as possible. Strictly speaking, let us use the cross-entropy loss for empirical risk minimization and use an $L_p$ regularizer with tunable $p$ to control the complexity of the model. The resulting optimization problem is:
+Let us put together what we learned thus far to make up an algorithm that is as general as possible. Concretely, let us use the cross-entropy loss for empirical risk minimization and an $L_p$ regularizer with tunable $p$ to control the complexity of the model. The resulting optimization problem is:
 
 $$\mathcal{L}(W) := \mathcal{L}_{CE}(W) + \lambda \sum_{c=1}^C  ||w_c||_p^p.$$
 
-We minimize it by gradient descent, exactly as for the Lasso in Chapter 2: the softmax cross-entropy is written out in its log-sum-exp form derived above, automatic differentiation supplies $\nabla_W \mathcal{L}(W)$, and the update rule is coded by hand.
+We minimize it by gradient descent, exactly as for the Lasso in Chapter 2: the softmax cross-entropy is written out in the form derived above — a difference of one log-sum and a second log-sum over the exponentials of the per-class scores, hence its usual name, the **log-sum-exp** form — automatic differentiation supplies $\nabla_W \mathcal{L}(W)$, and the update rule is coded by hand.
 
 ```python
 class GeneralizedLinearClassifier:
@@ -120,7 +120,7 @@ class GeneralizedLinearClassifier:
                     param.grad.zero_()
 ```
 
-Let us train our model next and plot its learning curve, i.e. how its error changes across iterations.
+Let us train our model next and plot its learning curve, i.e. the evolution of its error across iterations.
 
 ```python
 # z-score normalization, with mu and sigma taken from the training split only
@@ -181,7 +181,7 @@ The version of this table where its entries are filled with the number of data p
 
   which is the harmonic mean of $x$ and $y$. In words, harmonic mean is the reciprocal of the average of the reciprocals of a set of quantities.
 
-  One can calculate the confusion matrix also for more than two classes. Let us see how it looks like for the Iris data set.
+  One can calculate the confusion matrix also for more than two classes. Let us see what it looks like for the Iris data set.
 
 ```python
 with th.no_grad():
@@ -258,15 +258,17 @@ plt.show()
 
 ![ROC curve for the versicolor-vs-rest classifier, with the corresponding AUC compared against random guessing.](fig/generated/03_Classification_3.png)
 
-**REMARK:** Accuracy is a meaningful performance metric only when the classes are evenly distributed. The cases when the classes are not evenly distributed are called **imbalanced classification problems**. In such cases, we need to use other metrics such as precision, recall, and F1 score.
+**Remark.** Accuracy is a meaningful performance metric only when the classes are evenly distributed. The cases when the classes are not evenly distributed are called **imbalanced classification problems**. In such cases, we need to use other metrics such as precision, recall, and F1 score.
+
+---
 
 # K-Fold Cross Validation
 
-As noticeable in the above example, the observed performance may depend greatly on the particular train-test split. To mitigate this problem, we can use **K-fold cross validation**. The idea is to split the data set into $K$ folds. Then, we train the model on $K-1$ folds and test it on the remaining fold. We repeat this process $K$ times, each time using a different fold as the test set. The final performance metric is the average of the performance metrics obtained in each iteration.
+As is noticeable in the above example, the observed performance may depend greatly on the particular train-test split. To mitigate this problem, we can use **K-fold cross validation**. The idea is to split the data set into $K$ folds. Then, we train the model on $K-1$ folds and test it on the remaining fold. We repeat this process $K$ times, each time using a different fold as the test set. The final performance metric is the average of the performance metrics obtained in each iteration.
 
 # K-Nearest Neighbors (kNN) Classifier
 
-The **k-nearest neighbors** [Fix and Hodges (1951)](https://doi.org/10.2307/1403797)<!-- cite: fix1951nearest | techreport | author={Fix, Evelyn and Hodges, Joseph L.}; title={Discriminatory Analysis, Nonparametric Discrimination: Consistency Properties}; institution={USAF School of Aviation Medicine, Randolph Field, Texas}; year={1951} --> classifier assigns a query point to the class of the majority of its $k$ nearest neighbors. It is a **non-parametric classifier**, that is it does not represent the model with a fixed number of parameters. Instead it memorizes the whole training data and uses it to make predictions. The number of neighbors $k$ is a hyperparameter of the model. While being a strong classifier, its prediction-time complexity is unacceptable: $O(m)$, where $m$ is the number of training data points.
+The **k-nearest neighbors** [Fix and Hodges (1951)](https://doi.org/10.2307/1403797)<!-- cite: fix1951nearest | techreport | author={Fix, Evelyn and Hodges, Joseph L.}; title={Discriminatory Analysis, Nonparametric Discrimination: Consistency Properties}; institution={USAF School of Aviation Medicine, Randolph Field, Texas}; year={1951} --> classifier assigns a query point to the class of the majority of its $k$ nearest neighbors. It is a **non-parametric classifier**, that is, it does not represent the model with a fixed number of parameters. Instead, it memorizes the whole training data and uses it to make predictions. The number of neighbors $k$ is a hyperparameter of the model. While it is a strong classifier, its prediction-time complexity is unacceptable: $O(m)$, where $m$ is the number of training data points.
 
 One can implement a kNN in various ways. Given a query point $x$, one can find its $k$ nearest neighbors $Ne(x;k) = \{ (x_i, y_i) : [k] \}$ in the training data set and assign $x$ to the class of the majority of its $k$ nearest neighbors:
 
@@ -276,7 +278,7 @@ One can also assign a weight to each neighbor inversely proportional to its dist
 
 $$\widehat{y} = \arg \max_{c \in [C]} \sum_{i=1}^k \mathds{1}(y_i = c) \dfrac{1}{\mathrm{dist}(x,x_i)}$$
 
-for some distance function $\mathrm{dist}(\cdot,\cdot)$ on $\mathcal{X}$, as defined in Chapter 2.
+for some distance function $\mathrm{dist}(\cdot,\cdot)$ on $\mathcal{X}$, i.e. the second component of a metric space $(\mathcal{X}, \mathrm{dist})$ in the sense of Chapter 2 — any such choice makes "nearest" well defined.
 
 The **Voronoi cell** of a point $x$ is the set of points whose nearest neighbor is $x$. The Voronoi cells of the training data points form a partition of the input space. The decision boundary of a 1-nearest neighbor classifier is the set of points that are equidistant to two or more training data points. For general $k$, the decision boundary instead sits where the *majority label* among the $k$ nearest neighbors changes — a subset of the points equidistant between two training points, but not all of them, since moving across such a point need not flip the majority vote. See an illustration from the Iris data set below.
 

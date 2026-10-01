@@ -20,47 +20,21 @@
             }
           },
           {
-            "id": "0e3e5674d61a1cc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI512 - maskinlæring/Textbook/00 Notation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "00 Notation"
-            }
-          },
-          {
             "id": "e4478122dfd47fc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI512 - maskinlæring/Textbook/02 Linear_Predictors.md",
+                "file": "AI512 - maskinlæring/textbook/02 Linear_Predictors.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "02 Linear_Predictors"
             }
-          },
-          {
-            "id": "d176ea5cd33f0c88",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "AI512 - maskinlæring/Textbook/Machine_Learning.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Machine_Learning"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,21 +188,25 @@
   },
   "active": "e4478122dfd47fc7",
   "lastOpenFiles": [
-    "AI512 - maskinlæring/textbook2/References.bib",
-    "AI512 - maskinlæring/textbook2/Machine_Learning.pdf",
-    "AI512 - maskinlæring/textbook2/10 Ensemble Methods.md",
-    "AI512 - maskinlæring/textbook2/09 Kernel Methods.md",
-    "AI512 - maskinlæring/textbook2/08 Neural Networks.md",
-    "AI512 - maskinlæring/textbook2/07 Decision Trees.md",
-    "AI512 - maskinlæring/textbook2/06 Bayesian Learning.md",
-    "AI512 - maskinlæring/textbook2/05b Complexity Measures and Generalization.md",
-    "AI512 - maskinlæring/textbook2/05a Statistical Learning Theory.md",
-    "AI512 - maskinlæring/textbook2/04 Probability Theory.md",
-    "AI512 - maskinlæring/textbook2/03 Classification.md",
-    "AI512 - maskinlæring/textbook2/02 Linear_Predictors.md",
-    "AI512 - maskinlæring/textbook2/01 Basic_Concepts.md",
-    "AI512 - maskinlæring/textbook2/00 Notation.md",
-    "AI512 - maskinlæring/textbook2",
+    "AI512 - maskinlæring/textbook/00 Notation.md",
+    "AI512 - maskinlæring/textbook/02 Linear_Predictors.md",
+    "AI512 - maskinlæring/textbook/01 Basic_Concepts.md",
+    "AI512 - maskinlæring/Textbook/Machine_Learning.pdf",
+    "AI512 - maskinlæring/Textbook/01 Basic_Concepts.md",
+    "AI512 - maskinlæring/textbook/Machine_Learning.pdf",
+    "AI512 - maskinlæring/Textbook/00 Notation.md",
+    "AI512 - maskinlæring/Textbook/02 Linear_Predictors.md",
+    "AI512 - maskinlæring/textbook/References.bib",
+    "AI512 - maskinlæring/textbook/10 Ensemble Methods.md",
+    "AI512 - maskinlæring/textbook/09 Kernel Methods.md",
+    "AI512 - maskinlæring/textbook/08 Neural Networks.md",
+    "AI512 - maskinlæring/textbook/07 Decision Trees.md",
+    "AI512 - maskinlæring/textbook/06 Bayesian Learning.md",
+    "AI512 - maskinlæring/textbook/05b Complexity Measures and Generalization.md",
+    "AI512 - maskinlæring/textbook/05a Statistical Learning Theory.md",
+    "AI512 - maskinlæring/textbook/04 Probability Theory.md",
+    "AI512 - maskinlæring/textbook/03 Classification.md",
+    "AI512 - maskinlæring/textbook",
     "AI512 - maskinlæring/Ny mappe",
     "AI512 - maskinlæring/References.bib",
     "AI512 - maskinlæring/Machine_Learning.pdf",
@@ -242,14 +220,9 @@
     "AI512 - maskinlæring/04 Probability Theory.md",
     "AI512 - maskinlæring/03 Classification.md",
     "AI512 - maskinlæring/02 Linear_Predictors.md",
-    "AI512 - maskinlæring/01 Basic_Concepts.md",
-    "AI512 - maskinlæring/00 Notation.md",
-    "AI512 - maskinlæring/Textbook/Machine_Learning.pdf",
-    "AI512 - maskinlæring/Textbook/01 Basic_Concepts.md",
     "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
     "DM548 - Asm - C/Slides/slides-4-digital-logic.pdf",
     "DM548 - Asm - C/Slides/slides-1-intro.pdf",
-    "DM548 - Asm - C/Slides/slides-3-numbers.pdf",
     "attachments/Pasted image 20260903122425.png",
     "DM578-Algoritmer og Datastrukturer/Slides/alfbetet.jpg",
     "attachments/Pasted image 20260605123550.png",

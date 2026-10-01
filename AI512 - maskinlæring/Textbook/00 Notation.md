@@ -10,19 +10,20 @@ This table collects the symbols used throughout the book for quick reference. Ch
 | $\mathcal{D}$ | Data distribution over $\mathcal{X}\times\mathcal{Y}$ |
 | $\mathcal{D}_{\mathcal{X}}$ | Marginal of $\mathcal{D}$ on $\mathcal{X}$ |
 | $[m]$ | $\{1,\ldots,m\}$ |
+| $\mathrm{dist}(\cdot,\cdot)$ | Distance function of a metric space (Chapter 2) |
 
 **Data and samples**
 
-| Symbol        | Meaning                                                                |
-| ------------- | ---------------------------------------------------------------------- |
-| $S$           | A data set / sample                                                    |
-| $m$           | Size of $S$                                                            |
-| $d$           | Dimension of the feature space                                         |
-| $C$           | Number of classes                                                      |
-| $x, x_i$      | An input (feature vector)                                              |
-| $y, y_i$      | A true label                                                           |
-| $\widehat{y}$ | A predicted label                                                      |
-| $z, z_i$      | A score / pre-activation (also a training example in generic contexts) |
+| Symbol | Meaning |
+|---|---|
+| $S$ | A data set / sample |
+| $m$ | Size of $S$ |
+| $d$ | Dimension of the feature space |
+| $C$ | Number of classes |
+| $x, x_i$ | An input (feature vector) |
+| $y, y_i$ | A true label |
+| $\widehat{y}$ | A predicted label |
+| $z, z_i$ | A score / pre-activation (also a training example in generic contexts) |
 
 **Probability**
 
@@ -42,7 +43,7 @@ This table collects the symbols used throughout the book for quick reference. Ch
 |---|---|
 | $\ell(y,\widehat{y})$ | Pointwise loss — true label first, prediction second |
 | $R(h)$ | True risk (generalization error) of $h$ |
-| $\widehat{R}_S(h)$ | Empirical risk of $h$ on $S$ |
+| $\widehat{R}_S(h)$ | Empirical risk of $h$ on $S$ — the subscript always names the sample (e.g. $\widehat{R}_{S_{train}}$ on the training split, $\widehat{R}_{S'}$ on a ghost sample, $\widehat{R}_B$ on a mini-batch) |
 | $\mathcal{L}(\cdot)$ | Training objective (empirical risk plus a regularizer) |
 | $R^*_{\mathcal{D}}$ | Bayes error of $\mathcal{D}$ |
 
@@ -51,7 +52,7 @@ This table collects the symbols used throughout the book for quick reference. Ch
 | Symbol | Meaning |
 |---|---|
 | $h$ | A hypothesis |
-| $h_S$ | A hypothesis learned from $S$ |
+| $h_S$ | A hypothesis learned from $S$ (the subscript names the sample the algorithm was run on) |
 | $f$ | The true labeling function |
 | $f^*$ | The Bayes predictor |
 | $A$ | A learning algorithm |

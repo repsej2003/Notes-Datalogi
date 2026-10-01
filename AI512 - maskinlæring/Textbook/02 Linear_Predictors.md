@@ -22,7 +22,7 @@ plt.show()
 
 ![Synthetic data with a strong linear relationship between input and label, together with the underlying linear generating function.](fig/generated/02_Linear_Predictors_1.png)
 
-Our visual inspection tells us that there is strong linear correlation between inputs and the outputs. Then let us choose our hypothesis set accordingly:
+Our visual inspection tells us that there is a strong linear correlation between the inputs and the outputs. Then let us choose our hypothesis set accordingly:
 
 $$\mathcal{H} := \{h: h(x) = w_0 + w_1 x,~ (w_0,w_1) \in \mathbb{R}^2 \}.$$
 
@@ -47,7 +47,7 @@ $$
 \end{aligned}
 $$
 
-Fitting a linear model on data is often referred to as **least-squares regression** and $w_S$ the **least-squares solution**.
+Fitting a linear model to data is often referred to as **least-squares regression** and $w_S$ the **least-squares solution**.
 
 Denote each data point by a column vector $z_i := (x_i, 1)$. Expressing the linear model as $w^\top z_i$ and using the definition of the dot product we have
 
@@ -114,15 +114,23 @@ plt.show()
 
 # Metric spaces
 
-We would like the vector spaces (such as feature spaces, parameters spaces etc.) used in machine learning to have some plausible properties. We can guarantee the existence of these properties by accompanying a continuous domain $\mathcal{X}$ with a distance function $dist: \mathcal{X} \times \mathcal{X} \rightarrow \mathbb{R}^+$ that is
+We would like the spaces used in machine learning — feature spaces, parameter spaces, and later even spaces of hypotheses — to carry a notion of *how far apart* two of their elements are. The standard way to formalize this is not to build the notion into the space itself, but to equip a set with a distance function from the outside:
 
-1. **positive:**  $\forall a, a' \in \mathcal{X},~ a \neq a' \Rightarrow \mathrm{dist}(a,a') > 0$,
-2. **zero on the diagonal:** $\forall a \in \mathcal{X},~ \mathrm{dist}(a,a) = 0$,
-3. **symmetric:** $\forall a, a' \in \mathcal{X},~ \mathrm{dist}(a,a') = \mathrm{dist}(a',a)$.
+**Definition (Metric space).** A **metric space** is a pair $(\mathcal{X}, \mathrm{dist})$ consisting of a non-empty set $\mathcal{X}$ and a function $\mathrm{dist}: \mathcal{X} \times \mathcal{X} \rightarrow \mathbb{R}$ satisfying the following axioms, $\forall a, b, c \in \mathcal{X}$:
 
-We get these properties by assuming these vector spaces to be **metric spaces**, that is vector space that satisfies
+1. **(M1) identity of indiscernibles:** $\mathrm{dist}(a,b) = 0 \iff a = b$,
+2. **(M2) symmetry:** $\mathrm{dist}(a,b) = \mathrm{dist}(b,a)$,
+3. **(M3) triangle inequality:** $\mathrm{dist}(a,c) \leq \mathrm{dist}(a,b) + \mathrm{dist}(b,c)$.
 
- * $\forall a, b, c \in \mathcal{X},~ \mathrm{dist}(a,c) \leq \mathrm{dist}(a,b) + \mathrm{dist}(b,c)$, which is called the **triangle inequality**.
+---
+
+Note what the definition does *not* assume: that $\mathcal{X}$ is a vector space, or that $\mathrm{dist}$ returns non-negative values. Neither is needed. Non-negativity is a consequence, not an axiom:
+
+**Remark.** Non-negativity, $\mathrm{dist}(a,b) \geq 0$, follows directly from M1, M2, and M3 by setting $c := a$ in M3: $0 = \mathrm{dist}(a,a) \leq \mathrm{dist}(a,b) + \mathrm{dist}(b,a) = 2\,\mathrm{dist}(a,b)$, hence $\mathrm{dist}(a,b) \geq 0$.
+
+---
+
+This is the level of generality we need: in this chapter $\mathcal{X}$ will be a space of real vectors, but in Chapter 5a the very same definition will be applied to $\mathcal{X} = \mathcal{H}$, a set of hypotheses, and it is precisely the distance *between hypotheses* that the covering-number generalization bounds there are built on.
 
 For $p \geq 1$, the $L_p$-norm of a vector $u \in \mathbb{R}^d$ is defined as follows
 
@@ -130,17 +138,20 @@ $$|| u ||_p := \Big ( \sum_{j=1}^d |u_j|^p \Big )^{1/p}.$$
 
 If $p=2$, we get the well-known **Euclidean norm**.
 
-If $p=1$, we get the **Manhattan norm**.
+If $p=1$, we get the **Manhattan Norm**.
 
-As $p \rightarrow \infty$, we tend to get the **Maximum norm** ($L_\infty$), i.e. $||u||_\infty := \max \{|u_1|, \ldots, |u_d|\}$.
+As $p \rightarrow \infty$, we tend to get the **Maximum Norm** ($L_\infty$), i.e. $||u||_\infty := \max \{|u_1|, \ldots, |u_d|\}$.
 
-We can use this norm to derive many nice metric spaces
+Every such norm turns $\mathbb{R}^d$ into a metric space: the pair $\left(\mathbb{R}^d, \mathrm{dist}\right)$ with
 
-$$\mathrm{dist}(a,b) := ||a-b||_p.$$
+$$\mathrm{dist}(a,b) := ||a-b||_p$$
 
-For $0 < p < 1$ the same expression is still well defined and still traces the iso-contours plotted below, but it is no longer a norm: it violates the triangle inequality.
 
-Let us plot the behavior of these distances as a function of $p$. The red lines below are iso-contours of $||u||_p=1$ for $u = (a_1,a_2)$ and different choices of $p$. The unit ball shrinks as $p$ decreases: a small $p$ charges a vector heavily for spreading its mass over many coordinates, so it favours **sparse** vectors.
+satisfies M1–M3. Symmetry and the identity of indiscernibles are immediate from the properties of a norm; the triangle inequality for $\mathrm{dist}$ is inherited from the subadditivity of the norm, $||u+v||_p \leq ||u||_p + ||v||_p$.
+
+For $0 < p < 1$ the same expression is still well defined and still traces the iso-contours plotted below, but it is no longer a norm: it violates subadditivity, so the pair it defines violates M3 and is not a metric space.
+
+Let us plot the behavior of these norms as a function of $p$. The red lines below are iso-contours of $||u||_p=1$ for $u = (a_1,a_2)$ and different choices of $p$. The unit ball shrinks as $p$ decreases: a small $p$ charges a vector heavily for spreading its mass over many coordinates. A vector can stay inside a small-$p$ ball only by concentrating all of its mass on a few coordinates and setting the rest exactly to zero. We call such a vector — one with only a few non-zero entries — **sparse**. The converse, a vector with many small non-zero entries, is called **dense**. Sparsity will matter to us a great deal: recall that in a linear model each coordinate of $w$ multiplies one feature of the input, so a zero coordinate of $w$ switches the corresponding feature *off* — a sparse $w$ is a hypothesis that bases its predictions on a small subset of the available features, ignoring the rest.
 
 ```python
 p_values = [0.5, 1, 2, 3, 7, float('inf')]
@@ -182,7 +193,7 @@ where the abbreviation $\text{s.t.}$ stands for **subject to**, meaning that we 
 
 $$w_S := \arg \min_w \max_{\lambda \geq 0} \frac{1}{m} \sum_{i \in [m]} (w^\top x_i - y_i)^2 + \lambda (||w||_p^p - \eta)$$
 
-where $\lambda \geq 0$ is the Lagrange multiplier of the constraint. For every budget $\eta$ there is a $\lambda$ whose unconstrained problem has the same solution. Fixing $\lambda$ instead of $\eta$ and dropping the constant $\lambda \eta$ gives the **regularized least squares** objective:
+where $\lambda \geq 0$ is the **Lagrange multiplier** of the constraint — a standard device from constrained optimization: instead of enforcing the budget $\eta$ explicitly, we allow the constraint to be violated but charge a price $\lambda$ per unit of violation, and let the minimization itself decide how much violation is worth paying for. For every budget $\eta$ there is a $\lambda$ whose unconstrained problem has the same solution. Fixing $\lambda$ instead of $\eta$ and dropping the constant $\lambda \eta$ gives the **regularized least squares** objective:
 
 $$w_S := \arg \min_w  \underbrace{\frac{1}{m} \sum_{i \in [m]} (w^\top x_i - y_i)^2}_{\widehat{R}_S(w)} + \lambda ||w||_p^p.$$
 
@@ -193,6 +204,8 @@ $$w_S := \arg \min_w \frac{1}{m} \sum_{i \in [m]} (w^\top x_i - y_i)^2 + \lambda
 We can rewrite the loss of this optimization in vector form as:
 
 $$\mathcal{L}_S(w) := \frac{1}{m} \|Z w-y\|_2^2 + \lambda w^\top w.$$
+
+> Jo mindre p jo mere peantly for et givent vector
 
 Let us find the optimal weights that minimize the loss by setting its gradient to zero once again:
 
@@ -205,7 +218,7 @@ $$
 \end{aligned}
 $$
 
-The result, known as **ridge regression** [Hoerl and Kennard (1970)](https://www.jstor.org/stable/1267351)<!-- cite: hoerl1970ridge | article | author={Hoerl, Arthur E. and Kennard, Robert W.}; title={Ridge Regression: Biased Estimation for Nonorthogonal Problems}; journal={Technometrics}; year={1970}; volume={12}; number={1}; pages={55--67} -->, differs from the least-squares solution $w_S = (Z^\top Z)^{-1} Z^\top y$ by only the added term $m \lambda I$. This term makes the matrix invertible even when $Z^\top Z$ is singular, and it pulls every coordinate of $w_S$ towards zero. Methods that pull parameters towards zero instead of fitting them freely are known in statistics as **parameter shrinkage** methods. Note that ridge shrinks but does not sparsify: it drives coefficients close to zero, never exactly to zero. We will see next that $p=1$ does sparsify. The regularizer of ridge regression is referred to as **weight decay**, a name still in active use by deep learning libraries.
+The result, known as **ridge regression** [Hoerl and Kennard (1970)](https://www.jstor.org/stable/1267351)<!-- cite: hoerl1970ridge | article | author={Hoerl, Arthur E. and Kennard, Robert W.}; title={Ridge Regression: Biased Estimation for Nonorthogonal Problems}; journal={Technometrics}; year={1970}; volume={12}; number={1}; pages={55--67} -->, differs from the least-squares solution $w_S = (Z^\top Z)^{-1} Z^\top y$ by only the added term $m \lambda I$. This term makes the matrix invertible even when $Z^\top Z$ is singular, and it pulls every coordinate of $w_S$ towards zero. Methods that pull parameters towards zero instead of fitting them freely are known in statistics as **parameter shrinkage** methods. Note that ridge shrinks but does not sparsify: it drives all coefficients *close* to zero, but (as we will see in the weight plots at the end of this chapter) none of them *exactly* to zero, so every feature keeps a small say in the prediction. We will see next that $p=1$ does sparsify. The regularizer of ridge regression is referred to as **weight decay**, a name still in active use by deep learning libraries.
 
 Let us next see ridge regression in action.
 
@@ -228,7 +241,7 @@ class RidgeRegression:
 
 ```
 
-This time we work on the Diabetes data set that consists of 442 data points. Each data point represents a patient with the following 10 features:
+This time we work on the Diabetes data set, which consists of 442 data points. Each data point represents a patient with the following 10 features:
 
   1. age
   2. sex
@@ -241,7 +254,7 @@ This time we work on the Diabetes data set that consists of 442 data points. Eac
   9. possibly log of serum triglycerides level
   10. blood sugar level
 
-The goal is to predict a quantitative progression of disease progression, the higher the more severe.
+The goal is to predict a quantitative measure of disease progression, the higher the more severe.
 
 ```python
 from sklearn.datasets import load_diabetes
@@ -275,14 +288,14 @@ print(X_train.var(dim=0, unbiased=False))
             0.0021, 0.0022, 0.0022, 0.0023, 0.0023],
            dtype=torch.float64)
 
-Notably, different features have different scales. This may cause artifacts in model fitting, such as prioritization of features according to their scales instead of their relevance to the predicted quantity of interest. We can mitigate these artifacts by **normalizing** the data. One commonplace approach is **z-score normalization**, which assumes that each feature is normal distributed with some mean $\mu$ and variance $\sigma^2$. That is, each coordinate $x_j$ of a $d$-dimensional observation $x$ comes from a sampling process as below:
+Notably, different features have different scales. This may cause artifacts in model fitting, such as prioritization of features according to their scales instead of their relevance to the predicted quantity of interest. We can mitigate these artifacts by **normalizing** the data. One commonplace approach is **z-score normalization**, which assumes that each feature is normally distributed with some mean $\mu$ and variance $\sigma^2$. That is, each coordinate $x_j$ of a $d$-dimensional observation $x$ comes from a sampling process as below:
 
 $$\begin{gathered}
 \epsilon \sim \mathcal{N}(0,1), \\
 x_j = \mu_j + \sigma_j \epsilon.
 \end{gathered}$$
 
-This operation makes the assumption that all the observed differences across individual results (called factors of variation) stem from the first step, i.e. a sample from a standard normal distribution. The second step scales and shifts this sample. Z-score normalization reverses the second operation to bring all features to the first step:
+This operation makes the assumption that all the observed variation in a feature's values (i.e. the differences across individual observations, stemming from whatever factors generated them) is already inside the first step, the standard normal sample; the second step merely scales and shifts this sample. Z-score normalization reverses the second operation to bring all features back to the first step:
 
 $$\begin{gathered}
 x'_j := \dfrac{x_j - \mu_j}{\sigma_j}, \\
@@ -333,13 +346,13 @@ print("Test RMSE: {:.2f}".format(test_error))
     Train RMSE: 54.35
     Test RMSE: 50.92
 
-We have a decent result. But can we do even better? Can we actually sparsify our solution? Inspired by the shape of the $L_p$ balls illustrated above, we can next try out $p=1$. For $d$-dimensional input vectors $x_i$, the resulting objective reads:
+We have a decent result. But can we do even better? Remember that the coordinates of $w$ pair with the features of the input: a zero coordinate switches a feature off. Can we therefore learn a hypothesis that relies only on a small subset of the features — that is, can we make our solution **sparse**, in the sense of having only a few non-zero coordinates? Inspired by the shape of the $L_p$ balls illustrated above — recall that small $p$ keeps a vector inside the ball only by zeroing out most of its coordinates — we can next try out $p=1$. For $d$-dimensional input vectors $x_i$, the resulting objective reads:
 
 $$\mathcal{L}_S(w) := \frac{1}{m} \sum_{i \in [m]} (w^\top x_i - y_i)^2 + \lambda \sum_{j=1}^d |w_j|.$$
 
 This approach is known as **Least Absolute Shrinkage Selection Operator (LASSO) Regression** [Tibshirani (1996)](https://www.jstor.org/stable/2346178)<!-- cite: tibshirani1996lasso | article | author={Tibshirani, Robert}; title={Regression Shrinkage and Selection via the Lasso}; journal={Journal of the Royal Statistical Society: Series B}; year={1996}; volume={58}; number={1}; pages={267--288} -->.
 
-Unlike ridge regression and least squares, the Lasso objective does not have an analytical solution. The $L_1$ term is not differentiable at $w_j = 0$, which is exactly where its solutions like to sit. No closed-form formula exists for a $w$ that would satisfy
+Unlike ridge regression and least squares, the Lasso objective does not have an analytical solution. One reason is that the $L_1$ term is not differentiable at $w_j = 0$ — which, as it will turn out, is exactly where many coordinates of its solution like to sit. There is no closed-form formula for a $w$ that would satisfy
 
 $$\nabla_w \Big ( \frac{1}{m}  \sum_{i \in [m]} (w^\top x_i - y_i)^2 + \lambda \sum_{j=1}^d |w_j| \Big ) \triangleq 0.$$
 
@@ -420,9 +433,11 @@ plt.show()
 
 The figure above is called the **learning curve**. It depicts the evolution of model performance throughout the learning process. 
 
-**REMARK:** Learning curves give plenty of information about the model behavior. Hence, plotting and visually inspecting them facilitates debugging.
+**Remark.** Learning curves give plenty of information about the model behavior. Hence, plotting and visually inspecting them facilitates debugging.
 
-Let us next see how much shrinkage we gained from the Lasso and ridge regression regularizers. As visible below, Lasso sparsifies the parameters more than ridge.
+---
+
+Let us next see how much shrinkage we gained from the Lasso and ridge regression regularizers. As can be seen below, Lasso sparsifies the parameters more than ridge: most of its weight coordinates sit exactly at zero, i.e. the learned hypothesis ignores the corresponding features altogether, while ridge keeps every coordinate slightly non-zero, i.e. every feature keeps a small influence.
 
 ```python
 fig, axes = plt.subplots(ncols=2, nrows=1, figsize=(14, 7))

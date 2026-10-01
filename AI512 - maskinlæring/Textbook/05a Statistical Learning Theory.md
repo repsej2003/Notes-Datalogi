@@ -7,7 +7,7 @@ Solving hard real-world problems with machine learning demands advanced algorith
 
 Every generalization bound in this course, no matter how it is derived, has the same shape: with high probability, the gap $R(h) - \widehat{R}_S(h)$ between true and empirical risk, uniformly over $h \in \mathcal{H}$, is controlled by a single number that measures **how complex $\mathcal{H}$ is**. What changes between different theories of generalization is only *how that number is defined* — as a raw count ($|\mathcal{H}|$, this chapter), a combinatorial shattering capacity ($d_{VC}(\mathcal{H})$, this chapter), an average best-case correlation with random noise (**Rademacher complexity**), a description length in a fixed metric (**covering numbers**), or a KL-divergence budget between a data-dependent posterior and a fixed prior over hypotheses (**PAC-Bayes bounds**) — the last three being the subject of Chapter 5a. This chapter builds the foundational machinery — the finite-hypothesis-class bound, PAC learnability, the No Free Lunch theorem, VC dimension, and the Fundamental Theorem of Statistical Learning — using the coarsest and most concrete of these complexity measures, $|\mathcal{H}|$ and $d_{VC}(\mathcal{H})$. Chapter 5a then shows that these are two special cases of one abstract "complexity of a hypothesis class" idea, of which Rademacher complexity, covering numbers, and PAC-Bayes bounds are three more.
 
-Based on what we covered in the probability theory chapter, let us start from investigating the last of the four questions above.
+Building on what we covered in the probability theory chapter, let us start by investigating the last of the four questions above.
 
 ---
 
@@ -54,7 +54,7 @@ This inequality is called a generalization bound, because it bounds the generali
  - The bound is independent of the data distribution $\mathcal{D}$ and the loss function $\ell$.
  - The bound increases logarithmically with the size of the hypothesis set $|\mathcal{H}|$, that is, a richer hypothesis set is more likely to overfit.
  - The bound decreases with the size of the training set $m$, that is, more data is less likely to overfit.
- - For a fixed training set size $m$ and two different hypothesis sets $\mathcal{H}_1$ and $\mathcal{H}_2$, the bound prefers the smaller hypothesis set. This is known as the **Occam's razor principle**. The principle is introduced by the 14th century theologian William of Ockham. It states that among competing hypotheses, the one with the fewest assumptions should be selected.
+ - For a fixed training set size $m$ and two different hypothesis sets $\mathcal{H}_1$ and $\mathcal{H}_2$, the bound prefers the smaller hypothesis set. This is known as the **Occam's razor principle**. The principle was introduced by the 14th century theologian William of Ockham. It states that among competing hypotheses, the one with the fewest assumptions should be selected.
  - The bound gives a **Probably Approximately Correct (PAC)** performance guarantee. The event that any hypothesis in $\mathcal{H}$ is **approximately correct** in the sense that its generalization error is at most $\epsilon$ with probability at least $1-\delta$.
 
 ---
@@ -208,7 +208,7 @@ The proof is worth re-reading for what it does *not* assume: nothing about $A$ b
 
 ---
 
-The take-home message of the above theorem and its corollary is that there is no universal learner that works well for all data distributions. There always exists a task for which the learner fails. This is a very important result. It tells us that we need to make assumptions about the data distribution in order to design a good learner. These assumptions will constitute the **inductive bias** of the learner. The no free lunch theorem tells us only that we need to induce a degree of bias to the learner. However, it does not tell anything about its consequences. Inducing too much bias limits the ability of the learner to explain the training observations. Inducing too little bias leads to overfitting. The goal is to find the right balance between the two. This dilemma is known as the **bias-complexity dilemma**. 
+The take-home message of the above theorem and its corollary is that there is no universal learner that works well for all data distributions. There always exists a task for which the learner fails. This is a very important result. It tells us that we need to make assumptions about the data distribution in order to design a good learner. These assumptions will constitute the **inductive bias** of the learner. The no free lunch theorem tells us only that we need to induce a degree of bias into the learner. However, it does not tell anything about its consequences. Inducing too much bias limits the ability of the learner to explain the training observations. Inducing too little bias leads to overfitting. The goal is to find the right balance between the two. This dilemma is known as the **bias-complexity dilemma**. 
 
 ## Decomposing the Excess Risk
 
@@ -409,7 +409,7 @@ In words, the following statements are equal:
 * Any ERM rule is a successful PAC learner for $\mathcal{H}$.
 * $\mathcal{H}$ has a finite VC-dimension.
 
-This outcome is very useful because it allows one to achieve all these six nice properties by ensuring only one of them.
+This outcome is very useful because it allows one to achieve all six of these properties by ensuring only one of them.
 
 ***Proof.*** We prove the theorem in two parts: the **equivalence of the six statements**, which is where the conceptual content lies and which we establish completely; and the **sample complexity rates**, whose upper bounds we prove up to a logarithmic factor and whose lower bounds we prove in their $\Theta(d)$ part.
 
@@ -447,7 +447,7 @@ Hence for any $\epsilon < 1/8$ and $\delta < 1/7$ no sample size below $d/2$ can
 
 ---
 
-The VC dimension gives a binary characterization of the hypothesis class. One may want to analyze the capacity of a hypothesis class in relation to an arbitrary data set size smaller or larger than its VC dimension. The following lemma, independently due to [Sauer (1972)](https://doi.org/10.1016/0097-3165(72)90019-2)<!-- cite: sauer1972density | article | author={Sauer, N.}; title={On the Density of Families of Sets}; journal={Journal of Combinatorial Theory, Series A}; year={1972}; volume={13}; number={1}; pages={145--147} --> and [Shelah (1972)](https://doi.org/10.2140/pjm.1972.41.247)<!-- cite: shelah1972combinatorial | article | author={Shelah, Saharon}; title={A Combinatorial Problem; Stability and Order for Models and Theories in Infinitary Languages}; journal={Pacific Journal of Mathematics}; year={1972}; volume={41}; number={1}; pages={247--261} -->, is instrumental to relate the growth function of a hypothesis class to sample size.
+The VC dimension gives a binary characterization of the hypothesis class. One may want to analyze the capacity of a hypothesis class in relation to an arbitrary data set size smaller or larger than its VC dimension. The following lemma, independently due to [Sauer (1972)](https://doi.org/10.1016/0097-3165(72)90019-2)<!-- cite: sauer1972density | article | author={Sauer, N.}; title={On the Density of Families of Sets}; journal={Journal of Combinatorial Theory, Series A}; year={1972}; volume={13}; number={1}; pages={145--147} --> and [Shelah (1972)](https://doi.org/10.2140/pjm.1972.41.247)<!-- cite: shelah1972combinatorial | article | author={Shelah, Saharon}; title={A Combinatorial Problem; Stability and Order for Models and Theories in Infinitary Languages}; journal={Pacific Journal of Mathematics}; year={1972}; volume={41}; number={1}; pages={247--261} -->, is instrumental in relating the growth function of a hypothesis class to the sample size.
 
 **Lemma 5.2 (Sauer-Shelah-Perles).** If $d_{VC}(\mathcal{H}) = d < \infty$, then for all $m \geq d$, we have $\tau_{\mathcal{H}}(m) \leq \sum_{i=0}^d {m \choose i}$. In particular, for $m \geq d$, we have $\tau_{\mathcal{H}}(m) \leq \left(\frac{em}{d}\right)^d$.
 
@@ -568,7 +568,7 @@ Note precisely where nonuniformity enters: the sample size above depends on $h$ 
 
 ---
 
-Vice versa also holds. If a hypothesis class $\mathcal{H}$ is nonuniformly learnable, then it can be expressed as a countable union of agnostic PAC learnable subclasses. Next let us see how we can use this result to build a more powerful learning algorithm than ERM. Remember that we have sample complexity guarantees at the hypothesis subclass level while we need to do our search in the hypothesis level. The following quantity is instrumental to bridge this gap: 
+Vice versa also holds. If a hypothesis class $\mathcal{H}$ is nonuniformly learnable, then it can be expressed as a countable union of agnostic PAC learnable subclasses. Next let us see how we can use this result to build a more powerful learning algorithm than ERM. Remember that we have sample complexity guarantees at the hypothesis-subclass level while we need to do our search at the hypothesis level. The following quantity is instrumental in bridging this gap: 
 
 $$\epsilon_i(m,\delta) = \min \{\epsilon \in (0,1): m_{\mathcal{H}_i}^{UC}(\epsilon,\delta) \leq m \}$$
 
@@ -590,11 +590,11 @@ The proof shows exactly what the weights buy: a union bound over infinitely many
 
 ---
 
-The goal of this theorem is to express the uniform convergence of a composite hypothesis class comprising subclasses with different uniform convergence guarantees. It only rescales the confidence level of the subclasses with an index function on the classes. As we will see next, this index will allow us to search the composite hypothesis space, thereby define a learning rule that is more powerful than ERM. The above result can also be expressed as follows:
+The goal of this theorem is to express the uniform convergence of a composite hypothesis class comprising subclasses with different uniform convergence guarantees. It only rescales the confidence level of the subclasses with an index function on the classes. As we will see next, this index will allow us to search the composite hypothesis space and thereby define a learning rule that is more powerful than ERM. The above result can also be expressed as follows:
 
 $$P\left ( \left \{S \sim \mathcal{D}^m: R(h) \leq \widehat{R}_S(h) +  \epsilon_i(m, w(i(h)) \cdot \delta)  \right \} \right ) \geq 1-\delta, \ \forall h \in \mathcal{H}$$
 
-where $i(h)=\min_{i:h \in \mathcal{H}_i}$ is a function that finds the most sample-efficient class a hypothesis $h$ belongs. This result prescribes a searching rule for an extended set of hypotheses that satisfies PAC learnability. We can then use it to build a new learning algorithm
+where $i(h)=\min_{i:h \in \mathcal{H}_i}$ is a function that finds the most sample-efficient class a hypothesis $h$ belongs to. This result prescribes a search rule for an extended set of hypotheses that satisfies PAC learnability. We can then use it to build a new learning algorithm
 
 $$h_{SRM} \in \arg \min_{h \in \mathcal{H}} \Big \{ \widehat{R}_S(h) +  \epsilon_{i(h)}(m, w(i(h)) \cdot \delta) \Big \}$$
 
@@ -602,11 +602,11 @@ which we call **Structural Risk Minimization (SRM)**: it minimizes not the empir
 
 $$h_{SRM} \in \arg \min_{h \in \mathcal{H}} \widehat{R}_S(h) +  \sqrt{\frac{-\log w'(h) + \log(2/\delta)}{2m}}$$
 
-where we use the trivial identity that $\log(2/\delta \cdot w'(h)) =-\log w'(h) + \log(2/\delta)$. In effect, SRM applies a preference on the hypothesis subclasses represented in the learning rule by the weight $w'(h)$. The higher the weight, the stronger the preference. These preferences can be chosen to reflect prior knowledge coming from the expertise in the domain regarding the collected data.
+where we use the trivial identity that $\log(2/\delta \cdot w'(h)) =-\log w'(h) + \log(2/\delta)$. In effect, SRM applies a preference over the hypothesis subclasses, represented in the learning rule by the weight $w'(h)$. The higher the weight, the stronger the preference. These preferences can be chosen to reflect prior knowledge coming from domain expertise regarding the collected data.
 
 ---
 
-In many real-world problems, we have little domain knowledge to be incorporated into the learning process. It would be useful to have a guideline for building machine learning algorithms without any domain knowledge. Remember that the only condition to combine individually agnostic PAC learnable hypothesis classes into a bigger class is to define a series of positive weights that converge to a value less than one. The following inequality provides an instrumental way of building such a series.
+In many real-world problems, we have little domain knowledge to incorporate into the learning process. It would be useful to have a guideline for building machine learning algorithms without any domain knowledge. Remember that the only condition for combining individually agnostic PAC learnable hypothesis classes into a bigger class is to define a series of positive weights that converge to a value less than one. The following inequality provides an instrumental way of building such a series.
 
 **Lemma 5.3 (Kraft's inequality)** Let $\Sigma^*$ be a set of finite-length strings over the alphabet $\Sigma=\{0,1\}$ that is **prefix-free**, in the sense that no string $s \in \Sigma^*$ of length $k$ coincides with the first $k$ characters of a longer string in $\Sigma^*$. Then $\sum_{s \in \Sigma^*} 2^{-|s|} \leq 1$, where $|s|$ denotes the length of $s$.
 
@@ -629,10 +629,9 @@ Hence, whenever we can find an alphabet that uniquely describes all hypotheses i
 $$P\Big ( \Big \{S \sim \mathcal{D}^m: R(h) \leq \widehat{R}_S(h) +  \sqrt{\frac{|s(h)| + \log(2/\delta)}{2m}} \Big \} \Big ) \geq 1-\delta$$
 
 where we use the property $\log(2) < 1$. The right-hand side of this inequality prescribes the learning rule below
-
 $$h_{MDL} \in \arg \min_{h \in \mathcal{H}} \widehat{R}_S(h) +  \sqrt{\frac{|s(h)| + \log(2/\delta)}{2m}}.$$
 
-Note that this rule suggests the hypothesis that can be expressed with minimum number of characters among the ones that fit the data best. Hence, it is referred to as the **Minimum Description Length(MDL)** rule. The MDL rule is yet another instance of the Occam's Razor principle in machine learning, which also has overarching consequences on hypothesis development in scientific investigation. This rule also sets a theoretical foundation for the idea of applying **regularizers** in machine learning.
+Note that this rule suggests the hypothesis that can be expressed with the minimum number of characters among the ones that fit the data best. Hence, it is referred to as the **Minimum Description Length (MDL)** rule. The MDL rule is yet another instance of the Occam's Razor principle in machine learning, which also has overarching consequences on hypothesis development in scientific investigation. This rule also sets a theoretical foundation for the idea of applying **regularizers** in machine learning.
 
 ---
 

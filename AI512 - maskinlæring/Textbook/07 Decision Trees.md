@@ -40,10 +40,10 @@ At each node, the greedy algorithm picks the split $\phi_v$ maximizing $\mathrm{
 
 # Overfitting and the Bias-Complexity Dilemma
 
-An unconstrained tree can always drive $\widehat{R}_S(h_T) = 0$: grow it until every leaf holds a single training point (or a set of points sharing one label). This is the tree-induction analogue of the memorization hypothesis from Chapter 1 — it exhibits the same overfitting behavior, with tree size (roughly, the number of leaves) playing the role that polynomial degree $M$ played in the curve-fitting example, or that $|\mathcal{H}|$ played in the generalization bound of Chapter 5. Two standard remedies, both instances of the Structural Risk Minimization principle from Chapter 5:
+An unconstrained tree can always drive $\widehat{R}_S(h_T) = 0$ on its training set $S$: grow it until every leaf holds a single training point (or a set of points sharing one label). This is the tree-induction analogue of the memorization hypothesis from Chapter 1 — it exhibits the same overfitting behavior, with tree size (roughly, the number of leaves) playing the role that polynomial degree $M$ played in the curve-fitting example, or that $|\mathcal{H}|$ played in the generalization bound of Chapter 5. Two standard remedies, both instances of the Structural Risk Minimization principle from Chapter 5:
 
 * **Early stopping.** Halt the recursive splitting once a stopping criterion is met (maximum depth, minimum node size, or a minimum required $\mathrm{Gain}$), directly capping the tree's complexity during growth.
-* **Pruning.** Grow a large tree first, then remove (merge) subtrees whose removal does not substantially hurt performance on a held-out validation set — trading a controlled increase in $\widehat{R}_S$ for a reduction in complexity, in the hope of decreasing $R(h_T)$.
+* **Pruning.** Grow a large tree first, then remove (merge) subtrees whose removal does not substantially hurt performance on a held-out validation set — trading a controlled increase in the empirical risk on the training sample for a reduction in complexity, in the hope of decreasing $R(h_T)$.
 
 Consistent with the fundamental theorem of statistical learning (Chapter 5), the capacity of $\mathcal{H}_{\text{tree}}$ can also be bounded formally.
 

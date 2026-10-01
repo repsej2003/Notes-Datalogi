@@ -7,7 +7,7 @@ Linear predictors have many desirable properties. They:
 
 However, their expressiveness is limited. For example, they cannot represent the XOR function. The first solution we presented to improve the expressiveness of linear predictors was to pass them through an activation function and build a network of them. The second is **kernel methods**. The core idea is to transform the input space to another space where the problem can be solved by linear methods. For instance, in classification, we expect from the transformed space that there exists a hyperplane that perfectly separates the classes. This way, nonlinearity is handled by the transformation and all the nice properties of linear predictors are preserved. 
 
-Consider the case that 2D feature space $x = (x_1,x_2) \in \mathbb{R}^2$ contains data points from two classes, one is concentrated around the origin in the shape of a sphere and the other surrounds this sphere in the shape of a ring. The data is not linearly separable in the original space. However, if we transform the data to a new space $\phi(x) = (x_1^2, x_2^2, \sqrt{2} x_1 x_2) \in \mathbb{R}^3$, the classes become linearly separable as illustrated below.
+Consider a 2D feature space in which a data point $x = (x_1,x_2) \in \mathbb{R}^2$ belongs to one of two classes: one class is concentrated around the origin in the shape of a sphere and the other surrounds this sphere in the shape of a ring. The data are not linearly separable in the original space. However, if we transform the data to a new space $\phi(x) = (x_1^2, x_2^2, \sqrt{2} x_1 x_2) \in \mathbb{R}^3$, the classes become linearly separable as illustrated below.
 
 
 ```python
@@ -83,7 +83,7 @@ plt.show()
 
 # Kernel Trick
 
-In real-world applications, it is not as straightforward to find a suitable transformation space as in the example above that would make the problem linearly separable. The best one can often do is to transform the data to an as high dimensional space as possible. However, this is computationally expensive. There are attractive mathematical tools that allow us to model the **similarity** of a pair of data points in the transformation space without explicitly computing the representations of these data points in the transformation space. This can be achieved by a special family of functions, called **kernel functions** with certain characteristics. Given an input space $\mathcal{X}$, we would like to have a kernel function $k: \mathcal{X} \times \mathcal{X} \rightarrow \mathbb{R}$ with the following property:
+In real-world applications, it is not as straightforward to find a suitable transformation space as in the example above, one that would make the problem linearly separable. The best one can often do is to transform the data to a space that is as high dimensional as possible. However, this is computationally expensive. There are attractive mathematical tools that allow us to model the **similarity** of a pair of data points in the transformation space without explicitly computing the representations of these data points in the transformation space. This can be achieved by a special family of functions, called **kernel functions** with certain characteristics. Given an input space $\mathcal{X}$, we would like to have a kernel function $k: \mathcal{X} \times \mathcal{X} \rightarrow \mathbb{R}$ with the following property:
 
 $$
    \begin{aligned}
@@ -276,7 +276,7 @@ This is exactly the solution the dual derivation of the previous section arrived
 
 # Kernel regression
 
-Let us remember the linear methods . It is possible to apply the kernel trick to all of them, i.e. to **kernelize** them. Let us take **ridge regression** as an example. Consider the case where the raw inputs $x_i$ are passed through a feature extraction step $\phi(x_i)$. Call the matrix that contains $\phi(x_i)^\top$ in its rows as $\Phi \in \mathbb{R}^{m \times d}$. The ridge regression objective can then be expressed as
+Let us remember the linear methods. It is possible to apply the kernel trick to all of them, i.e. to **kernelize** them. Let us take **ridge regression** as an example. Consider the case where the raw inputs $x_i$ are passed through a feature extraction step $\phi(x_i)$. Call the matrix that contains $\phi(x_i)^\top$ in its rows $\Phi \in \mathbb{R}^{m \times d}$. The ridge regression objective can then be expressed as
 
 $$
 \begin{aligned}
@@ -303,7 +303,7 @@ $$
 \end{aligned}
 $$
 
-and search for the optimal $a$ instead. Placing this expression into the objective gives its so-called **dual representation**, which contains data only through inner products in the transformed space:
+and search for the optimal $a$ instead. Placing this expression into the objective gives its so-called **dual representation**, which contains the data only through inner products in the transformed space:
 
 $$
 \begin{aligned}
@@ -331,7 +331,7 @@ $$
 
 where the last step assumes $K$ is invertible (it always is a valid solution regardless, since any $a$ satisfying $(K+\lambda I)a = y$ also solves $K\big[(K+\lambda I)a - y\big]=0$).
 
-To reiterate, we first redefined the parameters $w$ by an expression that involves a newly introduced variable $a$, and then found the optimal value for this variable that minimizes the training loss. The resulting objective does not have any trainable parameters left that are not summarized by the Gram matrix $K$. Furthermore, the optimal value of $a$ requires generation of a Gram matrix using the whole training set, and it appears as an intermediate result for calculation of the prediction function. We predict the label $y_*$ of a query input $x_*$ by
+To reiterate, we first redefined the parameters $w$ by an expression that involves a newly introduced variable $a$, and then found the optimal value for this variable that minimizes the training loss. The resulting objective does not have any trainable parameters left that are not summarized by the Gram matrix $K$. Furthermore, the optimal value of $a$ requires generating a Gram matrix using the whole training set, and it appears as an intermediate result in the calculation of the prediction function. We predict the label $y_*$ of a query input $x_*$ by
 
 $$
 \begin{aligned}
@@ -353,7 +353,7 @@ $$
 \end{aligned}
 $$
 
-Because the prediction function requires computations on the whole training set, kernel regression is a lazy learner similar to the k-nearest neighbor approach. It is also a **non-parametric** method. As seen in the example implementation given below, its "predict" function takes the whole training set as an input to be able to calculate the $k_*$ vector.
+Because the prediction function requires computations on the whole training set, kernel regression is called a **lazy learner**: unlike the models we have seen so far, it does all of its work at prediction time, not at training time (the k-nearest neighbor approach of Chapter 3 is the other example — "training" there is nothing more than memorizing the data set). It is also a **non-parametric** method. As seen in the example implementation given below, its "predict" function takes the whole training set as an input in order to calculate the $k_*$ vector.
 
 A major weakness of the kernel methods is that many common kernel functions have tunable hyperparameters. For instance, the RBF kernel has a hyperparameter $\sigma$ that controls the length scale of the kernel — and, as the RKHS reading above showed, thereby decides how expensive high-frequency components are in $\|f\|_{\mathcal{H}_k}$. The performance of the model is sensitive to the choice of this hyperparameter. The example below performs kernel regression with three different choices of $\sigma$, each giving dramatically different outcomes. While $\sigma=0.1$ gives a reasonable fit, $\sigma=0.01$ **overfits** — the kernel sections are so narrow that the fit spikes at each training point and returns to zero between them — and $\sigma=1$ **underfits**, since at that length scale the RKHS charges so much for curvature that the fit cannot follow a full period of the sine.
 
@@ -478,7 +478,7 @@ which is *affine* in $\theta$: exactly the linear-predictor template of this cha
 
 # Support Vector Machines
 
-A prime application of kernel methods, and the historical reason the representer theorem is stated in the generality it is, is the **Support Vector Machine (SVM)** [Boser et al. (1992)](https://doi.org/10.1145/130385.130401)<!-- cite: boser1992training | inproceedings | author={Boser, Bernhard E. and Guyon, Isabelle M. and Vapnik, Vladimir N.}; title={A Training Algorithm for Optimal Margin Classifiers}; booktitle={Proceedings of the 5th Annual Workshop on Computational Learning Theory (COLT)}; year={1992}; pages={144--152} -->. Among many possible hyperplanes that may separate the data points of two classes, SVM chooses the one that maximizes the smallest distance between a data point and the hyperplane. This distance is called the **margin**. Because of this property, SVM is also called a **maximum margin classifier**. The data points that are closest to the hyperplane are called **support vectors**. The margin-maximizing hyperplane is defined by only these support vectors. In the language of Theorem 9.3, the SVM objective is an instance of the representer template with the **hinge** data-fit term $\Psi(u) = \sum_i \max(0, 1-y_iu_i)$ and $\mathrm{pen}(t) = \lambda t^2$, so its solution is again $f^* = \sum_i a_i k(x_i,\cdot)$ — but the hinge loss, unlike the squared loss, is flat on correctly classified points beyond the margin, which forces $a_i = 0$ for all of them. The support vectors are exactly the indices with $a_i \neq 0$. The other data points do not play any role in prediction. This is a desirable property especially when the SVM is kernelized, as the kernel function is evaluated only on the support vectors instead of the whole training set as was the case for kernel regression above.  The figure below illustrates the core idea behind the SVM. We leave the mathematical details out of our scope, since SVMs are greatly overshadowed by deep learning and Gaussian processes in the modern machine learning practice.
+A prime application of kernel methods, and the historical reason the representer theorem is stated in the generality it is, is the **Support Vector Machine (SVM)** [Boser et al. (1992)](https://doi.org/10.1145/130385.130401)<!-- cite: boser1992training | inproceedings | author={Boser, Bernhard E. and Guyon, Isabelle M. and Vapnik, Vladimir N.}; title={A Training Algorithm for Optimal Margin Classifiers}; booktitle={Proceedings of the 5th Annual Workshop on Computational Learning Theory (COLT)}; year={1992}; pages={144--152} -->. Among many possible hyperplanes that may separate the data points of two classes, SVM chooses the one that maximizes the smallest distance between a data point and the hyperplane. This distance is called the **margin**. Because of this property, SVM is also called a **maximum margin classifier**. The data points that are closest to the hyperplane are called **support vectors**. The margin-maximizing hyperplane is defined by only these support vectors. In the language of Theorem 9.3, the SVM objective is an instance of the representer template with the **hinge** data-fit term $\Psi(u) = \sum_i \max(0, 1-y_iu_i)$ and $\mathrm{pen}(t) = \lambda t^2$, so its solution is again $f^* = \sum_i a_i k(x_i,\cdot)$ — but the hinge loss, unlike the squared loss, is flat on correctly classified points beyond the margin, which forces $a_i = 0$ for all of them. The support vectors are exactly the indices with $a_i \neq 0$. The other data points do not play any role in prediction. This is a desirable property especially when the SVM is kernelized, as the kernel function is evaluated only on the support vectors instead of the whole training set as was the case for kernel regression above.  The figure below illustrates the core idea behind the SVM. We leave the mathematical details out of our scope, since SVMs have been greatly overshadowed by deep learning and Gaussian processes in modern machine learning practice.
 
 
 ```{=latex}

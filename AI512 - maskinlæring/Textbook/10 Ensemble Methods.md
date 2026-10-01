@@ -276,7 +276,7 @@ print(f"\ntraining error first reaches 0 at T = {t0+1}")
 
 rounds = th.arange(1, T + 1)
 fig, ax = plt.subplots(1, 2, figsize=(11, 4))
-ax[0].plot(rounds, err_tr, label=r"training error $\widehat{R}_S(h_S)$")
+ax[0].plot(rounds, err_tr, label=r"training error $\widehat{R}_S(h_S)$ (S = training set)")
 ax[0].plot(rounds, err_te, label=r"test error (estimate of $R(h_S)$)")
 ax[0].axvline(t0 + 1, ls=":", c="k")
 ax[0].set_xscale("log"); ax[0].set_xlabel("boosting rounds $T$")
