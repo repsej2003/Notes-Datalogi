@@ -40,11 +40,23 @@
               "type": "markdown",
               "state": {
                 "file": "AI512 - maskinlæring/Textbook/01 Basic_Concepts.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "01 Basic_Concepts"
+            }
+          },
+          {
+            "id": "d176ea5cd33f0c88",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI512 - maskinlæring/Textbook/Machine_Learning.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Machine_Learning"
             }
           }
         ],
@@ -203,9 +215,9 @@
   "active": "e4478122dfd47fc7",
   "lastOpenFiles": [
     "AI512 - maskinlæring/Textbook/00 Notation.md",
+    "AI512 - maskinlæring/Textbook/Machine_Learning.pdf",
     "AI512 - maskinlæring/Textbook/01 Basic_Concepts.md",
     "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
-    "AI512 - maskinlæring/Textbook/Machine_Learning.pdf",
     "DM548 - Asm - C/Slides/slides-4-digital-logic.pdf",
     "DM548 - Asm - C/intro.md",
     "DM548 - Asm - C/Slides/slides-1-intro.pdf",

@@ -69,6 +69,10 @@ Here $\mathds{1}$ is the indicator function that returns $1$ if the predicate in
 
 $$R(h) := \mathbb{E}_{x \sim \mathcal{D}_{\mathcal{X}}}\big[ \ell(f(x), h(x)) \big] = P_{x \sim \mathcal{D}_{\mathcal{X}}}\big(f(x) \neq h(x)\big),$$
 
+> [!Notes]
+> $\mathbb{E}$ forvent udfald probalyt thery vi har ikke lærtet endnu
+
+
 where $\mathcal{D}_{\mathcal{X}}$ is the marginal of $\mathcal{D}$ on the feature space and the second equality is specific to the zero-one loss. Here $P_{x \sim \mathcal{D}_{\mathcal{X}}}$ denotes the probability that the sample $x$ will be observed. In words, this is the probability that our hypothesis will make a different prediction than the true labeling function. We will cover probability theory in the following chapters. For now it is sufficient to read it as the true chance of encountering $x$, relying on your intuitive understanding of the notion of chance.
 
 ## The Empirical Risk Minimization (ERM) Paradigm
@@ -76,6 +80,9 @@ where $\mathcal{D}_{\mathcal{X}}$ is the marginal of $\mathcal{D}$ on the featur
 The goal of a learning algorithm $A$ is to find the hypothesis that minimizes the generalization error:
 
 $$h_* := \arg \min_{h \in \mathcal{H}} R(h).$$
+> [!notes]
+> $\arg \min$ betyder hvilket værdi dr skal gives til en funktion $f(x)$ for at det giver den minsten værdi
+
 
 We cannot solve this optimization problem because we do not know $\mathcal{D}$ and $f$. We only have an idea about these unknowns via the data set $S$. Let us then use the data set to curate a quantity that approximates the generalization error:
 
@@ -97,6 +104,7 @@ $$
 
 This solution will provide us zero $\widehat{R}_S(h_S)$. It may look like that the problem is solved, but actually this is the moment where all problems start.
 
+> Memoerations, den husker alle svar, til alle stillet spørgsmål 
 ## Example: Polynomial curve fitting
 
 We observe data like below for 50 input observations $x$ and the corresponding outputs $y$. We aim to find a function $y=f(x)$ that maps inputs to outputs.
@@ -330,6 +338,8 @@ To mitigate overfitting, we need to devise an algorithm that encourages minimum 
 $$h_S := \arg \min_{h \in \mathcal{H}} \widehat{R}_S(h) + \lambda \sum_{m=0}^M w_m^2.$$
 
 Here the term $\lambda \sum_{m=0}^M w_m^2$ is called a **regularizer** and $\lambda$ a **regularization coefficient**. Let us see what happens then.
+
+> der skal have mindre hypptese set, så mindst hypptese set og den bedst i det set
 
 
 ```python
