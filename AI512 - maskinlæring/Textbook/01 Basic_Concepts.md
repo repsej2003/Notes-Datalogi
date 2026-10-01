@@ -60,6 +60,11 @@ We define what we mean by an **accurate prediction** via a **loss function**: $\
 1. the **zero-one loss** defined as $\ell(y,y') := \mathds{1}(y \neq y')$ for classification, and
 2. the **squared error** defined as $\ell(y,y') := (y-y')^2$ for regression.
 
+>[!notes]
+>$\ell$ loss function
+
+
+
 Here $\mathds{1}$ is the indicator function that returns $1$ if the predicate in its argument holds (e.g. if $y$ differs from $y'$) and $0$ otherwise. Put together, we are interested in a **learning algorithm** $A(\cdot)$ that takes a data set $S$ as input and returns a hypothesis. Let us denote this hypothesis as $h_S$, where the subscript $S$ is to highlight its dependence on the data set. Then we can express the learning process as $h_S \gets A(S)$. We expect from this algorithm to minimize the **generalization error (true risk)**, which is defined for zero-one loss as:
 
 $$R(h) := \mathbb{E}_{x \sim \mathcal{D}_{\mathcal{X}}}\big[ \ell(f(x), h(x)) \big] = P_{x \sim \mathcal{D}_{\mathcal{X}}}\big(f(x) \neq h(x)\big),$$

@@ -20,55 +20,31 @@
             }
           },
           {
-            "id": "be33303aae23ea6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI511 - Linear algebra/Vectors.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Vectors"
-            }
-          },
-          {
             "id": "0e3e5674d61a1cc9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "AI512 - maskinlæring/Textbook/Machine_Learning.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Machine_Learning"
-            }
-          },
-          {
-            "id": "6a190d75e1f29fea",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "DM548 - Asm - C/intro.md",
+                "file": "AI512 - maskinlæring/Textbook/00 Notation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "intro"
+              "title": "00 Notation"
             }
           },
           {
-            "id": "49d353b6ab284c62",
+            "id": "e4478122dfd47fc7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf"
+                "file": "AI512 - maskinlæring/Textbook/01 Basic_Concepts.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "slides 07 - composition, subspaces, linear combinations"
+              "icon": "lucide-file",
+              "title": "01 Basic_Concepts"
             }
           }
         ],
@@ -224,8 +200,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e3e5674d61a1cc9",
+  "active": "e4478122dfd47fc7",
   "lastOpenFiles": [
+    "AI512 - maskinlæring/Textbook/00 Notation.md",
+    "AI512 - maskinlæring/Textbook/01 Basic_Concepts.md",
+    "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
+    "AI512 - maskinlæring/Textbook/Machine_Learning.pdf",
     "DM548 - Asm - C/Slides/slides-4-digital-logic.pdf",
     "DM548 - Asm - C/intro.md",
     "DM548 - Asm - C/Slides/slides-1-intro.pdf",
@@ -235,12 +215,8 @@
     "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
     "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
     "AI511 - Linear algebra/SLides/slides 08 - bases, coordinates, dimension.pdf",
-    "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
     "DM580-Funktionel/slides/week40-2-functions.pdf",
-    "DM580-Funktionel/slides/week40-1-types.pdf",
     "Untitled.md",
-    "AI512 - maskinlæring/Textbook/01 Basic_Concepts.md",
-    "AI512 - maskinlæring/Textbook/00 Notation.md",
     "AI511 - Linear algebra/Vectors.md",
     "DM573 - Intro til datalogi/Databaser.md",
     "DM580-Funktionel/intro.md",
