@@ -1,0 +1,3 @@
+[submodule "AI512 - maskinlæring/adinml"]
+	path = AI512 - maskinlæring/adinml
+	url = https://github.com/repsej2003/adinml.git
