@@ -18,23 +18,26 @@
               "icon": "lucide-file-text",
               "title": "slides 03 - matrices and matrix operations (continued), inverses"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "c84f5ea4553c3173",
+        "type": "tabs",
+        "children": [
           {
-            "id": "e4478122dfd47fc7",
+            "id": "fd6c257f0ecd5536",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "AI512 - maskinlæring/textbook/02 Linear_Predictors.md",
-                "mode": "preview",
-                "source": false
+                "file": "AI512 - maskinlæring/adinml/Machine_Learning.pdf"
               },
-              "icon": "lucide-file",
-              "title": "02 Linear_Predictors"
+              "icon": "lucide-file-text",
+              "title": "Machine_Learning"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,53 +189,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e4478122dfd47fc7",
+  "active": "fd6c257f0ecd5536",
   "lastOpenFiles": [
-    "AI512 - maskinlæring/textbook/00 Notation.md",
-    "AI512 - maskinlæring/textbook/02 Linear_Predictors.md",
+    "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
+    "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/textbook/01 Basic_Concepts.md",
-    "AI512 - maskinlæring/Textbook/Machine_Learning.pdf",
+    "AI512 - maskinlæring/textbook/00 Notation.md",
+    "AI512 - maskinlæring/adinml/README.md",
+    "AI512 - maskinlæring/adinml/todo.md",
+    "AI512 - maskinlæring/adinml/exams/sample-exam2.md",
+    "AI512 - maskinlæring/adinml/exams/sample-exam1.md",
+    "DM580-Funktionel/slides/week40-1-types.pdf",
+    "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
+    "AI512 - maskinlæring/adinml/04 Probability Theory.md",
+    "AI512 - maskinlæring/adinml/06 Bayesian Learning.md",
+    "AI512 - maskinlæring/adinml/03 Classification.md",
+    "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
+    "AI512 - maskinlæring/adinml/00 Notation.md",
+    "AI512 - maskinlæring/adinml/title.tex",
+    "AI512 - maskinlæring/adinml/theorems.tex",
+    "AI512 - maskinlæring/adinml/syntax_highlighting.tex",
+    "AI512 - maskinlæring/adinml/preface.tex",
+    "AI512 - maskinlæring/adinml/mdconvert.py",
+    "AI512 - maskinlæring/adinml/main.tex",
+    "AI512 - maskinlæring/adinml/generate_figures.py",
+    "AI512 - maskinlæring/adinml/fig/generated/10_Ensemble_Methods_1.png",
+    "AI512 - maskinlæring/adinml/fig/generated/09_Kernel_Methods_2.png",
+    "AI512 - maskinlæring/adinml/fig/generated/09_Kernel_Methods_1.png",
+    "AI512 - maskinlæring/adinml/fig/generated/08_Neural_Networks_3.png",
+    "AI512 - maskinlæring/adinml/fig/generated/08_Neural_Networks_2.png",
+    "AI512 - maskinlæring/adinml/fig/generated/08_Neural_Networks_1.png",
+    "AI512 - maskinlæring/adinml/fig/generated/03_Classification_5.png",
+    "AI512 - maskinlæring/adinml/fig/generated/03_Classification_4.png",
+    "AI512 - maskinlæring/adinml/fig/generated/03_Classification_3.png",
+    "AI512 - maskinlæring/adinml/fig/generated/03_Classification_2.png",
+    "AI512 - maskinlæring/adinml/fig/svm.tex",
+    "AI512 - maskinlæring/adinml/fig/perceptron.tex",
+    "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
+    "AI512 - maskinlæring/adinml/09 Kernel Methods.md",
+    "AI512 - maskinlæring/adinml/08 Neural Networks.md",
+    "AI512 - maskinlæring/adinml/07 Decision Trees.md",
+    "AI512 - maskinlæring/textbook/02 Linear_Predictors.md",
     "AI512 - maskinlæring/Textbook/01 Basic_Concepts.md",
-    "AI512 - maskinlæring/textbook/Machine_Learning.pdf",
     "AI512 - maskinlæring/Textbook/00 Notation.md",
     "AI512 - maskinlæring/Textbook/02 Linear_Predictors.md",
-    "AI512 - maskinlæring/textbook/References.bib",
     "AI512 - maskinlæring/textbook/10 Ensemble Methods.md",
     "AI512 - maskinlæring/textbook/09 Kernel Methods.md",
     "AI512 - maskinlæring/textbook/08 Neural Networks.md",
-    "AI512 - maskinlæring/textbook/07 Decision Trees.md",
-    "AI512 - maskinlæring/textbook/06 Bayesian Learning.md",
-    "AI512 - maskinlæring/textbook/05b Complexity Measures and Generalization.md",
-    "AI512 - maskinlæring/textbook/05a Statistical Learning Theory.md",
-    "AI512 - maskinlæring/textbook/04 Probability Theory.md",
-    "AI512 - maskinlæring/textbook/03 Classification.md",
-    "AI512 - maskinlæring/textbook",
-    "AI512 - maskinlæring/Ny mappe",
-    "AI512 - maskinlæring/References.bib",
-    "AI512 - maskinlæring/Machine_Learning.pdf",
-    "AI512 - maskinlæring/10 Ensemble Methods.md",
-    "AI512 - maskinlæring/09 Kernel Methods.md",
-    "AI512 - maskinlæring/08 Neural Networks.md",
-    "AI512 - maskinlæring/07 Decision Trees.md",
-    "AI512 - maskinlæring/06 Bayesian Learning.md",
-    "AI512 - maskinlæring/05b Complexity Measures and Generalization.md",
-    "AI512 - maskinlæring/05a Statistical Learning Theory.md",
-    "AI512 - maskinlæring/04 Probability Theory.md",
-    "AI512 - maskinlæring/03 Classification.md",
-    "AI512 - maskinlæring/02 Linear_Predictors.md",
-    "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
-    "DM548 - Asm - C/Slides/slides-4-digital-logic.pdf",
-    "DM548 - Asm - C/Slides/slides-1-intro.pdf",
-    "attachments/Pasted image 20260903122425.png",
-    "DM578-Algoritmer og Datastrukturer/Slides/alfbetet.jpg",
-    "attachments/Pasted image 20260605123550.png",
-    "attachments/Pasted image 20260604123422.png",
-    "attachments/Pasted image 20260604094412.png",
-    "attachments/Pasted image 20260604094045.png",
-    "attachments/Pasted image 20260604092159.png",
-    "attachments/Pasted image 20260603152842.png",
-    "attachments/Pasted image 20260526153724.png",
-    "attachments/Pasted image 20260526151808.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
