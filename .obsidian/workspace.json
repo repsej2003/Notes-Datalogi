@@ -13,28 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf"
+                "file": "DM548 - Asm - C/Slides/slides-1-intro.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "slides 03 - matrices and matrix operations (continued), inverses"
-            }
-          }
-        ]
-      },
-      {
-        "id": "c84f5ea4553c3173",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fd6c257f0ecd5536",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "AI512 - maskinlæring/adinml/Machine_Learning.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Machine_Learning"
+              "title": "slides-1-intro"
             }
           }
         ]
@@ -189,8 +171,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd6c257f0ecd5536",
+  "active": "db3f84425c8d52ef",
   "lastOpenFiles": [
+    "DM548 - Asm - C/Slides/slides-4-digital-logic.pdf",
+    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
+    "AI511 - Linear algebra/SLides/slides 05 - euclidean vector spaces, linear transformations.pdf",
+    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
+    "AI511 - Linear algebra/SLides/slides 06 - linear transformations (continued), compositions.pdf",
+    "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
+    "AI511 - Linear algebra/SLides/slides 08 - bases, coordinates, dimension.pdf",
+    "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/sortingSlides.pdf",
+    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
+    "DM578-Algoritmer og Datastrukturer/Sorting.md",
+    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/textbook/01 Basic_Concepts.md",
@@ -206,13 +199,6 @@
     "AI512 - maskinlæring/adinml/03 Classification.md",
     "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
     "AI512 - maskinlæring/adinml/00 Notation.md",
-    "AI512 - maskinlæring/adinml/title.tex",
-    "AI512 - maskinlæring/adinml/theorems.tex",
-    "AI512 - maskinlæring/adinml/syntax_highlighting.tex",
-    "AI512 - maskinlæring/adinml/preface.tex",
-    "AI512 - maskinlæring/adinml/mdconvert.py",
-    "AI512 - maskinlæring/adinml/main.tex",
-    "AI512 - maskinlæring/adinml/generate_figures.py",
     "AI512 - maskinlæring/adinml/fig/generated/10_Ensemble_Methods_1.png",
     "AI512 - maskinlæring/adinml/fig/generated/09_Kernel_Methods_2.png",
     "AI512 - maskinlæring/adinml/fig/generated/09_Kernel_Methods_1.png",
@@ -223,8 +209,6 @@
     "AI512 - maskinlæring/adinml/fig/generated/03_Classification_4.png",
     "AI512 - maskinlæring/adinml/fig/generated/03_Classification_3.png",
     "AI512 - maskinlæring/adinml/fig/generated/03_Classification_2.png",
-    "AI512 - maskinlæring/adinml/fig/svm.tex",
-    "AI512 - maskinlæring/adinml/fig/perceptron.tex",
     "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
     "AI512 - maskinlæring/adinml/09 Kernel Methods.md",
     "AI512 - maskinlæring/adinml/08 Neural Networks.md",
@@ -235,7 +219,6 @@
     "AI512 - maskinlæring/Textbook/02 Linear_Predictors.md",
     "AI512 - maskinlæring/textbook/10 Ensemble Methods.md",
     "AI512 - maskinlæring/textbook/09 Kernel Methods.md",
-    "AI512 - maskinlæring/textbook/08 Neural Networks.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
