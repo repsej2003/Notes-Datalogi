@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI501-kunstig intelligens/Slides/00_Course_Description.pdf"
+                "file": "DM580-Funktionel/slides/week39-intro.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "00_Course_Description"
+              "title": "week39-intro"
             }
           }
         ]
@@ -173,16 +173,17 @@
   },
   "active": "db3f84425c8d52ef",
   "lastOpenFiles": [
+    "AI511 - Linear algebra/SLides/slides 08 - bases, coordinates, dimension.pdf",
+    "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
+    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
+    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
+    "AI511 - Linear algebra/SLides/slides 05 - euclidean vector spaces, linear transformations.pdf",
+    "AI511 - Linear algebra/SLides/slides 06 - linear transformations (continued), compositions.pdf",
+    "AI501-kunstig intelligens/Slides/00_Course_Description.pdf",
     "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
     "AI512 - maskinlæring/adinml/03 Classification.md",
     "DM548 - Asm - C/Slides/slides-1-intro.pdf",
     "DM548 - Asm - C/Slides/slides-4-digital-logic.pdf",
-    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
-    "AI511 - Linear algebra/SLides/slides 05 - euclidean vector spaces, linear transformations.pdf",
-    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
-    "AI511 - Linear algebra/SLides/slides 06 - linear transformations (continued), compositions.pdf",
-    "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
-    "AI511 - Linear algebra/SLides/slides 08 - bases, coordinates, dimension.pdf",
     "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/sortingSlides.pdf",
     "DM548 - Asm - C/Slides/slides-2-asm.pdf",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
