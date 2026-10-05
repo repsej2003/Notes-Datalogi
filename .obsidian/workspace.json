@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DM580-Funktionel/slides/week39-intro.pdf"
+                "file": "AI511 - Linear algebra/SLides/slides 09 - coordinates, dimension, change of basis.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "week39-intro"
+              "title": "slides 09 - coordinates, dimension, change of basis"
             }
           }
         ]
@@ -173,25 +173,25 @@
   },
   "active": "db3f84425c8d52ef",
   "lastOpenFiles": [
+    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
+    "AI511 - Linear algebra/SLides/slides 10 - rank and nullity, determinants.pdf",
+    "AI511 - Linear algebra/SLides/Ikke bekræftet 365676.crdownload",
+    "AI511 - Linear algebra/SLides/slides 09 - coordinates, dimension, change of basis.pdf",
+    "AI511 - Linear algebra/SLides/Ikke bekræftet 815878.crdownload",
+    "AI512 - maskinlæring/adinml/README.md",
+    "DM580-Funktionel/slides/week39-intro.pdf",
     "AI511 - Linear algebra/SLides/slides 08 - bases, coordinates, dimension.pdf",
     "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
     "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
     "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
     "AI511 - Linear algebra/SLides/slides 05 - euclidean vector spaces, linear transformations.pdf",
-    "AI511 - Linear algebra/SLides/slides 06 - linear transformations (continued), compositions.pdf",
-    "AI501-kunstig intelligens/Slides/00_Course_Description.pdf",
     "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
     "AI512 - maskinlæring/adinml/03 Classification.md",
-    "DM548 - Asm - C/Slides/slides-1-intro.pdf",
-    "DM548 - Asm - C/Slides/slides-4-digital-logic.pdf",
-    "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/sortingSlides.pdf",
-    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
     "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/textbook/01 Basic_Concepts.md",
     "AI512 - maskinlæring/textbook/00 Notation.md",
-    "AI512 - maskinlæring/adinml/README.md",
     "AI512 - maskinlæring/adinml/todo.md",
     "AI512 - maskinlæring/adinml/exams/sample-exam2.md",
     "AI512 - maskinlæring/adinml/exams/sample-exam1.md",
