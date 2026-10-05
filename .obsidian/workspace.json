@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DM548 - Asm - C/Slides/slides-1-intro.pdf"
+                "file": "AI501-kunstig intelligens/Slides/00_Course_Description.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "slides-1-intro"
+              "title": "00_Course_Description"
             }
           }
         ]
@@ -173,6 +173,9 @@
   },
   "active": "db3f84425c8d52ef",
   "lastOpenFiles": [
+    "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
+    "AI512 - maskinlæring/adinml/03 Classification.md",
+    "DM548 - Asm - C/Slides/slides-1-intro.pdf",
     "DM548 - Asm - C/Slides/slides-4-digital-logic.pdf",
     "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
     "AI511 - Linear algebra/SLides/slides 05 - euclidean vector spaces, linear transformations.pdf",
@@ -183,7 +186,6 @@
     "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/sortingSlides.pdf",
     "DM548 - Asm - C/Slides/slides-2-asm.pdf",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
-    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/textbook/01 Basic_Concepts.md",
@@ -192,12 +194,9 @@
     "AI512 - maskinlæring/adinml/todo.md",
     "AI512 - maskinlæring/adinml/exams/sample-exam2.md",
     "AI512 - maskinlæring/adinml/exams/sample-exam1.md",
-    "DM580-Funktionel/slides/week40-1-types.pdf",
     "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
     "AI512 - maskinlæring/adinml/04 Probability Theory.md",
     "AI512 - maskinlæring/adinml/06 Bayesian Learning.md",
-    "AI512 - maskinlæring/adinml/03 Classification.md",
-    "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
     "AI512 - maskinlæring/adinml/00 Notation.md",
     "AI512 - maskinlæring/adinml/fig/generated/10_Ensemble_Methods_1.png",
     "AI512 - maskinlæring/adinml/fig/generated/09_Kernel_Methods_2.png",
