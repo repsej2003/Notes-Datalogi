@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
+                "file": "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 Basic_Concepts"
+              "title": "02 Linear_Predictors"
             }
           }
         ]
@@ -175,6 +175,7 @@
   },
   "active": "db3f84425c8d52ef",
   "lastOpenFiles": [
+    "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/adinml/00 Notation.md",
     "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
     "AI512 - maskinlæring/adinml/03 Classification.md",
@@ -191,7 +192,6 @@
     "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
     "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
-    "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/textbook/01 Basic_Concepts.md",
     "AI512 - maskinlæring/textbook/00 Notation.md",
     "AI512 - maskinlæring/adinml/todo.md",
