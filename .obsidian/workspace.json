@@ -11,12 +11,14 @@
             "id": "db3f84425c8d52ef",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "AI511 - Linear algebra/SLides/slides 09 - coordinates, dimension, change of basis.pdf"
+                "file": "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "slides 09 - coordinates, dimension, change of basis"
+              "icon": "lucide-file",
+              "title": "01 Basic_Concepts"
             }
           }
         ]
@@ -173,8 +175,11 @@
   },
   "active": "db3f84425c8d52ef",
   "lastOpenFiles": [
-    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
+    "AI512 - maskinlæring/adinml/00 Notation.md",
+    "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
+    "AI512 - maskinlæring/adinml/03 Classification.md",
     "AI511 - Linear algebra/SLides/slides 09 - coordinates, dimension, change of basis.pdf",
+    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
     "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "AI511 - Linear algebra/SLides/slides 10 - rank and nullity, determinants.pdf",
     "AI511 - Linear algebra/SLides/Ikke bekræftet 365676.crdownload",
@@ -184,9 +189,6 @@
     "AI511 - Linear algebra/SLides/slides 08 - bases, coordinates, dimension.pdf",
     "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
     "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
-    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
-    "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
-    "AI512 - maskinlæring/adinml/03 Classification.md",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
     "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
@@ -198,7 +200,6 @@
     "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
     "AI512 - maskinlæring/adinml/04 Probability Theory.md",
     "AI512 - maskinlæring/adinml/06 Bayesian Learning.md",
-    "AI512 - maskinlæring/adinml/00 Notation.md",
     "AI512 - maskinlæring/adinml/fig/generated/10_Ensemble_Methods_1.png",
     "AI512 - maskinlæring/adinml/fig/generated/09_Kernel_Methods_2.png",
     "AI512 - maskinlæring/adinml/fig/generated/09_Kernel_Methods_1.png",
