@@ -13,10 +13,22 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI511 - Linear algebra/SLides/slides 11 - determinants (continued), eigenvalues and eigenvectors.pdf"
+                "file": "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "slides 11 - determinants (continued), eigenvalues and eigenvectors"
+              "title": "slides 04 - inverses (continued)"
+            }
+          },
+          {
+            "id": "3f7bf6bceaf23a58",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DM548 - Asm - C/Slides/slides-3-numbers.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slides-3-numbers"
             }
           },
           {
@@ -31,7 +43,8 @@
               "title": "week39-intro"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,20 +196,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "db3f84425c8d52ef",
+  "active": "3f7bf6bceaf23a58",
   "lastOpenFiles": [
-    "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/sortingInLinearTimeSlides.pdf",
+    "AI511 - Linear algebra/SLides/IEEE-754 Floating Point Converter_files/float.js.download",
+    "AI511 - Linear algebra/SLides/IEEE-754 Floating Point Converter_files/float.js",
+    "AI511 - Linear algebra/SLides/IEEE-754 Floating Point Converter_files/base.css",
+    "AI511 - Linear algebra/SLides/IEEE-754 Floating Point Converter_files",
+    "AI511 - Linear algebra/SLides/IEEE-754 Floating Point Converter.html",
+    "DM548 - Asm - C/Slides/slides-4-digital-logic.pdf",
     "AI511 - Linear algebra/SLides/slides 11 - determinants (continued), eigenvalues and eigenvectors.pdf",
-    "AI511 - Linear algebra/SLides/Ikke bekræftet 868733.crdownload",
-    "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/sortingSlides.pdf",
+    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
+    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
+    "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf",
+    "AI511 - Linear algebra/SLides/slides 09 - coordinates, dimension, change of basis.pdf",
     "Todo.md",
-    "DM580-Funktionel/slides/week39-intro.pdf",
-    "deklarationsformular-nat-gai.pdf",
-    "Untitled.base",
-    "DM548 - Asm - C/Slides/slides-6-chache.pdf",
-    "DM548 - Asm - C/Slides/Ikke bekræftet 842260.crdownload",
-    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
-    "DM548 - Asm - C/Slides/slides-5-structure.pdf",
     "AI512 - maskinlæring/adinml/03 Classification.md",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/adinml/fig/generated/03_Classification_6.png",
