@@ -23,12 +23,14 @@
             "id": "3f7bf6bceaf23a58",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "DM580-Funktionel/slides/week43-1-hofs.pdf"
+                "file": "AI512 - maskinlæring/Ex/exercise1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "week43-1-hofs"
+              "icon": "lucide-file",
+              "title": "exercise1"
             }
           },
           {
@@ -198,17 +200,18 @@
   },
   "active": "3f7bf6bceaf23a58",
   "lastOpenFiles": [
+    "DM580-Funktionel/slides/week43-1-hofs.pdf",
+    "AI512 - maskinlæring/Ex/exercise1.md",
+    "AI512 - maskinlæring/Ex/Ikke bekræftet 809197.crdownload",
+    "AI512 - maskinlæring/Ex",
+    "AI512 - maskinlæring/Ny mappe",
     "DM580-Funktionel/slides/week43-2-declaring-types-and-classes.pdf",
     "DM580-Funktionel/intro.md",
-    "DM580-Funktionel/slides/week43-1-hofs.pdf",
     "DM548 - Asm - C/Slides/slides-3-numbers.pdf",
     "DM580-Funktionel/slides/Ikke bekræftet 945928.crdownload",
     "DM580-Funktionel/slides/Ikke bekræftet 604276.crdownload",
     "DM548 - Asm - C/Slides/slides-4-digital-logic.pdf",
     "AI511 - Linear algebra/SLides/IEEE-754 Floating Point Converter_files/float.js.download",
-    "AI511 - Linear algebra/SLides/IEEE-754 Floating Point Converter_files/float.js",
-    "AI511 - Linear algebra/SLides/IEEE-754 Floating Point Converter_files/base.css",
-    "AI511 - Linear algebra/SLides/IEEE-754 Floating Point Converter_files",
     "Todo.md",
     "AI512 - maskinlæring/adinml/03 Classification.md",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
@@ -242,7 +245,6 @@
     "AI512 - maskinlæring/textbook/02 Linear_Predictors.md",
     "AI512 - maskinlæring/Textbook/01 Basic_Concepts.md",
     "AI512 - maskinlæring/Textbook/00 Notation.md",
-    "AI512 - maskinlæring/Textbook/02 Linear_Predictors.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
