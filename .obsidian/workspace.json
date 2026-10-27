@@ -23,14 +23,24 @@
             "id": "319bf5c8a68275bb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "AI512 - maskinlæring/Ex/exercise1.md",
-                "mode": "preview",
-                "source": false
+                "file": "AI511 - Linear algebra/SLides/slides 11 - determinants (continued), eigenvalues and eigenvectors.pdf"
               },
-              "icon": "lucide-file",
-              "title": "exercise1"
+              "icon": "lucide-file-text",
+              "title": "slides 11 - determinants (continued), eigenvalues and eigenvectors"
+            }
+          },
+          {
+            "id": "3a62574c5d1f2e09",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI512 - maskinlæring/adinml/Machine_Learning.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Machine_Learning"
             }
           },
           {
@@ -88,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,13 +250,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "319bf5c8a68275bb",
+  "active": "3a62574c5d1f2e09",
   "lastOpenFiles": [
+    "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
     "AI511 - Linear algebra/SLides/slides 12 - eigenvalues and eigenvectors (continued), diagonalisation.pdf",
+    "AI511 - Linear algebra/SLides/slides 11 - determinants (continued), eigenvalues and eigenvectors.pdf",
+    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
+    "DM548 - Asm - C/Slides/slides-6-chache.pdf",
+    "AI512 - maskinlæring/Ex/exercise1.md",
     "AI511 - Linear algebra/SLides/Ikke bekræftet 127205.crdownload",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/adinml/00 Notation.md",
-    "AI512 - maskinlæring/Ex/exercise1.md",
     "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
     "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "DM580-Funktionel/slides/week39-intro.pdf",
@@ -254,17 +268,12 @@
     "DM580-Funktionel/slides/week43-2-declaring-types-and-classes.pdf",
     "DM580-Funktionel/slides/week43-1-hofs.pdf",
     "AI512 - maskinlæring/Ex/Ikke bekræftet 809197.crdownload",
-    "AI512 - maskinlæring/Ex",
-    "AI512 - maskinlæring/Ny mappe",
     "DM580-Funktionel/intro.md",
-    "DM548 - Asm - C/Slides/slides-3-numbers.pdf",
-    "DM580-Funktionel/slides/Ikke bekræftet 945928.crdownload",
     "Todo.md",
     "AI512 - maskinlæring/adinml/03 Classification.md",
     "AI512 - maskinlæring/adinml/fig/generated/03_Classification_6.png",
     "AI512 - maskinlæring/adinml/README.md",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
-    "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
     "AI512 - maskinlæring/textbook/01 Basic_Concepts.md",
     "AI512 - maskinlæring/textbook/00 Notation.md",
     "AI512 - maskinlæring/adinml/todo.md",
