@@ -35,12 +35,14 @@
             "id": "3a62574c5d1f2e09",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "AI512 - maskinlæring/adinml/Machine_Learning.pdf"
+                "file": "AI512 - maskinlæring/adinml/06 Bayesian Learning.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Machine_Learning"
+              "icon": "lucide-file",
+              "title": "06 Bayesian Learning"
             }
           },
           {
@@ -252,6 +254,9 @@
   },
   "active": "3a62574c5d1f2e09",
   "lastOpenFiles": [
+    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
+    "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
+    "AI512 - maskinlæring/adinml/06 Bayesian Learning.md",
     "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
     "AI511 - Linear algebra/SLides/slides 12 - eigenvalues and eigenvectors (continued), diagonalisation.pdf",
     "AI511 - Linear algebra/SLides/slides 11 - determinants (continued), eigenvalues and eigenvectors.pdf",
@@ -262,7 +267,6 @@
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/adinml/00 Notation.md",
     "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
-    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "DM580-Funktionel/slides/week39-intro.pdf",
     "AI512 - maskinlæring/adinml/fig/generated/10_Ensemble_Methods_2.png",
     "DM580-Funktionel/slides/week43-2-declaring-types-and-classes.pdf",
@@ -279,9 +283,7 @@
     "AI512 - maskinlæring/adinml/todo.md",
     "AI512 - maskinlæring/adinml/exams/sample-exam2.md",
     "AI512 - maskinlæring/adinml/exams/sample-exam1.md",
-    "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
     "AI512 - maskinlæring/adinml/04 Probability Theory.md",
-    "AI512 - maskinlæring/adinml/06 Bayesian Learning.md",
     "AI512 - maskinlæring/adinml/fig/generated/10_Ensemble_Methods_1.png",
     "AI512 - maskinlæring/adinml/fig/generated/09_Kernel_Methods_2.png",
     "AI512 - maskinlæring/adinml/fig/generated/09_Kernel_Methods_1.png",
