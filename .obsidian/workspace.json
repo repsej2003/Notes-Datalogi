@@ -114,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -266,12 +266,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9cb638ab782d8f7",
+  "active": "3a62574c5d1f2e09",
   "lastOpenFiles": [
-    "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
-    "AI512 - maskinlæring/adinml/03 Classification.md",
     "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
     "AI512 - maskinlæring/Ex/exercise2.md",
+    "AI512 - maskinlæring/adinml/03 Classification.md",
+    "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "DM548 - Asm - C/Slides/slides-2-asm.pdf",
     "AI512 - maskinlæring/Ex/Ikke bekræftet 331195.crdownload",

@@ -87,6 +87,8 @@ TRUE
 
 TRUE, vi har fundet den rigtigte funktion 
 
+FALSe
+
 **Answer 2.5:** If $h_{w_S}$ is a least-squares solution, then no hypothesis in $\mathcal{H}$ achieves a smaller loss than $h_{w_S}$ at any single training point.
 
 False, fordi der kan hver en anden i H der har null loss på den præcise point
@@ -103,13 +105,20 @@ over the class $\mathcal{H}$ of all affine hypotheses $h_w(x)=w_0+w_1x$ with $w=
 
 **Answer 3.1:** Ridge is ERM under a capacity constraint: the constrained problem searches only the subclass $\{h_w:\|w\|_2\le\eta\}$, so the penalized problem is an instance of the structural risk minimization scheme — fitting the data and controlling model complexity in one objective.
 
-
+TRUE
 
 **Answer 3.2:** The training error of the ridge solution is non-decreasing in $\lambda$: increasing the regularization coefficient can only worsen the fit on the training set.
 
+TRUE
+
 **Answer 3.3:** Test error is monotone in the regularization coefficient: increasing $\lambda$ can only worsen the test error, since it moves the predictor away from the training-optimal one.
 
+FALSE, 
+hvis du har overfittet, pga for en lille lammda, så vil det gøre det bedre gør den større
+
 **Answer 3.4:** Recording a feature in different units (multiplying it by a nonzero constant) changes neither the functions representable by $\mathcal{H}$ nor the minimum training error of unregularized least squares; it can, however, change the predictions that the ridge solution makes on the training set.
+
+
 
 **Answer 3.5:** For every data set and every $\lambda>0$, all coordinates of $w_\lambda$ are non-zero: ridge pulls weights towards zero but never sets one exactly to zero.
 
