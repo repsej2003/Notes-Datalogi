@@ -35,12 +35,28 @@
             "id": "3a62574c5d1f2e09",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "DM548 - Asm - C/Slides/slides-7-menory.pdf"
+                "file": "AI512 - maskinlæring/Ex/exercise2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "slides-7-menory"
+              "icon": "lucide-file",
+              "title": "exercise2"
+            }
+          },
+          {
+            "id": "0dbcdda4b0fedd1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI512 - maskinlæring/adinml/03 Classification.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03 Classification"
             }
           },
           {
@@ -49,12 +65,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
+                "file": "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 Basic_Concepts"
+              "title": "02 Linear_Predictors"
             }
           },
           {
@@ -98,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -250,29 +266,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3a62574c5d1f2e09",
+  "active": "b9cb638ab782d8f7",
   "lastOpenFiles": [
-    "AI512 - maskinlæring/adinml/06 Bayesian Learning.md",
-    "DM548 - Asm - C/Slides/slides-8-IO.pdf",
-    "DM548 - Asm - C/Slides/Ikke bekræftet 427359.crdownload",
-    "DM548 - Asm - C/Slides/slides-7-menory.pdf",
-    "DM548 - Asm - C/Slides/Ikke bekræftet 138585.crdownload",
+    "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
+    "AI512 - maskinlæring/adinml/03 Classification.md",
+    "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
+    "AI512 - maskinlæring/Ex/exercise2.md",
     "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
+    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
+    "AI512 - maskinlæring/Ex/Ikke bekræftet 331195.crdownload",
+    "DM548 - Asm - C/Slides/slides-8-IO.pdf",
+    "DM548 - Asm - C/Slides/slides-7-menory.pdf",
+    "AI512 - maskinlæring/adinml/06 Bayesian Learning.md",
+    "DM548 - Asm - C/Slides/Ikke bekræftet 427359.crdownload",
+    "DM548 - Asm - C/Slides/Ikke bekræftet 138585.crdownload",
     "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
     "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
     "AI511 - Linear algebra/SLides/slides 12 - eigenvalues and eigenvectors (continued), diagonalisation.pdf",
     "AI511 - Linear algebra/SLides/slides 11 - determinants (continued), eigenvalues and eigenvectors.pdf",
-    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
     "DM548 - Asm - C/Slides/slides-6-chache.pdf",
     "AI512 - maskinlæring/Ex/exercise1.md",
-    "AI511 - Linear algebra/SLides/Ikke bekræftet 127205.crdownload",
-    "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/adinml/00 Notation.md",
-    "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
     "AI512 - maskinlæring/adinml/fig/generated/10_Ensemble_Methods_2.png",
     "DM580-Funktionel/intro.md",
     "Todo.md",
-    "AI512 - maskinlæring/adinml/03 Classification.md",
     "AI512 - maskinlæring/adinml/fig/generated/03_Classification_6.png",
     "AI512 - maskinlæring/adinml/README.md",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
@@ -296,7 +313,6 @@
     "AI512 - maskinlæring/adinml/07 Decision Trees.md",
     "AI512 - maskinlæring/textbook/02 Linear_Predictors.md",
     "AI512 - maskinlæring/Textbook/01 Basic_Concepts.md",
-    "AI512 - maskinlæring/Textbook/00 Notation.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
