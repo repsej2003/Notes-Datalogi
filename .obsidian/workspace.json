@@ -35,14 +35,12 @@
             "id": "3a62574c5d1f2e09",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "AI512 - maskinlæring/Ex/exercise2.md",
-                "mode": "source",
-                "source": false
+                "file": "AI511 - Linear algebra/Aplied/Slides/linReg (2).pdf"
               },
-              "icon": "lucide-file",
-              "title": "exercise2"
+              "icon": "lucide-file-text",
+              "title": "linReg (2)"
             }
           },
           {
@@ -268,23 +266,24 @@
   },
   "active": "3a62574c5d1f2e09",
   "lastOpenFiles": [
-    "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
+    "AI511 - Linear algebra/Aplied/Slides/linReg (1).pdf",
+    "AI511 - Linear algebra/Aplied/Slides/linReg (2).pdf",
+    "AI511 - Linear algebra/Aplied/Slides/lec3.pdf",
+    "AI511 - Linear algebra/Aplied/Slides/lec5.pdf",
+    "AI511 - Linear algebra/Aplied/Slides/lec4.pdf",
+    "AI511 - Linear algebra/Aplied/Slides/Ikke bekræftet 491935.crdownload",
     "AI512 - maskinlæring/Ex/exercise2.md",
+    "AI511 - Linear algebra/Aplied/Slides/Ikke bekræftet 290917.crdownload",
+    "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
     "AI512 - maskinlæring/adinml/03 Classification.md",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "DM548 - Asm - C/Slides/slides-2-asm.pdf",
     "AI512 - maskinlæring/Ex/Ikke bekræftet 331195.crdownload",
     "DM548 - Asm - C/Slides/slides-8-IO.pdf",
-    "DM548 - Asm - C/Slides/slides-7-menory.pdf",
     "AI512 - maskinlæring/adinml/06 Bayesian Learning.md",
-    "DM548 - Asm - C/Slides/Ikke bekræftet 427359.crdownload",
-    "DM548 - Asm - C/Slides/Ikke bekræftet 138585.crdownload",
     "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
     "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
-    "AI511 - Linear algebra/SLides/slides 12 - eigenvalues and eigenvectors (continued), diagonalisation.pdf",
-    "AI511 - Linear algebra/SLides/slides 11 - determinants (continued), eigenvalues and eigenvectors.pdf",
-    "DM548 - Asm - C/Slides/slides-6-chache.pdf",
     "AI512 - maskinlæring/Ex/exercise1.md",
     "AI512 - maskinlæring/adinml/00 Notation.md",
     "AI512 - maskinlæring/adinml/fig/generated/10_Ensemble_Methods_2.png",
