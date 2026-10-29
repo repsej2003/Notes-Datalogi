@@ -37,10 +37,22 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI511 - Linear algebra/Aplied/Slides/linReg (2).pdf"
+                "file": "AI511 - Linear algebra/SLides/slides 12 - eigenvalues and eigenvectors (continued), diagonalisation.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "linReg (2)"
+              "title": "slides 12 - eigenvalues and eigenvectors (continued), diagonalisation"
+            }
+          },
+          {
+            "id": "9a7d7cf2465f9f08",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI512 - maskinlæring/adinml/Machine_Learning.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Machine_Learning"
             }
           },
           {
@@ -112,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -264,23 +276,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3a62574c5d1f2e09",
+  "active": "9a7d7cf2465f9f08",
   "lastOpenFiles": [
-    "AI511 - Linear algebra/Aplied/Slides/linReg (1).pdf",
+    "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
+    "AI511 - Linear algebra/Linear algebra.pdf",
+    "AI511 - Linear algebra/SLides/slides 12 - eigenvalues and eigenvectors (continued), diagonalisation.pdf",
+    "AI511 - Linear algebra/SLides/slides 11 - determinants (continued), eigenvalues and eigenvectors.pdf",
+    "AI511 - Linear algebra/SLides/slides 10 - rank and nullity, determinants.pdf",
+    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
+    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
     "AI511 - Linear algebra/Aplied/Slides/linReg (2).pdf",
+    "AI511 - Linear algebra/Aplied/Slides/linReg (1).pdf",
     "AI511 - Linear algebra/Aplied/Slides/lec3.pdf",
     "AI511 - Linear algebra/Aplied/Slides/lec5.pdf",
-    "AI511 - Linear algebra/Aplied/Slides/lec4.pdf",
-    "AI511 - Linear algebra/Aplied/Slides/Ikke bekræftet 491935.crdownload",
     "AI512 - maskinlæring/Ex/exercise2.md",
-    "AI511 - Linear algebra/Aplied/Slides/Ikke bekræftet 290917.crdownload",
     "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
     "AI512 - maskinlæring/adinml/03 Classification.md",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
-    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
-    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
-    "AI512 - maskinlæring/Ex/Ikke bekræftet 331195.crdownload",
-    "DM548 - Asm - C/Slides/slides-8-IO.pdf",
     "AI512 - maskinlæring/adinml/06 Bayesian Learning.md",
     "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
     "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
@@ -306,7 +318,6 @@
     "AI512 - maskinlæring/adinml/fig/generated/08_Neural_Networks_1.png",
     "AI512 - maskinlæring/adinml/fig/generated/03_Classification_5.png",
     "AI512 - maskinlæring/adinml/fig/generated/03_Classification_4.png",
-    "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
     "AI512 - maskinlæring/adinml/09 Kernel Methods.md",
     "AI512 - maskinlæring/adinml/08 Neural Networks.md",
     "AI512 - maskinlæring/adinml/07 Decision Trees.md",
