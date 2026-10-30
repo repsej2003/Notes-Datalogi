@@ -47,12 +47,14 @@
             "id": "9a7d7cf2465f9f08",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "AI512 - maskinlæring/adinml/Machine_Learning.pdf"
+                "file": "Todo.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Machine_Learning"
+              "icon": "lucide-file",
+              "title": "Todo"
             }
           },
           {
@@ -278,6 +280,11 @@
   },
   "active": "9a7d7cf2465f9f08",
   "lastOpenFiles": [
+    "DM548 - Asm - C/Slides/slides-9-C.pdf",
+    "DM548 - Asm - C/Slides/Ikke bekræftet 596135.crdownload",
+    "DM580-Funktionel/slides/week43-2-declaring-types-and-classes.pdf",
+    "DM580-Funktionel/slides/week43-1-hofs.pdf",
+    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
     "AI511 - Linear algebra/Linear algebra.pdf",
     "AI511 - Linear algebra/SLides/slides 12 - eigenvalues and eigenvectors (continued), diagonalisation.pdf",
@@ -285,10 +292,6 @@
     "AI511 - Linear algebra/SLides/slides 10 - rank and nullity, determinants.pdf",
     "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
     "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
-    "AI511 - Linear algebra/Aplied/Slides/linReg (2).pdf",
-    "AI511 - Linear algebra/Aplied/Slides/linReg (1).pdf",
-    "AI511 - Linear algebra/Aplied/Slides/lec3.pdf",
-    "AI511 - Linear algebra/Aplied/Slides/lec5.pdf",
     "AI512 - maskinlæring/Ex/exercise2.md",
     "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
     "AI512 - maskinlæring/adinml/03 Classification.md",
