@@ -47,14 +47,12 @@
             "id": "9a7d7cf2465f9f08",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Todo.md",
-                "mode": "source",
-                "source": false
+                "file": "AI511 - Linear algebra/Aplied/Slides/linReg (1).pdf"
               },
-              "icon": "lucide-file",
-              "title": "Todo"
+              "icon": "lucide-file-text",
+              "title": "linReg (1)"
             }
           },
           {
@@ -280,18 +278,19 @@
   },
   "active": "9a7d7cf2465f9f08",
   "lastOpenFiles": [
+    "AI511 - Linear algebra/Aplied/Slides/lec3.pdf",
+    "AI511 - Linear algebra/Aplied/Slides/linReg (2).pdf",
+    "AI511 - Linear algebra/Aplied/Slides/linReg (1).pdf",
+    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
+    "DM580-Funktionel/slides/week43-2-declaring-types-and-classes.pdf",
+    "Todo.md",
     "DM548 - Asm - C/Slides/slides-9-C.pdf",
     "DM548 - Asm - C/Slides/Ikke bekræftet 596135.crdownload",
-    "DM580-Funktionel/slides/week43-2-declaring-types-and-classes.pdf",
     "DM580-Funktionel/slides/week43-1-hofs.pdf",
     "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
     "AI511 - Linear algebra/Linear algebra.pdf",
     "AI511 - Linear algebra/SLides/slides 12 - eigenvalues and eigenvectors (continued), diagonalisation.pdf",
-    "AI511 - Linear algebra/SLides/slides 11 - determinants (continued), eigenvalues and eigenvectors.pdf",
-    "AI511 - Linear algebra/SLides/slides 10 - rank and nullity, determinants.pdf",
-    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
-    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
     "AI512 - maskinlæring/Ex/exercise2.md",
     "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
     "AI512 - maskinlæring/adinml/03 Classification.md",
@@ -303,7 +302,6 @@
     "AI512 - maskinlæring/adinml/00 Notation.md",
     "AI512 - maskinlæring/adinml/fig/generated/10_Ensemble_Methods_2.png",
     "DM580-Funktionel/intro.md",
-    "Todo.md",
     "AI512 - maskinlæring/adinml/fig/generated/03_Classification_6.png",
     "AI512 - maskinlæring/adinml/README.md",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
