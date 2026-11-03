@@ -83,14 +83,12 @@
             "id": "497f13c216401b9f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
-                "mode": "source",
-                "source": false
+                "file": "DM548 - Asm - C/Slides/slides-7-menory.pdf"
               },
-              "icon": "lucide-file",
-              "title": "05a Statistical Learning Theory"
+              "icon": "lucide-file-text",
+              "title": "slides-7-menory"
             }
           },
           {
@@ -332,6 +330,7 @@
   },
   "active": "497f13c216401b9f",
   "lastOpenFiles": [
+    "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
     "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
     "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "AI511 - Linear algebra/SLides/slides 05 - euclidean vector spaces, linear transformations.pdf",
@@ -351,7 +350,6 @@
     "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
     "AI512 - maskinlæring/Ex/exercise2.md",
     "AI512 - maskinlæring/adinml/06 Bayesian Learning.md",
-    "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
     "AI512 - maskinlæring/Ex/exercise1.md",
     "AI512 - maskinlæring/adinml/fig/generated/10_Ensemble_Methods_2.png",
     "DM580-Funktionel/intro.md",
