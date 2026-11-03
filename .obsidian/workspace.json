@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "623916dafe8a0546",
+        "id": "54e408e847f4570b",
         "type": "tabs",
         "children": [
           {
-            "id": "db3f84425c8d52ef",
+            "id": "53e57e8e454a076c",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -20,7 +20,127 @@
             }
           },
           {
-            "id": "319bf5c8a68275bb",
+            "id": "346732968692ebcf",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI511 - Linear algebra/SLides/slides 01 - general information, systems of linear equations.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slides 01 - general information, systems of linear equations"
+            }
+          },
+          {
+            "id": "53c821b5c8c04e35",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slides 02 - systems of linear equations (continued), matrices and matrix operations"
+            }
+          },
+          {
+            "id": "8b4b4b3ca0e1ebf4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slides 03 - matrices and matrix operations (continued), inverses"
+            }
+          },
+          {
+            "id": "ca217b9f4ffcdb3e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slides 04 - inverses (continued)"
+            }
+          },
+          {
+            "id": "5321d9fa8b8a3ec0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI511 - Linear algebra/SLides/slides 05 - euclidean vector spaces, linear transformations.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slides 05 - euclidean vector spaces, linear transformations"
+            }
+          },
+          {
+            "id": "73208a67a4571fc5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI511 - Linear algebra/SLides/slides 06 - linear transformations (continued), compositions.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slides 06 - linear transformations (continued), compositions"
+            }
+          },
+          {
+            "id": "3516860be65bd83e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slides 07 - composition, subspaces, linear combinations"
+            }
+          },
+          {
+            "id": "db52a6997acee0a5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI511 - Linear algebra/SLides/slides 08 - bases, coordinates, dimension.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slides 08 - bases, coordinates, dimension"
+            }
+          },
+          {
+            "id": "378f9bd5c11e96cf",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI511 - Linear algebra/SLides/slides 09 - coordinates, dimension, change of basis.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slides 09 - coordinates, dimension, change of basis"
+            }
+          },
+          {
+            "id": "ee783e551f276380",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI511 - Linear algebra/SLides/slides 10 - rank and nullity, determinants.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slides 10 - rank and nullity, determinants"
+            }
+          },
+          {
+            "id": "191000e0ed8a8098",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -32,7 +152,7 @@
             }
           },
           {
-            "id": "3a62574c5d1f2e09",
+            "id": "33f5202d3193be64",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -42,89 +162,9 @@
               "icon": "lucide-file-text",
               "title": "slides 12 - eigenvalues and eigenvectors (continued), diagonalisation"
             }
-          },
-          {
-            "id": "9a7d7cf2465f9f08",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "AI511 - Linear algebra/Aplied/Slides/linReg (1).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "linReg (1)"
-            }
-          },
-          {
-            "id": "0dbcdda4b0fedd1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI512 - maskinlæring/adinml/03 Classification.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03 Classification"
-            }
-          },
-          {
-            "id": "3f7bf6bceaf23a58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02 Linear_Predictors"
-            }
-          },
-          {
-            "id": "6649f8a0f4a3343c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "AI512 - maskinlæring/adinml/Machine_Learning.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Machine_Learning"
-            }
-          },
-          {
-            "id": "f9beb1284a4f6a07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI512 - maskinlæring/adinml/00 Notation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "00 Notation"
-            }
-          },
-          {
-            "id": "7491b309d2be9e7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01 Basic_Concepts"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -183,7 +223,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -276,30 +317,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9a7d7cf2465f9f08",
+  "active": "5321d9fa8b8a3ec0",
   "lastOpenFiles": [
-    "AI511 - Linear algebra/Aplied/Slides/lec3.pdf",
-    "AI511 - Linear algebra/Aplied/Slides/linReg (2).pdf",
-    "AI511 - Linear algebra/Aplied/Slides/linReg (1).pdf",
-    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
-    "DM580-Funktionel/slides/week43-2-declaring-types-and-classes.pdf",
-    "Todo.md",
-    "DM548 - Asm - C/Slides/slides-9-C.pdf",
-    "DM548 - Asm - C/Slides/Ikke bekræftet 596135.crdownload",
-    "DM580-Funktionel/slides/week43-1-hofs.pdf",
-    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
-    "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
-    "AI511 - Linear algebra/Linear algebra.pdf",
+    "AI511 - Linear algebra/SLides/slides 03 - matrices and matrix operations (continued), inverses.pdf",
+    "AI511 - Linear algebra/SLides/slides 02 - systems of linear equations (continued), matrices and matrix operations.pdf",
+    "AI511 - Linear algebra/SLides/slides 04 - inverses (continued).pdf",
+    "AI511 - Linear algebra/SLides/slides 08 - bases, coordinates, dimension.pdf",
+    "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
+    "AI511 - Linear algebra/SLides/slides 06 - linear transformations (continued), compositions.pdf",
+    "AI511 - Linear algebra/SLides/slides 05 - euclidean vector spaces, linear transformations.pdf",
     "AI511 - Linear algebra/SLides/slides 12 - eigenvalues and eigenvectors (continued), diagonalisation.pdf",
-    "AI512 - maskinlæring/Ex/exercise2.md",
+    "AI511 - Linear algebra/SLides/slides 10 - rank and nullity, determinants.pdf",
+    "AI511 - Linear algebra/SLides/slides 09 - coordinates, dimension, change of basis.pdf",
+    "AI511 - Linear algebra/SLides/slides 01 - general information, systems of linear equations.pdf",
+    "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
+    "AI512 - maskinlæring/adinml/00 Notation.md",
     "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
     "AI512 - maskinlæring/adinml/03 Classification.md",
-    "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
+    "Todo.md",
+    "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
+    "AI512 - maskinlæring/Ex/exercise2.md",
     "AI512 - maskinlæring/adinml/06 Bayesian Learning.md",
     "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
     "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
     "AI512 - maskinlæring/Ex/exercise1.md",
-    "AI512 - maskinlæring/adinml/00 Notation.md",
     "AI512 - maskinlæring/adinml/fig/generated/10_Ensemble_Methods_2.png",
     "DM580-Funktionel/intro.md",
     "AI512 - maskinlæring/adinml/fig/generated/03_Classification_6.png",
