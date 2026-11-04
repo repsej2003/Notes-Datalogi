@@ -80,18 +80,6 @@
             }
           },
           {
-            "id": "497f13c216401b9f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DM580-Funktionel/slides/week45-functors-applicatives-monads.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "week45-functors-applicatives-monads"
-            }
-          },
-          {
             "id": "73208a67a4571fc5",
             "type": "leaf",
             "state": {
@@ -174,9 +162,21 @@
               "icon": "lucide-file-text",
               "title": "slides 12 - eigenvalues and eigenvectors (continued), diagonalisation"
             }
+          },
+          {
+            "id": "101a64b80dc49f73",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DM548 - Asm - C/Slides/slides-9-C.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "slides-9-C"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -328,21 +328,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "497f13c216401b9f",
+  "active": "101a64b80dc49f73",
   "lastOpenFiles": [
+    "DM548 - Asm - C/Slides/slides-10-C-IO.pdf",
+    "DM548 - Asm - C/Slides/slides-9-C.pdf",
+    "DM548 - Asm - C/Slides/Ikke bekræftet 869463.crdownload",
+    "DM548 - Asm - C/Slides/slides-8-IO.pdf",
+    "AI511 - Linear algebra/Linear algebra.pdf",
+    "AI511 - Linear algebra/SLides/slides 10 - rank and nullity, determinants.pdf",
+    "AI511 - Linear algebra/SLides/slides 09 - coordinates, dimension, change of basis.pdf",
+    "AI511 - Linear algebra/SLides/slides 08 - bases, coordinates, dimension.pdf",
+    "AI511 - Linear algebra/SLides/slides 06 - linear transformations (continued), compositions.pdf",
+    "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
+    "AI511 - Linear algebra/SLides/slides 05 - euclidean vector spaces, linear transformations.pdf",
     "DM580-Funktionel/intro.md",
-    "DM580-Funktionel/slides/week44-io.pdf",
-    "DM548 - Asm - C/Slides/slides-3-numbers.pdf",
-    "DM580-Funktionel/slides/Ikke bekræftet 723121.crdownload",
-    "DM580-Funktionel/slides/week45-functors-applicatives-monads.pdf",
-    "DM580-Funktionel/slides/Ikke bekræftet 109910.crdownload",
-    "DM548 - Asm - C/Slides/slides-5-structure.pdf",
-    "DM548 - Asm - C/Slides/slides-4-digital-logic.pdf",
-    "DM548 - Asm - C/Slides/slides-7-menory.pdf",
     "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
     "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
-    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
-    "AI511 - Linear algebra/SLides/slides 05 - euclidean vector spaces, linear transformations.pdf",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/adinml/00 Notation.md",
     "AI512 - maskinlæring/adinml/02 Linear_Predictors.md",
