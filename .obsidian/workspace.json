@@ -157,10 +157,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI511 - Linear algebra/SLides/slides 12 - eigenvalues and eigenvectors (continued), diagonalisation.pdf"
+                "file": "AI511 - Linear algebra/Aplied/Slides/markov2.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "slides 12 - eigenvalues and eigenvectors (continued), diagonalisation"
+              "title": "markov2"
             }
           },
           {
@@ -169,14 +169,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "AI512 - maskinlæring/adinml/Machine_Learning.pdf"
+                "file": "AI511 - Linear algebra/Aplied/Slides/Assignment_pagerank.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Machine_Learning"
+              "title": "Assignment_pagerank"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -328,21 +328,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "160e221e05140182",
+  "active": "33f5202d3193be64",
   "lastOpenFiles": [
+    "AI511 - Linear algebra/Aplied/Slides/Assignment_pagerank.pdf",
+    "AI511 - Linear algebra/Aplied/Slides/markov2.pdf",
+    "AI511 - Linear algebra/SLides/slides 12 - eigenvalues and eigenvectors (continued), diagonalisation.pdf",
+    "DM580-Funktionel/slides/week44-io.pdf",
+    "AI511 - Linear algebra/Aplied/Slides/Ikke bekræftet 404807.crdownload",
+    "AI511 - Linear algebra/Aplied/Slides/markov1.pdf",
+    "AI511 - Linear algebra/Aplied/Slides/Ikke bekræftet 215088.crdownload",
+    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
-    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
     "AI511 - Linear algebra/Linear algebra.pdf",
     "AI511 - Linear algebra/SLides/slides 10 - rank and nullity, determinants.pdf",
     "AI511 - Linear algebra/SLides/slides 08 - bases, coordinates, dimension.pdf",
-    "AI511 - Linear algebra/SLides/slides 07 - composition, subspaces, linear combinations.pdf",
-    "AI511 - Linear algebra/SLides/slides 09 - coordinates, dimension, change of basis.pdf",
-    "AI511 - Linear algebra/SLides/slides 12 - eigenvalues and eigenvectors (continued), diagonalisation.pdf",
-    "AI511 - Linear algebra/SLides/slides 11 - determinants (continued), eigenvalues and eigenvectors.pdf",
-    "AI511 - Linear algebra/SLides/slides 05 - euclidean vector spaces, linear transformations.pdf",
-    "AI511 - Linear algebra/SLides/slides 06 - linear transformations (continued), compositions.pdf",
     "DM580-Funktionel/intro.md",
     "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
     "AI512 - maskinlæring/adinml/00 Notation.md",
