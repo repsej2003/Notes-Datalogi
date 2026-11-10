@@ -167,12 +167,14 @@
             "id": "160e221e05140182",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "AI511 - Linear algebra/Aplied/Slides/Assignment_pagerank.pdf"
+                "file": "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Assignment_pagerank"
+              "icon": "lucide-file",
+              "title": "01 Basic_Concepts"
             }
           }
         ],
@@ -330,8 +332,9 @@
   },
   "active": "160e221e05140182",
   "lastOpenFiles": [
-    "AI511 - Linear algebra/Aplied/Slides/markov2.pdf",
+    "DM548 - Asm - C/Slides/slides-2-asm.pdf",
     "AI511 - Linear algebra/Aplied/Slides/Assignment_pagerank.pdf",
+    "AI511 - Linear algebra/Aplied/Slides/markov2.pdf",
     "AI511 - Linear algebra/SLides/slides 11 - determinants (continued), eigenvalues and eigenvectors.pdf",
     "AI511 - Linear algebra/Aplied/Slides/markov1.pdf",
     "DM548 - Asm - C/Slides/slides-0-makefiles.pdf",
@@ -343,7 +346,6 @@
     "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
-    "AI511 - Linear algebra/Linear algebra.pdf",
     "DM580-Funktionel/intro.md",
     "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
     "AI512 - maskinlæring/adinml/00 Notation.md",
