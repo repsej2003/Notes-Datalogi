@@ -20,12 +20,11 @@ TRue
 
 **Answer 1.3:** If events $A$ and $B$ are independent, then $A$ and the complement $B^c$ are independent as well.
 
-False
+True
 
 **Answer 1.4:** If $X$ and $Y$ are discrete independent random variables, then for any sets $S,T$ of possible values, the events $\{X\in S\}$ and $\{Y\in T\}$ are independent: $P(X\in S,\,Y\in T)=P(X\in S)\,P(Y\in T)$.
 
 True
-
 
 **Answer 1.5:** The density $p_X$ of a continuous random variable satisfies $p_X(x)\le1$ for every $x$ — a density, being "like a probability", cannot exceed one.
 
@@ -76,21 +75,24 @@ that the same bound holds for the opposite tail $\mu-\widehat\mu_m\ge\epsilon$, 
 
 **Answer 3.1:** If the $X_i$ are i.i.d. with $P(X_i\in[0,1])=1$, the displayed bound becomes $P(\widehat\mu_m-\mu\ge\epsilon)\le e^{-2m\epsilon^2}$.
 
-
+True
 
 **Answer 3.2:** If the $X_i$ are i.i.d. with $P(X_i\in[-1,1])=1$, the displayed bound still holds with the exponent $-2m\epsilon^2$: $P(\widehat\mu_m-\mu\ge\epsilon)\le e^{-2m\epsilon^2}$.
 
+False
 
 
 **Answer 3.3:** The bound remains valid if the $X_i$ are merely independent but not identically distributed, each in its own interval $[a_i,b_i]$ of width at most $1$.
 
-
+True
 
 **Answer 3.4:** Fix $\delta\in(0,1)$. In the unit-width case the bound reads $P(\widehat\mu_m-\mu\ge\epsilon)\le e^{-2m\epsilon^2}$; quadrupling the sample size $m$ suffices to maintain confidence $1-\delta$ when the target accuracy is halved from $\epsilon$ to $\epsilon/2$.
 
-
+True
 
 **Answer 3.5:** The derivation of the bound uses independence in exactly one place: the factorization $\mathbb{E}\big[e^{s\sum_iY_i}\big]=\prod_i\mathbb{E}\big[e^{sY_i}\big]$ for the centered variables $Y_i=X_i-\mathbb{E}[X_i]$.
+
+True
 
 ---
 
@@ -104,13 +106,24 @@ and that in the equal-range, equal-accuracy case ($\epsilon_k\equiv\epsilon$, $b
 
 **Answer 4.1:** The proof of the uniform bound requires the $K$ estimators to be independent of one another.
 
+False
+
 **Answer 4.2:** In the equal-range case, doubling the number of monitored estimators $K$ doubles the guaranteed deviation $\epsilon$ at fixed confidence.
+
+False, because we choose $\epsilon_{K}$ freely
+
 
 **Answer 4.3:** The proof of Theorem 5.6.6 consumes nothing beyond the single-estimator Hoeffding bound and the union bound — the two tools it is assembled from.
 
+True
+
 **Answer 4.4:** If each estimator $k$ is the training loss of a hypothesis $h_k$ in a finite class $\mathcal{H}=\{h_1,\ldots,h_K\}$ (losses in $[0,1]$, i.i.d. across the sample), then with probability at least $1-\delta$, simultaneously for every $h\in\mathcal{H}$: $\ R(h)\le\widehat R_S(h)+\sqrt{\log(K/\delta)/(2m)}$ — the seed of the finite-class generalization bound of Chapter 6.
 
+True
+
 **Answer 4.5:** If hypothesis $h_{K+1}$ is added to the class after the sample $S$ has been observed and its training loss inspected, the uniform guarantee extends to it at no extra cost, since the class size only grew from $K$ to $K+1$.
+
+False
 
 ---
 
