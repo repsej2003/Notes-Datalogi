@@ -11,14 +11,12 @@
             "id": "160e221e05140182",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "AI512 - maskinlæring/Ex/exercise4.md",
-                "mode": "source",
-                "source": false
+                "file": "DM548 - Asm - C/Slides/slides-11-C-DynMemAll.pdf"
               },
-              "icon": "lucide-file",
-              "title": "exercise4"
+              "icon": "lucide-file-text",
+              "title": "slides-11-C-DynMemAll"
             }
           },
           {
@@ -199,10 +197,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "160e221e05140182",
+  "active": "b9cb638ab782d8f7",
   "lastOpenFiles": [
-    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
+    "DM548 - Asm - C/Slides/slides-12-C-User-Defined data types.pdf",
+    "DM548 - Asm - C/Slides/slides-11-C-DynMemAll.pdf",
     "AI512 - maskinlæring/Ex/exercise4.md",
+    "DM548 - Asm - C/Slides/Ikke bekræftet 388631.crdownload",
+    "DM548 - Asm - C/Slides/Ikke bekræftet 884364.crdownload",
+    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "AI512 - maskinlæring/Ex/exercise2.md",
     "AI512 - maskinlæring/Ex/answer1.md",
     "AI512 - maskinlæring/Ex/answer2.md",
@@ -212,12 +214,8 @@
     "AI512 - maskinlæring/Ex/Ikke bekræftet 788593.crdownload",
     "AI512 - maskinlæring/adinml/fig/impurity_measures.tex",
     "AI512 - maskinlæring/adinml/fig/decision_tree_surface.tex",
-    "AI512 - maskinlæring/adinml/fig/decision_tree_partition.tex",
     "AI512 - maskinlæring/adinml/04 Probability Theory.md",
     "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
-    "AI511 - Linear algebra/Aplied/Slides/markov2.pdf",
-    "AI511 - Linear algebra/SLides/slides 11 - determinants (continued), eigenvalues and eigenvectors.pdf",
-    "AI511 - Linear algebra/SLides/slides 10 - rank and nullity, determinants.pdf",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
     "DM580-Funktionel/intro.md",
