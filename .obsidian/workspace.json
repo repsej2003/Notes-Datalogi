@@ -167,14 +167,12 @@
             "id": "160e221e05140182",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
-                "mode": "source",
-                "source": false
+                "file": "DM548 - Asm - C/Slides/slides-10-C-IO.pdf"
               },
-              "icon": "lucide-file",
-              "title": "01 Basic_Concepts"
+              "icon": "lucide-file-text",
+              "title": "slides-10-C-IO"
             }
           }
         ],
@@ -332,19 +330,19 @@
   },
   "active": "160e221e05140182",
   "lastOpenFiles": [
+    "DM548 - Asm - C/Slides/slides-9-C.pdf",
     "DM548 - Asm - C/Slides/slides-2-asm.pdf",
+    "DM548 - Asm - C/Slides/slides-3-numbers.pdf",
+    "DM548 - Asm - C/Slides/slides-1-intro.pdf",
+    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
+    "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI511 - Linear algebra/Aplied/Slides/Assignment_pagerank.pdf",
     "AI511 - Linear algebra/Aplied/Slides/markov2.pdf",
     "AI511 - Linear algebra/SLides/slides 11 - determinants (continued), eigenvalues and eigenvectors.pdf",
     "AI511 - Linear algebra/Aplied/Slides/markov1.pdf",
     "DM548 - Asm - C/Slides/slides-0-makefiles.pdf",
     "AI511 - Linear algebra/SLides/slides 12 - eigenvalues and eigenvectors (continued), diagonalisation.pdf",
-    "DM580-Funktionel/slides/week44-io.pdf",
-    "AI511 - Linear algebra/Aplied/Slides/Ikke bekræftet 404807.crdownload",
-    "AI511 - Linear algebra/Aplied/Slides/Ikke bekræftet 215088.crdownload",
-    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
-    "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
     "DM580-Funktionel/intro.md",
     "AI512 - maskinlæring/adinml/05a Statistical Learning Theory.md",
