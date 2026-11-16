@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DM548 - Asm - C/Slides/slides-11-C-DynMemAll.pdf"
+                "file": "AI512 - maskinlæring/adinml/Machine_Learning.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "slides-11-C-DynMemAll"
+              "title": "Machine_Learning"
             }
           },
           {
@@ -197,23 +197,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9cb638ab782d8f7",
+  "active": "160e221e05140182",
   "lastOpenFiles": [
-    "DM548 - Asm - C/Slides/slides-12-C-User-Defined data types.pdf",
+    "AI511 - Linear algebra/Aplied/Slides/linReg (1).pdf",
+    "AI511 - Linear algebra/Aplied/Slides/linReg (2).pdf",
+    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
+    "DM548 - Asm - C/Slides/slides-1-intro.pdf",
+    "DM548 - Asm - C/Slides/slides-0-makefiles.pdf",
     "DM548 - Asm - C/Slides/slides-11-C-DynMemAll.pdf",
+    "DM548 - Asm - C/Slides/slides-12-C-User-Defined data types.pdf",
     "AI512 - maskinlæring/Ex/exercise4.md",
     "DM548 - Asm - C/Slides/Ikke bekræftet 388631.crdownload",
     "DM548 - Asm - C/Slides/Ikke bekræftet 884364.crdownload",
-    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "AI512 - maskinlæring/Ex/exercise2.md",
     "AI512 - maskinlæring/Ex/answer1.md",
     "AI512 - maskinlæring/Ex/answer2.md",
     "AI512 - maskinlæring/Ex/Ikke bekræftet 989725.crdownload",
     "AI512 - maskinlæring/Ex/Ikke bekræftet 867547.crdownload",
     "AI512 - maskinlæring/Ex/answer3.md",
-    "AI512 - maskinlæring/Ex/Ikke bekræftet 788593.crdownload",
-    "AI512 - maskinlæring/adinml/fig/impurity_measures.tex",
-    "AI512 - maskinlæring/adinml/fig/decision_tree_surface.tex",
     "AI512 - maskinlæring/adinml/04 Probability Theory.md",
     "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
