@@ -24,7 +24,7 @@ Sandt
 
 **Answer 1.2:** The two-sided guarantee at confidence $\delta$ follows from the one-sided guarantee at confidence $\delta/2$ applied to both the loss class and the complementary loss class $1-\ell$, and costs at most an additive $\log 2/(2\epsilon^2)$ in sample size relative to the one-sided guarantee at confidence $\delta$.
 
-??
+falsk
 
 **Answer 1.3:** For fixed $N$ and $\delta$, the deviation $\sqrt{(\log N+\log(1/\delta))/(2m)}$ is proportional to $1/\sqrt m$; consequently, quadrupling the sample size halves it.
 
@@ -33,11 +33,11 @@ Sandt
 **Answer 1.4:** If $\mathcal{H}$ is selected after observing $S$, but its cardinality is still $N$, then with probability at least $1-\delta$,
 $$R(h)\le\widehat R_S(h)+\sqrt{\frac{\log N+\log(1/\delta)}{2m}}\qquad\text{for all }h\in\mathcal{H}.$$
 
-
+???
 
 **Answer 1.5:** Because the bound is uniform over $\mathcal{H}$ and distribution-free, it also controls the approximation error $\min_{h\in\mathcal{H}}R(h)-R^*_{\mathcal{D}}$: it bounds how much the best hypothesis in $\mathcal{H}$ can improve on the Bayes predictor.
 
-
+??
 
 ---
 
@@ -47,15 +47,27 @@ Let $\mathcal{X}$ be a domain, $\mathcal{Y}=\{0,1\}$, and let $\ell$ be the zero
 
 **Answer 2.1:** For a finite class, the sample complexity of agnostic PAC learning exceeds that of PAC learning by at most a constant factor independent of $\epsilon$ and $\delta$.
 
+Falsk
+det afhænger ogs er størrelse på H
 
 
 **Answer 2.2:** If $\mathcal{H}$ is PAC learnable, then every ERM algorithm for $\mathcal{H}$ is an agnostic PAC learner.
 
+True 
+Uniform convergence ⇒ ERM is an agnostic PAC learner. Immediate from Lemma 6.2.3: take m ≥ mUC H (ϵ/2, δ), so that S is ϵ/2-representative with probability ≥ 1 − δ, on which event every ERM output satisfies R(hS ) ≤ minh R(h) + ϵ.
+
+
 **Answer 2.3:** For fixed $\epsilon$ and $\delta$, squaring the number of hypotheses, from $N$ to $N^2$, at most doubles the finite-class sample-complexity bound.
+
+Sansd it its a log
 
 **Answer 2.4:** Every countable hypothesis class is PAC learnable; countability of $\mathcal{H}$ is sufficient for PAC learnability.
 
+False
+
 **Answer 2.5:** Agnostic PAC learnability of $\mathcal{H}$ requires that, for every distribution $\mathcal{D}$, the best risk inside the class equals the Bayes error: $\min_{h\in\mathcal{H}}R(h)=R^*_{\mathcal{D}}$.
+
+False
 
 ---
 
@@ -69,13 +81,24 @@ Evaluate the following statements. They quantify over all $m\ge2$, all fixed des
 
 **Answer 3.1:** $\mathrm{Var}_S[h_S(x)]=\sigma^2\big(\frac1m+\frac{(x-\bar x)^2}{S_{xx}}\big)$ for every $x$.
 
+?? idk
+
+
 **Answer 3.2:** If $f^*$ is affine, then $\mathrm{Bias}^2(x)=0$ for every $x$, and $\mathbb{E}_{S,\epsilon}\big[(y-h_S(x))^2\big]=\sigma^2\big(1+\frac1m+\frac{(x-\bar x)^2}{S_{xx}}\big)$.
+
+Idk
 
 **Answer 3.3:** $\mathrm{Var}_S[h_S(x)]\le\sigma^2$ for every fixed design and every $x$, because averaging over the training set can only reduce the variance of a single noisy label.
 
+No , nothing can reduce variance
+
 **Answer 3.4:** At $x=\bar x$ the least-squares variance equals $\sigma^2/m$, which is also the variance of the $k$-nearest-neighbours regressor with $k=m$ at every $x$; for $x\ne\bar x$ the least-squares variance is strictly larger.
 
+True
+
 **Answer 3.5:** If $f^*(x)=x^2$ and $x_i=-1+\frac{2(i-1)}{m-1}$ for $i=1,\ldots,m$, then $\mathrm{Bias}^2(0)\to0$ as $m\to\infty$, because the least-squares line converges to the best linear approximation of $f^*$.
+
+Falske
 
 ---
 
