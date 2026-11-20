@@ -27,10 +27,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DM548 - Asm - C/Slides/slides-14-C-Lib.pdf"
+                "file": "DM580-Funktionel/slides/week45-functors-applicatives-monads.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "slides-14-C-Lib"
+              "title": "week45-functors-applicatives-monads"
             }
           },
           {
@@ -200,6 +200,8 @@
   },
   "active": "59bbda34b870e4dd",
   "lastOpenFiles": [
+    "DM580-Funktionel/slides/week47-BeautifulConccurency.hs",
+    "DM580-Funktionel/slides/BeautifulConccurency.hs",
     "DM548 - Asm - C/Slides/slides-13-C-Var.pdf",
     "DM548 - Asm - C/Slides/slides-14-C-Lib.pdf",
     "DM548 - Asm - C/Slides/Ikke bekræftet 974201.crdownload",
@@ -214,8 +216,6 @@
     "AI512 - maskinlæring/adinml/04 Probability Theory.md",
     "AI512 - maskinlæring/Ex/Ikke bekræftet 632910.crdownload",
     "DM548 - Asm - C/Slides/slides-9-C.pdf",
-    "DM548 - Asm - C/Slides/slides-11-C-DynMemAll.pdf",
-    "DM548 - Asm - C/Slides/Ikke bekræftet 742459.crdownload",
     "AI512 - maskinlæring/Ex/exercise4.md",
     "AI512 - maskinlæring/Ex/exercise2.md",
     "AI512 - maskinlæring/Ex/answer1.md",
