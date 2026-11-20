@@ -55,26 +55,31 @@ Evaluate the following statements. They quantify over all nonempty hypothesis cl
 
 **Answer 2.1:** If $\mathfrak{R}_m(\ell\circ\mathcal{H})=0$, then any two hypotheses in $\mathcal{H}$ have the same risk.
 
-
+True???
 
 **Answer 2.2:** Combining the two one-sided symmetrization bounds, for the difference $R(h)-\widehat R_S(h)$ and for its opposite, upgrades the guarantee to a two-sided one at the same complexity:
 $$\mathbb{E}_S\Big[\sup_{h\in\mathcal{H}}\big|R(h)-\widehat R_S(h)\big|\Big]\le4\,\mathfrak{R}_m(\ell\circ\mathcal{H}).$$
 
-
+Falske
 
 **Answer 2.3:** The expectation bound alone, without a concentration inequality, yields a high-probability bound with the usual $\sqrt{\log(1/\delta)}$ dependence on the confidence.
 
-
+Falske, markov
 
 **Answer 2.4:** For a finite class, the symmetrization inequality and Massart's lemma together give
 $$\mathbb{E}_S[\Phi(S)]\le2\sqrt{\frac{2\log|\mathcal{H}|}{m}},$$
 which tends to zero as $m\to\infty$.
+
+True
+
+Apply this to ℓ◦H ◦S for a finite hypothesis class, N = |H|, with loss bounded in [0, 1] so ‖a(j)‖2 ≤ √m: this giveŝ RS (ℓ◦H) ≤ √2 log |H|/m, and plugging into Theorem 7.3.2 recovers, up to constants, exactly the finite-hypothesis-class bound of Theorem 6.1.3. 
 
 
 
 **Answer 2.5:** The symmetrization inequality is an equality for every $\mathcal{H}$ and every $\mathcal{D}$.
 
 
+Falsk
 
 ---
 
@@ -86,15 +91,26 @@ Recall also Theorem 7.3.2. Evaluate the following statements. They quantify over
 
 **Answer 3.1:** If $A=\{a\}$ is a singleton, then $\widehat{\mathfrak{R}}(A)=0$; if $A\subseteq A'$, then $\widehat{\mathfrak{R}}(A)\le\widehat{\mathfrak{R}}(A')$; and for every $c\ge0$, $\widehat{\mathfrak{R}}(cA)=c\,\widehat{\mathfrak{R}}(A)$.
 
+
+
 **Answer 3.2:** In Massart's bound, halving the norm bound $B$ halves the bound, whereas halving the number $N$ of vectors changes it only by the factor $\sqrt{\log(N/2)/\log N}$, which tends to $1$ as $N\to\infty$; hence for large classes, reducing $B$ is far more effective than reducing $N$.
 
+
+
 **Answer 3.3:** Massart's lemma requires the vectors $a^{(1)},\ldots,a^{(N)}$ to be mutually orthogonal, or at least linearly independent; without such a geometric condition the union bound over $N$ is invalid.
+
+
 
 **Answer 3.4:** For a finite hypothesis class $\mathcal{H}$ with a loss taking values in $[0,1]$, applying Massart's lemma to the loss vectors gives
 $$\widehat{\mathfrak{R}}_S(\ell\circ\mathcal{H})\le\sqrt{\frac{2\log|\mathcal{H}|}{m}},$$
 and substituting this into the Rademacher generalization bound of Theorem 7.3.2 recovers the finite-class bound of Theorem 6.1.3 up to constant factors.
 
+
+
 **Answer 3.5:** For the sign cube $A=\{-\frac{B}{\sqrt m},\frac{B}{\sqrt m}\}^m$, whose $2^m$ vectors all have Euclidean norm $B$, one has $\widehat{\mathfrak{R}}(A)=B/\sqrt m$, while Massart's lemma gives $B\sqrt{2\log 2}/\sqrt m$; the two differ by exactly the factor $\sqrt{2\log 2}$.
+
+
+
 
 ---
 
@@ -108,13 +124,23 @@ and suppose $\|x\|_2\le R$ almost surely under $\mathcal{D}$. It is given (Theor
 
 **Answer 4.1:** Both bounds decrease at the rate $m^{-1/2}$, but the VC bound carries the extra factor $\sqrt{\log(m+1)}$; consequently, for fixed $d,B,R$, the ratio of the VC bound to the norm bound grows like $\sqrt{\log m}$.
 
+
+
 **Answer 4.2:** In finite dimension the VC bound is always at least as tight as the norm bound, because $d$ is the exact combinatorial capacity of the class.
+
+
 
 **Answer 4.3:** The norm bound remains finite and informative when the predictor is $x\mapsto w^\top\phi(x)$ for a map $\phi$ into an infinite-dimensional feature space with $\|\phi(x)\|_2\le R$ almost surely, where $d_{VC}$ is infinite; it therefore provides a guarantee in a regime where the VC bound is vacuous.
 
+
+
 **Answer 4.4:** Within the class $\mathcal{H}_B$, the complexity term is linear in the radius $B$; consequently, for fixed $R$, halving the allowed weight norm halves the term $BR/\sqrt m$.
 
+
+
 **Answer 4.5:** Since the bound $BR/\sqrt m$ does not involve the dimension, it remains valid for $\mathcal{H}_B$ without the assumption $\|x\|_2\le R$ almost surely; the data norms can simply be absorbed into $B$.
+
+
 
 ---
 
