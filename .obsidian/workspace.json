@@ -27,22 +27,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI512 - maskinlæring/Ex/answer5.md",
+                "file": "AI512 - maskinlæring/Ex/exercise6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "answer5"
+              "title": "exercise6"
+            }
+          },
+          {
+            "id": "5c7bd9a76fd1fc57",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "AI512 - maskinlæring/adinml/Machine_Learning.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Machine_Learning"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "40d9e7f9858ce170",
+        "id": "dc8772af22b39e3f",
         "type": "tabs",
         "children": [
           {
-            "id": "5c7bd9a76fd1fc57",
+            "id": "6bb3f8f7d6cc1cad",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -112,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1e31f336214704bf",
@@ -206,11 +218,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c1805ed2756e118",
+  "active": "6bb3f8f7d6cc1cad",
   "lastOpenFiles": [
-    "AI512 - maskinlæring/Ex/answer5.md",
-    "AI512 - maskinlæring/Ex/exercise5.md",
+    "AI512 - maskinlæring/Ex/exercise6.md",
     "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
+    "AI512 - maskinlæring/Ex/answer5.md",
+    "AI512 - maskinlæring/Ex/Ikke bekræftet 537697.crdownload",
+    "AI512 - maskinlæring/Ex/exercise5.md",
     "AI512 - maskinlæring/Ex/Ikke bekræftet 309378.crdownload",
     "AI512 - maskinlæring/adinml/04 Probability Theory.md",
     "DM548 - Asm - C/Slides/slides-13-C-Var.pdf",
@@ -220,7 +234,6 @@
     "DM548 - Asm - C/Slides/Ikke bekræftet 742459.crdownload",
     "DM548 - Asm - C/Slides/slides-10-C-IO.pdf",
     "DM548 - Asm - C/Slides/slides-12-C-User-Defined data types.pdf",
-    "DM580-Funktionel/slides/week44-io.pdf",
     "AI512 - maskinlæring/Ex/exercise4.md",
     "AI512 - maskinlæring/Ex/exercise2.md",
     "AI512 - maskinlæring/Ex/answer1.md",
@@ -244,7 +257,6 @@
     "AI512 - maskinlæring/textbook/01 Basic_Concepts.md",
     "AI512 - maskinlæring/textbook/00 Notation.md",
     "AI512 - maskinlæring/adinml/todo.md",
-    "AI512 - maskinlæring/adinml/exams/sample-exam2.md",
     "AI512 - maskinlæring/adinml/fig/generated/10_Ensemble_Methods_1.png",
     "AI512 - maskinlæring/adinml/fig/generated/09_Kernel_Methods_2.png",
     "AI512 - maskinlæring/adinml/fig/generated/09_Kernel_Methods_1.png",
