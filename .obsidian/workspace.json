@@ -27,10 +27,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DM580-Funktionel/slides/week45-functors-applicatives-monads.pdf"
+                "file": "DM578-Algoritmer og Datastrukturer/Slides/originalSlidesAllInOne.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "week45-functors-applicatives-monads"
+              "title": "originalSlidesAllInOne"
             }
           },
           {
@@ -198,8 +198,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59bbda34b870e4dd",
+  "active": "b9cb638ab782d8f7",
   "lastOpenFiles": [
+    "AI512 - maskinlæring/adinml/mdconvert.py",
+    "DM578-Algoritmer og Datastrukturer/Slides/SlidesWithNoPauses/divideAndConquerFirstIntroSlides.pdf",
+    "DM580-Funktionel/slides/week45-functors-applicatives-monads.pdf",
     "DM580-Funktionel/slides/week47-BeautifulConccurency.hs",
     "DM580-Funktionel/slides/BeautifulConccurency.hs",
     "DM548 - Asm - C/Slides/slides-13-C-Var.pdf",
@@ -212,10 +215,7 @@
     "AI512 - maskinlæring/Ex/answer5.md",
     "AI512 - maskinlæring/Ex/Ikke bekræftet 537697.crdownload",
     "AI512 - maskinlæring/Ex/exercise5.md",
-    "AI512 - maskinlæring/Ex/Ikke bekræftet 309378.crdownload",
     "AI512 - maskinlæring/adinml/04 Probability Theory.md",
-    "AI512 - maskinlæring/Ex/Ikke bekræftet 632910.crdownload",
-    "DM548 - Asm - C/Slides/slides-9-C.pdf",
     "AI512 - maskinlæring/Ex/exercise4.md",
     "AI512 - maskinlæring/Ex/exercise2.md",
     "AI512 - maskinlæring/Ex/answer1.md",
