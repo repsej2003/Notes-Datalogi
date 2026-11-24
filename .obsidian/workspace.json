@@ -27,10 +27,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DM578-Algoritmer og Datastrukturer/Slides/originalSlidesAllInOne.pdf"
+                "file": "DM580-Funktionel/slides/week48-lazy-evaluatuin.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "originalSlidesAllInOne"
+              "title": "week48-lazy-evaluatuin"
             }
           },
           {
@@ -198,22 +198,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9cb638ab782d8f7",
+  "active": "59bbda34b870e4dd",
   "lastOpenFiles": [
+    "DM548 - Asm - C/Slides/slides-1-intro.pdf",
+    "DM578-Algoritmer og Datastrukturer/Slides/slidesWithNoPausesAllInOne.pdf",
+    "DM580-Funktionel/slides/week48-lazy-evaluatuin.pdf",
+    "DM580-Funktionel/slides/Ikke bekræftet 971266.crdownload",
+    "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/introSlides.pdf",
+    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
+    "DM578-Algoritmer og Datastrukturer/Slides/originalSlidesAllInOne.pdf",
     "AI512 - maskinlæring/adinml/mdconvert.py",
     "DM578-Algoritmer og Datastrukturer/Slides/SlidesWithNoPauses/divideAndConquerFirstIntroSlides.pdf",
     "DM580-Funktionel/slides/week45-functors-applicatives-monads.pdf",
     "DM580-Funktionel/slides/week47-BeautifulConccurency.hs",
-    "DM580-Funktionel/slides/BeautifulConccurency.hs",
-    "DM548 - Asm - C/Slides/slides-13-C-Var.pdf",
-    "DM548 - Asm - C/Slides/slides-14-C-Lib.pdf",
-    "DM548 - Asm - C/Slides/Ikke bekræftet 974201.crdownload",
-    "DM548 - Asm - C/Slides/slides-12-C-User-Defined data types.pdf",
-    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
     "DM548 - Asm - C/intro.md",
     "AI512 - maskinlæring/Ex/exercise6.md",
     "AI512 - maskinlæring/Ex/answer5.md",
-    "AI512 - maskinlæring/Ex/Ikke bekræftet 537697.crdownload",
     "AI512 - maskinlæring/Ex/exercise5.md",
     "AI512 - maskinlæring/adinml/04 Probability Theory.md",
     "AI512 - maskinlæring/Ex/exercise4.md",
