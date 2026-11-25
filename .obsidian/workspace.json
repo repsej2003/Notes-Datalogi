@@ -25,12 +25,14 @@
             "id": "59bbda34b870e4dd",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "DM548 - Asm - C/Slides/slides-15-Processor.pdf"
+                "file": "AI512 - maskinlæring/Ex/exercise7.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "slides-15-Processor"
+              "icon": "lucide-file",
+              "title": "exercise7"
             }
           },
           {
@@ -39,10 +41,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "DM548 - Asm - C/Slides/slides-12-C-User-Defined data types.pdf"
+                "file": "AI512 - maskinlæring/adinml/Machine_Learning.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "slides-12-C-User-Defined data types"
+              "title": "Machine_Learning"
             }
           }
         ],
@@ -200,28 +202,28 @@
   },
   "active": "59bbda34b870e4dd",
   "lastOpenFiles": [
+    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
+    "AI512 - maskinlæring/Ex/exercise7.md",
+    "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
+    "AI512 - maskinlæring/Ex/answer1.md",
+    "DM548 - Asm - C/Slides/slides-12-C-User-Defined data types.pdf",
+    "AI512 - maskinlæring/Ex/exercise6.md",
+    "AI512 - maskinlæring/Ex/Ikke bekræftet 354963.crdownload",
+    "DM548 - Asm - C/Slides/slides-16-RISC.pdf",
+    "DM548 - Asm - C/Slides/slides-15-Processor.pdf",
     "DM580-Funktionel/slides/week48-lazy-evaluatuin.pdf",
     "DM548 - Asm - C/Slides/slides-1-intro.pdf",
     "DM578-Algoritmer og Datastrukturer/Slides/slidesWithNoPausesAllInOne.pdf",
     "DM580-Funktionel/slides/Ikke bekræftet 971266.crdownload",
     "DM578-Algoritmer og Datastrukturer/Slides/OriginalSlides/introSlides.pdf",
-    "AI512 - maskinlæring/adinml/Machine_Learning.pdf",
-    "DM578-Algoritmer og Datastrukturer/Slides/originalSlidesAllInOne.pdf",
-    "AI512 - maskinlæring/adinml/mdconvert.py",
-    "DM578-Algoritmer og Datastrukturer/Slides/SlidesWithNoPauses/divideAndConquerFirstIntroSlides.pdf",
-    "DM580-Funktionel/slides/week45-functors-applicatives-monads.pdf",
-    "DM580-Funktionel/slides/week47-BeautifulConccurency.hs",
     "DM548 - Asm - C/intro.md",
-    "AI512 - maskinlæring/Ex/exercise6.md",
     "AI512 - maskinlæring/Ex/answer5.md",
     "AI512 - maskinlæring/Ex/exercise5.md",
     "AI512 - maskinlæring/adinml/04 Probability Theory.md",
     "AI512 - maskinlæring/Ex/exercise4.md",
     "AI512 - maskinlæring/Ex/exercise2.md",
-    "AI512 - maskinlæring/Ex/answer1.md",
     "AI512 - maskinlæring/Ex/answer2.md",
     "AI512 - maskinlæring/Ex/answer3.md",
-    "AI512 - maskinlæring/adinml/10 Ensemble Methods.md",
     "AI512 - maskinlæring/adinml/01 Basic_Concepts.md",
     "AI512 - maskinlæring/adinml/05b Complexity Measures and Generalization.md",
     "DM580-Funktionel/intro.md",
@@ -237,7 +239,6 @@
     "AI512 - maskinlæring/adinml/README.md",
     "DM578-Algoritmer og Datastrukturer/Sorting.md",
     "AI512 - maskinlæring/textbook/01 Basic_Concepts.md",
-    "AI512 - maskinlæring/textbook/00 Notation.md",
     "AI512 - maskinlæring/adinml/fig/generated/10_Ensemble_Methods_1.png",
     "AI512 - maskinlæring/adinml/fig/generated/09_Kernel_Methods_2.png",
     "AI512 - maskinlæring/adinml/fig/generated/09_Kernel_Methods_1.png",
