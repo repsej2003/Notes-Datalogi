@@ -95,7 +95,7 @@ False
 
 **Answer 3.5:** If $d_{\mathrm{N}}(\mathcal{H})\le D$, then for $m\ge D$ the growth function satisfies $\tau_{\mathcal{H}}(m)\le(e(C-1)m/D)^D$; consequently, the uniform convergence bound is $O\big(\sqrt{D\log(Cm)/m}\big)$, and the sample complexity is linear in $D$ up to logarithmic factors.
 
-
+True
 
 ---
 
