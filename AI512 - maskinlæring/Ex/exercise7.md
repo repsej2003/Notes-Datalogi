@@ -113,9 +113,11 @@ Evaluate the following statements. They quantify over all $C,d,m$ with $m\ge d_{
 
 **Answer 4.1:** For fixed $d_{\mathrm{N}}$, the multiclass Sauer–Shelah bound implies $\tau_{\mathcal{H}}(m)=O(m^{d_{\mathrm{N}}})$; consequently, $\log\tau_{\mathcal{H}}(m)=O(d_{\mathrm{N}}\log m)$, so the effective number of hypotheses grows polynomially rather than exponentially in $m$.
 
-
+True
 
 **Answer 4.2:** For fixed $d_{\mathrm{N}}$ and $\delta$, the right-hand side of the uniform bound tends to zero as $m\to\infty$; consequently, every class with finite Natarajan dimension has the uniform convergence property.
+
+Sandt
 
 **Answer 4.3:** The uniform convergence bound for a class with finite Natarajan dimension requires the data distribution $\mathcal{D}$ to satisfy the Naive Bayes factorization $P(x\mid y)=\prod_{j=1}^dP(x_j\mid y)$.
 
